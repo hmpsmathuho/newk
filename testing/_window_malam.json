@@ -1,0 +1,506 @@
+[
+  {
+    "I": 723611723,
+    "CI": 335637098,
+    "L": "Mesir. Liga Primer",
+    "O1": "Ismaily",
+    "O2": "Pharco",
+    "O1I": 3144,
+    "O2I": 130053,
+    "S": 1779976800,
+    "start_wib": "2026-05-28 21:00",
+    "WP": {
+      "P1": 0.32,
+      "P2": 0.34,
+      "PX": 0.34
+    },
+    "LI": 147087,
+    "CN": "Mesir"
+  },
+  {
+    "I": 723611717,
+    "CI": 335637100,
+    "L": "Mesir. Liga Primer",
+    "O1": "Petrojet",
+    "O2": "El Gouna",
+    "O1I": 3146,
+    "O2I": 3138,
+    "S": 1779976800,
+    "start_wib": "2026-05-28 21:00",
+    "WP": {
+      "P1": 0.4,
+      "P2": 0.27,
+      "PX": 0.33
+    },
+    "LI": 147087,
+    "CN": "Mesir"
+  },
+  {
+    "I": 723262070,
+    "CI": 335273838,
+    "L": "Mesir. Liga Primer",
+    "O1": "Tala'ea El-Gaish",
+    "O2": "Wadi Degla",
+    "O1I": 3148,
+    "O2I": 3140,
+    "S": 1779976800,
+    "start_wib": "2026-05-28 21:00",
+    "WP": {
+      "P1": 0.37,
+      "P2": 0.31,
+      "PX": 0.32
+    },
+    "LI": 147087,
+    "CN": "Mesir"
+  },
+  {
+    "I": 724097655,
+    "CI": 336204508,
+    "L": "Mesir. Liga Primer",
+    "O1": "Tuan rumah",
+    "O2": "Away",
+    "O1I": 142205,
+    "O2I": 142207,
+    "S": 1779976800,
+    "start_wib": "2026-05-28 21:00",
+    "WP": {
+      "P1": 0.46,
+      "P2": 0.36,
+      "PX": 0.18
+    },
+    "LI": 147087,
+    "CN": "Mesir"
+  },
+  {
+    "I": 723795336,
+    "CI": 335840800,
+    "L": "Kazakhstan. Liga Utama",
+    "O1": "Atyrau",
+    "O2": "Tobol Kostanay",
+    "O1I": 3642,
+    "O2I": 3656,
+    "S": 1779973200,
+    "start_wib": "2026-05-28 20:00",
+    "WP": {
+      "P1": 0.27,
+      "P2": 0.42,
+      "PX": 0.31
+    },
+    "LI": 33021,
+    "CN": "Kazakhstan"
+  },
+  {
+    "I": 723795333,
+    "CI": 335840792,
+    "L": "Kazakhstan. Liga Utama",
+    "O1": "Jenis",
+    "O2": "Caspiy",
+    "O1I": 1793959,
+    "O2I": 11895,
+    "S": 1779976800,
+    "start_wib": "2026-05-28 21:00",
+    "WP": {
+      "P1": 0.57,
+      "P2": 0.18,
+      "PX": 0.25
+    },
+    "LI": 33021,
+    "CN": "Kazakhstan"
+  },
+  {
+    "I": 723795351,
+    "CI": 335840790,
+    "L": "Kazakhstan. Liga Utama",
+    "O1": "Kaysar",
+    "O2": "Elimai",
+    "O1I": 11893,
+    "O2I": 2797013,
+    "S": 1779976800,
+    "start_wib": "2026-05-28 21:00",
+    "WP": {
+      "P1": 0.29,
+      "P2": 0.42,
+      "PX": 0.29
+    },
+    "LI": 33021,
+    "CN": "Kazakhstan"
+  },
+  {
+    "I": 723795348,
+    "CI": 335840794,
+    "L": "Kazakhstan. Liga Utama",
+    "O1": "Ordabasy",
+    "O2": "Kairat",
+    "O1I": 3652,
+    "O2I": 3650,
+    "S": 1779980400,
+    "start_wib": "2026-05-28 22:00",
+    "WP": {
+      "P1": 0.36,
+      "P2": 0.34,
+      "PX": 0.3
+    },
+    "LI": 33021,
+    "CN": "Kazakhstan"
+  },
+  {
+    "I": 724317737,
+    "CI": 336469838,
+    "L": "Etiopia. Liga Primer",
+    "O1": "Dire Dawa City",
+    "O2": "Saint-George Addis Abeba",
+    "O1I": 249979,
+    "O2I": 156695,
+    "S": 1779969600,
+    "start_wib": "2026-05-28 19:00",
+    "WP": {
+      "P1": 0.26,
+      "P2": 0.41,
+      "PX": 0.33
+    },
+    "LI": 590333,
+    "CN": "Etiopia"
+  },
+  {
+    "I": 724317740,
+    "CI": 336465700,
+    "L": "Etiopia. Liga Primer",
+    "O1": "Hawassa City",
+    "O2": "Efiopia Buna",
+    "O1I": 178629,
+    "O2I": 177943,
+    "S": 1779969600,
+    "start_wib": "2026-05-28 19:00",
+    "WP": {
+      "P1": 0.41,
+      "P2": 0.28,
+      "PX": 0.31
+    },
+    "LI": 590333,
+    "CN": "Etiopia"
+  },
+  {
+    "I": 724491102,
+    "CI": 336686568,
+    "L": "Georgia. Liga 3",
+    "O1": "Betlemi Keda",
+    "O2": "Dinamo Tbilisi II",
+    "O1I": 46637,
+    "O2I": 36159,
+    "S": 1779969600,
+    "start_wib": "2026-05-28 19:00",
+    "WP": {
+      "P1": 0.39,
+      "P2": 0.37,
+      "PX": 0.24
+    },
+    "LI": 1325263,
+    "CN": "Georgia"
+  },
+  {
+    "I": 724493677,
+    "CI": 336686558,
+    "L": "Georgia. Liga 3",
+    "O1": "Didube 2014",
+    "O2": "WIT Georgia Tbilisi",
+    "O1I": 4073671,
+    "O2I": 3072,
+    "S": 1779969600,
+    "start_wib": "2026-05-28 19:00",
+    "WP": {
+      "P1": 0.33,
+      "P2": 0.43,
+      "PX": 0.24
+    },
+    "LI": 1325263,
+    "CN": "Georgia"
+  },
+  {
+    "I": 724479547,
+    "CI": 336667764,
+    "L": "Georgia. Liga 3",
+    "O1": "Gardabani",
+    "O2": "Fc Gonio",
+    "O1I": 312275,
+    "O2I": 6662903,
+    "S": 1779969600,
+    "start_wib": "2026-05-28 19:00",
+    "WP": {
+      "P1": 0.34,
+      "P2": 0.4,
+      "PX": 0.26
+    },
+    "LI": 1325263,
+    "CN": "Georgia"
+  },
+  {
+    "I": 724479096,
+    "CI": 336667758,
+    "L": "Georgia. Liga 3",
+    "O1": "Iberia 2010 Tbilisi",
+    "O2": "Iveria Khashuri",
+    "O1I": 232333,
+    "O2I": 190823,
+    "S": 1779969600,
+    "start_wib": "2026-05-28 19:00",
+    "WP": {
+      "P1": 0.12,
+      "P2": 0.69,
+      "PX": 0.19
+    },
+    "LI": 1325263,
+    "CN": "Georgia"
+  },
+  {
+    "I": 724479550,
+    "CI": 336667792,
+    "L": "Georgia. Liga 3",
+    "O1": "Kolkheti Khobi",
+    "O2": "Locomotive Tbilisi",
+    "O1I": 126227,
+    "O2I": 32785,
+    "S": 1779969600,
+    "start_wib": "2026-05-28 19:00",
+    "WP": {
+      "P1": 0.41,
+      "P2": 0.33,
+      "PX": 0.26
+    },
+    "LI": 1325263,
+    "CN": "Georgia"
+  },
+  {
+    "I": 724479553,
+    "CI": 336667790,
+    "L": "Georgia. Liga 3",
+    "O1": "Margveti 2006",
+    "O2": "Iberia 1999 II",
+    "O1I": 1728617,
+    "O2I": 8451909,
+    "S": 1779969600,
+    "start_wib": "2026-05-28 19:00",
+    "WP": {
+      "P1": 0.16,
+      "P2": 0.62,
+      "PX": 0.22
+    },
+    "LI": 1325263,
+    "CN": "Georgia"
+  },
+  {
+    "I": 724479556,
+    "CI": 336667774,
+    "L": "Georgia. Liga 3",
+    "O1": "Merani Tbilisi",
+    "O2": "Tbilisi 2025",
+    "O1I": 700357,
+    "O2I": 239891,
+    "S": 1779969600,
+    "start_wib": "2026-05-28 19:00",
+    "WP": {
+      "P1": 0.26,
+      "P2": 0.5,
+      "PX": 0.24
+    },
+    "LI": 1325263,
+    "CN": "Georgia"
+  },
+  {
+    "I": 724479559,
+    "CI": 336667760,
+    "L": "Georgia. Liga 3",
+    "O1": "Orbi",
+    "O2": "Guria Lanchkhuti",
+    "O1I": 8357705,
+    "O2I": 28703,
+    "S": 1779969600,
+    "start_wib": "2026-05-28 19:00",
+    "WP": {
+      "P1": 0.5,
+      "P2": 0.26,
+      "PX": 0.24
+    },
+    "LI": 1325263,
+    "CN": "Georgia"
+  },
+  {
+    "I": 724451194,
+    "CI": 336632836,
+    "L": "Kenya Championship. Super League",
+    "O1": "Darajani Gogo",
+    "O2": "MOFA",
+    "O1I": 7206795,
+    "O2I": 8983259,
+    "S": 1779969600,
+    "start_wib": "2026-05-28 19:00",
+    "WP": {
+      "P1": 0.29,
+      "P2": 0.4,
+      "PX": 0.31
+    },
+    "LI": 1786993,
+    "CN": "Kenya"
+  },
+  {
+    "I": 724449740,
+    "CI": 336632838,
+    "L": "Kenya Championship. Super League",
+    "O1": "Mwatate United",
+    "O2": "Naivas",
+    "O1I": 1839165,
+    "O2I": 754533,
+    "S": 1779969600,
+    "start_wib": "2026-05-28 19:00",
+    "WP": {
+      "P1": 0.08,
+      "P2": 0.7,
+      "PX": 0.22
+    },
+    "LI": 1786993,
+    "CN": "Kenya"
+  },
+  {
+    "I": 724451763,
+    "CI": 336632840,
+    "L": "Kenya Championship. Super League",
+    "O1": "Soy United",
+    "O2": "Kisumu All Stars",
+    "O1I": 4584703,
+    "O2I": 1655001,
+    "S": 1779969600,
+    "start_wib": "2026-05-28 19:00",
+    "WP": {
+      "P1": 0.45,
+      "P2": 0.25,
+      "PX": 0.3
+    },
+    "LI": 1786993,
+    "CN": "Kenya"
+  },
+  {
+    "I": 724535985,
+    "CI": 336657708,
+    "L": "Kosovo. Superleague U21",
+    "O1": "Malisheva U21",
+    "O2": "Prishtina E Re U21",
+    "O1I": 9005753,
+    "O2I": 9802085,
+    "S": 1779969600,
+    "start_wib": "2026-05-28 19:00",
+    "WP": {
+      "P1": 0.28,
+      "P2": 0.52,
+      "PX": 0.2
+    },
+    "LI": 2753722,
+    "CN": "Kosovo"
+  },
+  {
+    "I": 724531384,
+    "CI": 336472090,
+    "L": "Albania. Qualification",
+    "O1": "Kukesi",
+    "O2": "KF Butrinti Sarande",
+    "O1I": 1920,
+    "O2I": 270725,
+    "S": 1779973200,
+    "start_wib": "2026-05-28 20:00",
+    "WP": {
+      "P1": 0.65,
+      "P2": 0.12,
+      "PX": 0.23
+    },
+    "LI": 2400929,
+    "CN": "Albania"
+  },
+  {
+    "I": 724706742,
+    "CI": 336868272,
+    "L": "Argentina. Primera B Nacional. Reserve League",
+    "O1": "Deportivo Moron II",
+    "O2": "Club Almagro II",
+    "O1I": 214701,
+    "O2I": 222923,
+    "S": 1779973200,
+    "start_wib": "2026-05-28 20:00",
+    "WP": {
+      "P1": 0.51,
+      "P2": 0.22,
+      "PX": 0.27
+    },
+    "LI": 2993401,
+    "CN": "Argentina"
+  },
+  {
+    "I": 724704518,
+    "CI": 336895164,
+    "L": "Argentina. Primera C Metropolitana. Reserve League",
+    "O1": "Asociacion Deportiva Berazategui II",
+    "O2": "CA Claypole II",
+    "O1I": 2088627,
+    "O2I": 5473849,
+    "S": 1779973200,
+    "start_wib": "2026-05-28 20:00",
+    "WP": {
+      "P1": 0.38,
+      "P2": 0.34,
+      "PX": 0.28
+    },
+    "LI": 2275649,
+    "CN": "Argentina"
+  },
+  {
+    "I": 724315223,
+    "CI": 336475486,
+    "L": "Piala Tajikistan",
+    "O1": "CSKA Pomir Dushanbe",
+    "O2": "Panjshir",
+    "O1I": 175857,
+    "O2I": 594569,
+    "S": 1779973200,
+    "start_wib": "2026-05-28 20:00",
+    "WP": {
+      "P1": 0.72,
+      "P2": 0.07,
+      "PX": 0.21
+    },
+    "LI": 1323331,
+    "CN": "Tajikistan"
+  },
+  {
+    "I": 724314659,
+    "CI": 336474658,
+    "L": "Piala Tajikistan",
+    "O1": "Regar-TadAZ Tursunzoda",
+    "O2": "Eskhata",
+    "O1I": 175859,
+    "O2I": 772559,
+    "S": 1779973200,
+    "start_wib": "2026-05-28 20:00",
+    "WP": {
+      "P1": 0.5,
+      "P2": 0.23,
+      "PX": 0.27
+    },
+    "LI": 1323331,
+    "CN": "Tajikistan"
+  },
+  {
+    "I": 724315221,
+    "CI": 336475488,
+    "L": "Piala Tajikistan",
+    "O1": "Vakhsh Bokhtar",
+    "O2": "Mokhir Yovon",
+    "O1I": 1408053,
+    "O2I": 3864517,
+    "S": 1779973200,
+    "start_wib": "2026-05-28 20:00",
+    "WP": {
+      "P1": 0.7,
+      "P2": 0.08,
+      "PX": 0.22
+    },
+    "LI": 1323331,
+    "CN": "Tajikistan"
+  }
+]

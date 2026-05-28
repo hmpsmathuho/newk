@@ -1,0 +1,20 @@
+Match: Gardabani vs Fc Gonio
+Liga: Georgia. Liga 3
+Start (WIB): 2026-05-28 19:00
+ID: 724479547
+WP (1xbet hint): P1=0.34 PX=0.26 P2=0.4
+
+-- 1X2 --
+  Home 2.65  Draw 3.5  Away 2.3
+  Implied: H=0.377 D=0.286 A=0.435  Margin=9.8%
+-- Double Chance --
+  1X 1.55  12 1.26  X2 1.42
+-- Total Goals --
+  Line 2.5: Over 1.68  Under 2.06
+  Line 3: Over 2.13  Under 1.63
+  Line 3.5: Over 2.7  Under 1.41
+-- BTTS --
+  Yes 1.66  No 2.209
+-- Asian Handicap --
+  AH -1.00: Home 4.2  Away 3.4
+  AH +1.00: Home 1.27  Away 1.19

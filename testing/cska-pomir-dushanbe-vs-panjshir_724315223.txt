@@ -1,0 +1,20 @@
+Match: CSKA Pomir Dushanbe vs Panjshir
+Liga: Piala Tajikistan
+Start (WIB): 2026-05-28 20:00
+ID: 724315223
+WP (1xbet hint): P1=0.72 PX=0.21 P2=0.07
+
+-- 1X2 --
+  Home 1.26  Draw 4.29  Away 13.3
+  Implied: H=0.794 D=0.233 A=0.075  Margin=10.2%
+-- Double Chance --
+  1X -  12 1.18  X2 3.56
+-- Total Goals --
+  Line 2: Over 1.53  Under 2.34
+  Line 2.5: Over 2.04  Under 1.73
+  Line 3: Over 2.85  Under 1.37
+-- BTTS --
+  Yes 2.731  No 1.428
+-- Asian Handicap --
+  AH -1.50: Home 1.93  Away -
+  AH +1.50: Home -  Away 1.81

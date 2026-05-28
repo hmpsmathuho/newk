@@ -1,0 +1,22 @@
+Match: Orbi vs Guria Lanchkhuti
+Liga: Georgia. Liga 3
+Start (WIB): 2026-05-28 19:00
+ID: 724479559
+WP (1xbet hint): P1=0.5 PX=0.24 P2=0.26
+
+-- 1X2 --
+  Home 1.82  Draw 3.9  Away 3.53
+  Implied: H=0.549 D=0.256 A=0.283  Margin=8.9%
+-- Double Chance --
+  1X 1.26  12 1.21  X2 1.9
+-- Total Goals --
+  Line 2.5: Over 1.57  Under 2.25
+  Line 3: Over 1.92  Under 1.78
+  Line 3.5: Over 2.43  Under 1.49
+-- BTTS --
+  Yes 1.624  No 2.267
+-- Asian Handicap --
+  AH -1.50: Home 3  Away -
+  AH -1.00: Home 2.37  Away -
+  AH +1.00: Home -  Away 1.52
+  AH +1.50: Home -  Away 1.34

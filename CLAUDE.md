@@ -78,6 +78,15 @@ Per match, ekstrak:
 - O/U (semua line: 0.5, 1.5, 2.5, 3.5, 4.5)
 - BTTS Yes/No
 - Asian Handicap (semua line)
+- total
+- total asia
+- handicap
+- handicap asia
+- total 1
+- tim asia total 1
+- total 2
+- tim asia total 2
+- 
 
 Hitung implied probability per outcome: `ip = 1 / odds`. Catat margin bookmaker per market (sum ip ≥ 1).
 

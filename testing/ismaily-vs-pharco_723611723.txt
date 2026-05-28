@@ -1,0 +1,28 @@
+Match: Ismaily vs Pharco
+Liga: Mesir. Liga Primer
+Start (WIB): 2026-05-28 21:00
+ID: 723611723
+WP (1xbet hint): P1=0.32 PX=0.34 P2=0.34
+
+-- 1X2 --
+  Home 2.81  Draw 2.64  Away 2.67
+  Implied: H=0.356 D=0.379 A=0.375  Margin=10.9%
+-- Double Chance --
+  1X 1.363  12 1.37  X2 1.33
+-- Total Goals --
+  Line 0.5: Over 1.097  Under 5.15
+  Line 1: Over 1.161  Under 4.1
+  Line 1.5: Over 1.55  Under 2.29
+  Line 2: Over 1.96  Under 1.68
+  Line 2.5: Over 2.59  Under 1.39
+  Line 3: Over 4.3  Under 1.148
+  Line 3.5: Over 5  Under 1.105
+  Line 4: Over 9.3  Under 1.002
+  Line 4.5: Over 12.5  Under 1.025
+-- BTTS --
+  Yes 2.14  No 1.62
+-- Asian Handicap --
+  AH -1.50: Home 6.05  Away 5.8
+  AH -1.00: Home 5.1  Away 4.85
+  AH +1.00: Home 1.112  Away 1.101
+  AH +1.50: Home 1.071  Away 1.064

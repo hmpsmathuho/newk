@@ -1,0 +1,33 @@
+Match: Jenis vs Caspiy
+Liga: Kazakhstan. Liga Utama
+Start (WIB): 2026-05-28 21:00
+ID: 723795333
+WP (1xbet hint): P1=0.53 PX=0.27 P2=0.2
+
+-- 1X2 --
+  Home 1.763  Draw 3.495  Away 4.745
+  Implied: H=0.567 D=0.286 A=0.211  Margin=6.4%
+-- Double Chance --
+  1X 1.164  12 1.276  X2 1.99
+-- Total Goals --
+  Line 0.5: Over 1.013  Under 8.5
+  Line 1: Over 1.041  Under 6.9
+  Line 1.5: Over 1.32  Under 2.875
+  Line 2: Over 1.56  Under 2.15
+  Line 2.5: Over 2.155  Under 1.667
+  Line 3: Over 3.08  Under 1.28
+  Line 3.5: Over 3.84  Under 1.183
+  Line 4: Over 7.1  Under 1.036
+  Line 4.5: Over 8  Under 1.02
+  Line 5.5: Over 15  Under 1.016
+-- BTTS --
+  Yes 1.97  No 1.733
+-- Asian Handicap --
+  AH -2.50: Home 6.85  Away -
+  AH -2.00: Home 5.9  Away -
+  AH -1.50: Home 3.415  Away -
+  AH -1.00: Home 2.38  Away 9.6
+  AH +1.00: Home 1.01  Away 1.49
+  AH +1.50: Home -  Away 1.297
+  AH +2.00: Home -  Away 1.069
+  AH +2.50: Home -  Away 1.042

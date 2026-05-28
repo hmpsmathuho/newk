@@ -1,0 +1,20 @@
+Match: Soy United vs Kisumu All Stars
+Liga: Kenya Championship. Super League
+Start (WIB): 2026-05-28 19:00
+ID: 724451763
+WP (1xbet hint): P1=0.45 PX=0.3 P2=0.25
+
+-- 1X2 --
+  Home 2.02  Draw 2.94  Away 3.645
+  Implied: H=0.495 D=0.340 A=0.274  Margin=11.0%
+-- Double Chance --
+  1X 1.19  12 1.28  X2 1.61
+-- Total Goals --
+  Line 1.5: Over 1.55  Under 2.24
+  Line 2: Over 2.09  Under 1.63
+  Line 2.5: Over 2.87  Under 1.34
+-- BTTS --
+  Yes 2.38  No 1.49
+-- Asian Handicap --
+  AH -1.00: Home 3.55  Away -
+  AH +1.00: Home -  Away 1.23

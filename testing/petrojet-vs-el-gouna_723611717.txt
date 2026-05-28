@@ -1,0 +1,33 @@
+Match: Petrojet vs El Gouna
+Liga: Mesir. Liga Primer
+Start (WIB): 2026-05-28 21:00
+ID: 723611717
+WP (1xbet hint): P1=0.4 PX=0.33 P2=0.27
+
+-- 1X2 --
+  Home 2.27  Draw 2.74  Away 3.4
+  Implied: H=0.441 D=0.365 A=0.294  Margin=10.0%
+-- Double Chance --
+  1X 1.24  12 1.35  X2 1.51
+-- Total Goals --
+  Line 0.5: Over 1.072  Under 5.8
+  Line 1: Over 1.125  Under 4.65
+  Line 1.5: Over 1.49  Under 2.44
+  Line 2: Over 1.83  Under 1.79
+  Line 2.5: Over 2.43  Under 1.44
+  Line 3: Over 3.9  Under 1.177
+  Line 3.5: Over 4.65  Under 1.123
+  Line 4: Over 8.9  Under 1.007
+  Line 4.5: Over 10.5  Under 1.01
+  Line 5.5: Over 17  Under 1.005
+-- BTTS --
+  Yes 2.05  No 1.672
+-- Asian Handicap --
+  AH -2.50: Home 10.5  Away -
+  AH -2.00: Home 9.5  Away -
+  AH -1.50: Home 4.7  Away 7.8
+  AH -1.00: Home 3.72  Away 6.75
+  AH +1.00: Home 1.045  Away 1.195
+  AH +1.50: Home 1.023  Away 1.122
+  AH +2.00: Home -  Away 1.02
+  AH +2.50: Home -  Away 1.01

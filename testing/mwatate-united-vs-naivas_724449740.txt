@@ -1,0 +1,22 @@
+Match: Mwatate United vs Naivas
+Liga: Kenya Championship. Super League
+Start (WIB): 2026-05-28 19:00
+ID: 724449740
+WP (1xbet hint): P1=0.08 PX=0.22 P2=0.7
+
+-- 1X2 --
+  Home 11  Draw 4.08  Away 1.29
+  Implied: H=0.091 D=0.245 A=0.775  Margin=11.1%
+-- Double Chance --
+  1X 2.92  12 1.14  X2 -
+-- Total Goals --
+  Line 1.5: Over 1.42  Under 2.56
+  Line 2: Over 1.79  Under 1.87
+  Line 2.5: Over 2.45  Under 1.46
+-- BTTS --
+  Yes 3.08  No 1.3
+-- Asian Handicap --
+  AH -1.50: Home -  Away 2.22
+  AH -1.00: Home -  Away 1.59
+  AH +1.00: Home 2.15  Away -
+  AH +1.50: Home 1.56  Away -

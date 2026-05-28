@@ -1,0 +1,28 @@
+Match: Asociacion Deportiva Berazategui II vs CA Claypole II
+Liga: Argentina. Primera C Metropolitana. Reserve League
+Start (WIB): 2026-05-28 20:00
+ID: 724704518
+WP (1xbet hint): P1=0.38 PX=0.28 P2=0.34
+
+-- 1X2 --
+  Home 2.34  Draw 3.2  Away 2.68
+  Implied: H=0.427 D=0.312 A=0.373  Margin=11.3%
+-- Double Chance --
+  1X 1.36  12 1.26  X2 1.47
+-- Total Goals --
+  Line 1: Over 1.035  Under 7.2
+  Line 1.5: Over 1.28  Under 3.08
+  Line 2: Over 1.46  Under 2.375
+  Line 2.5: Over 1.93  Under 1.76
+  Line 3: Over 2.66  Under 1.37
+  Line 3.5: Over 3.28  Under 1.25
+  Line 4: Over 5.55  Under 1.081
+-- BTTS --
+  Yes 1.727  No 1.954
+-- Asian Handicap --
+  AH -2.00: Home 9  Away -
+  AH -1.50: Home 4.65  Away 5.5
+  AH -1.00: Home 3.78  Away 4.6
+  AH +1.00: Home 1.126  Away 1.19
+  AH +1.50: Home 1.083  Away 1.125
+  AH +2.00: Home -  Away 1.006
