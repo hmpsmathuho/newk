@@ -1,0 +1,3 @@
+# Best Value Bet Analyzer — minimal stdlib-only deps for portability
+# All core logic uses Python 3 stdlib (re, math, json, csv, urllib, quopri, email, html.parser, argparse)
+# Optional: pyyaml for config (falls back to json if not installed)

@@ -1,0 +1,50 @@
+external_api:
+  provider: "none"            # 'none' = no external calls; markets-only mode
+  api_key: ""
+  cache_ttl: 3600
+
+model:
+  recency_weight: 0.7
+  home_advantage: 0.25
+  injury_impact: high
+  poisson_max_goals: 10
+  dixon_coles_rho: -0.10      # low-score correction
+  blend_alpha_form: 0.0       # 0.0 = pure market-implied; 1.0 = pure form (no form data here yet)
+
+value:
+  min_edge: 0.02              # 2% theoretical edge floor
+  remove_margin: true         # devig before computing edge
+  confidence_threshold: 0.0
+  odds_min: 1.30
+  odds_max: 6.50
+  per_market_thresholds:
+    Under 3.5:   {model_min: 0.65, gap_min_pp: 4.0}
+    Under 2.5:   {model_min: 0.70, gap_min_pp: 5.0}
+    Under 1.5:   {model_min: 0.65, gap_min_pp: 5.0}
+    Over 0.5:    {model_min: 0.85, gap_min_pp: 4.0}
+    Over 1.5:    {model_min: 0.65, gap_min_pp: 4.0}
+    Over 2.5:    {model_min: 0.55, gap_min_pp: 4.0}
+    Over 3.5:    {model_min: 0.45, gap_min_pp: 4.0}
+    BTTS Yes:    {model_min: 0.55, gap_min_pp: 4.0}
+    BTTS No:     {model_min: 0.55, gap_min_pp: 4.0}
+    Home Win:    {model_min: 0.45, gap_min_pp: 4.0}
+    Draw:        {model_min: 0.25, gap_min_pp: 4.0}
+    Away Win:    {model_min: 0.40, gap_min_pp: 4.0}
+    DC Home/Draw:    {model_min: 0.65, gap_min_pp: 4.0}
+    DC Home/Away:    {model_min: 0.65, gap_min_pp: 4.0}
+    DC Draw/Away:    {model_min: 0.55, gap_min_pp: 4.0}
+    AH Home:     {model_min: 0.55, gap_min_pp: 4.0}
+    AH Away:     {model_min: 0.50, gap_min_pp: 4.0}
+    HT Under 1.5: {model_min: 0.60, gap_min_pp: 4.0}
+    HT Over 0.5:  {model_min: 0.70, gap_min_pp: 4.0}
+
+staking:
+  method: kelly               # kelly | flat | none
+  kelly_fraction: 0.25        # quarter Kelly (defensive)
+  max_stake_pct: 0.05         # never bet >5% bankroll
+  flat_unit_pct: 0.01
+
+output:
+  top: 10
+  formats: [terminal, json]
+  show_blocked: true
