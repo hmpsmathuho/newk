@@ -1,0 +1,62 @@
+[
+  {
+    "model_p": 0.6699100022542345,
+    "odds": 1.98,
+    "implied": 0.5050505050505051,
+    "value_pct": 32.64218044633842,
+    "gap_ppt": 16.48594972037294,
+    "kelly_pct": 33.30834739422288,
+    "market": "Total",
+    "label": "U2.5",
+    "match": "Burnley vs Wolverhampton Wanderers",
+    "match_id": "burnley-wolves"
+  },
+  {
+    "model_p": 0.852584325216692,
+    "odds": 1.32,
+    "implied": 0.7575757575757576,
+    "value_pct": 12.541130928603362,
+    "gap_ppt": 9.500856764093445,
+    "kelly_pct": 39.191034151885496,
+    "market": "Total",
+    "label": "U3.5",
+    "match": "Burnley vs Wolverhampton Wanderers",
+    "match_id": "burnley-wolves"
+  },
+  {
+    "model_p": 0.7227586879565846,
+    "odds": 1.734,
+    "implied": 0.5767012687427913,
+    "value_pct": 25.326356491671763,
+    "gap_ppt": 14.605741921379334,
+    "kelly_pct": 34.50457287693701,
+    "market": "Total",
+    "label": "U3.5",
+    "match": "Brighton & Hove Albion vs Manchester United",
+    "match_id": "brighton-manutd"
+  },
+  {
+    "model_p": 0.7544721227641847,
+    "odds": 1.48,
+    "implied": 0.6756756756756757,
+    "value_pct": 11.66187416909934,
+    "gap_ppt": 7.879644708850908,
+    "kelly_pct": 24.295571185623626,
+    "market": "Total",
+    "label": "U3.5",
+    "match": "West Ham United vs Leeds United",
+    "match_id": "westham-leeds"
+  },
+  {
+    "model_p": 0.6852561454008843,
+    "odds": 1.734,
+    "implied": 0.5767012687427913,
+    "value_pct": 18.82341561251333,
+    "gap_ppt": 10.855487665809305,
+    "kelly_pct": 25.64498039851952,
+    "market": "Total",
+    "label": "U3.5",
+    "match": "Liverpool vs Brentford",
+    "match_id": "liverpool-brentford"
+  }
+]
