@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+.vscode/
+.idea/
+
+# Virtual env
+venv/
+.venv/
+env/
+
+# Data caches
+data/cache/
+*.cache
+
+# Editor backups
+*~
+*.bak
+.DS_Store

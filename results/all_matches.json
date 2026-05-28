@@ -1,0 +1,236 @@
+[
+  {
+    "match": {
+      "home": "Burnley",
+      "away": "Wolverhampton Wanderers",
+      "league": "England Premier League"
+    },
+    "model": {
+      "lambda_home": 1.3260769240040795,
+      "lambda_away": 1.1854161328749018,
+      "total_lambda": 2.6843662429232378
+    },
+    "picks": [
+      {
+        "market_key": "Totals Asia: Under 2.25",
+        "label": "Total Asia — Under 2.25",
+        "odds": 2.288,
+        "implied_devig": 0.4371,
+        "model_p": 0.5409,
+        "edge": 0.2375,
+        "gap_pp": 10.38,
+        "kelly_full_pct": 18.44,
+        "kelly_quarter_pct": 4.61,
+        "passed": true,
+        "reason": "OK"
+      },
+      {
+        "market_key": "Totals Asia: Under 2.75",
+        "label": "Total Asia — Under 2.75",
+        "odds": 1.781,
+        "implied_devig": 0.5615,
+        "model_p": 0.648,
+        "edge": 0.1541,
+        "gap_pp": 8.65,
+        "kelly_full_pct": 19.73,
+        "kelly_quarter_pct": 4.93,
+        "passed": true,
+        "reason": "OK"
+      },
+      {
+        "market_key": "AH Q: Away (+0.25)",
+        "label": "AH Away (Q) (+0.25)",
+        "odds": 1.777,
+        "implied_devig": 0.5627,
+        "model_p": 0.62,
+        "edge": 0.1017,
+        "gap_pp": 5.72,
+        "kelly_full_pct": 13.09,
+        "kelly_quarter_pct": 3.27,
+        "passed": true,
+        "reason": "OK"
+      }
+    ],
+    "all_legs_count": 69,
+    "passed_count": 3,
+    "blocked_count": 66
+  },
+  {
+    "match": {
+      "home": "",
+      "away": "",
+      "league": ""
+    },
+    "model": {
+      "lambda_home": 1.4300000000000002,
+      "lambda_away": 1.1700000000000002,
+      "total_lambda": 2.6
+    },
+    "picks": [],
+    "all_legs_count": 0,
+    "passed_count": 0,
+    "blocked_count": 0
+  },
+  {
+    "match": {
+      "home": "Brighton & Hove Albion",
+      "away": "Manchester United",
+      "league": "England Premier League"
+    },
+    "model": {
+      "lambda_home": 1.819715263620802,
+      "lambda_away": 1.3870787853370907,
+      "total_lambda": 3.3025685365168824
+    },
+    "picks": [
+      {
+        "market_key": "AH Q: Away (+0.25)",
+        "label": "AH Away (Q) (+0.25)",
+        "odds": 2.221,
+        "implied_devig": 0.4502,
+        "model_p": 0.5327,
+        "edge": 0.1832,
+        "gap_pp": 8.25,
+        "kelly_full_pct": 15.0,
+        "kelly_quarter_pct": 3.75,
+        "passed": true,
+        "reason": "OK"
+      }
+    ],
+    "all_legs_count": 55,
+    "passed_count": 1,
+    "blocked_count": 54
+  },
+  {
+    "match": {
+      "home": "West Ham United",
+      "away": "Leeds United",
+      "league": "England Premier League"
+    },
+    "model": {
+      "lambda_home": 2.08771942830592,
+      "lambda_away": 0.9849753200212543,
+      "total_lambda": 3.0589295652833988
+    },
+    "picks": [
+      {
+        "market_key": "AH Q: Home (-0.75)",
+        "label": "AH Home (Q) (-0.75)",
+        "odds": 1.77,
+        "implied_devig": 0.565,
+        "model_p": 0.6179,
+        "edge": 0.0938,
+        "gap_pp": 5.3,
+        "kelly_full_pct": 12.18,
+        "kelly_quarter_pct": 3.04,
+        "passed": true,
+        "reason": "OK"
+      }
+    ],
+    "all_legs_count": 53,
+    "passed_count": 1,
+    "blocked_count": 52
+  },
+  {
+    "match": {
+      "home": "Crystal Palace",
+      "away": "Arsenal",
+      "league": "England Premier League"
+    },
+    "model": {
+      "lambda_home": 0.9200731852368442,
+      "lambda_away": 1.380109777855266,
+      "total_lambda": 2.706097603637777
+    },
+    "picks": [
+      {
+        "market_key": "Totals Asia: Under 2.25",
+        "label": "Total Asia — Under 2.25",
+        "odds": 2.304,
+        "implied_devig": 0.434,
+        "model_p": 0.596,
+        "edge": 0.3732,
+        "gap_pp": 16.2,
+        "kelly_full_pct": 28.62,
+        "kelly_quarter_pct": 7.15,
+        "passed": true,
+        "reason": "OK"
+      },
+      {
+        "market_key": "Totals Asia: Under 2.75",
+        "label": "Total Asia — Under 2.75",
+        "odds": 1.799,
+        "implied_devig": 0.5559,
+        "model_p": 0.6977,
+        "edge": 0.2551,
+        "gap_pp": 14.18,
+        "kelly_full_pct": 31.92,
+        "kelly_quarter_pct": 7.98,
+        "passed": true,
+        "reason": "OK"
+      },
+      {
+        "market_key": "Totals Asia: Under 3.25",
+        "label": "Total Asia — Under 3.25",
+        "odds": 1.414,
+        "implied_devig": 0.7072,
+        "model_p": 0.7993,
+        "edge": 0.1302,
+        "gap_pp": 9.21,
+        "kelly_full_pct": 31.46,
+        "kelly_quarter_pct": 7.86,
+        "passed": true,
+        "reason": "OK"
+      }
+    ],
+    "all_legs_count": 67,
+    "passed_count": 3,
+    "blocked_count": 64
+  },
+  {
+    "match": {
+      "home": "Liverpool",
+      "away": "Brentford",
+      "league": "England Premier League"
+    },
+    "model": {
+      "lambda_home": 1.8392011000339732,
+      "lambda_away": 1.2780889000236086,
+      "total_lambda": 3.2813578947974547
+    },
+    "picks": [
+      {
+        "market_key": "AH Q: Away (+0.25)",
+        "label": "AH Away (Q) (+0.25)",
+        "odds": 2.329,
+        "implied_devig": 0.4294,
+        "model_p": 0.5046,
+        "edge": 0.1752,
+        "gap_pp": 7.52,
+        "kelly_full_pct": 13.18,
+        "kelly_quarter_pct": 3.3,
+        "passed": true,
+        "reason": "OK"
+      }
+    ],
+    "all_legs_count": 55,
+    "passed_count": 1,
+    "blocked_count": 54
+  },
+  {
+    "match": {
+      "home": "Shelbourne",
+      "away": "Waterford",
+      "league": "Ireland Premier League"
+    },
+    "model": {
+      "lambda_home": 2.058291169934598,
+      "lambda_away": 0.79867495396758,
+      "total_lambda": 2.8990016477952087
+    },
+    "picks": [],
+    "all_legs_count": 49,
+    "passed_count": 0,
+    "blocked_count": 49
+  }
+]

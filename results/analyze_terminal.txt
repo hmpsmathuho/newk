@@ -1,0 +1,123 @@
+==============================================================================
+  PERTANDINGAN: Burnley vs Wolverhampton Wanderers
+  Liga: England Premier League
+==============================================================================
+  Model: λ_home=1.33  λ_away=1.19  total_λ=2.68
+
+  ✅ 3 VALUE BET (urut by edge):
+
+  #  MARKET — SELEKSI                            ODDS   IMP%  P_RIIL   EDGE  KELLY/4
+  ------------------------------------------------------------------------------
+  1  Total Asia — Under 2.25                     2.29  43.7%   54.1% +23.8%   +4.61%
+  2  Total Asia — Under 2.75                     1.78  56.1%   64.8% +15.4%   +4.93%
+  3  AH Away (Q) (+0.25)                         1.78  56.3%   62.0% +10.2%   +3.27%
+
+  📋 CONTEXT (form/injury/motivation):
+     • Both teams already relegated (Burnley 22 Apr, Wolves 20 Apr 2026).
+     • Dead-rubber final day with no stakes for either side.
+     • Wolves attack worst in PL (~26 GF/season); Burnley 6L of last 7.
+     • Tips.gg pre-match: 'neither side can buy a win, both spent.'
+     λ adj — home: 0.95x, away: 0.92x  (source: curated)
+
+==============================================================================
+  PERTANDINGAN:  vs 
+  Liga: 
+==============================================================================
+  Model: λ_home=1.43  λ_away=1.17  total_λ=2.60
+
+  ⚠ TIDAK ADA value bet yang lolos gate.
+  Rekomendasi: SIT OUT match ini.
+
+==============================================================================
+  PERTANDINGAN: Brighton & Hove Albion vs Manchester United
+  Liga: England Premier League
+==============================================================================
+  Model: λ_home=1.82  λ_away=1.39  total_λ=3.30
+
+  ✅ 1 VALUE BET (urut by edge):
+
+  #  MARKET — SELEKSI                            ODDS   IMP%  P_RIIL   EDGE  KELLY/4
+  ------------------------------------------------------------------------------
+  1  AH Away (Q) (+0.25)                         2.22  45.0%   53.3% +18.3%   +3.75%
+
+  📋 CONTEXT (form/injury/motivation):
+     • Brighton fighting for Conference League slot.
+     • Man Utd: Sesko out (long-term injury).
+     • Casemiro confirmed retired/out (last appearance was prior week).
+     • All last 4 H2H matches were BTTS = Yes.
+     λ adj — home: 0.95x, away: 1.00x  (source: curated)
+
+==============================================================================
+  PERTANDINGAN: West Ham United vs Leeds United
+  Liga: England Premier League
+==============================================================================
+  Model: λ_home=2.09  λ_away=0.98  total_λ=3.06
+
+  ✅ 1 VALUE BET (urut by edge):
+
+  #  MARKET — SELEKSI                            ODDS   IMP%  P_RIIL   EDGE  KELLY/4
+  ------------------------------------------------------------------------------
+  1  AH Home (Q) (-0.75)                         1.77  56.5%   61.8%  +9.4%   +3.04%
+
+  📋 CONTEXT (form/injury/motivation):
+     • West Ham must-win to escape relegation (depends on Spurs).
+     • Leeds safe at 14th — checked-out, 'toothless' (Guardian).
+     • Leeds out: Okafor (calf), Gudmundsson, Gruev (injury).
+     • WH home form last 7: W3 D3 L1.
+     λ adj — home: 1.05x, away: 0.92x  (source: curated)
+
+==============================================================================
+  PERTANDINGAN: Crystal Palace vs Arsenal
+  Liga: England Premier League
+==============================================================================
+  Model: λ_home=0.92  λ_away=1.38  total_λ=2.71
+
+  ✅ 3 VALUE BET (urut by edge):
+
+  #  MARKET — SELEKSI                            ODDS   IMP%  P_RIIL   EDGE  KELLY/4
+  ------------------------------------------------------------------------------
+  1  Total Asia — Under 2.25                     2.30  43.4%   59.6% +37.3%   +7.15%
+  2  Total Asia — Under 2.75                     1.80  55.6%   69.8% +25.5%   +7.98%
+  3  Total Asia — Under 3.25                     1.41  70.7%   79.9% +13.0%   +7.86%
+
+  📋 CONTEXT (form/injury/motivation):
+     • Arsenal CHAMPIONS already (clinched 19 May vs Man City draw).
+     • HEAVY ROTATION expected: Raya, Rice, Saka, Havertz rested.
+     • Palace plays Conference League final 27 May vs Real Betis.
+     • Both sides protecting legs.
+     λ adj — home: 0.85x, away: 0.85x  (source: curated)
+
+==============================================================================
+  PERTANDINGAN: Liverpool vs Brentford
+  Liga: England Premier League
+==============================================================================
+  Model: λ_home=1.84  λ_away=1.28  total_λ=3.28
+
+  ✅ 1 VALUE BET (urut by edge):
+
+  #  MARKET — SELEKSI                            ODDS   IMP%  P_RIIL   EDGE  KELLY/4
+  ------------------------------------------------------------------------------
+  1  AH Away (Q) (+0.25)                         2.33  42.9%   50.5% +17.5%   +3.30%
+
+  📋 CONTEXT (form/injury/motivation):
+     • Salah & Robertson farewell at Anfield.
+     • Liverpool need >=1 point for CL5 qualification.
+     • Liverpool no clean sheet last 6 matches.
+     • Brentford safe at 9th — dead rubber.
+     λ adj — home: 0.95x, away: 0.95x  (source: curated)
+
+==============================================================================
+  PERTANDINGAN: Shelbourne vs Waterford
+  Liga: Ireland Premier League
+==============================================================================
+  Model: λ_home=2.06  λ_away=0.80  total_λ=2.90
+
+  ⚠ TIDAK ADA value bet yang lolos gate.
+  Rekomendasi: SIT OUT match ini.
+
+  📋 CONTEXT (form/injury/motivation):
+     • Shelbourne home, won last vs St Patrick's 1-0.
+     • Waterford 10th place, mid-table form mixed.
+     λ adj — home: 1.00x, away: 0.95x  (source: curated)
+
+[saved] results/all_matches.json
