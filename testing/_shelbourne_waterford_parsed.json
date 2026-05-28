@@ -1,0 +1,9036 @@
+{
+  "meta": {
+    "url": "https://1xbet.mobi/id/line/football/119445-ireland-premier-league/333772928-shelbourne-waterford",
+    "match_id": 333772928,
+    "slug": "shelbourne-waterford",
+    "league_id": 119445,
+    "league_slug": "ireland-premier-league",
+    "title_raw": "Taruhan Shelbourne - Waterford - 22.05.2026 (Republ",
+    "saved_at": "Fri, 22 May 2026 21:43:53 +0800",
+    "headers_found": 158,
+    "pairs_found": 2083
+  },
+  "structured": {
+    "1x2": {
+      "home": 1.44,
+      "draw": 4.5,
+      "away": 6.64
+    },
+    "dc": {
+      "1X": 1.086,
+      "12": 1.178,
+      "X2": 2.69
+    },
+    "btts": {
+      "yes": 1.83,
+      "no": 1.874
+    },
+    "totals": {
+      "0.5": {
+        "over": 1.01,
+        "under": 11.5
+      },
+      "1.0": {
+        "over": 1.03,
+        "under": 8.3
+      },
+      "1.5": {
+        "over": 1.168,
+        "under": 4.05
+      },
+      "2.0": {
+        "over": 1.28,
+        "under": 3.24
+      },
+      "2.5": {
+        "over": 1.7,
+        "under": 2.11
+      },
+      "3.0": {
+        "over": 2.11,
+        "under": 1.62
+      },
+      "3.5": {
+        "over": 2.64,
+        "under": 1.38
+      },
+      "4.0": {
+        "over": 4.2,
+        "under": 1.154
+      },
+      "4.5": {
+        "over": 4.9,
+        "under": 1.109
+      },
+      "5.0": {
+        "over": 9.0,
+        "under": 1.005
+      },
+      "5.5": {
+        "over": 10.0,
+        "under": 1.01
+      },
+      "1.25": {
+        "over": 1.076,
+        "under": 5.76
+      },
+      "1.75": {
+        "over": 1.228,
+        "under": 3.625
+      },
+      "2.25": {
+        "over": 1.512,
+        "under": 2.494
+      },
+      "2.75": {
+        "over": 1.869,
+        "under": 1.897
+      },
+      "3.25": {
+        "over": 2.36,
+        "under": 1.471
+      },
+      "3.75": {
+        "over": 3.14,
+        "under": 1.271
+      },
+      "4.25": {
+        "over": 4.545,
+        "under": 1.129
+      },
+      "4.75": {
+        "over": 6.25,
+        "under": 1.057
+      }
+    },
+    "ah": {
+      "-3.5": {
+        "home": 8.3
+      },
+      "3.5": {
+        "away": 1.015
+      },
+      "-3.0": {
+        "home": 7.5
+      },
+      "3.0": {
+        "away": 1.029
+      },
+      "-2.5": {
+        "home": 4.0
+      },
+      "2.5": {
+        "away": 1.168
+      },
+      "-2.0": {
+        "home": 3.28
+      },
+      "2.0": {
+        "away": 1.26
+      },
+      "-1.5": {
+        "home": 2.25
+      },
+      "1.5": {
+        "away": 1.6
+      },
+      "-1.0": {
+        "home": 1.66
+      },
+      "1.0": {
+        "away": 2.02
+      },
+      "0.0": {
+        "home": 1.103,
+        "away": 5.05
+      },
+      "-3.25": {
+        "home": 7.9
+      },
+      "3.25": {
+        "away": 1.022
+      },
+      "-2.75": {
+        "home": 5.14
+      },
+      "2.75": {
+        "away": 1.097
+      },
+      "-2.25": {
+        "home": 3.615
+      },
+      "2.25": {
+        "away": 1.216
+      },
+      "-1.75": {
+        "home": 2.627
+      },
+      "1.75": {
+        "away": 1.452
+      },
+      "-1.25": {
+        "home": 1.972
+      },
+      "1.25": {
+        "away": 1.778
+      },
+      "-0.75": {
+        "home": 1.49
+      },
+      "0.75": {
+        "away": 2.31
+      },
+      "-0.25": {
+        "home": 1.241,
+        "away": 5.4
+      },
+      "0.25": {
+        "away": 3.34,
+        "home": 1.087
+      }
+    },
+    "team_totals": {},
+    "other": {
+      "Peluang Ganda + Kedua Tim Mencetak Skor": [
+        [
+          "1X Dan Kedua Tim Mencetak Skor - Ya",
+          2.186
+        ],
+        [
+          "12 Dan Kedua Tim Mencetak Skor - Ya",
+          2.644
+        ],
+        [
+          "2X Dan Kedua Tim Mencetak Skor - Ya",
+          4.355
+        ],
+        [
+          "1X Dan Kedua Tim Mencetak Skor - Tidak",
+          1.634
+        ],
+        [
+          "12 Dan Kedua Tim Mencetak Skor - Tidak",
+          1.447
+        ],
+        [
+          "2X Dan Kedua Tim Mencetak Skor - Tidak",
+          1.19
+        ],
+        [
+          "1X + Masing-Masing Tim Mencetak 2 Atau Lebih - Ya",
+          8.45
+        ],
+        [
+          "12 + Masing-Masing Tim Mencetak 2 Atau Lebih - Ya",
+          12.1
+        ],
+        [
+          "2X + Masing-Masing Tim Mencetak 2 Atau Lebih - Ya",
+          13.9
+        ],
+        [
+          "1X + Masing-Masing Tim Mencetak 2 Atau Lebih - Tidak",
+          1.051
+        ],
+        [
+          "12 + Masing-Masing Tim Mencetak 2 Atau Lebih - Tidak",
+          1.013
+        ]
+      ],
+      "Total 1": [
+        [
+          "0.5 Over",
+          1.059
+        ],
+        [
+          "0.5 Under",
+          7.0
+        ],
+        [
+          "1 Over",
+          1.119
+        ],
+        [
+          "1 Under",
+          5.4
+        ],
+        [
+          "1.5 Over",
+          1.53
+        ],
+        [
+          "1.5 Under",
+          2.41
+        ],
+        [
+          "2 Over",
+          1.99
+        ],
+        [
+          "2 Under",
+          1.79
+        ],
+        [
+          "2.5 Over",
+          2.68
+        ],
+        [
+          "2.5 Under",
+          1.44
+        ],
+        [
+          "3 Over",
+          4.6
+        ],
+        [
+          "3 Under",
+          1.161
+        ]
+      ],
+      "Tim Asia Total 1": [
+        [
+          "1.25 Over",
+          1.33
+        ],
+        [
+          "1.25 Under",
+          3.1
+        ],
+        [
+          "1.75 Over",
+          1.7
+        ],
+        [
+          "1.75 Under",
+          2.11
+        ],
+        [
+          "2.25 Over",
+          2.35
+        ],
+        [
+          "2.25 Under",
+          1.57
+        ],
+        [
+          "2.75 Over",
+          3.28
+        ],
+        [
+          "2.75 Under",
+          1.3
+        ]
+      ],
+      "Total 2": [
+        [
+          "0.5 Over",
+          1.63
+        ],
+        [
+          "0.5 Under",
+          2.11
+        ],
+        [
+          "1 Over",
+          2.875
+        ],
+        [
+          "1 Under",
+          1.4
+        ],
+        [
+          "1.5 Over",
+          4.45
+        ],
+        [
+          "1.5 Under",
+          1.188
+        ],
+        [
+          "2 Over",
+          12.7
+        ],
+        [
+          "2 Under",
+          1.005
+        ]
+      ],
+      "Tim Asia Total 2": [
+        [
+          "0.75 Over",
+          1.99
+        ],
+        [
+          "0.75 Under",
+          1.79
+        ],
+        [
+          "1.25 Over",
+          3.64
+        ],
+        [
+          "1.25 Under",
+          1.27
+        ],
+        [
+          "1.75 Over",
+          6.25
+        ],
+        [
+          "1.75 Under",
+          1.094
+        ]
+      ]
+    }
+  },
+  "raw_groups": {
+    "1x2": [
+      [
+        "M1",
+        1.44
+      ],
+      [
+        "X",
+        4.5
+      ],
+      [
+        "M2",
+        6.64
+      ]
+    ],
+    "Double Chance": [
+      [
+        "1X",
+        1.086
+      ],
+      [
+        "12",
+        1.178
+      ],
+      [
+        "2X",
+        2.69
+      ]
+    ],
+    "Kedua Tim Mencetak Skor": [
+      [
+        "Ya",
+        1.83
+      ],
+      [
+        "Tidak",
+        1.874
+      ],
+      [
+        "Tiap Tim Mencetak 2 Atau Lebih - Ya",
+        6.5
+      ],
+      [
+        "Tiap Tim Mencetak 2 Atau Lebih - Tidak",
+        1.071
+      ]
+    ],
+    "Peluang Ganda + Kedua Tim Mencetak Skor": [
+      [
+        "1X Dan Kedua Tim Mencetak Skor - Ya",
+        2.186
+      ],
+      [
+        "12 Dan Kedua Tim Mencetak Skor - Ya",
+        2.644
+      ],
+      [
+        "2X Dan Kedua Tim Mencetak Skor - Ya",
+        4.355
+      ],
+      [
+        "1X Dan Kedua Tim Mencetak Skor - Tidak",
+        1.634
+      ],
+      [
+        "12 Dan Kedua Tim Mencetak Skor - Tidak",
+        1.447
+      ],
+      [
+        "2X Dan Kedua Tim Mencetak Skor - Tidak",
+        1.19
+      ],
+      [
+        "1X + Masing-Masing Tim Mencetak 2 Atau Lebih - Ya",
+        8.45
+      ],
+      [
+        "12 + Masing-Masing Tim Mencetak 2 Atau Lebih - Ya",
+        12.1
+      ],
+      [
+        "2X + Masing-Masing Tim Mencetak 2 Atau Lebih - Ya",
+        13.9
+      ],
+      [
+        "1X + Masing-Masing Tim Mencetak 2 Atau Lebih - Tidak",
+        1.051
+      ],
+      [
+        "12 + Masing-Masing Tim Mencetak 2 Atau Lebih - Tidak",
+        1.013
+      ]
+    ],
+    "Total": [
+      [
+        "0.5 Over",
+        1.01
+      ],
+      [
+        "0.5 Under",
+        11.5
+      ],
+      [
+        "1 Over",
+        1.03
+      ],
+      [
+        "1 Under",
+        8.3
+      ],
+      [
+        "1.5 Over",
+        1.168
+      ],
+      [
+        "1.5 Under",
+        4.05
+      ],
+      [
+        "2 Over",
+        1.28
+      ],
+      [
+        "2 Under",
+        3.24
+      ],
+      [
+        "2.5 Over",
+        1.7
+      ],
+      [
+        "2.5 Under",
+        2.11
+      ],
+      [
+        "3 Over",
+        2.11
+      ],
+      [
+        "3 Under",
+        1.62
+      ],
+      [
+        "3.5 Over",
+        2.64
+      ],
+      [
+        "3.5 Under",
+        1.38
+      ],
+      [
+        "4 Over",
+        4.2
+      ],
+      [
+        "4 Under",
+        1.154
+      ],
+      [
+        "4.5 Over",
+        4.9
+      ],
+      [
+        "4.5 Under",
+        1.109
+      ],
+      [
+        "5 Over",
+        9.0
+      ],
+      [
+        "5 Under",
+        1.005
+      ],
+      [
+        "5.5 Over",
+        10.0
+      ],
+      [
+        "5.5 Under",
+        1.01
+      ]
+    ],
+    "Total Asia": [
+      [
+        "1.25 Over",
+        1.076
+      ],
+      [
+        "1.25 Under",
+        5.76
+      ],
+      [
+        "1.75 Over",
+        1.228
+      ],
+      [
+        "1.75 Under",
+        3.625
+      ],
+      [
+        "2.25 Over",
+        1.512
+      ],
+      [
+        "2.25 Under",
+        2.494
+      ],
+      [
+        "2.75 Over",
+        1.869
+      ],
+      [
+        "2.75 Under",
+        1.897
+      ],
+      [
+        "3.25 Over",
+        2.36
+      ],
+      [
+        "3.25 Under",
+        1.471
+      ],
+      [
+        "3.75 Over",
+        3.14
+      ],
+      [
+        "3.75 Under",
+        1.271
+      ],
+      [
+        "4.25 Over",
+        4.545
+      ],
+      [
+        "4.25 Under",
+        1.129
+      ],
+      [
+        "4.75 Over",
+        6.25
+      ],
+      [
+        "4.75 Under",
+        1.057
+      ]
+    ],
+    "Handicap": [
+      [
+        "1 (-3.5)",
+        8.3
+      ],
+      [
+        "2 (+3.5)",
+        1.015
+      ],
+      [
+        "1 (-3)",
+        7.5
+      ],
+      [
+        "2 (+3)",
+        1.029
+      ],
+      [
+        "1 (-2.5)",
+        4.0
+      ],
+      [
+        "2 (+2.5)",
+        1.168
+      ],
+      [
+        "1 (-2)",
+        3.28
+      ],
+      [
+        "2 (+2)",
+        1.26
+      ],
+      [
+        "1 (-1.5)",
+        2.25
+      ],
+      [
+        "2 (+1.5)",
+        1.6
+      ],
+      [
+        "1 (-1)",
+        1.66
+      ],
+      [
+        "2 (+1)",
+        2.02
+      ],
+      [
+        "1 (0)",
+        1.103
+      ],
+      [
+        "2 (0)",
+        5.05
+      ]
+    ],
+    "Handicap Asia": [
+      [
+        "1 (-3.25)",
+        7.9
+      ],
+      [
+        "2 (+3.25)",
+        1.022
+      ],
+      [
+        "1 (-2.75)",
+        5.14
+      ],
+      [
+        "2 (+2.75)",
+        1.097
+      ],
+      [
+        "1 (-2.25)",
+        3.615
+      ],
+      [
+        "2 (+2.25)",
+        1.216
+      ],
+      [
+        "1 (-1.75)",
+        2.627
+      ],
+      [
+        "2 (+1.75)",
+        1.452
+      ],
+      [
+        "1 (-1.25)",
+        1.972
+      ],
+      [
+        "2 (+1.25)",
+        1.778
+      ],
+      [
+        "1 (-0.75)",
+        1.49
+      ],
+      [
+        "2 (+0.75)",
+        2.31
+      ],
+      [
+        "1 (-0.25)",
+        1.241
+      ],
+      [
+        "2 (+0.25)",
+        3.34
+      ],
+      [
+        "1 (+0.25)",
+        1.087
+      ],
+      [
+        "2 (-0.25)",
+        5.4
+      ]
+    ],
+    "Total 1": [
+      [
+        "0.5 Over",
+        1.059
+      ],
+      [
+        "0.5 Under",
+        7.0
+      ],
+      [
+        "1 Over",
+        1.119
+      ],
+      [
+        "1 Under",
+        5.4
+      ],
+      [
+        "1.5 Over",
+        1.53
+      ],
+      [
+        "1.5 Under",
+        2.41
+      ],
+      [
+        "2 Over",
+        1.99
+      ],
+      [
+        "2 Under",
+        1.79
+      ],
+      [
+        "2.5 Over",
+        2.68
+      ],
+      [
+        "2.5 Under",
+        1.44
+      ],
+      [
+        "3 Over",
+        4.6
+      ],
+      [
+        "3 Under",
+        1.161
+      ]
+    ],
+    "Tim Asia Total 1": [
+      [
+        "1.25 Over",
+        1.33
+      ],
+      [
+        "1.25 Under",
+        3.1
+      ],
+      [
+        "1.75 Over",
+        1.7
+      ],
+      [
+        "1.75 Under",
+        2.11
+      ],
+      [
+        "2.25 Over",
+        2.35
+      ],
+      [
+        "2.25 Under",
+        1.57
+      ],
+      [
+        "2.75 Over",
+        3.28
+      ],
+      [
+        "2.75 Under",
+        1.3
+      ]
+    ],
+    "Total 2": [
+      [
+        "0.5 Over",
+        1.63
+      ],
+      [
+        "0.5 Under",
+        2.11
+      ],
+      [
+        "1 Over",
+        2.875
+      ],
+      [
+        "1 Under",
+        1.4
+      ],
+      [
+        "1.5 Over",
+        4.45
+      ],
+      [
+        "1.5 Under",
+        1.188
+      ],
+      [
+        "2 Over",
+        12.7
+      ],
+      [
+        "2 Under",
+        1.005
+      ]
+    ],
+    "Tim Asia Total 2": [
+      [
+        "0.75 Over",
+        1.99
+      ],
+      [
+        "0.75 Under",
+        1.79
+      ],
+      [
+        "1.25 Over",
+        3.64
+      ],
+      [
+        "1.25 Under",
+        1.27
+      ],
+      [
+        "1.75 Over",
+        6.25
+      ],
+      [
+        "1.75 Under",
+        1.094
+      ]
+    ],
+    "Gol Berikutnya": [
+      [
+        "Tim 1 Mencetak Gol 1",
+        1.35
+      ],
+      [
+        "Tim 2 Mencetak Gol 1",
+        3.34
+      ],
+      [
+        "Tidak Ada Gol 1",
+        11.5
+      ],
+      [
+        "Tim 1 Mencetak Gol 2",
+        1.67
+      ],
+      [
+        "Tim 2 Mencetak Gol 2",
+        3.55
+      ],
+      [
+        "Tidak Ada Gol 2",
+        4.05
+      ],
+      [
+        "Tim 1 Mencetak Gol 3",
+        2.35
+      ],
+      [
+        "Tim 2 Mencetak Gol 3",
+        4.8
+      ],
+      [
+        "Tidak Ada Gol 3",
+        2.11
+      ],
+      [
+        "Tim 1 Mencetak Gol 4",
+        3.45
+      ],
+      [
+        "Tim 2 Mencetak Gol 4",
+        7.0
+      ],
+      [
+        "Tidak Ada Gol 4",
+        1.38
+      ],
+      [
+        "Tim 1 Mencetak Gol 5",
+        6.3
+      ],
+      [
+        "Tim 2 Mencetak Gol 5",
+        10.0
+      ],
+      [
+        "Tidak Ada Gol 5",
+        1.109
+      ]
+    ],
+    "Tebak Skor (17Way)": [
+      [
+        "Tebak Skor 1-0 (17Pilihan)",
+        7.0
+      ],
+      [
+        "Tebak Skor 0-0 (17Pilihan)",
+        11.5
+      ],
+      [
+        "Tebak Skor 0-1 (17Pilihan)",
+        15.0
+      ],
+      [
+        "Tebak Skor 2-0 (17Pilihan)",
+        6.5
+      ],
+      [
+        "Tebak Skor 1-1 (17Pilihan)",
+        8.0
+      ],
+      [
+        "Tebak Skor 0-2 (17Pilihan)",
+        31.0
+      ],
+      [
+        "Tebak Skor 2-1 (17Pilihan)",
+        7.5
+      ],
+      [
+        "Tebak Skor 2-2 (17Pilihan)",
+        15.0
+      ],
+      [
+        "Tebak Skor 1-2 (17Pilihan)",
+        15.0
+      ],
+      [
+        "Tebak Skor 3-0 (17Pilihan)",
+        10.0
+      ],
+      [
+        "Tebak Skor 3-3 (17Pilihan)",
+        65.0
+      ],
+      [
+        "Tebak Skor 0-3 (17Pilihan)",
+        100.0
+      ],
+      [
+        "Tebak Skor 3-1 (17Pilihan)",
+        11.0
+      ],
+      [
+        "Tebak Skor Setelah 3-3 - Lainnya Apa Saja",
+        5.6
+      ],
+      [
+        "Tebak Skor 1-3 (17Pilihan)",
+        60.0
+      ],
+      [
+        "Tebak Skor 3-2 (17Pilihan)",
+        26.0
+      ],
+      [
+        "Tebak Skor 2-3 (17Pilihan)",
+        55.0
+      ]
+    ],
+    "Tebak Skor Yang Benar": [
+      [
+        "1-0",
+        7.0
+      ],
+      [
+        "0-0",
+        11.5
+      ],
+      [
+        "0-1",
+        15.0
+      ],
+      [
+        "2-0",
+        6.5
+      ],
+      [
+        "1-1",
+        8.0
+      ],
+      [
+        "0-2",
+        31.0
+      ],
+      [
+        "2-1",
+        7.5
+      ],
+      [
+        "2-2",
+        15.0
+      ],
+      [
+        "1-2",
+        15.0
+      ],
+      [
+        "3-0",
+        10.0
+      ],
+      [
+        "3-3",
+        65.0
+      ],
+      [
+        "0-3",
+        100.0
+      ],
+      [
+        "3-1",
+        11.0
+      ],
+      [
+        "4-4",
+        100.0
+      ],
+      [
+        "1-3",
+        60.0
+      ],
+      [
+        "3-2",
+        26.0
+      ],
+      [
+        "5-5",
+        100.0
+      ],
+      [
+        "2-3",
+        55.0
+      ],
+      [
+        "4-0",
+        15.0
+      ],
+      [
+        "6-6",
+        100.0
+      ],
+      [
+        "0-4",
+        100.0
+      ],
+      [
+        "4-1",
+        18.0
+      ],
+      [
+        "7-7",
+        100.0
+      ],
+      [
+        "1-4",
+        100.0
+      ],
+      [
+        "4-2",
+        41.0
+      ],
+      [
+        "8-8",
+        100.0
+      ],
+      [
+        "2-4",
+        100.0
+      ],
+      [
+        "4-3",
+        100.0
+      ],
+      [
+        "9-9",
+        100.0
+      ],
+      [
+        "3-4",
+        100.0
+      ],
+      [
+        "5-0",
+        36.0
+      ],
+      [
+        "10-10",
+        100.0
+      ],
+      [
+        "0-5",
+        100.0
+      ],
+      [
+        "5-1",
+        46.0
+      ],
+      [
+        "Tebak Skor Benar - Skor Lainnya Apa Saja",
+        15.0
+      ],
+      [
+        "1-5",
+        100.0
+      ],
+      [
+        "5-2",
+        100.0
+      ],
+      [
+        "2-5",
+        100.0
+      ],
+      [
+        "5-3",
+        100.0
+      ],
+      [
+        "3-5",
+        100.0
+      ],
+      [
+        "5-4",
+        100.0
+      ],
+      [
+        "4-5",
+        100.0
+      ],
+      [
+        "6-0",
+        80.0
+      ],
+      [
+        "0-6",
+        100.0
+      ],
+      [
+        "6-1",
+        100.0
+      ],
+      [
+        "1-6",
+        100.0
+      ],
+      [
+        "6-2",
+        100.0
+      ],
+      [
+        "2-6",
+        100.0
+      ],
+      [
+        "6-3",
+        100.0
+      ],
+      [
+        "3-6",
+        100.0
+      ],
+      [
+        "6-4",
+        100.0
+      ],
+      [
+        "4-6",
+        100.0
+      ],
+      [
+        "6-5",
+        100.0
+      ],
+      [
+        "5-6",
+        100.0
+      ],
+      [
+        "7-0",
+        100.0
+      ],
+      [
+        "0-7",
+        100.0
+      ],
+      [
+        "7-1",
+        100.0
+      ],
+      [
+        "1-7",
+        100.0
+      ],
+      [
+        "7-2",
+        100.0
+      ],
+      [
+        "2-7",
+        100.0
+      ],
+      [
+        "7-3",
+        100.0
+      ],
+      [
+        "3-7",
+        100.0
+      ],
+      [
+        "7-4",
+        100.0
+      ],
+      [
+        "4-7",
+        100.0
+      ],
+      [
+        "7-5",
+        100.0
+      ],
+      [
+        "5-7",
+        100.0
+      ],
+      [
+        "7-6",
+        100.0
+      ],
+      [
+        "6-7",
+        100.0
+      ],
+      [
+        "8-0",
+        100.0
+      ],
+      [
+        "0-8",
+        100.0
+      ],
+      [
+        "8-1",
+        100.0
+      ],
+      [
+        "1-8",
+        100.0
+      ],
+      [
+        "8-2",
+        100.0
+      ],
+      [
+        "2-8",
+        100.0
+      ],
+      [
+        "8-3",
+        100.0
+      ],
+      [
+        "3-8",
+        100.0
+      ],
+      [
+        "8-4",
+        100.0
+      ],
+      [
+        "4-8",
+        100.0
+      ],
+      [
+        "8-5",
+        100.0
+      ],
+      [
+        "5-8",
+        100.0
+      ],
+      [
+        "8-6",
+        100.0
+      ],
+      [
+        "6-8",
+        100.0
+      ],
+      [
+        "8-7",
+        100.0
+      ],
+      [
+        "7-8",
+        100.0
+      ],
+      [
+        "9-0",
+        100.0
+      ],
+      [
+        "0-9",
+        100.0
+      ],
+      [
+        "9-1",
+        100.0
+      ],
+      [
+        "1-9",
+        100.0
+      ],
+      [
+        "9-2",
+        100.0
+      ],
+      [
+        "2-9",
+        100.0
+      ],
+      [
+        "9-3",
+        100.0
+      ],
+      [
+        "3-9",
+        100.0
+      ],
+      [
+        "9-4",
+        100.0
+      ],
+      [
+        "4-9",
+        100.0
+      ],
+      [
+        "9-5",
+        100.0
+      ],
+      [
+        "5-9",
+        100.0
+      ],
+      [
+        "9-6",
+        100.0
+      ],
+      [
+        "6-9",
+        100.0
+      ],
+      [
+        "9-7",
+        100.0
+      ],
+      [
+        "7-9",
+        100.0
+      ],
+      [
+        "9-8",
+        100.0
+      ],
+      [
+        "8-9",
+        100.0
+      ],
+      [
+        "10-0",
+        100.0
+      ],
+      [
+        "0-10",
+        100.0
+      ],
+      [
+        "10-1",
+        100.0
+      ],
+      [
+        "1-10",
+        100.0
+      ],
+      [
+        "10-2",
+        100.0
+      ],
+      [
+        "2-10",
+        100.0
+      ],
+      [
+        "10-3",
+        100.0
+      ],
+      [
+        "3-10",
+        100.0
+      ],
+      [
+        "10-4",
+        100.0
+      ],
+      [
+        "4-10",
+        100.0
+      ],
+      [
+        "10-5",
+        100.0
+      ],
+      [
+        "5-10",
+        100.0
+      ],
+      [
+        "10-6",
+        100.0
+      ],
+      [
+        "6-10",
+        100.0
+      ],
+      [
+        "10-7",
+        100.0
+      ],
+      [
+        "7-10",
+        100.0
+      ],
+      [
+        "10-8",
+        100.0
+      ],
+      [
+        "8-10",
+        100.0
+      ],
+      [
+        "10-9",
+        100.0
+      ],
+      [
+        "9-10",
+        100.0
+      ]
+    ],
+    "1x2. Babak pertama": [
+      [
+        "M1",
+        1.929
+      ],
+      [
+        "X",
+        2.375
+      ],
+      [
+        "M2",
+        6.38
+      ]
+    ],
+    "Double Chance. Babak pertama": [
+      [
+        "1X",
+        1.06
+      ],
+      [
+        "12",
+        1.47
+      ],
+      [
+        "2X",
+        1.727
+      ]
+    ],
+    "Kedua Tim Mencetak Skor. Babak pertama": [
+      [
+        "Ya",
+        4.6
+      ],
+      [
+        "Tidak",
+        1.158
+      ]
+    ],
+    "Peluang Ganda + Kedua Tim Mencetak Skor. Babak pertama": [
+      [
+        "1X Dan Kedua Tim Mencetak Skor - Ya",
+        5.62
+      ],
+      [
+        "12 Dan Kedua Tim Mencetak Skor - Ya",
+        11.0
+      ],
+      [
+        "2X Dan Kedua Tim Mencetak Skor - Ya",
+        7.5
+      ],
+      [
+        "1X Dan Kedua Tim Mencetak Skor - Tidak",
+        1.121
+      ],
+      [
+        "12 Dan Kedua Tim Mencetak Skor - Tidak",
+        1.021
+      ],
+      [
+        "2X Dan Kedua Tim Mencetak Skor - Tidak",
+        1.068
+      ]
+    ],
+    "Total. Babak pertama": [
+      [
+        "0.5 Over",
+        1.3
+      ],
+      [
+        "0.5 Under",
+        3.22
+      ],
+      [
+        "1 Over",
+        1.65
+      ],
+      [
+        "1 Under",
+        2.16
+      ],
+      [
+        "1.5 Over",
+        2.5
+      ],
+      [
+        "1.5 Under",
+        1.47
+      ],
+      [
+        "2 Over",
+        4.8
+      ],
+      [
+        "2 Under",
+        1.131
+      ],
+      [
+        "2.5 Over",
+        5.95
+      ],
+      [
+        "2.5 Under",
+        1.068
+      ],
+      [
+        "3.5 Over",
+        12.0
+      ],
+      [
+        "3.5 Under",
+        1.02
+      ],
+      [
+        "4.5 Over",
+        50.0
+      ]
+    ],
+    "Total Asia. Babak pertama": [
+      [
+        "0.75 Over",
+        1.412
+      ],
+      [
+        "0.75 Under",
+        2.686
+      ],
+      [
+        "1.25 Over",
+        2.059
+      ],
+      [
+        "1.25 Under",
+        1.681
+      ],
+      [
+        "1.75 Over",
+        3.13
+      ],
+      [
+        "1.75 Under",
+        1.293
+      ],
+      [
+        "2.25 Over",
+        5.37
+      ],
+      [
+        "2.25 Under",
+        1.089
+      ]
+    ],
+    "Handicap. Babak pertama": [
+      [
+        "1 (-2)",
+        10.5
+      ],
+      [
+        "2 (+2)",
+        1.01
+      ],
+      [
+        "1 (-1.5)",
+        4.95
+      ],
+      [
+        "2 (+1.5)",
+        1.123
+      ],
+      [
+        "1 (-1)",
+        3.56
+      ],
+      [
+        "2 (+1)",
+        1.24
+      ],
+      [
+        "1 (0)",
+        1.189
+      ],
+      [
+        "2 (0)",
+        3.88
+      ]
+    ],
+    "Handicap Asia. Babak pertama": [
+      [
+        "1 (-1.75)",
+        7.01
+      ],
+      [
+        "2 (+1.75)",
+        1.053
+      ],
+      [
+        "1 (-1.25)",
+        4.295
+      ],
+      [
+        "2 (+1.25)",
+        1.17
+      ],
+      [
+        "1 (-0.75)",
+        2.35
+      ],
+      [
+        "2 (+0.75)",
+        1.51
+      ],
+      [
+        "1 (-0.25)",
+        1.552
+      ],
+      [
+        "2 (+0.25)",
+        2.199
+      ]
+    ],
+    "Total 1. Babak pertama": [
+      [
+        "0.5 Over",
+        1.56
+      ],
+      [
+        "0.5 Under",
+        2.27
+      ],
+      [
+        "1 Over",
+        2.43
+      ],
+      [
+        "1 Under",
+        1.49
+      ],
+      [
+        "1.5 Over",
+        3.7
+      ],
+      [
+        "1.5 Under",
+        1.22
+      ],
+      [
+        "2 Over",
+        8.8
+      ],
+      [
+        "2 Under",
+        1.02
+      ]
+    ],
+    "Tim Asia Total 1. Babak pertama": [
+      [
+        "0.75 Over",
+        1.8
+      ],
+      [
+        "0.75 Under",
+        1.88
+      ],
+      [
+        "1.25 Over",
+        3.14
+      ],
+      [
+        "1.25 Under",
+        1.3
+      ]
+    ],
+    "Total 2. Babak pertama": [
+      [
+        "0.5 Over",
+        2.85
+      ],
+      [
+        "0.5 Under",
+        1.37
+      ],
+      [
+        "1 Over",
+        9.1
+      ],
+      [
+        "1 Under",
+        1.02
+      ]
+    ],
+    "Tim Asia Total 2. Babak pertama": [
+      [
+        "0.75 Over",
+        4.25
+      ],
+      [
+        "0.75 Under",
+        1.173
+      ]
+    ],
+    "Gol Berikutnya. Babak pertama": [
+      [
+        "Tim 1 Mencetak Gol 1",
+        1.77
+      ],
+      [
+        "Tim 2 Mencetak Gol 1",
+        4.4
+      ],
+      [
+        "Tidak Ada Gol 1",
+        3.22
+      ]
+    ],
+    "Tebak Skor (17Way). Babak pertama": [
+      [
+        "Tebak Skor 1-0 (17Pilihan)",
+        3.4
+      ],
+      [
+        "Tebak Skor 0-0 (17Pilihan)",
+        3.22
+      ],
+      [
+        "Tebak Skor 0-1 (17Pilihan)",
+        8.0
+      ],
+      [
+        "Tebak Skor 2-0 (17Pilihan)",
+        7.0
+      ],
+      [
+        "Tebak Skor 1-1 (17Pilihan)",
+        9.0
+      ],
+      [
+        "Tebak Skor 0-2 (17Pilihan)",
+        34.0
+      ],
+      [
+        "Tebak Skor 2-1 (17Pilihan)",
+        19.0
+      ],
+      [
+        "Tebak Skor 2-2 (17Pilihan)",
+        50.0
+      ],
+      [
+        "Tebak Skor 1-2 (17Pilihan)",
+        41.0
+      ],
+      [
+        "Tebak Skor 3-0 (17Pilihan)",
+        21.0
+      ],
+      [
+        "Tebak Skor 3-3 (17Pilihan)",
+        100.0
+      ],
+      [
+        "Tebak Skor 0-3 (17Pilihan)",
+        100.0
+      ],
+      [
+        "Tebak Skor 3-1 (17Pilihan)",
+        41.0
+      ],
+      [
+        "Tebak Skor Setelah 3-3 - Lainnya Apa Saja",
+        15.0
+      ],
+      [
+        "Tebak Skor 1-3 (17Pilihan)",
+        100.0
+      ],
+      [
+        "Tebak Skor 3-2 (17Pilihan)",
+        100.0
+      ],
+      [
+        "Tebak Skor 2-3 (17Pilihan)",
+        100.0
+      ]
+    ],
+    "Tebak Skor Yang Benar. Babak pertama": [
+      [
+        "1-0",
+        3.4
+      ],
+      [
+        "0-0",
+        3.22
+      ],
+      [
+        "0-1",
+        8.0
+      ],
+      [
+        "2-0",
+        7.0
+      ],
+      [
+        "1-1",
+        9.0
+      ],
+      [
+        "0-2",
+        34.0
+      ],
+      [
+        "2-1",
+        19.0
+      ],
+      [
+        "2-2",
+        50.0
+      ],
+      [
+        "1-2",
+        41.0
+      ],
+      [
+        "3-0",
+        21.0
+      ],
+      [
+        "3-3",
+        100.0
+      ],
+      [
+        "0-3",
+        100.0
+      ],
+      [
+        "3-1",
+        41.0
+      ],
+      [
+        "4-4",
+        100.0
+      ],
+      [
+        "1-3",
+        100.0
+      ],
+      [
+        "3-2",
+        100.0
+      ],
+      [
+        "5-5",
+        100.0
+      ],
+      [
+        "2-3",
+        100.0
+      ],
+      [
+        "4-0",
+        50.0
+      ],
+      [
+        "Tebak Skor Benar - Skor Lainnya Apa Saja",
+        15.0
+      ],
+      [
+        "0-4",
+        100.0
+      ],
+      [
+        "4-1",
+        100.0
+      ],
+      [
+        "1-4",
+        100.0
+      ],
+      [
+        "4-2",
+        100.0
+      ],
+      [
+        "2-4",
+        100.0
+      ],
+      [
+        "4-3",
+        100.0
+      ],
+      [
+        "3-4",
+        100.0
+      ],
+      [
+        "5-0",
+        100.0
+      ],
+      [
+        "0-5",
+        100.0
+      ],
+      [
+        "5-1",
+        100.0
+      ],
+      [
+        "1-5",
+        100.0
+      ],
+      [
+        "5-2",
+        100.0
+      ],
+      [
+        "2-5",
+        100.0
+      ],
+      [
+        "5-3",
+        100.0
+      ],
+      [
+        "3-5",
+        100.0
+      ],
+      [
+        "5-4",
+        100.0
+      ],
+      [
+        "4-5",
+        100.0
+      ]
+    ],
+    "1, Hasil + Total. Babak pertama": [
+      [
+        "M1 Dan TU 1.5 - Ya",
+        3.4
+      ],
+      [
+        "M1 Dan TU 1.5 - Tidak",
+        1.26
+      ],
+      [
+        "M1 Dan TO 1.5 - Ya",
+        4.0
+      ],
+      [
+        "M1 Dan TO 1.5 - Tidak",
+        1.194
+      ],
+      [
+        "1X Dan TU 1.5 - Ya",
+        1.727
+      ],
+      [
+        "1X Dan TU 1.5 - Tidak",
+        1.97
+      ],
+      [
+        "1X Dan TO 1.5 - Ya",
+        2.76
+      ],
+      [
+        "1X Dan TO 1.5 - Tidak",
+        1.38
+      ]
+    ],
+    "2, Hasil +Total. Babak pertama": [
+      [
+        "M2 Dan TU 1.5 - Ya",
+        7.5
+      ],
+      [
+        "M2 Dan TU 1.5 - Tidak",
+        1.05
+      ],
+      [
+        "M2 Dan TO 1.5 - Ya",
+        21.0
+      ],
+      [
+        "M2 Dan TO 1.5 - Tidak",
+        1.03
+      ],
+      [
+        "2X Dan TU 1.5 - Ya",
+        2.4
+      ],
+      [
+        "2X Dan TU 1.5 - Tidak",
+        1.49
+      ],
+      [
+        "2X Dan TO 1.5 - Ya",
+        5.85
+      ],
+      [
+        "2X Dan TO 1.5 - Tidak",
+        1.091
+      ],
+      [
+        "M2 Dan TU 2.5 - Ya",
+        7.1
+      ],
+      [
+        "M2 Dan TU 2.5 - Tidak",
+        1.056
+      ]
+    ],
+    "Total Even. Babak pertama": [
+      [
+        "Ya",
+        1.72
+      ],
+      [
+        "Tidak",
+        1.98
+      ]
+    ],
+    "Handicap Eropa. Babak pertama": [
+      [
+        "0:1 M1",
+        4.95
+      ],
+      [
+        "0:2 X",
+        4.3
+      ],
+      [
+        "0:1 M2",
+        1.727
+      ],
+      [
+        "0:1 X",
+        3.04
+      ]
+    ],
+    "3 Pilihan Total. Babak pertama": [
+      [
+        "Over 1",
+        2.5
+      ],
+      [
+        "Tepat 1",
+        2.54
+      ],
+      [
+        "Under 1",
+        3.22
+      ],
+      [
+        "Over 2",
+        5.95
+      ],
+      [
+        "Tepat 2",
+        3.96
+      ],
+      [
+        "Under 2",
+        1.47
+      ]
+    ],
+    "Individual 3Pilihan Total 1. Babak pertama": [
+      [
+        "Over 1",
+        3.84
+      ],
+      [
+        "Tepat 1",
+        2.43
+      ],
+      [
+        "Under 1",
+        2.31
+      ]
+    ],
+    "Individual 3PIlihan Total 2. Babak pertama": [
+      [
+        "Over 1",
+        7.2
+      ],
+      [
+        "Tepat 1",
+        2.7
+      ],
+      [
+        "Under 1",
+        1.35
+      ]
+    ],
+    "Tim Yang Mencetak Gol Terakhir. Babak pertama": [
+      [
+        "Tim 1",
+        1.77
+      ],
+      [
+        "Tim 2",
+        4.4
+      ],
+      [
+        "Tidak Ada Gol",
+        3.22
+      ]
+    ],
+    "Ada Tim Yang Menang Dengan Lawan Tanpa Gol. Babak pertama": [
+      [
+        "Ya",
+        1.72
+      ],
+      [
+        "Tidak",
+        2.0
+      ]
+    ],
+    "Seri +Total. Babak pertama": [
+      [
+        "X Dan TU 1.5 - Ya",
+        3.22
+      ],
+      [
+        "X Dan TU 1.5 - Tidak",
+        1.3
+      ],
+      [
+        "X Dan TO 1.5 - Ya",
+        7.7
+      ],
+      [
+        "X Dan TO 1.5 - Tidak",
+        1.044
+      ]
+    ],
+    "Tim 1 Menang dengan Lawan Tanpa Gol. Babak pertama": [
+      [
+        "Ya",
+        2.12
+      ],
+      [
+        "Tidak",
+        1.64
+      ]
+    ],
+    "Tim 2 Menang dengan Lawan Tanpa Gol. Babak pertama": [
+      [
+        "Ya",
+        6.6
+      ],
+      [
+        "Tidak",
+        1.08
+      ]
+    ],
+    "M1 + Total 1. Babak pertama": [
+      [
+        "M1 Dan Total 1 Over 1.5 - Ya",
+        4.0
+      ],
+      [
+        "M1 Dan Total 1 Over 1.5 - Tidak",
+        1.194
+      ],
+      [
+        "M1 Dan Total 1 Under 1.5 - Ya",
+        3.4
+      ],
+      [
+        "M1 Dan Total 1 Under 1.5 - Tidak",
+        1.26
+      ]
+    ],
+    "M2 + Total 2. Babak pertama": [
+      [
+        "M2 Dan Total 2 Over 1.5 - Ya",
+        21.0
+      ],
+      [
+        "M2 Dan Total 2 Over 1.5 - Tidak",
+        1.03
+      ],
+      [
+        "M2 Dan Total 2 Under 1.5 - Ya",
+        7.5
+      ],
+      [
+        "M2 Dan Total 2 Under 1.5 - Tidak",
+        1.05
+      ]
+    ],
+    "Total 1 Jumlah Gol Tepat. Babak pertama": [
+      [
+        "0",
+        2.31
+      ],
+      [
+        "Tim 1 Total - 2 Atau Lebih Gol",
+        3.84
+      ],
+      [
+        "1",
+        2.43
+      ]
+    ],
+    "Total 2 Jumlah Gol Tepat. Babak pertama": [
+      [
+        "0",
+        1.35
+      ],
+      [
+        "Tim 2 Total - 2 Atau Lebih Gol",
+        15.0
+      ],
+      [
+        "1",
+        3.52
+      ]
+    ],
+    "Multi Gol. Babak pertama": [
+      [
+        "Multi Gol 0-1",
+        1.493
+      ],
+      [
+        "Multi Gol 0-2",
+        1.064
+      ],
+      [
+        "Multi Gol 1-2",
+        1.62
+      ]
+    ],
+    "Tim 1 Menang Babak Pertama Dengan Selisih. Babak pertama": [
+      [
+        "Dengan Tepat 1 Gol - Ya",
+        3.0
+      ]
+    ],
+    "Tim 2 Menang Babak Pertama Dengan Selisih. Babak pertama": [
+      [
+        "Dengan Tepat 1 Gol - Ya",
+        7.2
+      ]
+    ],
+    "Kedua Tim Mencetak Skor + Double Hasil. Babak pertama": [
+      [
+        "Minimal Satu Tim Tidak Mencetak Skor Dan 1X - Ya",
+        1.38
+      ],
+      [
+        "Minimal Satu Tim Tidak Mencetak Skor Dan 1X - Tidak",
+        2.8
+      ],
+      [
+        "Minimal Satu Tim Tidak Mencetak Skor Dan 2X - Ya",
+        2.45
+      ],
+      [
+        "Minimal Satu Tim Tidak Mencetak Skor Dan 2X - Tidak",
+        1.48
+      ]
+    ],
+    "2X + Tim 2 Total. Babak pertama": [
+      [
+        "2X Dan Over 1.5 - Ya",
+        10.5
+      ],
+      [
+        "2X Dan Over 1.5 - Tidak",
+        1.03
+      ],
+      [
+        "2X Dan Under 1.5 - Ya",
+        2.05
+      ],
+      [
+        "2X Dan Under 1.5 - Tidak",
+        1.68
+      ]
+    ],
+    "Jumlah Tepat. Babak pertama": [
+      [
+        "0 - Ya",
+        3.22
+      ],
+      [
+        "0 - Tidak",
+        1.27
+      ],
+      [
+        "1 - Ya",
+        2.54
+      ],
+      [
+        "1 - Tidak",
+        1.45
+      ],
+      [
+        "Dari 1 Ke 2 - Ya",
+        1.55
+      ],
+      [
+        "Dari 1 Ke 2 - Tidak",
+        2.3
+      ],
+      [
+        "2 - Ya",
+        3.96
+      ],
+      [
+        "2 - Tidak",
+        1.27
+      ],
+      [
+        "2 Atau Lebih Banyak - Ya",
+        2.5
+      ],
+      [
+        "Dari 2 Ke 3 - Ya",
+        2.75
+      ],
+      [
+        "Dari 2 Ke 3 - Tidak",
+        1.45
+      ],
+      [
+        "3 Atau Lebih Banyak - Ya",
+        5.95
+      ],
+      [
+        "3 Atau Lebih Banyak - Tidak",
+        1.11
+      ]
+    ],
+    "1X + Tim 1 Total. Babak pertama": [
+      [
+        "1X Dan Over 1.5 - Ya",
+        3.5
+      ],
+      [
+        "1X Dan Over 1.5 - Tidak",
+        1.25
+      ],
+      [
+        "1X Dan Under 1.5 - Ya",
+        1.5
+      ],
+      [
+        "1X Dan Under 1.5 - Tidak",
+        2.4
+      ]
+    ],
+    "1x2. Babak ke-2": [
+      [
+        "M1",
+        1.73
+      ],
+      [
+        "X",
+        2.84
+      ],
+      [
+        "M2",
+        6.06
+      ]
+    ],
+    "Double Chance. Babak ke-2": [
+      [
+        "1X",
+        1.068
+      ],
+      [
+        "12",
+        1.33
+      ],
+      [
+        "2X",
+        1.93
+      ]
+    ],
+    "Kedua Tim Mencetak Skor. Babak ke-2": [
+      [
+        "Ya",
+        3.4
+      ],
+      [
+        "Tidak",
+        1.271
+      ]
+    ],
+    "Peluang Ganda + Kedua Tim Mencetak Skor. Babak ke-2": [
+      [
+        "1X Dan Kedua Tim Mencetak Skor - Ya",
+        4.065
+      ],
+      [
+        "12 Dan Kedua Tim Mencetak Skor - Ya",
+        6.71
+      ],
+      [
+        "2X Dan Kedua Tim Mencetak Skor - Ya",
+        5.9
+      ],
+      [
+        "1X Dan Kedua Tim Mencetak Skor - Tidak",
+        1.214
+      ],
+      [
+        "12 Dan Kedua Tim Mencetak Skor - Tidak",
+        1.086
+      ],
+      [
+        "2X Dan Kedua Tim Mencetak Skor - Tidak",
+        1.111
+      ]
+    ],
+    "Total. Babak ke-2": [
+      [
+        "0.5 Over",
+        1.151
+      ],
+      [
+        "0.5 Under",
+        4.5
+      ],
+      [
+        "1 Over",
+        1.31
+      ],
+      [
+        "1 Under",
+        3.15
+      ],
+      [
+        "1.5 Over",
+        1.92
+      ],
+      [
+        "1.5 Under",
+        1.83
+      ],
+      [
+        "2 Over",
+        2.94
+      ],
+      [
+        "2 Under",
+        1.35
+      ],
+      [
+        "2.5 Over",
+        3.85
+      ],
+      [
+        "2.5 Under",
+        1.2
+      ]
+    ],
+    "Total Asia. Babak ke-2": [
+      [
+        "0.75 Over",
+        1.227
+      ],
+      [
+        "0.75 Under",
+        3.76
+      ],
+      [
+        "1.25 Over",
+        1.628
+      ],
+      [
+        "1.25 Under",
+        2.207
+      ],
+      [
+        "1.75 Over",
+        2.257
+      ],
+      [
+        "1.75 Under",
+        1.602
+      ],
+      [
+        "2.25 Over",
+        3.395
+      ],
+      [
+        "2.25 Under",
+        1.252
+      ]
+    ],
+    "Handicap. Babak ke-2": [
+      [
+        "1 (-2.5)",
+        8.5
+      ],
+      [
+        "2 (+2.5)",
+        1.04
+      ],
+      [
+        "1 (-2)",
+        8.2
+      ],
+      [
+        "2 (+2)",
+        1.017
+      ],
+      [
+        "1 (-1.5)",
+        3.65
+      ],
+      [
+        "2 (+1.5)",
+        1.22
+      ],
+      [
+        "1 (-1)",
+        2.64
+      ],
+      [
+        "2 (+1)",
+        1.41
+      ],
+      [
+        "1 (0)",
+        1.176
+      ],
+      [
+        "2 (0)",
+        4.05
+      ]
+    ],
+    "Handicap Asia. Babak ke-2": [
+      [
+        "1 (-1.75)",
+        4.97
+      ],
+      [
+        "2 (+1.75)",
+        1.12
+      ],
+      [
+        "1 (-1.25)",
+        3.195
+      ],
+      [
+        "2 (+1.25)",
+        1.29
+      ],
+      [
+        "1 (-0.75)",
+        2.02
+      ],
+      [
+        "2 (+0.75)",
+        1.69
+      ],
+      [
+        "1 (-0.25)",
+        1.444
+      ],
+      [
+        "2 (+0.25)",
+        2.47
+      ]
+    ],
+    "Total 1. Babak ke-2": [
+      [
+        "0.5 Over",
+        1.39
+      ],
+      [
+        "0.5 Under",
+        2.8
+      ],
+      [
+        "1 Over",
+        1.85
+      ],
+      [
+        "1 Under",
+        1.85
+      ],
+      [
+        "1.5 Over",
+        2.8
+      ],
+      [
+        "1.5 Under",
+        1.37
+      ],
+      [
+        "2 Over",
+        5.6
+      ],
+      [
+        "2 Under",
+        1.09
+      ],
+      [
+        "2.5 Over",
+        7.1
+      ],
+      [
+        "2.5 Under",
+        1.05
+      ]
+    ],
+    "Tim Asia Total 1. Babak ke-2": [
+      [
+        "0.75 Over",
+        1.49
+      ],
+      [
+        "0.75 Under",
+        2.4
+      ],
+      [
+        "1.25 Over",
+        2.28
+      ],
+      [
+        "1.25 Under",
+        1.54
+      ]
+    ],
+    "Total 2. Babak ke-2": [
+      [
+        "0.5 Over",
+        2.4
+      ],
+      [
+        "0.5 Under",
+        1.51
+      ],
+      [
+        "1 Over",
+        6.3
+      ],
+      [
+        "1 Under",
+        1.07
+      ],
+      [
+        "1.5 Over",
+        8.8
+      ],
+      [
+        "1.5 Under",
+        1.02
+      ]
+    ],
+    "Tim Asia Total 2. Babak ke-2": [
+      [
+        "0.75 Over",
+        3.34
+      ],
+      [
+        "0.75 Under",
+        1.27
+      ]
+    ],
+    "Gol Berikutnya. Babak ke-2": [
+      [
+        "Tim 1 Mencetak Gol 1",
+        1.59
+      ],
+      [
+        "Tim 2 Mencetak Gol 1",
+        3.94
+      ],
+      [
+        "Tidak Ada Gol 1",
+        4.5
+      ]
+    ],
+    "Tebak Skor (17Way). Babak ke-2": [
+      [
+        "Tebak Skor 1-0 (17Pilihan)",
+        3.7
+      ],
+      [
+        "Tebak Skor 0-0 (17Pilihan)",
+        4.5
+      ],
+      [
+        "Tebak Skor 0-1 (17Pilihan)",
+        9.5
+      ],
+      [
+        "Tebak Skor 2-0 (17Pilihan)",
+        6.0
+      ],
+      [
+        "Tebak Skor 1-1 (17Pilihan)",
+        7.5
+      ],
+      [
+        "Tebak Skor 0-2 (17Pilihan)",
+        30.0
+      ],
+      [
+        "Tebak Skor 2-1 (17Pilihan)",
+        12.0
+      ],
+      [
+        "Tebak Skor 2-2 (17Pilihan)",
+        40.0
+      ],
+      [
+        "Tebak Skor 1-2 (17Pilihan)",
+        27.0
+      ],
+      [
+        "Tebak Skor 3-0 (17Pilihan)",
+        14.0
+      ],
+      [
+        "Tebak Skor 3-3 (17Pilihan)",
+        100.0
+      ],
+      [
+        "Tebak Skor 0-3 (17Pilihan)",
+        80.0
+      ],
+      [
+        "Tebak Skor 3-1 (17Pilihan)",
+        28.0
+      ],
+      [
+        "Tebak Skor Setelah 3-3 - Lainnya Apa Saja",
+        15.0
+      ],
+      [
+        "Tebak Skor 1-3 (17Pilihan)",
+        80.0
+      ],
+      [
+        "Tebak Skor 3-2 (17Pilihan)",
+        80.0
+      ],
+      [
+        "Tebak Skor 2-3 (17Pilihan)",
+        80.0
+      ]
+    ],
+    "Tebak Skor Yang Benar. Babak ke-2": [
+      [
+        "1-0",
+        3.7
+      ],
+      [
+        "0-0",
+        4.5
+      ],
+      [
+        "0-1",
+        9.5
+      ],
+      [
+        "2-0",
+        6.0
+      ],
+      [
+        "1-1",
+        7.5
+      ],
+      [
+        "0-2",
+        30.0
+      ],
+      [
+        "2-1",
+        12.0
+      ],
+      [
+        "2-2",
+        40.0
+      ],
+      [
+        "1-2",
+        27.0
+      ],
+      [
+        "3-0",
+        14.0
+      ],
+      [
+        "3-3",
+        100.0
+      ],
+      [
+        "0-3",
+        80.0
+      ],
+      [
+        "3-1",
+        28.0
+      ],
+      [
+        "4-4",
+        100.0
+      ],
+      [
+        "1-3",
+        80.0
+      ],
+      [
+        "3-2",
+        80.0
+      ],
+      [
+        "5-5",
+        100.0
+      ],
+      [
+        "2-3",
+        80.0
+      ],
+      [
+        "4-0",
+        65.0
+      ],
+      [
+        "Tebak Skor Benar - Skor Lainnya Apa Saja",
+        15.0
+      ],
+      [
+        "0-4",
+        100.0
+      ],
+      [
+        "4-1",
+        100.0
+      ],
+      [
+        "1-4",
+        100.0
+      ],
+      [
+        "4-2",
+        100.0
+      ],
+      [
+        "2-4",
+        100.0
+      ],
+      [
+        "4-3",
+        100.0
+      ],
+      [
+        "3-4",
+        100.0
+      ],
+      [
+        "5-0",
+        100.0
+      ],
+      [
+        "0-5",
+        100.0
+      ],
+      [
+        "5-1",
+        100.0
+      ],
+      [
+        "1-5",
+        100.0
+      ],
+      [
+        "5-2",
+        100.0
+      ],
+      [
+        "2-5",
+        100.0
+      ],
+      [
+        "5-3",
+        100.0
+      ],
+      [
+        "3-5",
+        100.0
+      ],
+      [
+        "5-4",
+        100.0
+      ],
+      [
+        "4-5",
+        100.0
+      ]
+    ],
+    "1, Hasil + Total. Babak ke-2": [
+      [
+        "M1 Dan TU 1.5 - Ya",
+        3.84
+      ],
+      [
+        "M1 Dan TU 1.5 - Tidak",
+        1.21
+      ],
+      [
+        "M1 Dan TO 1.5 - Ya",
+        2.93
+      ],
+      [
+        "M1 Dan TO 1.5 - Tidak",
+        1.34
+      ],
+      [
+        "1X Dan TU 1.5 - Ya",
+        2.16
+      ],
+      [
+        "1X Dan TU 1.5 - Tidak",
+        1.6
+      ],
+      [
+        "1X Dan TO 1.5 - Ya",
+        2.11
+      ],
+      [
+        "1X Dan TO 1.5 - Tidak",
+        1.63
+      ]
+    ],
+    "2, Hasil +Total. Babak ke-2": [
+      [
+        "M2 Dan TU 1.5 - Ya",
+        8.8
+      ],
+      [
+        "M2 Dan TU 1.5 - Tidak",
+        1.027
+      ],
+      [
+        "M2 Dan TO 1.5 - Ya",
+        15.5
+      ],
+      [
+        "M2 Dan TO 1.5 - Tidak",
+        1.04
+      ],
+      [
+        "2X Dan TU 1.5 - Ya",
+        3.14
+      ],
+      [
+        "2X Dan TU 1.5 - Tidak",
+        1.3
+      ],
+      [
+        "2X Dan TO 1.5 - Ya",
+        4.8
+      ],
+      [
+        "2X Dan TO 1.5 - Tidak",
+        1.137
+      ]
+    ],
+    "Total Even. Babak ke-2": [
+      [
+        "Ya",
+        1.78
+      ],
+      [
+        "Tidak",
+        1.9
+      ]
+    ],
+    "Handicap Eropa. Babak ke-2": [
+      [
+        "0:2 M1",
+        8.5
+      ],
+      [
+        "0:2 X",
+        3.8
+      ],
+      [
+        "0:2 M2",
+        1.22
+      ],
+      [
+        "0:1 M1",
+        3.65
+      ],
+      [
+        "0:1 X",
+        2.769
+      ],
+      [
+        "0:1 M2",
+        1.93
+      ]
+    ],
+    "3 Pilihan Total. Babak ke-2": [
+      [
+        "Over 1",
+        1.92
+      ],
+      [
+        "Tepat 1",
+        2.84
+      ],
+      [
+        "Under 1",
+        4.5
+      ],
+      [
+        "Over 2",
+        3.85
+      ],
+      [
+        "Tepat 2",
+        3.46
+      ],
+      [
+        "Under 2",
+        1.83
+      ],
+      [
+        "Over 3",
+        9.0
+      ],
+      [
+        "Tepat 3",
+        6.05
+      ],
+      [
+        "Under 3",
+        1.2
+      ]
+    ],
+    "Individual 3Pilihan Total 1. Babak ke-2": [
+      [
+        "Over 1",
+        2.76
+      ],
+      [
+        "Tepat 1",
+        2.49
+      ],
+      [
+        "Under 1",
+        2.88
+      ]
+    ],
+    "Individual 3PIlihan Total 2. Babak ke-2": [
+      [
+        "Over 1",
+        9.7
+      ],
+      [
+        "Tepat 1",
+        3.08
+      ],
+      [
+        "Under 1",
+        1.49
+      ]
+    ],
+    "Tim Yang Mencetak Gol Terakhir. Babak ke-2": [
+      [
+        "Tim 1",
+        1.6
+      ],
+      [
+        "Tim 2",
+        3.88
+      ],
+      [
+        "Tidak Ada Gol",
+        4.5
+      ]
+    ],
+    "Ada Tim Yang Menang Dengan Lawan Tanpa Gol. Babak ke-2": [
+      [
+        "Ya",
+        1.7
+      ],
+      [
+        "Tidak",
+        2.02
+      ]
+    ],
+    "Seri +Total. Babak ke-2": [
+      [
+        "X Dan TU 1.5 - Ya",
+        4.5
+      ],
+      [
+        "X Dan TU 1.5 - Tidak",
+        1.151
+      ],
+      [
+        "X Dan TO 1.5 - Ya",
+        6.75
+      ],
+      [
+        "X Dan TO 1.5 - Tidak",
+        1.065
+      ]
+    ],
+    "Tim 1 Menang dengan Lawan Tanpa Gol. Babak ke-2": [
+      [
+        "Ya",
+        2.1
+      ],
+      [
+        "Tidak",
+        1.65
+      ]
+    ],
+    "Tim 2 Menang dengan Lawan Tanpa Gol. Babak ke-2": [
+      [
+        "Ya",
+        6.4
+      ],
+      [
+        "Tidak",
+        1.08
+      ]
+    ],
+    "M1 + Total 1. Babak ke-2": [
+      [
+        "M1 Dan Total 1 Over 1.5 - Ya",
+        2.93
+      ],
+      [
+        "M1 Dan Total 1 Over 1.5 - Tidak",
+        1.34
+      ],
+      [
+        "M1 Dan Total 1 Under 1.5 - Ya",
+        3.84
+      ],
+      [
+        "M1 Dan Total 1 Under 1.5 - Tidak",
+        1.21
+      ]
+    ],
+    "M2 + Total 2. Babak ke-2": [
+      [
+        "M2 Dan Total 2 Over 1.5 - Ya",
+        15.5
+      ],
+      [
+        "M2 Dan Total 2 Over 1.5 - Tidak",
+        1.04
+      ],
+      [
+        "M2 Dan Total 2 Under 1.5 - Ya",
+        8.8
+      ],
+      [
+        "M2 Dan Total 2 Under 1.5 - Tidak",
+        1.027
+      ]
+    ],
+    "Total 1 Jumlah Gol Tepat. Babak ke-2": [
+      [
+        "0",
+        2.88
+      ],
+      [
+        "Tim 1 Total - 2 Atau Lebih Gol",
+        2.76
+      ],
+      [
+        "1",
+        2.49
+      ]
+    ],
+    "Total 2 Jumlah Gol Tepat. Babak ke-2": [
+      [
+        "0",
+        1.49
+      ],
+      [
+        "Tim 2 Total - 2 Atau Lebih Gol",
+        9.7
+      ],
+      [
+        "1",
+        3.08
+      ]
+    ],
+    "Multi Gol. Babak ke-2": [
+      [
+        "Multi Gol 0-1",
+        1.866
+      ],
+      [
+        "Multi Gol 0-2",
+        1.2
+      ],
+      [
+        "Multi Gol 1-2",
+        1.637
+      ]
+    ],
+    "Kedua Tim Mencetak Skor + Double Hasil. Babak ke-2": [
+      [
+        "Minimal Satu Tim Tidak Mencetak Skor Dan 1X - Ya",
+        1.5
+      ],
+      [
+        "Minimal Satu Tim Tidak Mencetak Skor Dan 1X - Tidak",
+        2.4
+      ],
+      [
+        "Minimal Satu Tim Tidak Mencetak Skor Dan 2X - Ya",
+        2.95
+      ],
+      [
+        "Minimal Satu Tim Tidak Mencetak Skor Dan 2X - Tidak",
+        1.35
+      ]
+    ],
+    "2X + Tim 2 Total. Babak ke-2": [
+      [
+        "2X Dan Over 1.5 - Ya",
+        8.0
+      ],
+      [
+        "2X Dan Over 1.5 - Tidak",
+        1.05
+      ],
+      [
+        "2X Dan Under 1.5 - Ya",
+        2.4
+      ],
+      [
+        "2X Dan Under 1.5 - Tidak",
+        1.5
+      ]
+    ],
+    "Jumlah Tepat. Babak ke-2": [
+      [
+        "0 - Ya",
+        4.5
+      ],
+      [
+        "0 - Tidak",
+        1.17
+      ],
+      [
+        "1 - Ya",
+        2.84
+      ],
+      [
+        "1 - Tidak",
+        1.4
+      ],
+      [
+        "Dari 1 Ke 2 - Ya",
+        1.58
+      ],
+      [
+        "Dari 1 Ke 2 - Tidak",
+        2.25
+      ],
+      [
+        "2 - Ya",
+        3.46
+      ],
+      [
+        "2 - Tidak",
+        1.3
+      ],
+      [
+        "2 Atau Lebih Banyak - Ya",
+        1.92
+      ],
+      [
+        "Dari 2 Ke 3 - Ya",
+        2.25
+      ],
+      [
+        "Dari 2 Ke 3 - Tidak",
+        1.6
+      ],
+      [
+        "3 Atau Lebih Banyak - Ya",
+        3.85
+      ],
+      [
+        "3 Atau Lebih Banyak - Tidak",
+        1.22
+      ]
+    ],
+    "1X + Tim 1 Total. Babak ke-2": [
+      [
+        "1X Dan Over 1.5 - Ya",
+        2.8
+      ],
+      [
+        "1X Dan Over 1.5 - Tidak",
+        1.38
+      ],
+      [
+        "1X Dan Under 1.5 - Ya",
+        1.75
+      ],
+      [
+        "1X Dan Under 1.5 - Tidak",
+        1.95
+      ]
+    ],
+    "1x2. Tendangan Sudut": [
+      [
+        "M1",
+        1.132
+      ],
+      [
+        "X",
+        12.7
+      ],
+      [
+        "M2",
+        8.35
+      ]
+    ],
+    "Double Chance. Tendangan Sudut": [
+      [
+        "1X",
+        1.012
+      ],
+      [
+        "2X",
+        5.05
+      ]
+    ],
+    "Total. Tendangan Sudut": [
+      [
+        "7.5 Over",
+        1.1
+      ],
+      [
+        "7.5 Under",
+        4.795
+      ],
+      [
+        "8 Over",
+        1.129
+      ],
+      [
+        "8 Under",
+        4.36
+      ],
+      [
+        "8.5 Over",
+        1.27
+      ],
+      [
+        "8.5 Under",
+        3.165
+      ],
+      [
+        "9 Over",
+        1.339
+      ],
+      [
+        "9 Under",
+        2.842
+      ],
+      [
+        "9.5 Over",
+        1.521
+      ],
+      [
+        "9.5 Under",
+        2.32
+      ],
+      [
+        "10 Over",
+        1.661
+      ],
+      [
+        "10 Under",
+        2.083
+      ],
+      [
+        "10.5 Over",
+        1.861
+      ],
+      [
+        "10.5 Under",
+        1.839
+      ],
+      [
+        "11 Over",
+        2.105
+      ],
+      [
+        "11 Under",
+        1.646
+      ],
+      [
+        "11.5 Over",
+        2.336
+      ],
+      [
+        "11.5 Under",
+        1.514
+      ],
+      [
+        "12 Over",
+        2.807
+      ],
+      [
+        "12 Under",
+        1.348
+      ],
+      [
+        "12.5 Over",
+        3.09
+      ],
+      [
+        "12.5 Under",
+        1.283
+      ],
+      [
+        "13 Over",
+        4.01
+      ],
+      [
+        "13 Under",
+        1.159
+      ],
+      [
+        "13.5 Over",
+        4.355
+      ],
+      [
+        "13.5 Under",
+        1.13
+      ],
+      [
+        "14 Over",
+        6.11
+      ],
+      [
+        "14 Under",
+        1.042
+      ],
+      [
+        "14.5 Over",
+        6.52
+      ],
+      [
+        "14.5 Under",
+        1.029
+      ]
+    ],
+    "Total Asia. Tendangan Sudut": [
+      [
+        "7.75 Over",
+        1.114
+      ],
+      [
+        "7.75 Under",
+        4.575
+      ],
+      [
+        "8.25 Over",
+        1.2
+      ],
+      [
+        "8.25 Under",
+        3.625
+      ],
+      [
+        "8.75 Over",
+        1.302
+      ],
+      [
+        "8.75 Under",
+        3.0
+      ],
+      [
+        "9.25 Over",
+        1.432
+      ],
+      [
+        "9.25 Under",
+        2.534
+      ],
+      [
+        "9.75 Over",
+        1.585
+      ],
+      [
+        "9.75 Under",
+        2.201
+      ],
+      [
+        "10.25 Over",
+        1.764
+      ],
+      [
+        "10.25 Under",
+        1.945
+      ],
+      [
+        "10.75 Over",
+        1.968
+      ],
+      [
+        "10.75 Under",
+        1.746
+      ],
+      [
+        "11.25 Over",
+        2.221
+      ],
+      [
+        "11.25 Under",
+        1.574
+      ],
+      [
+        "11.75 Over",
+        2.533
+      ],
+      [
+        "11.75 Under",
+        1.432
+      ],
+      [
+        "12.25 Over",
+        2.95
+      ],
+      [
+        "12.25 Under",
+        1.313
+      ],
+      [
+        "12.75 Over",
+        3.465
+      ],
+      [
+        "12.75 Under",
+        1.222
+      ],
+      [
+        "13.25 Over",
+        4.18
+      ],
+      [
+        "13.25 Under",
+        1.144
+      ],
+      [
+        "13.75 Over",
+        5.04
+      ],
+      [
+        "13.75 Under",
+        1.086
+      ],
+      [
+        "14.25 Over",
+        6.32
+      ],
+      [
+        "14.25 Under",
+        1.035
+      ]
+    ],
+    "Handicap. Tendangan Sudut": [
+      [
+        "1 (-6.5)",
+        4.155
+      ],
+      [
+        "2 (+6.5)",
+        1.092
+      ],
+      [
+        "1 (-6)",
+        3.845
+      ],
+      [
+        "2 (+6)",
+        1.12
+      ],
+      [
+        "1 (-5.5)",
+        2.948
+      ],
+      [
+        "2 (+5.5)",
+        1.25
+      ],
+      [
+        "1 (-5)",
+        2.696
+      ],
+      [
+        "2 (+5)",
+        1.311
+      ],
+      [
+        "1 (-4.5)",
+        2.258
+      ],
+      [
+        "2 (+4.5)",
+        1.474
+      ],
+      [
+        "1 (-4)",
+        2.061
+      ],
+      [
+        "2 (+4)",
+        1.591
+      ],
+      [
+        "1 (-3.5)",
+        1.842
+      ],
+      [
+        "2 (+3.5)",
+        1.76
+      ],
+      [
+        "1 (-3)",
+        1.675
+      ],
+      [
+        "2 (+3)",
+        1.945
+      ],
+      [
+        "1 (-2.5)",
+        1.543
+      ],
+      [
+        "2 (+2.5)",
+        2.134
+      ],
+      [
+        "1 (-2)",
+        1.368
+      ],
+      [
+        "2 (+2)",
+        2.512
+      ],
+      [
+        "1 (-1.5)",
+        1.294
+      ],
+      [
+        "2 (+1.5)",
+        2.76
+      ],
+      [
+        "1 (-1)",
+        1.149
+      ],
+      [
+        "2 (+1)",
+        3.58
+      ],
+      [
+        "1 (0)",
+        1.013
+      ],
+      [
+        "2 (0)",
+        5.7
+      ]
+    ],
+    "Handicap Asia. Tendangan Sudut": [
+      [
+        "1 (-6.75)",
+        4.85
+      ],
+      [
+        "2 (+6.75)",
+        1.046
+      ],
+      [
+        "1 (-6.25)",
+        4.0
+      ],
+      [
+        "2 (+6.25)",
+        1.105
+      ],
+      [
+        "1 (-5.75)",
+        3.305
+      ],
+      [
+        "2 (+5.75)",
+        1.186
+      ],
+      [
+        "1 (-5.25)",
+        2.822
+      ],
+      [
+        "2 (+5.25)",
+        1.279
+      ],
+      [
+        "1 (-4.75)",
+        2.439
+      ],
+      [
+        "2 (+4.75)",
+        1.395
+      ],
+      [
+        "1 (-4.25)",
+        2.16
+      ],
+      [
+        "2 (+4.25)",
+        1.528
+      ],
+      [
+        "1 (-3.75)",
+        1.938
+      ],
+      [
+        "2 (+3.75)",
+        1.68
+      ],
+      [
+        "1 (-3.25)",
+        1.762
+      ],
+      [
+        "2 (+3.25)",
+        1.84
+      ],
+      [
+        "1 (-2.75)",
+        1.605
+      ],
+      [
+        "2 (+2.75)",
+        2.041
+      ],
+      [
+        "1 (-2.25)",
+        1.459
+      ],
+      [
+        "2 (+2.25)",
+        2.29
+      ],
+      [
+        "1 (-1.75)",
+        1.328
+      ],
+      [
+        "2 (+1.75)",
+        2.636
+      ],
+      [
+        "1 (-1.25)",
+        1.223
+      ],
+      [
+        "2 (+1.25)",
+        3.08
+      ],
+      [
+        "1 (-0.75)",
+        1.131
+      ],
+      [
+        "2 (+0.75)",
+        3.74
+      ],
+      [
+        "1 (-0.25)",
+        1.062
+      ],
+      [
+        "2 (+0.25)",
+        4.57
+      ]
+    ],
+    "Total 1. Tendangan Sudut": [
+      [
+        "4.5 Over",
+        1.104
+      ],
+      [
+        "4.5 Under",
+        4.74
+      ],
+      [
+        "5 Over",
+        1.143
+      ],
+      [
+        "5 Under",
+        4.185
+      ],
+      [
+        "5.5 Over",
+        1.332
+      ],
+      [
+        "5.5 Under",
+        2.872
+      ],
+      [
+        "6 Over",
+        1.444
+      ],
+      [
+        "6 Under",
+        2.501
+      ],
+      [
+        "6.5 Over",
+        1.66
+      ],
+      [
+        "6.5 Under",
+        2.07
+      ],
+      [
+        "7 Over",
+        1.924
+      ],
+      [
+        "7 Under",
+        1.781
+      ],
+      [
+        "7.5 Over",
+        2.201
+      ],
+      [
+        "7.5 Under",
+        1.585
+      ],
+      [
+        "8 Over",
+        2.715
+      ],
+      [
+        "8 Under",
+        1.373
+      ],
+      [
+        "8.5 Over",
+        3.065
+      ],
+      [
+        "8.5 Under",
+        1.288
+      ],
+      [
+        "9 Over",
+        4.23
+      ],
+      [
+        "9 Under",
+        1.14
+      ],
+      [
+        "9.5 Over",
+        4.67
+      ],
+      [
+        "9.5 Under",
+        1.108
+      ],
+      [
+        "10 Over",
+        7.23
+      ],
+      [
+        "10 Under",
+        1.012
+      ]
+    ],
+    "Tim Asia Total 1. Tendangan Sudut": [
+      [
+        "4.75 Over",
+        1.122
+      ],
+      [
+        "4.75 Under",
+        4.46
+      ],
+      [
+        "5.25 Over",
+        1.239
+      ],
+      [
+        "5.25 Under",
+        3.35
+      ],
+      [
+        "5.75 Over",
+        1.382
+      ],
+      [
+        "5.75 Under",
+        2.686
+      ],
+      [
+        "6.25 Over",
+        1.571
+      ],
+      [
+        "6.25 Under",
+        2.225
+      ],
+      [
+        "6.75 Over",
+        1.792
+      ],
+      [
+        "6.75 Under",
+        1.912
+      ],
+      [
+        "7.25 Over",
+        2.066
+      ],
+      [
+        "7.25 Under",
+        1.674
+      ],
+      [
+        "7.75 Over",
+        2.408
+      ],
+      [
+        "7.75 Under",
+        1.481
+      ],
+      [
+        "8.25 Over",
+        2.892
+      ],
+      [
+        "8.25 Under",
+        1.327
+      ],
+      [
+        "8.75 Over",
+        3.515
+      ],
+      [
+        "8.75 Under",
+        1.215
+      ],
+      [
+        "9.25 Over",
+        4.45
+      ],
+      [
+        "9.25 Under",
+        1.123
+      ],
+      [
+        "9.75 Over",
+        5.61
+      ],
+      [
+        "9.75 Under",
+        1.06
+      ]
+    ],
+    "Total 2. Tendangan Sudut": [
+      [
+        "1.5 Over",
+        1.035
+      ],
+      [
+        "1.5 Under",
+        6.32
+      ],
+      [
+        "2 Over",
+        1.075
+      ],
+      [
+        "2 Under",
+        5.27
+      ],
+      [
+        "2.5 Over",
+        1.341
+      ],
+      [
+        "2.5 Under",
+        2.833
+      ],
+      [
+        "3 Over",
+        1.525
+      ],
+      [
+        "3 Under",
+        2.312
+      ],
+      [
+        "3.5 Over",
+        1.9
+      ],
+      [
+        "3.5 Under",
+        1.8
+      ],
+      [
+        "4 Over",
+        2.405
+      ],
+      [
+        "4 Under",
+        1.482
+      ],
+      [
+        "4.5 Over",
+        2.886
+      ],
+      [
+        "4.5 Under",
+        1.328
+      ],
+      [
+        "5 Over",
+        4.45
+      ],
+      [
+        "5 Under",
+        1.123
+      ],
+      [
+        "5.5 Over",
+        5.1
+      ],
+      [
+        "5.5 Under",
+        1.083
+      ]
+    ],
+    "Tim Asia Total 2. Tendangan Sudut": [
+      [
+        "1.75 Over",
+        1.053
+      ],
+      [
+        "1.75 Under",
+        5.8
+      ],
+      [
+        "2.25 Over",
+        1.211
+      ],
+      [
+        "2.25 Under",
+        3.545
+      ],
+      [
+        "2.75 Over",
+        1.418
+      ],
+      [
+        "2.75 Under",
+        2.572
+      ],
+      [
+        "3.25 Over",
+        1.721
+      ],
+      [
+        "3.25 Under",
+        2.0
+      ],
+      [
+        "3.75 Over",
+        2.091
+      ],
+      [
+        "3.75 Under",
+        1.656
+      ],
+      [
+        "4.25 Over",
+        2.645
+      ],
+      [
+        "4.25 Under",
+        1.394
+      ],
+      [
+        "4.75 Over",
+        3.425
+      ],
+      [
+        "4.75 Under",
+        1.227
+      ],
+      [
+        "5.25 Over",
+        4.78
+      ],
+      [
+        "5.25 Under",
+        1.101
+      ]
+    ],
+    "1, Hasil + Total. Tendangan Sudut": [
+      [
+        "M1 Dan TU 6.5 - Ya",
+        14.1
+      ],
+      [
+        "M1 Dan TU 11.5 - Ya",
+        1.834
+      ],
+      [
+        "M1 Dan TO 6.5 - Ya",
+        1.23
+      ],
+      [
+        "M1 Dan TO 11.5 - Ya",
+        2.778
+      ],
+      [
+        "1X Dan TU 6.5 - Ya",
+        11.4
+      ],
+      [
+        "1X Dan TU 11.5 - Ya",
+        1.659
+      ],
+      [
+        "1X Dan TO 6.5 - Ya",
+        1.144
+      ],
+      [
+        "1X Dan TO 11.5 - Ya",
+        2.591
+      ],
+      [
+        "M1 Dan TU 7.5 - Ya",
+        7.37
+      ],
+      [
+        "M1 Dan TU 12.5 - Ya",
+        1.555
+      ],
+      [
+        "M1 Dan TO 7.5 - Ya",
+        1.335
+      ],
+      [
+        "M1 Dan TO 12.5 - Ya",
+        3.745
+      ],
+      [
+        "1X Dan TU 7.5 - Ya",
+        6.56
+      ],
+      [
+        "1X Dan TU 12.5 - Ya",
+        1.398
+      ],
+      [
+        "1X Dan TO 7.5 - Ya",
+        1.232
+      ],
+      [
+        "1X Dan TO 12.5 - Ya",
+        3.58
+      ],
+      [
+        "M1 Dan TU 8.5 - Ya",
+        4.68
+      ],
+      [
+        "M1 Dan TU 13.5 - Ya",
+        1.366
+      ],
+      [
+        "M1 Dan TO 8.5 - Ya",
+        1.481
+      ],
+      [
+        "M1 Dan TO 13.5 - Ya",
+        5.47
+      ],
+      [
+        "1X Dan TU 8.5 - Ya",
+        4.005
+      ],
+      [
+        "1X Dan TU 13.5 - Ya",
+        1.242
+      ],
+      [
+        "1X Dan TO 8.5 - Ya",
+        1.389
+      ],
+      [
+        "1X Dan TO 13.5 - Ya",
+        5.13
+      ],
+      [
+        "M1 Dan TU 9.5 - Ya",
+        3.105
+      ],
+      [
+        "M1 Dan TU 14.5 - Ya",
+        1.256
+      ],
+      [
+        "M1 Dan TO 9.5 - Ya",
+        1.747
+      ],
+      [
+        "M1 Dan TO 14.5 - Ya",
+        8.2
+      ],
+      [
+        "1X Dan TU 9.5 - Ya",
+        2.793
+      ],
+      [
+        "1X Dan TU 14.5 - Ya",
+        1.14
+      ],
+      [
+        "1X Dan TO 9.5 - Ya",
+        1.62
+      ],
+      [
+        "1X Dan TO 14.5 - Ya",
+        7.9
+      ],
+      [
+        "M1 Dan TU 10.5 - Ya",
+        2.335
+      ],
+      [
+        "M1 Dan TU 15.5 - Ya",
+        1.183
+      ],
+      [
+        "M1 Dan TO 10.5 - Ya",
+        2.122
+      ],
+      [
+        "M1 Dan TO 15.5 - Ya",
+        13.3
+      ],
+      [
+        "1X Dan TU 10.5 - Ya",
+        2.062
+      ],
+      [
+        "1X Dan TU 15.5 - Ya",
+        1.08
+      ],
+      [
+        "1X Dan TO 10.5 - Ya",
+        2.011
+      ],
+      [
+        "1X Dan TO 15.5 - Ya",
+        12.6
+      ]
+    ],
+    "2, Hasil +Total. Tendangan Sudut": [
+      [
+        "2X Dan TU 8.5 - Ya",
+        13.3
+      ],
+      [
+        "2X Dan TO 8.5 - Ya",
+        8.1
+      ],
+      [
+        "M2 Dan TU 9.5 - Ya",
+        17.0
+      ],
+      [
+        "M2 Dan TO 9.5 - Ya",
+        16.0
+      ],
+      [
+        "2X Dan TU 9.5 - Ya",
+        10.6
+      ],
+      [
+        "2X Dan TO 9.5 - Ya",
+        9.6
+      ],
+      [
+        "2X Dan TU 10.5 - Ya",
+        8.05
+      ],
+      [
+        "2X Dan TO 10.5 - Ya",
+        13.5
+      ],
+      [
+        "2X Dan TU 11.5 - Ya",
+        7.09
+      ],
+      [
+        "2X Dan TO 11.5 - Ya",
+        17.0
+      ]
+    ],
+    "Total Even. Tendangan Sudut": [
+      [
+        "Ya",
+        1.804
+      ],
+      [
+        "Tidak",
+        1.804
+      ]
+    ],
+    "Mencetak Skor di Setiap Babak. Tendangan Sudut": [
+      [
+        "1 &gt; 2",
+        2.43
+      ],
+      [
+        "1 = 2",
+        7.25
+      ],
+      [
+        "1 &lt; 2",
+        1.848
+      ]
+    ],
+    "Handicap Eropa. Tendangan Sudut": [
+      [
+        "0:6 M1",
+        4.155
+      ],
+      [
+        "0:7 X",
+        13.7
+      ],
+      [
+        "0:6 M2",
+        1.25
+      ],
+      [
+        "0:5 M1",
+        2.948
+      ],
+      [
+        "0:6 X",
+        10.2
+      ],
+      [
+        "0:5 M2",
+        1.474
+      ],
+      [
+        "0:4 M1",
+        2.258
+      ],
+      [
+        "0:5 X",
+        8.25
+      ],
+      [
+        "0:4 M2",
+        1.76
+      ],
+      [
+        "0:3 M1",
+        1.842
+      ],
+      [
+        "0:4 X",
+        7.36
+      ],
+      [
+        "0:3 M2",
+        2.134
+      ],
+      [
+        "0:2 M1",
+        1.543
+      ],
+      [
+        "0:3 X",
+        7.19
+      ],
+      [
+        "0:2 M2",
+        2.76
+      ],
+      [
+        "0:1 M1",
+        1.294
+      ],
+      [
+        "0:2 X",
+        7.75
+      ],
+      [
+        "0:1 M2",
+        5.05
+      ],
+      [
+        "0:1 X",
+        6.21
+      ]
+    ],
+    "3 Pilihan Total. Tendangan Sudut": [
+      [
+        "Over 7",
+        1.13
+      ],
+      [
+        "Tepat 7",
+        13.0
+      ],
+      [
+        "Under 7",
+        7.1
+      ],
+      [
+        "Over 8",
+        1.29
+      ],
+      [
+        "Tepat 8",
+        10.1
+      ],
+      [
+        "Under 8",
+        4.6
+      ],
+      [
+        "Over 9",
+        1.51
+      ],
+      [
+        "Tepat 9",
+        8.9
+      ],
+      [
+        "Under 9",
+        3.2
+      ],
+      [
+        "Over 10",
+        1.861
+      ],
+      [
+        "Tepat 10",
+        8.6
+      ],
+      [
+        "Under 10",
+        2.36
+      ],
+      [
+        "Over 11",
+        2.28
+      ],
+      [
+        "Tepat 11",
+        9.25
+      ],
+      [
+        "Under 11",
+        1.839
+      ],
+      [
+        "Over 12",
+        2.9
+      ],
+      [
+        "Tepat 12",
+        10.5
+      ],
+      [
+        "Under 12",
+        1.54
+      ],
+      [
+        "Over 13",
+        3.9
+      ],
+      [
+        "Tepat 13",
+        11.1
+      ],
+      [
+        "Under 13",
+        1.34
+      ],
+      [
+        "Over 14",
+        5.3
+      ],
+      [
+        "Tepat 14",
+        14.7
+      ],
+      [
+        "Under 14",
+        1.19
+      ]
+    ],
+    "Individual 3Pilihan Total 1. Tendangan Sudut": [
+      [
+        "Over 5",
+        1.35
+      ],
+      [
+        "Tepat 5",
+        7.05
+      ],
+      [
+        "Under 5",
+        4.74
+      ],
+      [
+        "Over 6",
+        1.66
+      ],
+      [
+        "Tepat 6",
+        7.23
+      ],
+      [
+        "Under 6",
+        2.9
+      ],
+      [
+        "Over 7",
+        2.17
+      ],
+      [
+        "Tepat 7",
+        7.05
+      ],
+      [
+        "Under 7",
+        2.07
+      ],
+      [
+        "Over 8",
+        2.9
+      ],
+      [
+        "Tepat 8",
+        8.3
+      ],
+      [
+        "Under 8",
+        1.6
+      ],
+      [
+        "Over 9",
+        4.3
+      ],
+      [
+        "Tepat 9",
+        8.75
+      ],
+      [
+        "Under 9",
+        1.33
+      ]
+    ],
+    "Individual 3PIlihan Total 2. Tendangan Sudut": [
+      [
+        "Over 2",
+        1.37
+      ],
+      [
+        "Tepat 2",
+        5.4
+      ],
+      [
+        "Under 2",
+        5.7
+      ],
+      [
+        "Over 3",
+        1.9
+      ],
+      [
+        "Tepat 3",
+        4.985
+      ],
+      [
+        "Under 3",
+        2.8
+      ],
+      [
+        "Over 4",
+        2.85
+      ],
+      [
+        "Tepat 4",
+        5.57
+      ],
+      [
+        "Under 4",
+        1.8
+      ],
+      [
+        "Over 5",
+        4.8
+      ],
+      [
+        "Tepat 5",
+        6.89
+      ],
+      [
+        "Under 5",
+        1.35
+      ]
+    ],
+    "Multicorner. Tendangan Sudut": [
+      [
+        "8.5 Under",
+        8.75
+      ],
+      [
+        "9.5 Over",
+        1.006
+      ],
+      [
+        "9.5 Under",
+        7.5
+      ],
+      [
+        "10.5 Over",
+        1.039
+      ],
+      [
+        "10.5 Under",
+        6.19
+      ],
+      [
+        "12.5 Over",
+        1.13
+      ],
+      [
+        "12.5 Under",
+        4.355
+      ],
+      [
+        "14.5 Over",
+        1.156
+      ],
+      [
+        "14.5 Under",
+        4.04
+      ],
+      [
+        "15.5 Over",
+        1.229
+      ],
+      [
+        "15.5 Under",
+        3.41
+      ],
+      [
+        "16.5 Over",
+        1.301
+      ],
+      [
+        "16.5 Under",
+        3.0
+      ],
+      [
+        "18.5 Over",
+        1.398
+      ],
+      [
+        "18.5 Under",
+        2.634
+      ],
+      [
+        "20.5 Over",
+        1.55
+      ],
+      [
+        "20.5 Under",
+        2.264
+      ],
+      [
+        "21.5 Over",
+        1.635
+      ],
+      [
+        "21.5 Under",
+        2.121
+      ],
+      [
+        "24.5 Over",
+        1.877
+      ],
+      [
+        "24.5 Under",
+        1.824
+      ],
+      [
+        "25.5 Over",
+        1.998
+      ],
+      [
+        "25.5 Under",
+        1.722
+      ],
+      [
+        "27.5 Over",
+        2.051
+      ],
+      [
+        "27.5 Under",
+        1.685
+      ],
+      [
+        "28.5 Over",
+        2.231
+      ],
+      [
+        "28.5 Under",
+        1.568
+      ],
+      [
+        "30.5 Over",
+        2.586
+      ],
+      [
+        "30.5 Under",
+        1.413
+      ],
+      [
+        "32.5 Over",
+        2.779
+      ],
+      [
+        "32.5 Under",
+        1.355
+      ],
+      [
+        "35.5 Over",
+        3.185
+      ],
+      [
+        "35.5 Under",
+        1.266
+      ],
+      [
+        "36.5 Over",
+        3.69
+      ],
+      [
+        "36.5 Under",
+        1.193
+      ],
+      [
+        "40.5 Over",
+        4.305
+      ],
+      [
+        "40.5 Under",
+        1.134
+      ],
+      [
+        "42.5 Over",
+        5.17
+      ],
+      [
+        "42.5 Under",
+        1.079
+      ],
+      [
+        "45.5 Over",
+        5.85
+      ],
+      [
+        "45.5 Under",
+        1.051
+      ],
+      [
+        "48.5 Over",
+        7.01
+      ],
+      [
+        "48.5 Under",
+        1.017
+      ],
+      [
+        "49.5 Over",
+        7.8
+      ]
+    ],
+    "Total Dalam Menit. Tendangan Sudut": [
+      [
+        "Over 4.5 Dalam 60 Menit",
+        1.167
+      ],
+      [
+        "Under 4.5 Dalam 60 Menit",
+        3.93
+      ],
+      [
+        "Over 5.5 Dalam 60 Menit",
+        1.47
+      ],
+      [
+        "Under 5.5 Dalam 60 Menit",
+        2.435
+      ],
+      [
+        "Over 5.5 Dalam 75 Menit",
+        1.091
+      ],
+      [
+        "Under 5.5 Dalam 75 Menit",
+        4.955
+      ],
+      [
+        "Over 6.5 Dalam 60 Menit",
+        1.978
+      ],
+      [
+        "Under 6.5 Dalam 60 Menit",
+        1.738
+      ],
+      [
+        "Over 6.5 Dalam 75 Menit",
+        1.298
+      ],
+      [
+        "Under 6.5 Dalam 75 Menit",
+        3.02
+      ],
+      [
+        "Over 6.5 Dalam 85 Menit",
+        1.1
+      ],
+      [
+        "Under 6.5 Dalam 85 Menit",
+        4.79
+      ],
+      [
+        "Over 7.5 Dalam 60 Menit",
+        2.776
+      ],
+      [
+        "Under 7.5 Dalam 60 Menit",
+        1.356
+      ],
+      [
+        "Over 7.5 Dalam 75 Menit",
+        1.642
+      ],
+      [
+        "Under 7.5 Dalam 75 Menit",
+        2.11
+      ],
+      [
+        "Over 7.5 Dalam 85 Menit",
+        1.295
+      ],
+      [
+        "Under 7.5 Dalam 85 Menit",
+        3.03
+      ],
+      [
+        "Over 8.5 Dalam 60 Menit",
+        4.105
+      ],
+      [
+        "Under 8.5 Dalam 60 Menit",
+        1.15
+      ],
+      [
+        "Over 8.5 Dalam 75 Menit",
+        2.167
+      ],
+      [
+        "Under 8.5 Dalam 75 Menit",
+        1.606
+      ],
+      [
+        "Over 8.5 Dalam 85 Menit",
+        1.611
+      ],
+      [
+        "Under 8.5 Dalam 85 Menit",
+        2.158
+      ],
+      [
+        "Over 9.5 Dalam 60 Menit",
+        6.29
+      ],
+      [
+        "Under 9.5 Dalam 60 Menit",
+        1.036
+      ],
+      [
+        "Over 9.5 Dalam 75 Menit",
+        2.967
+      ],
+      [
+        "Under 9.5 Dalam 75 Menit",
+        1.31
+      ],
+      [
+        "Over 9.5 Dalam 85 Menit",
+        2.084
+      ],
+      [
+        "Under 9.5 Dalam 85 Menit",
+        1.661
+      ],
+      [
+        "Over 10.5 Dalam 75 Menit",
+        4.24
+      ],
+      [
+        "Under 10.5 Dalam 75 Menit",
+        1.139
+      ],
+      [
+        "Over 10.5 Dalam 85 Menit",
+        2.78
+      ],
+      [
+        "Under 10.5 Dalam 85 Menit",
+        1.355
+      ],
+      [
+        "Over 11.5 Dalam 75 Menit",
+        6.24
+      ],
+      [
+        "Under 11.5 Dalam 75 Menit",
+        1.038
+      ],
+      [
+        "Over 11.5 Dalam 85 Menit",
+        3.86
+      ],
+      [
+        "Under 11.5 Dalam 85 Menit",
+        1.174
+      ],
+      [
+        "Over 12.5 Dalam 85 Menit",
+        5.53
+      ],
+      [
+        "Under 12.5 Dalam 85 Menit",
+        1.064
+      ],
+      [
+        "Over 13.5 Dalam 85 Menit",
+        8.0
+      ]
+    ],
+    "Tim Yang Melakukan Tendangan Sudut Berikutnya. Tendangan Sudut": [
+      [
+        "Tendangan sudut berikutnya 1 Tim 1",
+        1.38
+      ],
+      [
+        "Tendangan sudut berikutnya 1 Tim 2",
+        2.691
+      ]
+    ],
+    "Tim 1, Tendangan Sudut Pada Interval Waktu. Tendangan Sudut": [
+      [
+        "1-15 Mnt - Ya",
+        1.321
+      ],
+      [
+        "1-15 Mnt - Tidak",
+        2.918
+      ],
+      [
+        "16-30 Mnt - Ya",
+        1.321
+      ],
+      [
+        "16-30 Mnt - Tidak",
+        2.918
+      ],
+      [
+        "31-45 Mnt - Ya",
+        1.197
+      ],
+      [
+        "31-45 Mnt - Tidak",
+        3.655
+      ]
+    ],
+    "Tim 2, Tendangan Sudut Pada Interval Waktu. Tendangan Sudut": [
+      [
+        "1-15 Mnt - Ya",
+        2.082
+      ],
+      [
+        "1-15 Mnt - Tidak",
+        1.663
+      ],
+      [
+        "16-30 Mnt - Ya",
+        2.082
+      ],
+      [
+        "16-30 Mnt - Tidak",
+        1.663
+      ],
+      [
+        "31-45 Mnt - Ya",
+        1.829
+      ],
+      [
+        "31-45 Mnt - Tidak",
+        1.871
+      ]
+    ],
+    "Sudut Di Interval Waktu. Tendangan Sudut": [
+      [
+        "1-15 Mnt - Ya",
+        1.069
+      ],
+      [
+        "1-15 Mnt - Tidak",
+        5.4
+      ],
+      [
+        "16-30 Mnt - Ya",
+        1.069
+      ],
+      [
+        "16-30 Mnt - Tidak",
+        5.4
+      ],
+      [
+        "31-45 Mnt - Ya",
+        1.002
+      ],
+      [
+        "31-45 Mnt - Tidak",
+        7.7
+      ]
+    ],
+    "Tim 1, Multi Sudut. Tendangan Sudut": [
+      [
+        "Over 2.5",
+        1.004
+      ],
+      [
+        "Under 2.5",
+        7.55
+      ],
+      [
+        "Over 3.5",
+        1.069
+      ],
+      [
+        "Under 3.5",
+        5.41
+      ],
+      [
+        "Over 4.5",
+        1.189
+      ],
+      [
+        "Under 4.5",
+        3.72
+      ],
+      [
+        "Over 5.5",
+        1.24
+      ],
+      [
+        "Under 5.5",
+        3.34
+      ],
+      [
+        "Over 6.5",
+        1.452
+      ],
+      [
+        "Under 6.5",
+        2.48
+      ],
+      [
+        "Over 8.5",
+        1.687
+      ],
+      [
+        "Under 8.5",
+        2.048
+      ],
+      [
+        "Over 9.5",
+        1.851
+      ],
+      [
+        "Under 9.5",
+        1.849
+      ],
+      [
+        "Over 10.5",
+        2.054
+      ],
+      [
+        "Under 10.5",
+        1.683
+      ],
+      [
+        "Over 12.5",
+        2.677
+      ],
+      [
+        "Under 12.5",
+        1.384
+      ],
+      [
+        "Over 14.5",
+        2.785
+      ],
+      [
+        "Under 14.5",
+        1.354
+      ],
+      [
+        "Over 15.5",
+        3.335
+      ],
+      [
+        "Under 15.5",
+        1.241
+      ],
+      [
+        "Over 16.5",
+        3.91
+      ],
+      [
+        "Under 16.5",
+        1.169
+      ],
+      [
+        "Over 18.5",
+        4.575
+      ],
+      [
+        "Under 18.5",
+        1.114
+      ],
+      [
+        "Over 20.5",
+        6.06
+      ],
+      [
+        "Under 20.5",
+        1.043
+      ],
+      [
+        "Over 21.5",
+        6.78
+      ],
+      [
+        "Under 21.5",
+        1.022
+      ]
+    ],
+    "Tim 2, Multi Sudut. Tendangan Sudut": [
+      [
+        "Over 0.5",
+        1.271
+      ],
+      [
+        "Under 0.5",
+        3.155
+      ],
+      [
+        "Over 1.5",
+        1.449
+      ],
+      [
+        "Under 1.5",
+        2.489
+      ],
+      [
+        "Over 2.5",
+        1.93
+      ],
+      [
+        "Under 2.5",
+        1.777
+      ],
+      [
+        "Over 3.5",
+        2.399
+      ],
+      [
+        "Under 3.5",
+        1.485
+      ],
+      [
+        "Over 4.5",
+        3.415
+      ],
+      [
+        "Under 4.5",
+        1.229
+      ],
+      [
+        "Over 5.5",
+        3.66
+      ],
+      [
+        "Under 5.5",
+        1.196
+      ],
+      [
+        "Over 6.5",
+        5.89
+      ],
+      [
+        "Under 6.5",
+        1.049
+      ],
+      [
+        "Over 8.5",
+        8.3
+      ]
+    ],
+    "Handicap 1 + Total. Tendangan Sudut": [
+      [
+        "Handicap 1 -5.5 + TO 12.5",
+        7.8
+      ],
+      [
+        "Handicap 1 -5.5 + TU 12.5",
+        6.23
+      ],
+      [
+        "Handicap 1 -5.5 + TO 11.5",
+        5.77
+      ],
+      [
+        "Handicap 1 -5.5 + TU 11.5",
+        8.55
+      ],
+      [
+        "Handicap 1 -4.5 + TO 13.5",
+        8.8
+      ],
+      [
+        "Handicap 1 -4.5 + TU 13.5",
+        3.46
+      ],
+      [
+        "Handicap 1 -4.5 + TO 12.5",
+        6.05
+      ],
+      [
+        "Handicap 1 -4.5 + TU 12.5",
+        4.18
+      ],
+      [
+        "Handicap 1 -4.5 + TO 11.5",
+        4.75
+      ],
+      [
+        "Handicap 1 -4.5 + TU 11.5",
+        5.1
+      ],
+      [
+        "Handicap 1 -4.5 + TO 10.5",
+        3.66
+      ],
+      [
+        "Handicap 1 -4.5 + TU 10.5",
+        7.33
+      ],
+      [
+        "Handicap 1 -3.5 + TO 13.5",
+        7.3
+      ],
+      [
+        "Handicap 1 -3.5 + TU 13.5",
+        2.551
+      ],
+      [
+        "Handicap 1 -3.5 + TO 12.5",
+        5.31
+      ],
+      [
+        "Handicap 1 -3.5 + TU 12.5",
+        2.91
+      ],
+      [
+        "Handicap 1 -3.5 + TO 11.5",
+        3.82
+      ],
+      [
+        "Handicap 1 -3.5 + TU 11.5",
+        3.635
+      ],
+      [
+        "Handicap 1 -3.5 + TO 10.5",
+        3.085
+      ],
+      [
+        "Handicap 1 -3.5 + TU 10.5",
+        4.625
+      ],
+      [
+        "Handicap 1 -3.5 + TO 9.5",
+        2.49
+      ],
+      [
+        "Handicap 1 -3.5 + TU 9.5",
+        6.99
+      ],
+      [
+        "Handicap 1 -2.5 + TO 13.5",
+        6.71
+      ],
+      [
+        "Handicap 1 -2.5 + TU 13.5",
+        1.972
+      ],
+      [
+        "Handicap 1 -2.5 + TO 12.5",
+        4.555
+      ],
+      [
+        "Handicap 1 -2.5 + TU 12.5",
+        2.271
+      ],
+      [
+        "Handicap 1 -2.5 + TO 11.5",
+        3.42
+      ],
+      [
+        "Handicap 1 -2.5 + TU 11.5",
+        2.681
+      ],
+      [
+        "Handicap 1 -2.5 + TO 10.5",
+        2.585
+      ],
+      [
+        "Handicap 1 -2.5 + TU 10.5",
+        3.5
+      ],
+      [
+        "Handicap 1 -2.5 + TO 9.5",
+        2.153
+      ],
+      [
+        "Handicap 1 -2.5 + TU 9.5",
+        4.685
+      ],
+      [
+        "Handicap 1 -2.5 + TO 8.5",
+        1.813
+      ],
+      [
+        "Handicap 1 -2.5 + TU 8.5",
+        7.5
+      ],
+      [
+        "Handicap 1 -1.5 + TO 14.5",
+        9.15
+      ],
+      [
+        "Handicap 1 -1.5 + TU 14.5",
+        1.476
+      ],
+      [
+        "Handicap 1 -1.5 + TO 13.5",
+        5.95
+      ],
+      [
+        "Handicap 1 -1.5 + TU 13.5",
+        1.63
+      ],
+      [
+        "Handicap 1 -1.5 + TO 12.5",
+        4.22
+      ],
+      [
+        "Handicap 1 -1.5 + TU 12.5",
+        1.841
+      ],
+      [
+        "Handicap 1 -1.5 + TO 11.5",
+        3.025
+      ],
+      [
+        "Handicap 1 -1.5 + TU 11.5",
+        2.209
+      ],
+      [
+        "Handicap 1 -1.5 + TO 10.5",
+        2.356
+      ],
+      [
+        "Handicap 1 -1.5 + TU 10.5",
+        2.727
+      ],
+      [
+        "Handicap 1 -1.5 + TO 9.5",
+        1.869
+      ],
+      [
+        "Handicap 1 -1.5 + TU 9.5",
+        3.76
+      ],
+      [
+        "Handicap 1 -1.5 + TO 8.5",
+        1.607
+      ],
+      [
+        "Handicap 1 -1.5 + TU 8.5",
+        5.37
+      ],
+      [
+        "Handicap 1 -0.5 + TO 14.5",
+        8.35
+      ],
+      [
+        "Handicap 1 -0.5 + TU 14.5",
+        1.279
+      ],
+      [
+        "Handicap 1 -0.5 + TO 13.5",
+        5.59
+      ],
+      [
+        "Handicap 1 -0.5 + TU 13.5",
+        1.396
+      ],
+      [
+        "Handicap 1 -0.5 + TO 12.5",
+        3.845
+      ],
+      [
+        "Handicap 1 -0.5 + TU 12.5",
+        1.596
+      ],
+      [
+        "Handicap 1 -0.5 + TO 11.5",
+        2.847
+      ],
+      [
+        "Handicap 1 -0.5 + TU 11.5",
+        1.879
+      ],
+      [
+        "Handicap 1 -0.5 + TO 10.5",
+        2.145
+      ],
+      [
+        "Handicap 1 -0.5 + TU 10.5",
+        2.36
+      ],
+      [
+        "Handicap 1 -0.5 + TO 9.5",
+        1.734
+      ],
+      [
+        "Handicap 1 -0.5 + TU 9.5",
+        3.085
+      ],
+      [
+        "Handicap 1 -0.5 + TO 8.5",
+        1.444
+      ],
+      [
+        "Handicap 1 -0.5 + TU 8.5",
+        4.56
+      ],
+      [
+        "Handicap 1 -0.5 + TO 7.5",
+        1.283
+      ],
+      [
+        "Handicap 1 -0.5 + TU 7.5",
+        7.08
+      ],
+      [
+        "Handicap 1 0.5 + TO 7.5",
+        1.188
+      ],
+      [
+        "Handicap 1 0.5 + TU 7.5",
+        6.32
+      ],
+      [
+        "Handicap 1 0.5 + TO 8.5",
+        1.362
+      ],
+      [
+        "Handicap 1 0.5 + TU 8.5",
+        3.925
+      ],
+      [
+        "Handicap 1 0.5 + TO 9.5",
+        1.618
+      ],
+      [
+        "Handicap 1 0.5 + TU 9.5",
+        2.789
+      ],
+      [
+        "Handicap 1 0.5 + TO 10.5",
+        2.051
+      ],
+      [
+        "Handicap 1 0.5 + TU 10.5",
+        2.104
+      ],
+      [
+        "Handicap 1 0.5 + TO 11.5",
+        2.664
+      ],
+      [
+        "Handicap 1 0.5 + TU 11.5",
+        1.706
+      ],
+      [
+        "Handicap 1 0.5 + TO 12.5",
+        3.66
+      ],
+      [
+        "Handicap 1 0.5 + TU 12.5",
+        1.43
+      ],
+      [
+        "Handicap 1 0.5 + TO 13.5",
+        5.23
+      ],
+      [
+        "Handicap 1 0.5 + TU 13.5",
+        1.265
+      ],
+      [
+        "Handicap 1 0.5 + TO 14.5",
+        8.0
+      ],
+      [
+        "Handicap 1 0.5 + TU 14.5",
+        1.156
+      ]
+    ],
+    "Handicap 2 + Total. Tendangan Sudut": [
+      [
+        "Handicap 2 1.5 + TO 9.5",
+        6.49
+      ],
+      [
+        "Handicap 2 1.5 + TU 9.5",
+        6.28
+      ],
+      [
+        "Handicap 2 1.5 + TO 10.5",
+        8.15
+      ],
+      [
+        "Handicap 2 1.5 + TU 10.5",
+        5.27
+      ],
+      [
+        "Handicap 2 2.5 + TO 8.5",
+        3.63
+      ],
+      [
+        "Handicap 2 2.5 + TU 8.5",
+        6.01
+      ],
+      [
+        "Handicap 2 2.5 + TO 9.5",
+        4.405
+      ],
+      [
+        "Handicap 2 2.5 + TU 9.5",
+        4.71
+      ],
+      [
+        "Handicap 2 2.5 + TO 10.5",
+        6.12
+      ],
+      [
+        "Handicap 2 2.5 + TU 10.5",
+        3.665
+      ],
+      [
+        "Handicap 2 2.5 + TO 11.5",
+        8.15
+      ],
+      [
+        "Handicap 2 2.5 + TU 11.5",
+        3.21
+      ],
+      [
+        "Handicap 2 3.5 + TO 7.5",
+        2.282
+      ],
+      [
+        "Handicap 2 3.5 + TU 7.5",
+        6.98
+      ],
+      [
+        "Handicap 2 3.5 + TO 8.5",
+        2.662
+      ],
+      [
+        "Handicap 2 3.5 + TU 8.5",
+        4.955
+      ],
+      [
+        "Handicap 2 3.5 + TO 9.5",
+        3.435
+      ],
+      [
+        "Handicap 2 3.5 + TU 9.5",
+        3.555
+      ],
+      [
+        "Handicap 2 3.5 + TO 10.5",
+        4.4
+      ],
+      [
+        "Handicap 2 3.5 + TU 10.5",
+        2.933
+      ],
+      [
+        "Handicap 2 3.5 + TO 11.5",
+        6.45
+      ],
+      [
+        "Handicap 2 3.5 + TU 11.5",
+        2.447
+      ],
+      [
+        "Handicap 2 3.5 + TO 12.5",
+        9.05
+      ],
+      [
+        "Handicap 2 3.5 + TU 12.5",
+        2.22
+      ],
+      [
+        "Handicap 2 4.5 + TO 7.5",
+        1.799
+      ],
+      [
+        "Handicap 2 4.5 + TU 7.5",
+        6.26
+      ],
+      [
+        "Handicap 2 4.5 + TO 8.5",
+        2.164
+      ],
+      [
+        "Handicap 2 4.5 + TU 8.5",
+        4.055
+      ],
+      [
+        "Handicap 2 4.5 + TO 9.5",
+        2.654
+      ],
+      [
+        "Handicap 2 4.5 + TU 9.5",
+        3.075
+      ],
+      [
+        "Handicap 2 4.5 + TO 10.5",
+        3.605
+      ],
+      [
+        "Handicap 2 4.5 + TU 10.5",
+        2.398
+      ],
+      [
+        "Handicap 2 4.5 + TO 11.5",
+        4.87
+      ],
+      [
+        "Handicap 2 4.5 + TU 11.5",
+        2.068
+      ],
+      [
+        "Handicap 2 4.5 + TO 12.5",
+        7.45
+      ],
+      [
+        "Handicap 2 4.5 + TU 12.5",
+        1.804
+      ],
+      [
+        "Handicap 2 5.5 + TO 7.5",
+        1.528
+      ],
+      [
+        "Handicap 2 5.5 + TU 7.5",
+        5.57
+      ],
+      [
+        "Handicap 2 5.5 + TO 8.5",
+        1.787
+      ],
+      [
+        "Handicap 2 5.5 + TU 8.5",
+        3.76
+      ],
+      [
+        "Handicap 2 5.5 + TO 9.5",
+        2.256
+      ],
+      [
+        "Handicap 2 5.5 + TU 9.5",
+        2.69
+      ],
+      [
+        "Handicap 2 5.5 + TO 10.5",
+        2.911
+      ],
+      [
+        "Handicap 2 5.5 + TU 10.5",
+        2.161
+      ],
+      [
+        "Handicap 2 5.5 + TO 11.5",
+        4.115
+      ],
+      [
+        "Handicap 2 5.5 + TU 11.5",
+        1.782
+      ],
+      [
+        "Handicap 2 5.5 + TO 12.5",
+        5.79
+      ],
+      [
+        "Handicap 2 5.5 + TU 12.5",
+        1.575
+      ],
+      [
+        "Handicap 2 6.5 + TO 7.5",
+        1.339
+      ],
+      [
+        "Handicap 2 6.5 + TU 7.5",
+        5.44
+      ],
+      [
+        "Handicap 2 6.5 + TO 8.5",
+        1.578
+      ],
+      [
+        "Handicap 2 6.5 + TU 8.5",
+        3.5
+      ],
+      [
+        "Handicap 2 6.5 + TO 9.5",
+        1.936
+      ],
+      [
+        "Handicap 2 6.5 + TU 9.5",
+        2.556
+      ],
+      [
+        "Handicap 2 6.5 + TO 10.5",
+        2.557
+      ],
+      [
+        "Handicap 2 6.5 + TU 10.5",
+        1.975
+      ],
+      [
+        "Handicap 2 6.5 + TO 11.5",
+        3.425
+      ],
+      [
+        "Handicap 2 6.5 + TU 11.5",
+        1.647
+      ],
+      [
+        "Handicap 2 6.5 + TO 12.5",
+        5.01
+      ],
+      [
+        "Handicap 2 6.5 + TU 12.5",
+        1.41
+      ],
+      [
+        "Handicap 2 6.5 + TO 13.5",
+        7.4
+      ],
+      [
+        "Handicap 2 6.5 + TU 13.5",
+        1.282
+      ],
+      [
+        "Handicap 2 7.5 + TO 7.5",
+        1.229
+      ],
+      [
+        "Handicap 2 7.5 + TU 7.5",
+        5.31
+      ],
+      [
+        "Handicap 2 7.5 + TO 8.5",
+        1.429
+      ],
+      [
+        "Handicap 2 7.5 + TU 8.5",
+        3.445
+      ],
+      [
+        "Handicap 2 7.5 + TO 9.5",
+        1.763
+      ],
+      [
+        "Handicap 2 7.5 + TU 9.5",
+        2.446
+      ],
+      [
+        "Handicap 2 7.5 + TO 10.5",
+        2.261
+      ],
+      [
+        "Handicap 2 7.5 + TU 10.5",
+        1.906
+      ],
+      [
+        "Handicap 2 7.5 + TO 11.5",
+        3.075
+      ],
+      [
+        "Handicap 2 7.5 + TU 11.5",
+        1.544
+      ],
+      [
+        "Handicap 2 7.5 + TO 12.5",
+        4.3
+      ],
+      [
+        "Handicap 2 7.5 + TU 12.5",
+        1.332
+      ],
+      [
+        "Handicap 2 7.5 + TO 13.5",
+        6.59
+      ],
+      [
+        "Handicap 2 7.5 + TU 13.5",
+        1.189
+      ]
+    ],
+    "1x2. Tendangan Sudut. Babak pertama": [
+      [
+        "M1",
+        1.328
+      ],
+      [
+        "X",
+        6.59
+      ],
+      [
+        "M2",
+        5.87
+      ]
+    ],
+    "Double Chance. Tendangan Sudut. Babak pertama": [
+      [
+        "1X",
+        1.098
+      ],
+      [
+        "12",
+        1.076
+      ],
+      [
+        "2X",
+        3.105
+      ]
+    ],
+    "Total. Tendangan Sudut. Babak pertama": [
+      [
+        "2.5 Over",
+        1.026
+      ],
+      [
+        "2.5 Under",
+        6.63
+      ],
+      [
+        "3 Over",
+        1.054
+      ],
+      [
+        "3 Under",
+        5.77
+      ],
+      [
+        "3.5 Over",
+        1.25
+      ],
+      [
+        "3.5 Under",
+        3.275
+      ],
+      [
+        "4 Over",
+        1.357
+      ],
+      [
+        "4 Under",
+        2.774
+      ],
+      [
+        "4.5 Over",
+        1.61
+      ],
+      [
+        "4.5 Under",
+        2.15
+      ],
+      [
+        "5 Over",
+        1.912
+      ],
+      [
+        "5 Under",
+        1.792
+      ],
+      [
+        "5.5 Over",
+        2.245
+      ],
+      [
+        "5.5 Under",
+        1.56
+      ],
+      [
+        "6 Over",
+        2.918
+      ],
+      [
+        "6 Under",
+        1.321
+      ],
+      [
+        "6.5 Over",
+        3.36
+      ],
+      [
+        "6.5 Under",
+        1.237
+      ],
+      [
+        "7 Over",
+        5.08
+      ],
+      [
+        "7 Under",
+        1.084
+      ],
+      [
+        "7.5 Over",
+        5.65
+      ],
+      [
+        "7.5 Under",
+        1.058
+      ]
+    ],
+    "Total Asia. Tendangan Sudut. Babak pertama": [
+      [
+        "2.75 Over",
+        1.039
+      ],
+      [
+        "2.75 Under",
+        6.2
+      ],
+      [
+        "3.25 Over",
+        1.154
+      ],
+      [
+        "3.25 Under",
+        4.07
+      ],
+      [
+        "3.75 Over",
+        1.297
+      ],
+      [
+        "3.75 Under",
+        3.025
+      ],
+      [
+        "4.25 Over",
+        1.505
+      ],
+      [
+        "4.25 Under",
+        2.355
+      ],
+      [
+        "4.75 Over",
+        1.759
+      ],
+      [
+        "4.75 Under",
+        1.951
+      ],
+      [
+        "5.25 Over",
+        2.082
+      ],
+      [
+        "5.25 Under",
+        1.662
+      ],
+      [
+        "5.75 Over",
+        2.503
+      ],
+      [
+        "5.75 Under",
+        1.443
+      ],
+      [
+        "6.25 Over",
+        3.14
+      ],
+      [
+        "6.25 Under",
+        1.275
+      ],
+      [
+        "6.75 Over",
+        3.985
+      ],
+      [
+        "6.75 Under",
+        1.161
+      ],
+      [
+        "7.25 Over",
+        5.37
+      ],
+      [
+        "7.25 Under",
+        1.07
+      ]
+    ],
+    "Handicap. Tendangan Sudut. Babak pertama": [
+      [
+        "1 (-4)",
+        5.79
+      ],
+      [
+        "2 (+4)",
+        1.01
+      ],
+      [
+        "1 (-3.5)",
+        3.55
+      ],
+      [
+        "2 (+3.5)",
+        1.152
+      ],
+      [
+        "1 (-3)",
+        3.12
+      ],
+      [
+        "2 (+3)",
+        1.216
+      ],
+      [
+        "1 (-2.5)",
+        2.327
+      ],
+      [
+        "2 (+2.5)",
+        1.442
+      ],
+      [
+        "1 (-2)",
+        2.026
+      ],
+      [
+        "2 (+2)",
+        1.617
+      ],
+      [
+        "1 (-1.5)",
+        1.76
+      ],
+      [
+        "2 (+1.5)",
+        1.95
+      ],
+      [
+        "1 (-1)",
+        1.471
+      ],
+      [
+        "2 (+1)",
+        2.265
+      ],
+      [
+        "1 (0)",
+        1.116
+      ],
+      [
+        "2 (0)",
+        3.885
+      ]
+    ],
+    "Handicap Asia. Tendangan Sudut. Babak pertama": [
+      [
+        "1 (-3.75)",
+        4.305
+      ],
+      [
+        "2 (+3.75)",
+        1.08
+      ],
+      [
+        "1 (-3.25)",
+        3.335
+      ],
+      [
+        "2 (+3.25)",
+        1.181
+      ],
+      [
+        "1 (-2.75)",
+        2.62
+      ],
+      [
+        "2 (+2.75)",
+        1.333
+      ],
+      [
+        "1 (-2.25)",
+        2.176
+      ],
+      [
+        "2 (+2.25)",
+        1.518
+      ],
+      [
+        "1 (-1.75)",
+        1.853
+      ],
+      [
+        "2 (+1.75)",
+        1.75
+      ],
+      [
+        "1 (-1.25)",
+        1.617
+      ],
+      [
+        "2 (+1.25)",
+        2.026
+      ],
+      [
+        "1 (-0.75)",
+        1.394
+      ],
+      [
+        "2 (+0.75)",
+        2.442
+      ],
+      [
+        "1 (-0.25)",
+        1.228
+      ],
+      [
+        "2 (+0.25)",
+        3.055
+      ],
+      [
+        "1 (+0.25)",
+        1.092
+      ],
+      [
+        "2 (-0.25)",
+        4.16
+      ],
+      [
+        "1 (+0.75)",
+        1.012
+      ],
+      [
+        "2 (-0.75)",
+        5.71
+      ]
+    ],
+    "Total 1. Tendangan Sudut. Babak pertama": [
+      [
+        "1.5 Over",
+        1.07
+      ],
+      [
+        "1.5 Under",
+        5.38
+      ],
+      [
+        "2 Over",
+        1.126
+      ],
+      [
+        "2 Under",
+        4.405
+      ],
+      [
+        "2.5 Over",
+        1.43
+      ],
+      [
+        "2.5 Under",
+        2.538
+      ],
+      [
+        "3 Over",
+        1.674
+      ],
+      [
+        "3 Under",
+        2.066
+      ],
+      [
+        "3.5 Over",
+        2.066
+      ],
+      [
+        "3.5 Under",
+        1.674
+      ],
+      [
+        "4 Over",
+        2.759
+      ],
+      [
+        "4 Under",
+        1.361
+      ],
+      [
+        "4.5 Over",
+        3.3
+      ],
+      [
+        "4.5 Under",
+        1.246
+      ],
+      [
+        "5 Over",
+        5.46
+      ],
+      [
+        "5 Under",
+        1.066
+      ],
+      [
+        "5.5 Over",
+        6.2
+      ],
+      [
+        "5.5 Under",
+        1.039
+      ]
+    ],
+    "Tim Asia Total 1. Tendangan Sudut. Babak pertama": [
+      [
+        "1.75 Over",
+        1.095
+      ],
+      [
+        "1.75 Under",
+        4.89
+      ],
+      [
+        "2.25 Over",
+        1.282
+      ],
+      [
+        "2.25 Under",
+        3.1
+      ],
+      [
+        "2.75 Over",
+        1.531
+      ],
+      [
+        "2.75 Under",
+        2.301
+      ],
+      [
+        "3.25 Over",
+        1.874
+      ],
+      [
+        "3.25 Under",
+        1.827
+      ],
+      [
+        "3.75 Over",
+        2.319
+      ],
+      [
+        "3.75 Under",
+        1.522
+      ],
+      [
+        "4.25 Over",
+        3.03
+      ],
+      [
+        "4.25 Under",
+        1.296
+      ],
+      [
+        "4.75 Over",
+        4.025
+      ],
+      [
+        "4.75 Under",
+        1.158
+      ],
+      [
+        "5.25 Over",
+        5.83
+      ],
+      [
+        "5.25 Under",
+        1.052
+      ]
+    ],
+    "Total 2. Tendangan Sudut. Babak pertama": [
+      [
+        "0.5 Over",
+        1.128
+      ],
+      [
+        "0.5 Under",
+        4.375
+      ],
+      [
+        "1 Over",
+        1.278
+      ],
+      [
+        "1 Under",
+        3.12
+      ],
+      [
+        "1.5 Over",
+        1.844
+      ],
+      [
+        "1.5 Under",
+        1.856
+      ],
+      [
+        "2 Over",
+        2.661
+      ],
+      [
+        "2 Under",
+        1.389
+      ],
+      [
+        "2.5 Over",
+        3.48
+      ],
+      [
+        "2.5 Under",
+        1.22
+      ]
+    ],
+    "Tim Asia Total 2. Tendangan Sudut. Babak pertama": [
+      [
+        "0.75 Over",
+        1.186
+      ],
+      [
+        "0.75 Under",
+        3.745
+      ],
+      [
+        "1.25 Over",
+        1.583
+      ],
+      [
+        "1.25 Under",
+        2.205
+      ],
+      [
+        "1.75 Over",
+        2.114
+      ],
+      [
+        "1.75 Under",
+        1.64
+      ],
+      [
+        "2.25 Over",
+        3.07
+      ],
+      [
+        "2.25 Under",
+        1.288
+      ]
+    ],
+    "1, Hasil + Total. Tendangan Sudut. Babak pertama": [
+      [
+        "M1 Dan TU 2.5 - Ya",
+        16.0
+      ],
+      [
+        "M1 Dan TO 2.5 - Ya",
+        1.435
+      ],
+      [
+        "1X Dan TU 2.5 - Ya",
+        9.3
+      ],
+      [
+        "1X Dan TO 2.5 - Ya",
+        1.245
+      ],
+      [
+        "M1 Dan TU 3.5 - Ya",
+        5.81
+      ],
+      [
+        "M1 Dan TO 3.5 - Ya",
+        1.696
+      ],
+      [
+        "1X Dan TU 3.5 - Ya",
+        4.58
+      ],
+      [
+        "1X Dan TO 3.5 - Ya",
+        1.433
+      ],
+      [
+        "M1 Dan TU 4.5 - Ya",
+        3.5
+      ],
+      [
+        "M1 Dan TO 4.5 - Ya",
+        2.078
+      ],
+      [
+        "1X Dan TU 4.5 - Ya",
+        2.568
+      ],
+      [
+        "1X Dan TO 4.5 - Ya",
+        1.867
+      ],
+      [
+        "M1 Dan TU 5.5 - Ya",
+        2.268
+      ],
+      [
+        "M1 Dan TO 5.5 - Ya",
+        3.005
+      ],
+      [
+        "1X Dan TU 5.5 - Ya",
+        1.829
+      ],
+      [
+        "1X Dan TO 5.5 - Ya",
+        2.587
+      ],
+      [
+        "M1 Dan TU 6.5 - Ya",
+        1.799
+      ],
+      [
+        "M1 Dan TO 6.5 - Ya",
+        4.495
+      ],
+      [
+        "1X Dan TU 6.5 - Ya",
+        1.427
+      ],
+      [
+        "1X Dan TO 6.5 - Ya",
+        4.155
+      ],
+      [
+        "M1 Dan TU 7.5 - Ya",
+        1.52
+      ],
+      [
+        "M1 Dan TO 7.5 - Ya",
+        8.0
+      ],
+      [
+        "1X Dan TU 7.5 - Ya",
+        1.243
+      ],
+      [
+        "1X Dan TO 7.5 - Ya",
+        7.03
+      ],
+      [
+        "M1 Dan TU 8.5 - Ya",
+        1.395
+      ],
+      [
+        "M1 Dan TO 8.5 - Ya",
+        14.6
+      ],
+      [
+        "1X Dan TU 8.5 - Ya",
+        1.139
+      ],
+      [
+        "1X Dan TO 8.5 - Ya",
+        13.7
+      ]
+    ],
+    "2, Hasil +Total. Tendangan Sudut. Babak pertama": [
+      [
+        "2X Dan TU 2.5 - Ya",
+        15.0
+      ],
+      [
+        "2X Dan TO 2.5 - Ya",
+        3.91
+      ],
+      [
+        "M2 Dan TU 3.5 - Ya",
+        16.5
+      ],
+      [
+        "M2 Dan TO 3.5 - Ya",
+        8.95
+      ],
+      [
+        "2X Dan TU 3.5 - Ya",
+        9.55
+      ],
+      [
+        "2X Dan TO 3.5 - Ya",
+        4.595
+      ],
+      [
+        "M2 Dan TU 4.5 - Ya",
+        12.5
+      ],
+      [
+        "M2 Dan TO 4.5 - Ya",
+        11.0
+      ],
+      [
+        "2X Dan TU 4.5 - Ya",
+        5.51
+      ],
+      [
+        "2X Dan TO 4.5 - Ya",
+        7.03
+      ],
+      [
+        "2X Dan TU 5.5 - Ya",
+        4.515
+      ],
+      [
+        "2X Dan TO 5.5 - Ya",
+        9.7
+      ]
+    ],
+    "Total Even. Tendangan Sudut. Babak pertama": [
+      [
+        "Ya",
+        1.804
+      ],
+      [
+        "Tidak",
+        1.804
+      ]
+    ],
+    "Handicap Eropa. Tendangan Sudut. Babak pertama": [
+      [
+        "0:3 M1",
+        3.55
+      ],
+      [
+        "0:4 X",
+        8.95
+      ],
+      [
+        "0:3 M2",
+        1.442
+      ],
+      [
+        "0:2 M1",
+        2.327
+      ],
+      [
+        "0:3 X",
+        6.15
+      ],
+      [
+        "0:2 M2",
+        1.95
+      ],
+      [
+        "0:1 M1",
+        1.76
+      ],
+      [
+        "0:2 X",
+        5.05
+      ],
+      [
+        "0:1 M2",
+        3.105
+      ],
+      [
+        "0:1 X",
+        4.325
+      ],
+      [
+        "1:0 X",
+        10.0
+      ]
+    ],
+    "3 Pilihan Total. Tendangan Sudut. Babak pertama": [
+      [
+        "Over 3",
+        1.25
+      ],
+      [
+        "Tepat 3",
+        6.32
+      ],
+      [
+        "Under 3",
+        6.63
+      ],
+      [
+        "Over 4",
+        1.61
+      ],
+      [
+        "Tepat 4",
+        6.0
+      ],
+      [
+        "Under 4",
+        3.275
+      ],
+      [
+        "Over 5",
+        2.18
+      ],
+      [
+        "Tepat 5",
+        6.13
+      ],
+      [
+        "Under 5",
+        2.15
+      ],
+      [
+        "Over 6",
+        3.1
+      ],
+      [
+        "Tepat 6",
+        7.37
+      ],
+      [
+        "Under 6",
+        1.59
+      ],
+      [
+        "Over 7",
+        5.65
+      ],
+      [
+        "Tepat 7",
+        6.5
+      ],
+      [
+        "Under 7",
+        1.31
+      ]
+    ],
+    "Individual 3Pilihan Total 1. Tendangan Sudut. Babak pertama": [
+      [
+        "Over 2",
+        1.43
+      ],
+      [
+        "Tepat 2",
+        4.645
+      ],
+      [
+        "Under 2",
+        5.38
+      ],
+      [
+        "Over 3",
+        2.066
+      ],
+      [
+        "Tepat 3",
+        4.79
+      ],
+      [
+        "Under 3",
+        2.538
+      ],
+      [
+        "Over 4",
+        3.3
+      ],
+      [
+        "Tepat 4",
+        5.26
+      ],
+      [
+        "Under 4",
+        1.674
+      ],
+      [
+        "Over 5",
+        6.2
+      ],
+      [
+        "Tepat 5",
+        6.88
+      ],
+      [
+        "Under 5",
+        1.246
+      ]
+    ],
+    "Individual 3PIlihan Total 2. Tendangan Sudut. Babak pertama": [
+      [
+        "Over 1",
+        1.844
+      ],
+      [
+        "Tepat 1",
+        3.105
+      ],
+      [
+        "Under 1",
+        4.375
+      ],
+      [
+        "Over 2",
+        3.48
+      ],
+      [
+        "Tepat 2",
+        3.775
+      ],
+      [
+        "Under 2",
+        1.856
+      ]
+    ],
+    "Handicap 1 + Total. Tendangan Sudut. Babak pertama": [
+      [
+        "Handicap 1 -2.5 + TO 6.5",
+        6.41
+      ],
+      [
+        "Handicap 1 -2.5 + TU 6.5",
+        4.3
+      ],
+      [
+        "Handicap 1 -2.5 + TO 5.5",
+        4.63
+      ],
+      [
+        "Handicap 1 -2.5 + TU 5.5",
+        5.7
+      ],
+      [
+        "Handicap 1 -1.5 + TO 7.5",
+        9.0
+      ],
+      [
+        "Handicap 1 -1.5 + TU 7.5",
+        2.178
+      ],
+      [
+        "Handicap 1 -1.5 + TO 6.5",
+        5.58
+      ],
+      [
+        "Handicap 1 -1.5 + TU 6.5",
+        2.529
+      ],
+      [
+        "Handicap 1 -1.5 + TO 5.5",
+        3.41
+      ],
+      [
+        "Handicap 1 -1.5 + TU 5.5",
+        3.465
+      ],
+      [
+        "Handicap 1 -1.5 + TO 4.5",
+        2.583
+      ],
+      [
+        "Handicap 1 -1.5 + TU 4.5",
+        4.98
+      ],
+      [
+        "Handicap 1 -0.5 + TO 7.5",
+        8.2
+      ],
+      [
+        "Handicap 1 -0.5 + TU 7.5",
+        1.559
+      ],
+      [
+        "Handicap 1 -0.5 + TO 6.5",
+        4.605
+      ],
+      [
+        "Handicap 1 -0.5 + TU 6.5",
+        1.845
+      ],
+      [
+        "Handicap 1 -0.5 + TO 5.5",
+        3.045
+      ],
+      [
+        "Handicap 1 -0.5 + TU 5.5",
+        2.297
+      ],
+      [
+        "Handicap 1 -0.5 + TO 4.5",
+        2.05
+      ],
+      [
+        "Handicap 1 -0.5 + TU 4.5",
+        3.455
+      ],
+      [
+        "Handicap 1 -0.5 + TO 3.5",
+        1.641
+      ],
+      [
+        "Handicap 1 -0.5 + TU 3.5",
+        5.62
+      ],
+      [
+        "Handicap 1 0.5 + TO 3.5",
+        1.397
+      ],
+      [
+        "Handicap 1 0.5 + TU 3.5",
+        4.465
+      ],
+      [
+        "Handicap 1 0.5 + TO 4.5",
+        1.874
+      ],
+      [
+        "Handicap 1 0.5 + TU 4.5",
+        2.578
+      ],
+      [
+        "Handicap 1 0.5 + TO 5.5",
+        2.652
+      ],
+      [
+        "Handicap 1 0.5 + TU 5.5",
+        1.875
+      ],
+      [
+        "Handicap 1 0.5 + TO 6.5",
+        4.255
+      ],
+      [
+        "Handicap 1 0.5 + TU 6.5",
+        1.461
+      ],
+      [
+        "Handicap 1 0.5 + TO 7.5",
+        7.16
+      ],
+      [
+        "Handicap 1 0.5 + TU 7.5",
+        1.266
+      ]
+    ],
+    "Handicap 2 + Total. Tendangan Sudut. Babak pertama": [
+      [
+        "Handicap 2 0.5 + TO 4.5",
+        6.81
+      ],
+      [
+        "Handicap 2 0.5 + TU 4.5",
+        5.34
+      ],
+      [
+        "Handicap 2 1.5 + TO 3.5",
+        3.02
+      ],
+      [
+        "Handicap 2 1.5 + TU 3.5",
+        5.0
+      ],
+      [
+        "Handicap 2 1.5 + TO 4.5",
+        3.995
+      ],
+      [
+        "Handicap 2 1.5 + TU 4.5",
+        3.625
+      ],
+      [
+        "Handicap 2 1.5 + TO 5.5",
+        6.94
+      ],
+      [
+        "Handicap 2 1.5 + TU 5.5",
+        2.661
+      ],
+      [
+        "Handicap 2 2.5 + TO 2.5",
+        1.666
+      ],
+      [
+        "Handicap 2 2.5 + TU 2.5",
+        7.46
+      ],
+      [
+        "Handicap 2 2.5 + TO 3.5",
+        2.057
+      ],
+      [
+        "Handicap 2 2.5 + TU 3.5",
+        4.18
+      ],
+      [
+        "Handicap 2 2.5 + TO 4.5",
+        3.065
+      ],
+      [
+        "Handicap 2 2.5 + TU 4.5",
+        2.587
+      ],
+      [
+        "Handicap 2 2.5 + TO 5.5",
+        4.53
+      ],
+      [
+        "Handicap 2 2.5 + TU 5.5",
+        2.067
+      ],
+      [
+        "Handicap 2 2.5 + TO 6.5",
+        8.55
+      ],
+      [
+        "Handicap 2 2.5 + TU 6.5",
+        1.703
+      ],
+      [
+        "Handicap 2 3.5 + TO 2.5",
+        1.31
+      ],
+      [
+        "Handicap 2 3.5 + TU 2.5",
+        7.46
+      ],
+      [
+        "Handicap 2 3.5 + TO 3.5",
+        1.67
+      ],
+      [
+        "Handicap 2 3.5 + TU 3.5",
+        3.535
+      ],
+      [
+        "Handicap 2 3.5 + TO 4.5",
+        2.285
+      ],
+      [
+        "Handicap 2 3.5 + TU 4.5",
+        2.332
+      ],
+      [
+        "Handicap 2 3.5 + TO 5.5",
+        3.7
+      ],
+      [
+        "Handicap 2 3.5 + TU 5.5",
+        1.694
+      ],
+      [
+        "Handicap 2 3.5 + TO 6.5",
+        5.93
+      ],
+      [
+        "Handicap 2 3.5 + TU 6.5",
+        1.425
+      ],
+      [
+        "Handicap 2 4.5 + TO 2.5",
+        1.144
+      ],
+      [
+        "Handicap 2 4.5 + TU 2.5",
+        7.46
+      ],
+      [
+        "Handicap 2 4.5 + TO 3.5",
+        1.413
+      ],
+      [
+        "Handicap 2 4.5 + TU 3.5",
+        3.535
+      ],
+      [
+        "Handicap 2 4.5 + TO 4.5",
+        1.98
+      ],
+      [
+        "Handicap 2 4.5 + TU 4.5",
+        2.154
+      ],
+      [
+        "Handicap 2 4.5 + TO 5.5",
+        2.936
+      ],
+      [
+        "Handicap 2 4.5 + TU 5.5",
+        1.588
+      ],
+      [
+        "Handicap 2 4.5 + TO 6.5",
+        5.06
+      ],
+      [
+        "Handicap 2 4.5 + TU 6.5",
+        1.267
+      ]
+    ],
+    "1x2. Tendangan Sudut. Babak ke-2": [
+      [
+        "M1",
+        1.436
+      ],
+      [
+        "X",
+        6.29
+      ],
+      [
+        "M2",
+        4.545
+      ]
+    ],
+    "Double Chance. Tendangan Sudut. Babak ke-2": [
+      [
+        "1X",
+        1.163
+      ],
+      [
+        "12",
+        1.084
+      ],
+      [
+        "2X",
+        2.633
+      ]
+    ],
+    "Total. Tendangan Sudut. Babak ke-2": [
+      [
+        "3.5 Over",
+        1.14
+      ],
+      [
+        "3.5 Under",
+        4.225
+      ],
+      [
+        "4 Over",
+        1.199
+      ],
+      [
+        "4 Under",
+        3.635
+      ],
+      [
+        "4.5 Over",
+        1.436
+      ],
+      [
+        "4.5 Under",
+        2.523
+      ],
+      [
+        "5 Over",
+        1.61
+      ],
+      [
+        "5 Under",
+        2.159
+      ],
+      [
+        "5.5 Over",
+        1.9
+      ],
+      [
+        "5.5 Under",
+        1.79
+      ],
+      [
+        "6 Over",
+        2.283
+      ],
+      [
+        "6 Under",
+        1.54
+      ],
+      [
+        "6.5 Over",
+        2.641
+      ],
+      [
+        "6.5 Under",
+        1.396
+      ],
+      [
+        "7 Over",
+        3.6
+      ],
+      [
+        "7 Under",
+        1.204
+      ],
+      [
+        "7.5 Over",
+        4.07
+      ],
+      [
+        "7.5 Under",
+        1.153
+      ],
+      [
+        "8 Over",
+        6.39
+      ],
+      [
+        "8 Under",
+        1.033
+      ],
+      [
+        "8.5 Over",
+        6.97
+      ],
+      [
+        "8.5 Under",
+        1.018
+      ]
+    ],
+    "Total Asia. Tendangan Sudut. Babak ke-2": [
+      [
+        "3.75 Over",
+        1.167
+      ],
+      [
+        "3.75 Under",
+        3.93
+      ],
+      [
+        "4.25 Over",
+        1.32
+      ],
+      [
+        "4.25 Under",
+        2.922
+      ],
+      [
+        "4.75 Over",
+        1.512
+      ],
+      [
+        "4.75 Under",
+        2.34
+      ],
+      [
+        "5.25 Over",
+        1.761
+      ],
+      [
+        "5.25 Under",
+        1.949
+      ],
+      [
+        "5.75 Over",
+        2.058
+      ],
+      [
+        "5.75 Under",
+        1.68
+      ],
+      [
+        "6.25 Over",
+        2.462
+      ],
+      [
+        "6.25 Under",
+        1.459
+      ],
+      [
+        "6.75 Over",
+        3.005
+      ],
+      [
+        "6.75 Under",
+        1.301
+      ],
+      [
+        "7.25 Over",
+        3.835
+      ],
+      [
+        "7.25 Under",
+        1.176
+      ],
+      [
+        "7.75 Over",
+        4.905
+      ],
+      [
+        "7.75 Under",
+        1.094
+      ],
+      [
+        "8.25 Over",
+        6.68
+      ],
+      [
+        "8.25 Under",
+        1.025
+      ]
+    ],
+    "Handicap. Tendangan Sudut. Babak ke-2": [
+      [
+        "1 (-3.5)",
+        3.905
+      ],
+      [
+        "2 (+3.5)",
+        1.114
+      ],
+      [
+        "1 (-3)",
+        3.47
+      ],
+      [
+        "2 (+3)",
+        1.163
+      ],
+      [
+        "1 (-2.5)",
+        2.523
+      ],
+      [
+        "2 (+2.5)",
+        1.365
+      ],
+      [
+        "1 (-2)",
+        2.21
+      ],
+      [
+        "2 (+2)",
+        1.5
+      ],
+      [
+        "1 (-1.5)",
+        1.94
+      ],
+      [
+        "2 (+1.5)",
+        1.77
+      ],
+      [
+        "1 (-1)",
+        1.618
+      ],
+      [
+        "2 (+1)",
+        2.024
+      ],
+      [
+        "1 (0)",
+        1.218
+      ],
+      [
+        "2 (0)",
+        3.11
+      ]
+    ],
+    "Handicap Asia. Tendangan Sudut. Babak ke-2": [
+      [
+        "1 (-3.75)",
+        4.77
+      ],
+      [
+        "2 (+3.75)",
+        1.05
+      ],
+      [
+        "1 (-3.25)",
+        3.69
+      ],
+      [
+        "2 (+3.25)",
+        1.136
+      ],
+      [
+        "1 (-2.75)",
+        2.872
+      ],
+      [
+        "2 (+2.75)",
+        1.267
+      ],
+      [
+        "1 (-2.25)",
+        2.366
+      ],
+      [
+        "2 (+2.25)",
+        1.425
+      ],
+      [
+        "1 (-1.75)",
+        2.004
+      ],
+      [
+        "2 (+1.75)",
+        1.633
+      ],
+      [
+        "1 (-1.25)",
+        1.746
+      ],
+      [
+        "2 (+1.25)",
+        1.857
+      ],
+      [
+        "1 (-0.75)",
+        1.523
+      ],
+      [
+        "2 (+0.75)",
+        2.168
+      ],
+      [
+        "1 (-0.25)",
+        1.337
+      ],
+      [
+        "2 (+0.25)",
+        2.606
+      ],
+      [
+        "1 (+0.25)",
+        1.183
+      ],
+      [
+        "2 (-0.25)",
+        3.33
+      ],
+      [
+        "1 (+0.75)",
+        1.078
+      ],
+      [
+        "2 (-0.75)",
+        4.335
+      ]
+    ],
+    "Total 1. Tendangan Sudut. Babak ke-2": [
+      [
+        "1.5 Over",
+        1.051
+      ],
+      [
+        "1.5 Under",
+        5.83
+      ],
+      [
+        "2 Over",
+        1.099
+      ],
+      [
+        "2 Under",
+        4.82
+      ],
+      [
+        "2.5 Over",
+        1.383
+      ],
+      [
+        "2.5 Under",
+        2.681
+      ],
+      [
+        "3 Over",
+        1.595
+      ],
+      [
+        "3 Under",
+        2.185
+      ],
+      [
+        "3.5 Over",
+        1.974
+      ],
+      [
+        "3.5 Under",
+        1.741
+      ],
+      [
+        "4 Over",
+        2.567
+      ],
+      [
+        "4 Under",
+        1.42
+      ],
+      [
+        "4.5 Over",
+        3.075
+      ],
+      [
+        "4.5 Under",
+        1.287
+      ],
+      [
+        "5 Over",
+        4.91
+      ],
+      [
+        "5 Under",
+        1.094
+      ],
+      [
+        "5.5 Over",
+        5.6
+      ],
+      [
+        "5.5 Under",
+        1.06
+      ]
+    ],
+    "Tim Asia Total 1. Tendangan Sudut. Babak ke-2": [
+      [
+        "1.75 Over",
+        1.072
+      ],
+      [
+        "1.75 Under",
+        5.33
+      ],
+      [
+        "2.25 Over",
+        1.244
+      ],
+      [
+        "2.25 Under",
+        3.315
+      ],
+      [
+        "2.75 Over",
+        1.471
+      ],
+      [
+        "2.75 Under",
+        2.432
+      ],
+      [
+        "3.25 Over",
+        1.793
+      ],
+      [
+        "3.25 Under",
+        1.911
+      ],
+      [
+        "3.75 Over",
+        2.196
+      ],
+      [
+        "3.75 Under",
+        1.588
+      ],
+      [
+        "4.25 Over",
+        2.822
+      ],
+      [
+        "4.25 Under",
+        1.344
+      ],
+      [
+        "4.75 Over",
+        3.7
+      ],
+      [
+        "4.75 Under",
+        1.191
+      ],
+      [
+        "5.25 Over",
+        5.25
+      ],
+      [
+        "5.25 Under",
+        1.076
+      ]
+    ],
+    "Total 2. Tendangan Sudut. Babak ke-2": [
+      [
+        "0.5 Over",
+        1.034
+      ],
+      [
+        "0.5 Under",
+        6.35
+      ],
+      [
+        "1 Over",
+        1.1
+      ],
+      [
+        "1 Under",
+        4.795
+      ],
+      [
+        "1.5 Over",
+        1.528
+      ],
+      [
+        "1.5 Under",
+        2.306
+      ],
+      [
+        "2 Over",
+        1.934
+      ],
+      [
+        "2 Under",
+        1.773
+      ],
+      [
+        "2.5 Over",
+        2.516
+      ],
+      [
+        "2.5 Under",
+        1.438
+      ],
+      [
+        "3 Over",
+        4.18
+      ],
+      [
+        "3 Under",
+        1.144
+      ],
+      [
+        "3.5 Over",
+        5.06
+      ],
+      [
+        "3.5 Under",
+        1.085
+      ]
+    ],
+    "Tim Asia Total 2. Tendangan Sudut. Babak ke-2": [
+      [
+        "0.75 Over",
+        1.062
+      ],
+      [
+        "0.75 Under",
+        5.57
+      ],
+      [
+        "1.25 Over",
+        1.322
+      ],
+      [
+        "1.25 Under",
+        2.912
+      ],
+      [
+        "1.75 Over",
+        1.688
+      ],
+      [
+        "1.75 Under",
+        2.046
+      ],
+      [
+        "2.25 Over",
+        2.227
+      ],
+      [
+        "2.25 Under",
+        1.57
+      ],
+      [
+        "2.75 Over",
+        3.035
+      ],
+      [
+        "2.75 Under",
+        1.295
+      ],
+      [
+        "3.25 Over",
+        4.625
+      ],
+      [
+        "3.25 Under",
+        1.111
+      ]
+    ],
+    "1, Hasil + Total. Tendangan Sudut. Babak ke-2": [
+      [
+        "1X Dan TU 2.5 - Ya",
+        13.7
+      ],
+      [
+        "1X Dan TO 2.5 - Ya",
+        1.27
+      ],
+      [
+        "M1 Dan TU 3.5 - Ya",
+        8.3
+      ],
+      [
+        "M1 Dan TO 3.5 - Ya",
+        1.719
+      ],
+      [
+        "1X Dan TU 3.5 - Ya",
+        6.48
+      ],
+      [
+        "1X Dan TO 3.5 - Ya",
+        1.412
+      ],
+      [
+        "M1 Dan TU 4.5 - Ya",
+        4.825
+      ],
+      [
+        "M1 Dan TO 4.5 - Ya",
+        2.008
+      ],
+      [
+        "1X Dan TU 4.5 - Ya",
+        3.365
+      ],
+      [
+        "1X Dan TO 4.5 - Ya",
+        1.747
+      ],
+      [
+        "M1 Dan TU 5.5 - Ya",
+        2.905
+      ],
+      [
+        "M1 Dan TO 5.5 - Ya",
+        2.729
+      ],
+      [
+        "1X Dan TU 5.5 - Ya",
+        2.296
+      ],
+      [
+        "1X Dan TO 5.5 - Ya",
+        2.27
+      ],
+      [
+        "M1 Dan TU 6.5 - Ya",
+        2.218
+      ],
+      [
+        "M1 Dan TO 6.5 - Ya",
+        3.785
+      ],
+      [
+        "1X Dan TU 6.5 - Ya",
+        1.696
+      ],
+      [
+        "1X Dan TO 6.5 - Ya",
+        3.4
+      ],
+      [
+        "M1 Dan TU 7.5 - Ya",
+        1.786
+      ],
+      [
+        "M1 Dan TO 7.5 - Ya",
+        6.27
+      ],
+      [
+        "1X Dan TU 7.5 - Ya",
+        1.428
+      ],
+      [
+        "1X Dan TO 7.5 - Ya",
+        5.3
+      ],
+      [
+        "M1 Dan TU 8.5 - Ya",
+        1.597
+      ],
+      [
+        "M1 Dan TO 8.5 - Ya",
+        10.4
+      ],
+      [
+        "1X Dan TU 8.5 - Ya",
+        1.267
+      ],
+      [
+        "1X Dan TO 8.5 - Ya",
+        9.6
+      ]
+    ],
+    "2, Hasil +Total. Tendangan Sudut. Babak ke-2": [
+      [
+        "M2 Dan TU 3.5 - Ya",
+        18.0
+      ],
+      [
+        "M2 Dan TO 3.5 - Ya",
+        6.0
+      ],
+      [
+        "2X Dan TU 3.5 - Ya",
+        11.3
+      ],
+      [
+        "2X Dan TO 3.5 - Ya",
+        3.425
+      ],
+      [
+        "M2 Dan TU 4.5 - Ya",
+        12.6
+      ],
+      [
+        "M2 Dan TO 4.5 - Ya",
+        7.04
+      ],
+      [
+        "2X Dan TU 4.5 - Ya",
+        5.97
+      ],
+      [
+        "2X Dan TO 4.5 - Ya",
+        4.68
+      ],
+      [
+        "M2 Dan TU 5.5 - Ya",
+        7.7
+      ],
+      [
+        "M2 Dan TO 5.5 - Ya",
+        10.8
+      ],
+      [
+        "2X Dan TU 5.5 - Ya",
+        4.58
+      ],
+      [
+        "2X Dan TO 5.5 - Ya",
+        6.1
+      ],
+      [
+        "M2 Dan TU 6.5 - Ya",
+        6.48
+      ],
+      [
+        "M2 Dan TO 6.5 - Ya",
+        14.8
+      ],
+      [
+        "2X Dan TU 6.5 - Ya",
+        3.465
+      ],
+      [
+        "2X Dan TO 6.5 - Ya",
+        10.4
+      ],
+      [
+        "2X Dan TU 7.5 - Ya",
+        3.105
+      ],
+      [
+        "2X Dan TO 7.5 - Ya",
+        16.0
+      ]
+    ],
+    "Total Even. Tendangan Sudut. Babak ke-2": [
+      [
+        "Ya",
+        1.804
+      ],
+      [
+        "Tidak",
+        1.804
+      ]
+    ],
+    "Handicap Eropa. Tendangan Sudut. Babak ke-2": [
+      [
+        "0:3 M1",
+        3.905
+      ],
+      [
+        "0:4 X",
+        10.0
+      ],
+      [
+        "0:3 M2",
+        1.365
+      ],
+      [
+        "0:2 M1",
+        2.523
+      ],
+      [
+        "0:3 X",
+        6.8
+      ],
+      [
+        "0:2 M2",
+        1.77
+      ],
+      [
+        "0:1 M1",
+        1.94
+      ],
+      [
+        "0:2 X",
+        5.43
+      ],
+      [
+        "0:1 M2",
+        2.633
+      ],
+      [
+        "0:1 X",
+        4.405
+      ],
+      [
+        "1:0 X",
+        8.65
+      ]
+    ],
+    "3 Pilihan Total. Tendangan Sudut. Babak ke-2": [
+      [
+        "Over 4",
+        1.45
+      ],
+      [
+        "Tepat 4",
+        5.86
+      ],
+      [
+        "Under 4",
+        4.225
+      ],
+      [
+        "Over 5",
+        1.9
+      ],
+      [
+        "Tepat 5",
+        6.22
+      ],
+      [
+        "Under 5",
+        2.5
+      ],
+      [
+        "Over 6",
+        2.6
+      ],
+      [
+        "Tepat 6",
+        7.07
+      ],
+      [
+        "Under 6",
+        1.79
+      ],
+      [
+        "Over 7",
+        4.07
+      ],
+      [
+        "Tepat 7",
+        6.79
+      ],
+      [
+        "Under 7",
+        1.43
+      ],
+      [
+        "Over 8",
+        6.97
+      ],
+      [
+        "Tepat 8",
+        9.55
+      ],
+      [
+        "Under 8",
+        1.153
+      ]
+    ],
+    "Individual 3Pilihan Total 1. Tendangan Sudut. Babak ke-2": [
+      [
+        "Over 2",
+        1.383
+      ],
+      [
+        "Tepat 2",
+        4.805
+      ],
+      [
+        "Under 2",
+        5.83
+      ],
+      [
+        "Over 3",
+        1.974
+      ],
+      [
+        "Tepat 3",
+        4.805
+      ],
+      [
+        "Under 3",
+        2.681
+      ],
+      [
+        "Over 4",
+        3.075
+      ],
+      [
+        "Tepat 4",
+        5.27
+      ],
+      [
+        "Under 4",
+        1.741
+      ],
+      [
+        "Over 5",
+        5.6
+      ],
+      [
+        "Tepat 5",
+        6.61
+      ],
+      [
+        "Under 5",
+        1.287
+      ]
+    ],
+    "Individual 3PIlihan Total 2. Tendangan Sudut. Babak ke-2": [
+      [
+        "Over 1",
+        1.528
+      ],
+      [
+        "Tepat 1",
+        3.495
+      ],
+      [
+        "Under 1",
+        6.35
+      ],
+      [
+        "Over 2",
+        2.516
+      ],
+      [
+        "Tepat 2",
+        3.855
+      ],
+      [
+        "Under 2",
+        2.306
+      ],
+      [
+        "Over 3",
+        5.06
+      ],
+      [
+        "Tepat 3",
+        4.83
+      ],
+      [
+        "Under 3",
+        1.438
+      ]
+    ],
+    "Handicap 1 + Total. Tendangan Sudut. Babak ke-2": [
+      [
+        "Handicap 1 -2.5 + TO 6.5",
+        5.81
+      ],
+      [
+        "Handicap 1 -2.5 + TU 6.5",
+        5.58
+      ],
+      [
+        "Handicap 1 -2.5 + TO 5.5",
+        4.495
+      ],
+      [
+        "Handicap 1 -2.5 + TU 5.5",
+        7.65
+      ],
+      [
+        "Handicap 1 -1.5 + TO 7.5",
+        7.19
+      ],
+      [
+        "Handicap 1 -1.5 + TU 7.5",
+        2.61
+      ],
+      [
+        "Handicap 1 -1.5 + TO 6.5",
+        4.835
+      ],
+      [
+        "Handicap 1 -1.5 + TU 6.5",
+        3.13
+      ],
+      [
+        "Handicap 1 -1.5 + TO 5.5",
+        3.17
+      ],
+      [
+        "Handicap 1 -1.5 + TU 5.5",
+        4.6
+      ],
+      [
+        "Handicap 1 -1.5 + TO 4.5",
+        2.555
+      ],
+      [
+        "Handicap 1 -1.5 + TU 4.5",
+        6.86
+      ],
+      [
+        "Handicap 1 -0.5 + TO 7.5",
+        6.43
+      ],
+      [
+        "Handicap 1 -0.5 + TU 7.5",
+        1.832
+      ],
+      [
+        "Handicap 1 -0.5 + TO 6.5",
+        3.84
+      ],
+      [
+        "Handicap 1 -0.5 + TU 6.5",
+        2.25
+      ],
+      [
+        "Handicap 1 -0.5 + TO 5.5",
+        2.72
+      ],
+      [
+        "Handicap 1 -0.5 + TU 5.5",
+        2.894
+      ],
+      [
+        "Handicap 1 -0.5 + TO 4.5",
+        1.954
+      ],
+      [
+        "Handicap 1 -0.5 + TU 4.5",
+        4.695
+      ],
+      [
+        "Handicap 1 -0.5 + TO 3.5",
+        1.649
+      ],
+      [
+        "Handicap 1 -0.5 + TU 3.5",
+        7.95
+      ],
+      [
+        "Handicap 1 0.5 + TO 3.5",
+        1.362
+      ],
+      [
+        "Handicap 1 0.5 + TU 3.5",
+        6.25
+      ],
+      [
+        "Handicap 1 0.5 + TO 4.5",
+        1.727
+      ],
+      [
+        "Handicap 1 0.5 + TU 4.5",
+        3.325
+      ],
+      [
+        "Handicap 1 0.5 + TO 5.5",
+        2.297
+      ],
+      [
+        "Handicap 1 0.5 + TU 5.5",
+        2.323
+      ],
+      [
+        "Handicap 1 0.5 + TO 6.5",
+        3.495
+      ],
+      [
+        "Handicap 1 0.5 + TU 6.5",
+        1.743
+      ],
+      [
+        "Handicap 1 0.5 + TO 7.5",
+        5.42
+      ],
+      [
+        "Handicap 1 0.5 + TU 7.5",
+        1.462
+      ],
+      [
+        "Handicap 1 1.5 + TO 3.5",
+        1.243
+      ],
+      [
+        "Handicap 1 1.5 + TU 3.5",
+        5.0
+      ],
+      [
+        "Handicap 1 1.5 + TO 4.5",
+        1.542
+      ],
+      [
+        "Handicap 1 1.5 + TU 4.5",
+        2.949
+      ],
+      [
+        "Handicap 1 1.5 + TO 5.5",
+        2.146
+      ],
+      [
+        "Handicap 1 1.5 + TU 5.5",
+        1.982
+      ],
+      [
+        "Handicap 1 1.5 + TO 6.5",
+        3.105
+      ],
+      [
+        "Handicap 1 1.5 + TU 6.5",
+        1.527
+      ],
+      [
+        "Handicap 1 1.5 + TO 7.5",
+        5.06
+      ],
+      [
+        "Handicap 1 1.5 + TU 7.5",
+        1.26
+      ],
+      [
+        "Handicap 1 1.5 + TO 8.5",
+        8.7
+      ],
+      [
+        "Handicap 1 1.5 + TU 8.5",
+        1.128
+      ]
+    ],
+    "Handicap 2 + Total. Tendangan Sudut. Babak ke-2": [
+      [
+        "Handicap 2 0.5 + TO 4.5",
+        4.52
+      ],
+      [
+        "Handicap 2 0.5 + TU 4.5",
+        5.77
+      ],
+      [
+        "Handicap 2 0.5 + TO 5.5",
+        5.95
+      ],
+      [
+        "Handicap 2 0.5 + TU 5.5",
+        4.465
+      ],
+      [
+        "Handicap 2 1.5 + TO 3.5",
+        2.34
+      ],
+      [
+        "Handicap 2 1.5 + TU 3.5",
+        6.23
+      ],
+      [
+        "Handicap 2 1.5 + TO 4.5",
+        2.922
+      ],
+      [
+        "Handicap 2 1.5 + TU 4.5",
+        4.165
+      ],
+      [
+        "Handicap 2 1.5 + TO 5.5",
+        4.485
+      ],
+      [
+        "Handicap 2 1.5 + TU 5.5",
+        2.843
+      ],
+      [
+        "Handicap 2 1.5 + TO 6.5",
+        6.58
+      ],
+      [
+        "Handicap 2 1.5 + TU 6.5",
+        2.392
+      ],
+      [
+        "Handicap 2 2.5 + TO 3.5",
+        1.712
+      ],
+      [
+        "Handicap 2 2.5 + TU 3.5",
+        5.38
+      ],
+      [
+        "Handicap 2 2.5 + TO 4.5",
+        2.311
+      ],
+      [
+        "Handicap 2 2.5 + TU 4.5",
+        3.08
+      ],
+      [
+        "Handicap 2 2.5 + TO 5.5",
+        3.19
+      ],
+      [
+        "Handicap 2 2.5 + TU 5.5",
+        2.303
+      ],
+      [
+        "Handicap 2 2.5 + TO 6.5",
+        5.33
+      ],
+      [
+        "Handicap 2 2.5 + TU 6.5",
+        1.801
+      ],
+      [
+        "Handicap 2 2.5 + TO 7.5",
+        8.5
+      ],
+      [
+        "Handicap 2 2.5 + TU 7.5",
+        1.591
+      ],
+      [
+        "Handicap 2 3.5 + TO 3.5",
+        1.433
+      ],
+      [
+        "Handicap 2 3.5 + TU 3.5",
+        4.65
+      ],
+      [
+        "Handicap 2 3.5 + TO 4.5",
+        1.835
+      ],
+      [
+        "Handicap 2 3.5 + TU 4.5",
+        2.832
+      ],
+      [
+        "Handicap 2 3.5 + TO 5.5",
+        2.7
+      ],
+      [
+        "Handicap 2 3.5 + TU 5.5",
+        1.947
+      ],
+      [
+        "Handicap 2 3.5 + TO 6.5",
+        4.03
+      ],
+      [
+        "Handicap 2 3.5 + TU 6.5",
+        1.562
+      ],
+      [
+        "Handicap 2 3.5 + TO 7.5",
+        7.16
+      ],
+      [
+        "Handicap 2 3.5 + TU 7.5",
+        1.316
+      ]
+    ],
+    "Pemain Mencetak Skor Satu Gol Kapan Saja. Statistik Pemain": [
+      [
+        "Kevin Long - Ya",
+        23.0
+      ],
+      [
+        "Hayden Cann - Ya",
+        20.0
+      ],
+      [
+        "Padraig Amond - Ya",
+        4.0
+      ],
+      [
+        "Luke Heeney - Ya",
+        15.0
+      ],
+      [
+        "Patrick Barrett - Ya",
+        8.0
+      ],
+      [
+        "Dean McMenamy - Ya",
+        11.0
+      ],
+      [
+        "Alistair Coote - Ya",
+        2.8
+      ],
+      [
+        "Evan McLaughlin - Ya",
+        6.5
+      ],
+      [
+        "Tom Lonergan - Ya",
+        4.5
+      ],
+      [
+        "William Jarvis - Ya",
+        4.33
+      ],
+      [
+        "Will Johnson - Ya",
+        20.0
+      ],
+      [
+        "Benny Couto - Ya",
+        34.0
+      ],
+      [
+        "Sean Gannon - Ya",
+        13.0
+      ],
+      [
+        "Harry Wood - Ya",
+        2.3
+      ],
+      [
+        "Sean Boyd - Ya",
+        2.4
+      ],
+      [
+        "Sean Moore - Ya",
+        4.0
+      ],
+      [
+        "Daniel Kelly - Ya",
+        5.0
+      ],
+      [
+        "Evan Caffrey - Ya",
+        5.0
+      ],
+      [
+        "Sam Bone - Ya",
+        10.0
+      ],
+      [
+        "Kameron Ledwidge - Ya",
+        17.0
+      ],
+      [
+        "John Mahon - Ya",
+        14.0
+      ],
+      [
+        "Jorgen Voilas - Ya",
+        6.5
+      ],
+      [
+        "Jordan Houston - Ya",
+        26.0
+      ],
+      [
+        "Samuel Glenfield - Ya",
+        12.0
+      ],
+      [
+        "Conor Carty - Ya",
+        5.5
+      ],
+      [
+        "Jesse Dempsey - Ya",
+        14.0
+      ],
+      [
+        "Jonathan Lunney - Ya",
+        7.0
+      ],
+      [
+        "Jordan Faria - Ya",
+        7.0
+      ],
+      [
+        "Ellis Chapman - Ya",
+        3.75
+      ],
+      [
+        "Ronan Mansfield - Ya",
+        23.0
+      ],
+      [
+        "John Martin - Ya",
+        2.3
+      ],
+      [
+        "Cian Barrett - Ya",
+        14.0
+      ],
+      [
+        "Trae Coyle - Ya",
+        6.5
+      ],
+      [
+        "James Roche - Ya",
+        9.0
+      ],
+      [
+        "James Norris - Ya",
+        14.0
+      ],
+      [
+        "Jack Henry-Francis - Ya",
+        4.0
+      ],
+      [
+        "Zeno Ibsen Rossi - Ya",
+        12.0
+      ],
+      [
+        "Milan Bernhard Mbeng - Ya",
+        17.0
+      ],
+      [
+        "Conan Noonan - Ya",
+        6.5
+      ],
+      [
+        "Maill Lundgren - Ya",
+        4.5
+      ],
+      [
+        "Odhran Casey - Ya",
+        9.5
+      ],
+      [
+        "Alan Zborowski - Ya",
+        23.0
+      ],
+      [
+        "Ademipo Odubeko - Ya",
+        2.6
+      ],
+      [
+        "Rodrigo Costa Freitas - Ya",
+        2.7
+      ]
+    ],
+    "Pemain Mencetak Gol Termasuk Pemain Pengganti. Statistik Pemain": [
+      [
+        "Kevin Long - Ya",
+        20.0
+      ],
+      [
+        "Hayden Cann - Ya",
+        18.0
+      ],
+      [
+        "Padraig Amond - Ya",
+        3.635
+      ],
+      [
+        "Luke Heeney - Ya",
+        13.6
+      ],
+      [
+        "Patrick Barrett - Ya",
+        7.27
+      ],
+      [
+        "Dean McMenamy - Ya",
+        10.0
+      ],
+      [
+        "Alistair Coote - Ya",
+        2.545
+      ],
+      [
+        "Evan McLaughlin - Ya",
+        5.9
+      ],
+      [
+        "Tom Lonergan - Ya",
+        4.09
+      ],
+      [
+        "William Jarvis - Ya",
+        3.935
+      ],
+      [
+        "Will Johnson - Ya",
+        18.0
+      ],
+      [
+        "Benny Couto - Ya",
+        30.0
+      ],
+      [
+        "Sean Gannon - Ya",
+        11.8
+      ],
+      [
+        "Harry Wood - Ya",
+        2.091
+      ],
+      [
+        "Sean Boyd - Ya",
+        2.182
+      ],
+      [
+        "Sean Moore - Ya",
+        3.635
+      ],
+      [
+        "Daniel Kelly - Ya",
+        4.545
+      ],
+      [
+        "Evan Caffrey - Ya",
+        4.545
+      ],
+      [
+        "Sam Bone - Ya",
+        9.05
+      ],
+      [
+        "Kameron Ledwidge - Ya",
+        15.0
+      ],
+      [
+        "John Mahon - Ya",
+        12.7
+      ],
+      [
+        "Jorgen Voilas - Ya",
+        5.9
+      ],
+      [
+        "Jordan Houston - Ya",
+        23.0
+      ],
+      [
+        "Samuel Glenfield - Ya",
+        10.9
+      ],
+      [
+        "Conor Carty - Ya",
+        5.0
+      ],
+      [
+        "Jesse Dempsey - Ya",
+        12.7
+      ],
+      [
+        "Jonathan Lunney - Ya",
+        6.36
+      ],
+      [
+        "Jordan Faria - Ya",
+        6.36
+      ],
+      [
+        "Ellis Chapman - Ya",
+        3.405
+      ],
+      [
+        "Ronan Mansfield - Ya",
+        20.0
+      ],
+      [
+        "John Martin - Ya",
+        2.091
+      ],
+      [
+        "Cian Barrett - Ya",
+        12.7
+      ],
+      [
+        "Trae Coyle - Ya",
+        5.9
+      ],
+      [
+        "James Roche - Ya",
+        8.15
+      ],
+      [
+        "James Norris - Ya",
+        12.7
+      ],
+      [
+        "Jack Henry-Francis - Ya",
+        3.635
+      ],
+      [
+        "Zeno Ibsen Rossi - Ya",
+        10.9
+      ],
+      [
+        "Milan Bernhard Mbeng - Ya",
+        15.0
+      ],
+      [
+        "Conan Noonan - Ya",
+        5.9
+      ],
+      [
+        "Maill Lundgren - Ya",
+        4.09
+      ],
+      [
+        "Odhran Casey - Ya",
+        8.6
+      ],
+      [
+        "Alan Zborowski - Ya",
+        20.0
+      ],
+      [
+        "Ademipo Odubeko - Ya",
+        2.364
+      ],
+      [
+        "Rodrigo Costa Freitas - Ya",
+        2.454
+      ]
+    ],
+    "Pemain Yang Mencetak Gol Pertama. Statistik Pemain": [
+      [
+        "Harry Wood",
+        5.0
+      ],
+      [
+        "Patrick Barrett",
+        18.0
+      ],
+      [
+        "John Martin",
+        5.0
+      ],
+      [
+        "James Roche",
+        20.0
+      ],
+      [
+        "Sean Boyd",
+        5.5
+      ],
+      [
+        "Odhran Casey",
+        21.0
+      ],
+      [
+        "Ademipo Odubeko",
+        6.0
+      ],
+      [
+        "Sam Bone",
+        21.0
+      ],
+      [
+        "Rodrigo Costa Freitas",
+        6.0
+      ],
+      [
+        "Dean McMenamy",
+        23.0
+      ],
+      [
+        "Alistair Coote",
+        6.5
+      ],
+      [
+        "Samuel Glenfield",
+        26.0
+      ],
+      [
+        "Ellis Chapman",
+        9.0
+      ],
+      [
+        "Sean Gannon",
+        26.0
+      ],
+      [
+        "Sean Moore",
+        9.5
+      ],
+      [
+        "Zeno Ibsen Rossi",
+        26.0
+      ],
+      [
+        "William Jarvis",
+        10.0
+      ],
+      [
+        "Jesse Dempsey",
+        31.0
+      ],
+      [
+        "Jack Henry-Francis",
+        10.0
+      ],
+      [
+        "James Norris",
+        31.0
+      ],
+      [
+        "Padraig Amond",
+        10.0
+      ],
+      [
+        "Cian Barrett",
+        34.0
+      ],
+      [
+        "Tom Lonergan",
+        10.0
+      ],
+      [
+        "John Mahon",
+        34.0
+      ],
+      [
+        "Maill Lundgren",
+        11.0
+      ],
+      [
+        "Luke Heeney",
+        36.0
+      ],
+      [
+        "Evan Caffrey",
+        12.0
+      ],
+      [
+        "Kameron Ledwidge",
+        41.0
+      ],
+      [
+        "Daniel Kelly",
+        12.0
+      ],
+      [
+        "Milan Bernhard Mbeng",
+        41.0
+      ],
+      [
+        "Conor Carty",
+        13.0
+      ],
+      [
+        "Hayden Cann",
+        50.0
+      ],
+      [
+        "Tidak Ada Gol",
+        13.0
+      ],
+      [
+        "Will Johnson",
+        50.0
+      ],
+      [
+        "Jorgen Voilas",
+        14.0
+      ],
+      [
+        "Kevin Long",
+        55.0
+      ],
+      [
+        "Trae Coyle",
+        14.0
+      ],
+      [
+        "Ronan Mansfield",
+        60.0
+      ],
+      [
+        "Evan McLaughlin",
+        15.0
+      ],
+      [
+        "Jordan Houston",
+        65.0
+      ],
+      [
+        "Jordan Faria",
+        15.0
+      ],
+      [
+        "Alan Zborowski",
+        65.0
+      ],
+      [
+        "Jonathan Lunney",
+        15.0
+      ],
+      [
+        "Benny Couto",
+        90.0
+      ],
+      [
+        "Conan Noonan",
+        15.0
+      ]
+    ]
+  }
+}
