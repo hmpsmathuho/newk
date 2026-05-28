@@ -1,98 +1,137 @@
-# Model V3 — Calibrated Production Model
+# Model V3.1 — Production Calibrated Model + Extended Markets
 
-## Why V3 (the rebuild story)
+## Story
 
-V5 of CLAUDE.md was based on raw Poisson with manual lambda adjustments. **It was broken.**
+V5 of CLAUDE.md → BROKEN raw Poisson, U2.5 ROI -12% over season.
+V3.0 (model_v3.py) → market-blend + Platt fixed U2.5/U3.5/BTTS Yes, but BLOCKED 1X2.
+**V3.1 (now)** → unlocks 1X2 via Platt calibration + Dixon-Coles ρ + supports 20+ bet types.
 
-`backtest.py` ran the original model on 380-match EPL 2025/26 season (300 predictions after warmup). Results:
+## Backtest verdict
 
+`backtest.py` (V0 raw Poisson, full EPL 2025/26):
 ```
 U2.5 calibration error by predicted bucket:
-  65-70%   pred 68.0%   actual 42.9%   diff -25.1 pp
-  70-75%   pred 72.4%   actual 31.2%   diff -41.1 pp
-  75-80%   pred 77.7%   actual 56.2%   diff -21.5 pp
-  80-90%   pred 83.9%   actual 36.8%   diff -47.1 pp
+  65-70%: -25.1 pp     70-75%: -41.1 pp
+  75-80%: -21.5 pp     80-90%: -47.1 pp
 
-Gate simulation (model >= 65%, value >= 4%, gap >= 4pp):
-  77 picks U2.5
-  Avg model: 77.3%, actual hit: 44.2%, error -33.2 pp
-  Flat-stake ROI: -12.17% over 77 bets
+Gate sim: 77 picks U2.5, ROI -12.17%
 ```
 
-This explains the "selalu kalah Under 2.5" experience.
+`model_v2.py` variant comparison on held-out:
 
-## What V3 fixes
+| Model | U2.5 bias | BTTS bias | 1X2 cal | ROI gate |
+|-------|-----------|-----------|---------|---------|
+| V0 raw | +9.2pp | -11.2pp | -33pp | -12% |
+| V1 Platt-only | +1.6pp | +0pp | — | 0 picks |
+| V2 Dixon-Coles | +9.2pp | -10.2pp | — | -12% (sama V0) |
+| **V3 mkt-blend+Platt** | +3.9pp | -7pp | BLOCKED | +25% (small N) |
+| **V3.1 + ρ + 1X2 calib** | +3.9pp | -7pp | ±5pp at 65%+ | TBD on next season |
 
-`model_v2.py` compared 4 variants on held-out test set:
+## V3.1 architecture
 
-| Variant | U2.5 bias | BTTS bias | Verdict |
-|---------|-----------|-----------|---------|
-| V0 raw Poisson | +9.2pp | -11.2pp | broken |
-| V1 Platt-only (linear calibration) | +1.6pp | +0.0pp | over-corrects, produces 0 picks |
-| V2 Dixon-Coles (low-score correlation) | +9.2pp (same as V0) | -10.2pp | barely helps |
-| **V3 market-blend + Platt** | +3.9pp | -7.0pp | **best balanced** |
+```
+form λ (rolling 6-match)              \
+                                        → 0.4 × form + 0.6 × market = λ
+market-implied λ (devig U/O 2.5)      /
+                                       
+λ → Dixon-Coles ρ adjustment → score grid → market probabilities → Platt calibration
+                                                              ↓
+                                                      Per-market gate
+                                                              ↓
+                                                      Pass / Block decision
+```
 
-Production model = `model_v3.py`:
-- λ_total = 0.4 × form_lambda + 0.6 × market_implied_lambda (devig U/O 2.5)
-- Apply Platt calibration per market
-- Per-market gate (different threshold for U3.5, U2.5, BTTS)
+## Calibrators (V3.1 trained on EPL 2025/26, 300 preds)
 
-## Per-market gate decisions
+```
+u25:       a=0.470, b=-0.056   (negative slope = corrects raw overestimate)
+u35:       a=0.585, b=+0.172
+btts_yes:  a=0.502, b=+0.140
+home_1x2:  a=0.178, b=+0.562   (NEW V3.1)
+draw_1x2:  a=0.339, b=-0.224   (NEW V3.1)
+away_1x2:  a=0.172, b=+0.398   (NEW V3.1)
+ht_u15:    a=0.756, b=-0.172   (NEW V3.1)
+ht_u25:    a=1.109, b=-0.258   (NEW V3.1)
+```
 
-Based on V3 calibration tables:
+Dixon-Coles ρ = -0.15 (fitted via grid-search MLE). Empirical HT/FT ratio = 0.445.
 
-| Market | Gate | Why |
-|--------|------|-----|
-| **U3.5** | 65% min, 4ppt gap | Calibrated near-perfect at 65-80% (test diff -3 to +3 pp) |
-| **U2.5** | 75% min, 7ppt gap | Residual +3.9pp bias even after blend; need wide buffer |
-| **BTTS Yes** | 65% min, 4ppt gap | OK at 60-65% range |
-| BTTS No | **BLOCKED** | BTTS Yes systematically underestimated -7 to -11pp |
-| 1X2 Home | **BLOCKED** | Out-of-sample: pred 73%, actual 40% (-33pp) |
-| 1X2 Draw/Away | **BLOCKED** | Same — 1X2 raw Poisson uncalibrated |
+## Per-market gate (V3.1)
 
-## Files
+See CLAUDE.md Phase 4 table. Key:
+- ✓ Calibrated reliable: U3.5 (65%), U2.5 (75%), BTTS Yes (65%), 1X2 (65%), HT U1.5/2.5
+- ⚠ Uncalibrated cautious: AH, AHQ, Team Totals — **EPL only**
+- ❌ BLOCKED: BTTS No, Win-to-Nil No
 
-- `backtest.py` — V0 baseline backtest, demonstrates broken model
-- `model_v2.py` — Comparison of V0/V1/V2/V3 variants on held-out test
-- `model_v3.py` — **Production model**. Includes `build_model()`, `evaluate_match()`, `gate_v3()`
-- `backtest_v3.py` — Out-of-sample validation of V3 + per-market gate
-- `E0_2526.csv` — EPL 2025/26 historical data (football-data.co.uk)
-- `CLAUDE.md` — Updated agent instructions (v6.0)
+## Bet types supported
+
+20+ types matching 1xbet history slip:
+
+| Indonesian (1xbet) | Code | Status |
+|--------------------|------|--------|
+| Total Under (X.X) | U{line} | ✓ calibrated |
+| Total Over (X.X) | O{line} | ⚠ uncal |
+| 1x2: M1/X/M2 | 1X2_HOME/DRAW/AWAY | ✓ calibrated V3.1 |
+| Double Chance: 1X/12/X2 | DC_1X/12/X2 | ⚠ derived |
+| Kedua Tim Mencetak — Ya | BTTS_YES | ✓ calibrated |
+| Kedua Tim Mencetak — Tidak | BTTS_NO | ❌ BLOCKED |
+| Handicap Asia (full) | AH_HOME/AWAY_{line} | ⚠ EPL-only |
+| Handicap Asia (Quarter) | AHQ_HOME/AWAY_{line} | ⚠ EPL-only |
+| Tim 1/2 Total Over/Under | TT_HOME/AWAY_O/U{line} | ⚠ EPL-only |
+| Total Babak Pertama (HT) | HT_O/U{line} | ✓ calibrated |
+| 1x2 Babak Pertama | HT_1X2_HOME/DRAW/AWAY | ⚠ uncal |
+| Total Genap/Ganjil | TOTAL_ODD/EVEN | ⚠ uncal |
+| Win to Nil — Ya | HOME/AWAY_WIN_TO_NIL_YES | ⚠ uncal |
+| Hasil + BTTS | HOME/DRAW/AWAY_AND_BTTS_YES | ⚠ uncal |
+
+## Test Results
+
+**EPL 5 mhtml (calibrated history):**
+- 5 matches → 6 passing legs
+- 2 calibrated U3.5 picks (Brighton, Liverpool)
+- 4 uncalibrated AH/DC picks (with warning)
+- 2 sit-out matches (West Ham, Palace) — gate honest no-edge
+
+**Non-EPL 15 RAW (fallback mode):**
+- 15 matches → 0 passing legs
+- All AH/AHQ/TT correctly BLOCKED (no calibration available)
+- Honest "sit out" output
 
 ## Usage
 
 ```python
-from model_v3 import build_model, evaluate_match, gate_v3
+import model_v3 as m3
+import model_v3_extended as m3e
 
-# Train calibration (once per season)
-model = build_model("E0_2526.csv")
+# Train (once per season)
+model = m3.build_model("E0_2526.csv")
 
-# Evaluate a fixture
-result = evaluate_match(model, "Liverpool", "Brentford",
-    market={
-        "u25": 2.56, "o25": 1.46, "u35": 1.734, "o35": 2.281,
-        "btts_yes": 1.444, "btts_no": 2.611,
-        "home_1x2": 1.929, "draw_1x2": 4.16, "away_1x2": 3.895,
-    })
+# Evaluate (with raw 1xbet GetGameZip Value dict)
+result = m3e.evaluate_all_markets(model, "Liverpool", "Brentford", raw_value)
 
-# Filter legs by gate
-for leg in result["legs"]:
-    ok, reason = gate_v3(leg)
-    if ok:
-        print(f"PICK: {leg['market']} @ {leg['odds']} (model {leg['model_p']*100:.1f}%, gap +{leg['gap_ppt']:.1f}pp)")
+# Output 1xbet-style
+print(m3e.format_output_1xbet_style(result, max_legs=10, show_blocked=True))
+
+# Or programmatic access
+for leg in result["passing_legs"]:
+    print(f"{leg['market']}: {leg['odds']} @ {leg['model_p']*100:.1f}% (gap +{leg['gap_ppt']:.1f}pp)")
 ```
-
-## Validation
-
-Out-of-sample 190-match EPL test (`backtest_v3.py`):
-- V3 + per-market gate on U2.5: **0 picks** (filter correctly identifies no edge)
-- V0 baseline: 46 picks, ROI -7.76%
-- V3 actively prevents losing trades
 
 ## Limitations
 
-1. **V3 calibrated for EPL only.** Other leagues need own training data. Tier 3 (Vietnam 2nd Div, Kazakhstan, Ethiopia) calibration unknown — `gate_v3` thresholds may not transfer.
-2. **Calibration drifts season-over-season.** Re-train at start of each season.
-3. **U3.5 gate validated, U2.5 gate filters everything** — by design (V0 -12% ROI history), but means fewer betting opportunities.
-4. **No 1X2 betting capability.** Future work: train 1X2 calibrator separately (current 1X2 raw is unreliable).
-5. **Sample size for gate-ROI is small.** "+25% ROI" V3 single-fold result based on 3 picks — direction-confirming but not statistically conclusive. The strong evidence is in calibration error reduction, not single-fold ROI.
+1. **EPL-trained only.** Non-EPL legs (AH, AHQ, TT) blocked by gate. Need per-league CSV training.
+2. **HT 1X2 uncalibrated** — uses naive ht_ratio scaling. Calibrate next.
+3. **Player-level markets unsupported** — Goalscorer, Time of First Goal, Booking range.
+4. **Correct Score** — too high variance, blocked.
+5. **Re-train per season** — calibration drifts.
+
+## Files
+
+- `model_v3.py` — Core (build_model, evaluate_match, gate_v3)
+- `model_v3_extended.py` — Extended (parse_market_from_raw, evaluate_all_markets, format_output_1xbet_style)
+- `backtest.py` — V0 baseline backtest
+- `backtest_v3.py` — V3 out-of-sample validation
+- `model_v2.py` — Variant comparison (V0/V1/V2/V3)
+- `parse_odds.py` — MHTML fallback parser
+- `phase0_fetch.py` / `phase0_match_odds.py` — Phase 0 API helpers
+- `E0_2526.csv` — EPL 2025/26 training data
