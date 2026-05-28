@@ -1,0 +1,34 @@
+Match: Deportivo Moron II vs Club Almagro II
+Liga: Argentina. Primera B Nacional. Reserve League
+Start (WIB): 2026-05-28 20:00
+ID: 724706742
+WP (1xbet hint): P1=0.51 PX=0.27 P2=0.22
+
+-- 1X2 --
+  Home 1.77  Draw 3.4  Away 4.13
+  Implied: H=0.565 D=0.294 A=0.242  Margin=10.1%
+-- Double Chance --
+  1X 1.156  12 1.23  X2 1.85
+-- Total Goals --
+  Line 0.5: Over 1.008  Under 8.8
+  Line 1: Over 1.023  Under 7.8
+  Line 1.5: Over 1.22  Under 3.5
+  Line 2: Over 1.35  Under 2.74
+  Line 2.5: Over 1.78  Under 1.909
+  Line 3: Over 2.28  Under 1.5
+  Line 3.5: Over 2.83  Under 1.33
+  Line 4: Over 4.5  Under 1.133
+  Line 4.5: Over 5.15  Under 1.098
+  Line 5: Over 8.8  Under 1.008
+  Line 5.5: Over 11  Under 1.01
+-- BTTS --
+  Yes 1.69  No 2.005
+-- Asian Handicap --
+  AH -2.50: Home 5.75  Away -
+  AH -2.00: Home 5.05  Away -
+  AH -1.50: Home 2.97  Away 8.5
+  AH -1.00: Home 2.375  Away 7.7
+  AH +1.00: Home 1.026  Away 1.5
+  AH +1.50: Home 1.013  Away 1.3
+  AH +2.00: Home -  Away 1.102
+  AH +2.50: Home -  Away 1.073

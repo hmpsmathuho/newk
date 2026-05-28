@@ -1,0 +1,33 @@
+Match: Atyrau vs Tobol Kostanay
+Liga: Kazakhstan. Liga Utama
+Start (WIB): 2026-05-28 20:00
+ID: 723795336
+WP (1xbet hint): P1=0.27 PX=0.31 P2=0.42
+
+-- 1X2 --
+  Home 3.44  Draw 3.075  Away 2.231
+  Implied: H=0.291 D=0.325 A=0.448  Margin=6.4%
+-- Double Chance --
+  1X 1.609  12 1.343  X2 1.284
+-- Total Goals --
+  Line 0.5: Over 1.035  Under 7.2
+  Line 1: Over 1.073  Under 5.75
+  Line 1.5: Over 1.38  Under 2.625
+  Line 2: Over 1.68  Under 1.96
+  Line 2.5: Over 2.329  Under 1.576
+  Line 3: Over 3.48  Under 1.222
+  Line 3.5: Over 4.3  Under 1.147
+  Line 4: Over 8.3  Under 1.016
+  Line 4.5: Over 9.1  Under 1.004
+  Line 5.5: Over 16  Under 1.008
+-- BTTS --
+  Yes 1.95  No 1.75
+-- Asian Handicap --
+  AH -2.50: Home -  Away 9
+  AH -2.00: Home -  Away 7.9
+  AH -1.50: Home 8.1  Away 4.45
+  AH -1.00: Home 6.9  Away 3.48
+  AH +1.00: Home 1.222  Away 1.041
+  AH +1.50: Home 1.135  Away 1.018
+  AH +2.00: Home 1.04  Away -
+  AH +2.50: Home 1.02  Away -

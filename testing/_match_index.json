@@ -1,0 +1,897 @@
+[
+  {
+    "slug": "dire-dawa-city-vs-saint-george-addis-abeba_724317737",
+    "id": 724317737,
+    "home": "Dire Dawa City",
+    "away": "Saint-George Addis Abeba",
+    "league": "Etiopia. Liga Primer",
+    "start_wib": "2026-05-28 19:00",
+    "wp": {
+      "P1": 0.26,
+      "P2": 0.41,
+      "PX": 0.33
+    },
+    "has_1x2": true,
+    "has_btts": true,
+    "totals_lines": [
+      0.5,
+      1,
+      1.5,
+      2,
+      2.5,
+      3,
+      3.5,
+      4.5
+    ],
+    "ah_lines": [
+      -2,
+      -1.5,
+      -1,
+      1,
+      1.5,
+      2
+    ],
+    "n_events": 587,
+    "n_markets": 5
+  },
+  {
+    "slug": "hawassa-city-vs-efiopia-buna_724317740",
+    "id": 724317740,
+    "home": "Hawassa City",
+    "away": "Efiopia Buna",
+    "league": "Etiopia. Liga Primer",
+    "start_wib": "2026-05-28 19:00",
+    "wp": {
+      "P1": 0.41,
+      "P2": 0.28,
+      "PX": 0.31
+    },
+    "has_1x2": true,
+    "has_btts": true,
+    "totals_lines": [
+      0.5,
+      1,
+      1.5,
+      2,
+      2.5,
+      3,
+      3.5,
+      4.5
+    ],
+    "ah_lines": [
+      -2,
+      -1.5,
+      -1,
+      1,
+      1.5,
+      2
+    ],
+    "n_events": 608,
+    "n_markets": 5
+  },
+  {
+    "slug": "betlemi-keda-vs-dinamo-tbilisi-ii_724491102",
+    "id": 724491102,
+    "home": "Betlemi Keda",
+    "away": "Dinamo Tbilisi II",
+    "league": "Georgia. Liga 3",
+    "start_wib": "2026-05-28 19:00",
+    "wp": {
+      "P1": 0.39,
+      "P2": 0.37,
+      "PX": 0.24
+    },
+    "has_1x2": true,
+    "has_btts": true,
+    "totals_lines": [
+      2.5,
+      3,
+      3.5,
+      4
+    ],
+    "ah_lines": [],
+    "n_events": 46,
+    "n_markets": 4
+  },
+  {
+    "slug": "didube-2014-vs-wit-georgia-tbilisi_724493677",
+    "id": 724493677,
+    "home": "Didube 2014",
+    "away": "WIT Georgia Tbilisi",
+    "league": "Georgia. Liga 3",
+    "start_wib": "2026-05-28 19:00",
+    "wp": {
+      "P1": 0.33,
+      "P2": 0.43,
+      "PX": 0.24
+    },
+    "has_1x2": true,
+    "has_btts": true,
+    "totals_lines": [
+      2.5,
+      3,
+      3.5,
+      4
+    ],
+    "ah_lines": [],
+    "n_events": 49,
+    "n_markets": 4
+  },
+  {
+    "slug": "gardabani-vs-fc-gonio_724479547",
+    "id": 724479547,
+    "home": "Gardabani",
+    "away": "Fc Gonio",
+    "league": "Georgia. Liga 3",
+    "start_wib": "2026-05-28 19:00",
+    "wp": {
+      "P1": 0.34,
+      "P2": 0.4,
+      "PX": 0.26
+    },
+    "has_1x2": true,
+    "has_btts": true,
+    "totals_lines": [
+      2.5,
+      3,
+      3.5
+    ],
+    "ah_lines": [
+      -1,
+      1
+    ],
+    "n_events": 195,
+    "n_markets": 5
+  },
+  {
+    "slug": "iberia-2010-tbilisi-vs-iveria-khashuri_724479096",
+    "id": 724479096,
+    "home": "Iberia 2010 Tbilisi",
+    "away": "Iveria Khashuri",
+    "league": "Georgia. Liga 3",
+    "start_wib": "2026-05-28 19:00",
+    "wp": {
+      "P1": 0.12,
+      "P2": 0.69,
+      "PX": 0.19
+    },
+    "has_1x2": true,
+    "has_btts": true,
+    "totals_lines": [
+      2.5,
+      3,
+      3.5
+    ],
+    "ah_lines": [
+      -2,
+      -1.5,
+      -1,
+      1,
+      1.5,
+      2
+    ],
+    "n_events": 200,
+    "n_markets": 5
+  },
+  {
+    "slug": "kolkheti-khobi-vs-locomotive-tbilisi_724479550",
+    "id": 724479550,
+    "home": "Kolkheti Khobi",
+    "away": "Locomotive Tbilisi",
+    "league": "Georgia. Liga 3",
+    "start_wib": "2026-05-28 19:00",
+    "wp": {
+      "P1": 0.41,
+      "P2": 0.33,
+      "PX": 0.26
+    },
+    "has_1x2": true,
+    "has_btts": true,
+    "totals_lines": [
+      2.5,
+      3,
+      3.5
+    ],
+    "ah_lines": [
+      -1.5,
+      -1,
+      1,
+      1.5
+    ],
+    "n_events": 195,
+    "n_markets": 5
+  },
+  {
+    "slug": "margveti-2006-vs-iberia-1999-ii_724479553",
+    "id": 724479553,
+    "home": "Margveti 2006",
+    "away": "Iberia 1999 II",
+    "league": "Georgia. Liga 3",
+    "start_wib": "2026-05-28 19:00",
+    "wp": {
+      "P1": 0.16,
+      "P2": 0.62,
+      "PX": 0.22
+    },
+    "has_1x2": true,
+    "has_btts": true,
+    "totals_lines": [
+      2.5,
+      3,
+      3.5
+    ],
+    "ah_lines": [
+      -2,
+      -1.5,
+      -1,
+      1,
+      1.5,
+      2
+    ],
+    "n_events": 195,
+    "n_markets": 5
+  },
+  {
+    "slug": "merani-tbilisi-vs-tbilisi-2025_724479556",
+    "id": 724479556,
+    "home": "Merani Tbilisi",
+    "away": "Tbilisi 2025",
+    "league": "Georgia. Liga 3",
+    "start_wib": "2026-05-28 19:00",
+    "wp": {
+      "P1": 0.26,
+      "P2": 0.5,
+      "PX": 0.24
+    },
+    "has_1x2": true,
+    "has_btts": true,
+    "totals_lines": [
+      2.5,
+      3,
+      3.5
+    ],
+    "ah_lines": [
+      -1.5,
+      -1,
+      1,
+      1.5
+    ],
+    "n_events": 195,
+    "n_markets": 5
+  },
+  {
+    "slug": "orbi-vs-guria-lanchkhuti_724479559",
+    "id": 724479559,
+    "home": "Orbi",
+    "away": "Guria Lanchkhuti",
+    "league": "Georgia. Liga 3",
+    "start_wib": "2026-05-28 19:00",
+    "wp": {
+      "P1": 0.5,
+      "P2": 0.26,
+      "PX": 0.24
+    },
+    "has_1x2": true,
+    "has_btts": true,
+    "totals_lines": [
+      2.5,
+      3,
+      3.5
+    ],
+    "ah_lines": [
+      -1.5,
+      -1,
+      1,
+      1.5
+    ],
+    "n_events": 195,
+    "n_markets": 5
+  },
+  {
+    "slug": "darajani-gogo-vs-mofa_724451194",
+    "id": 724451194,
+    "home": "Darajani Gogo",
+    "away": "MOFA",
+    "league": "Kenya Championship. Super League",
+    "start_wib": "2026-05-28 19:00",
+    "wp": {
+      "P1": 0.29,
+      "P2": 0.4,
+      "PX": 0.31
+    },
+    "has_1x2": true,
+    "has_btts": true,
+    "totals_lines": [
+      1.5,
+      2,
+      2.5
+    ],
+    "ah_lines": [],
+    "n_events": 41,
+    "n_markets": 4
+  },
+  {
+    "slug": "mwatate-united-vs-naivas_724449740",
+    "id": 724449740,
+    "home": "Mwatate United",
+    "away": "Naivas",
+    "league": "Kenya Championship. Super League",
+    "start_wib": "2026-05-28 19:00",
+    "wp": {
+      "P1": 0.08,
+      "P2": 0.7,
+      "PX": 0.22
+    },
+    "has_1x2": true,
+    "has_btts": true,
+    "totals_lines": [
+      1.5,
+      2,
+      2.5
+    ],
+    "ah_lines": [
+      -1.5,
+      -1,
+      1,
+      1.5
+    ],
+    "n_events": 40,
+    "n_markets": 5
+  },
+  {
+    "slug": "soy-united-vs-kisumu-all-stars_724451763",
+    "id": 724451763,
+    "home": "Soy United",
+    "away": "Kisumu All Stars",
+    "league": "Kenya Championship. Super League",
+    "start_wib": "2026-05-28 19:00",
+    "wp": {
+      "P1": 0.45,
+      "P2": 0.25,
+      "PX": 0.3
+    },
+    "has_1x2": true,
+    "has_btts": true,
+    "totals_lines": [
+      1.5,
+      2,
+      2.5
+    ],
+    "ah_lines": [
+      -1,
+      1
+    ],
+    "n_events": 43,
+    "n_markets": 5
+  },
+  {
+    "slug": "malisheva-u21-vs-prishtina-e-re-u21_724535985",
+    "id": 724535985,
+    "home": "Malisheva U21",
+    "away": "Prishtina E Re U21",
+    "league": "Kosovo. Superleague U21",
+    "start_wib": "2026-05-28 19:00",
+    "wp": {
+      "P1": 0.28,
+      "P2": 0.52,
+      "PX": 0.2
+    },
+    "has_1x2": true,
+    "has_btts": true,
+    "totals_lines": [
+      0.5,
+      1.5,
+      2.5,
+      3,
+      3.5,
+      4,
+      4.5,
+      5.5
+    ],
+    "ah_lines": [
+      -1,
+      1
+    ],
+    "n_events": 212,
+    "n_markets": 5
+  },
+  {
+    "slug": "atyrau-vs-tobol-kostanay_723795336",
+    "id": 723795336,
+    "home": "Atyrau",
+    "away": "Tobol Kostanay",
+    "league": "Kazakhstan. Liga Utama",
+    "start_wib": "2026-05-28 20:00",
+    "wp": {
+      "P1": 0.27,
+      "P2": 0.42,
+      "PX": 0.31
+    },
+    "has_1x2": true,
+    "has_btts": true,
+    "totals_lines": [
+      0.5,
+      1,
+      1.5,
+      2,
+      2.5,
+      3,
+      3.5,
+      4,
+      4.5,
+      5.5
+    ],
+    "ah_lines": [
+      -2.5,
+      -2,
+      -1.5,
+      -1,
+      1,
+      1.5,
+      2,
+      2.5
+    ],
+    "n_events": 844,
+    "n_markets": 5
+  },
+  {
+    "slug": "kukesi-vs-kf-butrinti-sarande_724531384",
+    "id": 724531384,
+    "home": "Kukesi",
+    "away": "KF Butrinti Sarande",
+    "league": "Albania. Qualification",
+    "start_wib": "2026-05-28 20:00",
+    "wp": {
+      "P1": 0.65,
+      "P2": 0.12,
+      "PX": 0.23
+    },
+    "has_1x2": true,
+    "has_btts": true,
+    "totals_lines": [
+      0.5,
+      1,
+      1.5,
+      2,
+      2.5,
+      3,
+      3.5,
+      4,
+      4.5,
+      5.5
+    ],
+    "ah_lines": [
+      -3.5,
+      -3,
+      -2.5,
+      -2,
+      -1.5,
+      -1,
+      1,
+      1.5,
+      2,
+      2.5,
+      3,
+      3.5
+    ],
+    "n_events": 346,
+    "n_markets": 5
+  },
+  {
+    "slug": "deportivo-moron-ii-vs-club-almagro-ii_724706742",
+    "id": 724706742,
+    "home": "Deportivo Moron II",
+    "away": "Club Almagro II",
+    "league": "Argentina. Primera B Nacional. Reserve League",
+    "start_wib": "2026-05-28 20:00",
+    "wp": {
+      "P1": 0.51,
+      "P2": 0.22,
+      "PX": 0.27
+    },
+    "has_1x2": true,
+    "has_btts": true,
+    "totals_lines": [
+      0.5,
+      1,
+      1.5,
+      2,
+      2.5,
+      3,
+      3.5,
+      4,
+      4.5,
+      5,
+      5.5
+    ],
+    "ah_lines": [
+      -2.5,
+      -2,
+      -1.5,
+      -1,
+      1,
+      1.5,
+      2,
+      2.5
+    ],
+    "n_events": 515,
+    "n_markets": 5
+  },
+  {
+    "slug": "asociacion-deportiva-berazategui-ii-vs-ca-claypole_724704518",
+    "id": 724704518,
+    "home": "Asociacion Deportiva Berazategui II",
+    "away": "CA Claypole II",
+    "league": "Argentina. Primera C Metropolitana. Reserve League",
+    "start_wib": "2026-05-28 20:00",
+    "wp": {
+      "P1": 0.38,
+      "P2": 0.34,
+      "PX": 0.28
+    },
+    "has_1x2": true,
+    "has_btts": true,
+    "totals_lines": [
+      1,
+      1.5,
+      2,
+      2.5,
+      3,
+      3.5,
+      4
+    ],
+    "ah_lines": [
+      -2,
+      -1.5,
+      -1,
+      1,
+      1.5,
+      2
+    ],
+    "n_events": 285,
+    "n_markets": 5
+  },
+  {
+    "slug": "cska-pomir-dushanbe-vs-panjshir_724315223",
+    "id": 724315223,
+    "home": "CSKA Pomir Dushanbe",
+    "away": "Panjshir",
+    "league": "Piala Tajikistan",
+    "start_wib": "2026-05-28 20:00",
+    "wp": {
+      "P1": 0.72,
+      "P2": 0.07,
+      "PX": 0.21
+    },
+    "has_1x2": true,
+    "has_btts": true,
+    "totals_lines": [
+      2,
+      2.5,
+      3
+    ],
+    "ah_lines": [
+      -1.5,
+      1.5
+    ],
+    "n_events": 96,
+    "n_markets": 5
+  },
+  {
+    "slug": "regar-tadaz-tursunzoda-vs-eskhata_724314659",
+    "id": 724314659,
+    "home": "Regar-TadAZ Tursunzoda",
+    "away": "Eskhata",
+    "league": "Piala Tajikistan",
+    "start_wib": "2026-05-28 20:00",
+    "wp": {
+      "P1": 0.5,
+      "P2": 0.23,
+      "PX": 0.27
+    },
+    "has_1x2": true,
+    "has_btts": true,
+    "totals_lines": [
+      2,
+      2.5,
+      3
+    ],
+    "ah_lines": [
+      -1,
+      1
+    ],
+    "n_events": 104,
+    "n_markets": 5
+  },
+  {
+    "slug": "vakhsh-bokhtar-vs-mokhir-yovon_724315221",
+    "id": 724315221,
+    "home": "Vakhsh Bokhtar",
+    "away": "Mokhir Yovon",
+    "league": "Piala Tajikistan",
+    "start_wib": "2026-05-28 20:00",
+    "wp": {
+      "P1": 0.7,
+      "P2": 0.08,
+      "PX": 0.22
+    },
+    "has_1x2": true,
+    "has_btts": true,
+    "totals_lines": [
+      2,
+      2.5,
+      3
+    ],
+    "ah_lines": [
+      -1.5,
+      1.5
+    ],
+    "n_events": 97,
+    "n_markets": 5
+  },
+  {
+    "slug": "ismaily-vs-pharco_723611723",
+    "id": 723611723,
+    "home": "Ismaily",
+    "away": "Pharco",
+    "league": "Mesir. Liga Primer",
+    "start_wib": "2026-05-28 21:00",
+    "wp": {
+      "P1": 0.32,
+      "P2": 0.34,
+      "PX": 0.34
+    },
+    "has_1x2": true,
+    "has_btts": true,
+    "totals_lines": [
+      0.5,
+      1,
+      1.5,
+      2,
+      2.5,
+      3,
+      3.5,
+      4,
+      4.5
+    ],
+    "ah_lines": [
+      -1.5,
+      -1,
+      1,
+      1.5
+    ],
+    "n_events": 996,
+    "n_markets": 5
+  },
+  {
+    "slug": "petrojet-vs-el-gouna_723611717",
+    "id": 723611717,
+    "home": "Petrojet",
+    "away": "El Gouna",
+    "league": "Mesir. Liga Primer",
+    "start_wib": "2026-05-28 21:00",
+    "wp": {
+      "P1": 0.4,
+      "P2": 0.27,
+      "PX": 0.33
+    },
+    "has_1x2": true,
+    "has_btts": true,
+    "totals_lines": [
+      0.5,
+      1,
+      1.5,
+      2,
+      2.5,
+      3,
+      3.5,
+      4,
+      4.5,
+      5.5
+    ],
+    "ah_lines": [
+      -2.5,
+      -2,
+      -1.5,
+      -1,
+      1,
+      1.5,
+      2,
+      2.5
+    ],
+    "n_events": 1012,
+    "n_markets": 5
+  },
+  {
+    "slug": "tala-ea-el-gaish-vs-wadi-degla_723262070",
+    "id": 723262070,
+    "home": "Tala'ea El-Gaish",
+    "away": "Wadi Degla",
+    "league": "Mesir. Liga Primer",
+    "start_wib": "2026-05-28 21:00",
+    "wp": {
+      "P1": 0.37,
+      "P2": 0.32,
+      "PX": 0.31
+    },
+    "has_1x2": true,
+    "has_btts": true,
+    "totals_lines": [
+      0.5,
+      1,
+      1.5,
+      2,
+      2.5,
+      3,
+      3.5,
+      4,
+      4.5
+    ],
+    "ah_lines": [
+      -2,
+      -1.5,
+      -1,
+      1,
+      1.5,
+      2
+    ],
+    "n_events": 1007,
+    "n_markets": 5
+  },
+  {
+    "slug": "tuan-rumah-vs-away_724097655",
+    "id": 724097655,
+    "home": "Tuan rumah",
+    "away": "Away",
+    "league": "Mesir. Liga Primer",
+    "start_wib": "2026-05-28 21:00",
+    "wp": {
+      "P1": 0.46,
+      "P2": 0.37,
+      "PX": 0.17
+    },
+    "has_1x2": true,
+    "has_btts": false,
+    "totals_lines": [
+      3.5,
+      4.5,
+      5.5,
+      6.5,
+      7.5,
+      8.5,
+      9.5
+    ],
+    "ah_lines": [
+      -3.5,
+      -3,
+      -2.5,
+      -2,
+      -1.5,
+      -1,
+      1,
+      1.5,
+      2,
+      2.5,
+      3,
+      3.5
+    ],
+    "n_events": 310,
+    "n_markets": 4
+  },
+  {
+    "slug": "jenis-vs-caspiy_723795333",
+    "id": 723795333,
+    "home": "Jenis",
+    "away": "Caspiy",
+    "league": "Kazakhstan. Liga Utama",
+    "start_wib": "2026-05-28 21:00",
+    "wp": {
+      "P1": 0.53,
+      "P2": 0.2,
+      "PX": 0.27
+    },
+    "has_1x2": true,
+    "has_btts": true,
+    "totals_lines": [
+      0.5,
+      1,
+      1.5,
+      2,
+      2.5,
+      3,
+      3.5,
+      4,
+      4.5,
+      5.5
+    ],
+    "ah_lines": [
+      -2.5,
+      -2,
+      -1.5,
+      -1,
+      1,
+      1.5,
+      2,
+      2.5
+    ],
+    "n_events": 838,
+    "n_markets": 5
+  },
+  {
+    "slug": "kaysar-vs-elimai_723795351",
+    "id": 723795351,
+    "home": "Kaysar",
+    "away": "Elimai",
+    "league": "Kazakhstan. Liga Utama",
+    "start_wib": "2026-05-28 21:00",
+    "wp": {
+      "P1": 0.29,
+      "P2": 0.42,
+      "PX": 0.29
+    },
+    "has_1x2": true,
+    "has_btts": true,
+    "totals_lines": [
+      0.5,
+      1,
+      1.5,
+      2,
+      2.5,
+      3,
+      3.5,
+      4,
+      4.5,
+      5.5,
+      6.5
+    ],
+    "ah_lines": [
+      -2.5,
+      -2,
+      -1.5,
+      -1,
+      1,
+      1.5,
+      2,
+      2.5
+    ],
+    "n_events": 871,
+    "n_markets": 5
+  },
+  {
+    "slug": "ordabasy-vs-kairat_723795348",
+    "id": 723795348,
+    "home": "Ordabasy",
+    "away": "Kairat",
+    "league": "Kazakhstan. Liga Utama",
+    "start_wib": "2026-05-28 22:00",
+    "wp": {
+      "P1": 0.36,
+      "P2": 0.34,
+      "PX": 0.3
+    },
+    "has_1x2": true,
+    "has_btts": true,
+    "totals_lines": [
+      0.5,
+      1,
+      1.5,
+      2,
+      2.5,
+      3,
+      3.5,
+      4,
+      4.5,
+      5.5
+    ],
+    "ah_lines": [
+      -2,
+      -1.5,
+      -1,
+      1,
+      1.5,
+      2
+    ],
+    "n_events": 867,
+    "n_markets": 5
+  }
+]

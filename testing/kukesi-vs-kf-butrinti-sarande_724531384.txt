@@ -1,0 +1,37 @@
+Match: Kukesi vs KF Butrinti Sarande
+Liga: Albania. Qualification
+Start (WIB): 2026-05-28 20:00
+ID: 724531384
+WP (1xbet hint): P1=0.65 PX=0.23 P2=0.12
+
+-- 1X2 --
+  Home 1.4  Draw 4  Away 7.27
+  Implied: H=0.714 D=0.250 A=0.138  Margin=10.2%
+-- Double Chance --
+  1X 1.033  12 1.16  X2 2.55
+-- Total Goals --
+  Line 0.5: Over 1.015  Under 12.8
+  Line 1: Over 1.016  Under 8.3
+  Line 1.5: Over 1.192  Under 3.75
+  Line 2: Over 1.3  Under 2.97
+  Line 2.5: Over 1.69  Under 2.02
+  Line 3: Over 2.08  Under 1.6
+  Line 3.5: Over 2.59  Under 1.39
+  Line 4: Over 3.95  Under 1.173
+  Line 4.5: Over 4.8  Under 1.154
+  Line 5.5: Over 9.9  Under 1.05
+-- BTTS --
+  Yes 1.86  No 1.809
+-- Asian Handicap --
+  AH -3.50: Home 6.75  Away -
+  AH -3.00: Home 6.15  Away -
+  AH -2.50: Home 3.58  Away -
+  AH -2.00: Home 2.97  Away -
+  AH -1.50: Home 2.08  Away -
+  AH -1.00: Home 1.65  Away -
+  AH +1.00: Home -  Away 2.07
+  AH +1.50: Home -  Away 1.6
+  AH +2.00: Home -  Away 1.3
+  AH +2.50: Home -  Away 1.21
+  AH +3.00: Home -  Away 1.061
+  AH +3.50: Home -  Away 1.044

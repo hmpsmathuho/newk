@@ -1,0 +1,2486 @@
+[
+  {
+    "slug": "dire-dawa-city-vs-saint-george-addis-abeba_724317737",
+    "id": 724317737,
+    "home": "Dire Dawa City",
+    "away": "Saint-George Addis Abeba",
+    "league": "Etiopia. Liga Primer",
+    "start_wib": "2026-05-28 19:00",
+    "tier": 3,
+    "wp_1xbet": {
+      "P1": 0.26,
+      "P2": 0.41,
+      "PX": 0.33
+    },
+    "1x2": {
+      "home": 3.55,
+      "draw": 2.69,
+      "away": 2.23
+    },
+    "1x2_fair": {
+      "home": 0.2556478454870508,
+      "draw": 0.3373791269438774,
+      "away": 0.40697302756907183
+    },
+    "dc": {
+      "1X": 1.52,
+      "12": 1.36,
+      "X2": 1.22
+    },
+    "btts": {
+      "yes": 2.34,
+      "no": 1.51
+    },
+    "btts_fair": {
+      "yes": 0.3922077922077922,
+      "no": 0.6077922077922078
+    },
+    "totals": {
+      "0.5": {
+        "over_odds": 1.108,
+        "under_odds": 4.95,
+        "over_fair": 0.8171013535820403,
+        "under_fair": 0.18289864641795972
+      },
+      "1": {
+        "over_odds": 1.19,
+        "under_odds": 3.78,
+        "over_fair": 0.7605633802816901,
+        "under_fair": 0.2394366197183099
+      },
+      "1.5": {
+        "over_odds": 1.64,
+        "under_odds": 2.1,
+        "over_fair": 0.5614973262032086,
+        "under_fair": 0.4385026737967914
+      },
+      "2": {
+        "over_odds": 2.19,
+        "under_odds": 1.54,
+        "over_fair": 0.41286863270777485,
+        "under_fair": 0.5871313672922253
+      },
+      "2.5": {
+        "over_odds": 2.875,
+        "under_odds": 1.32,
+        "over_fair": 0.3146603098927294,
+        "under_fair": 0.6853396901072706
+      },
+      "3": {
+        "over_odds": 5.05,
+        "under_odds": 1.102,
+        "over_fair": 0.1791287386215865,
+        "under_fair": 0.8208712613784135
+      },
+      "3.5": {
+        "over_odds": 5.85,
+        "under_odds": 1.07,
+        "over_fair": 0.15462427745664742,
+        "under_fair": 0.8453757225433527
+      },
+      "4.5": {
+        "over_odds": 14.5,
+        "under_odds": 1.016,
+        "over_fair": 0.06548079401907708,
+        "under_fair": 0.934519205980923
+      }
+    },
+    "ah": {
+      "-1.5": {
+        "home_odds": 8.3,
+        "away_odds": 4.75,
+        "home_fair": 0.3639846743295019,
+        "away_fair": 0.6360153256704981
+      },
+      "-1": {
+        "home_odds": 7.2,
+        "away_odds": 3.74,
+        "home_fair": 0.3418647166361975,
+        "away_fair": 0.6581352833638026
+      },
+      "1": {
+        "home_odds": 1.193,
+        "away_odds": 1.034,
+        "home_fair": 0.46430175123484513,
+        "away_fair": 0.5356982487651549
+      },
+      "1.5": {
+        "home_odds": 1.119,
+        "away_odds": 1.016,
+        "home_fair": 0.47587822014051523,
+        "away_fair": 0.5241217798594848
+      }
+    }
+  },
+  {
+    "slug": "hawassa-city-vs-efiopia-buna_724317740",
+    "id": 724317740,
+    "home": "Hawassa City",
+    "away": "Efiopia Buna",
+    "league": "Etiopia. Liga Primer",
+    "start_wib": "2026-05-28 19:00",
+    "tier": 3,
+    "wp_1xbet": {
+      "P1": 0.41,
+      "P2": 0.28,
+      "PX": 0.31
+    },
+    "1x2": {
+      "home": 2.22,
+      "draw": 2.94,
+      "away": 3.215
+    },
+    "1x2_fair": {
+      "home": 0.4088950606068471,
+      "draw": 0.3087574947439458,
+      "away": 0.282347444649207
+    },
+    "dc": {
+      "1X": 1.26,
+      "12": 1.3,
+      "X2": 1.53
+    },
+    "btts": {
+      "yes": 2.16,
+      "no": 1.593
+    },
+    "btts_fair": {
+      "yes": 0.42446043165467623,
+      "no": 0.5755395683453237
+    },
+    "totals": {
+      "0.5": {
+        "over_odds": 1.051,
+        "under_odds": 6.5,
+        "over_fair": 0.8608131373328036,
+        "under_fair": 0.1391868626671964
+      },
+      "1": {
+        "over_odds": 1.107,
+        "under_odds": 4.95,
+        "over_fair": 0.8172362555720654,
+        "under_fair": 0.18276374442793458
+      },
+      "1.5": {
+        "over_odds": 1.52,
+        "under_odds": 2.34,
+        "over_fair": 0.6062176165803109,
+        "under_fair": 0.39378238341968913
+      },
+      "2": {
+        "over_odds": 1.94,
+        "under_odds": 1.7,
+        "over_fair": 0.46703296703296704,
+        "under_fair": 0.532967032967033
+      },
+      "2.5": {
+        "over_odds": 2.59,
+        "under_odds": 1.39,
+        "over_fair": 0.34924623115577885,
+        "under_fair": 0.6507537688442211
+      },
+      "3": {
+        "over_odds": 4.55,
+        "under_odds": 1.13,
+        "over_fair": 0.19894366197183094,
+        "under_fair": 0.8010563380281689
+      },
+      "3.5": {
+        "over_odds": 5.45,
+        "under_odds": 1.085,
+        "over_fair": 0.16602907421576127,
+        "under_fair": 0.8339709257842387
+      },
+      "4.5": {
+        "over_odds": 12,
+        "under_odds": 1.03,
+        "over_fair": 0.07904834996162702,
+        "under_fair": 0.9209516500383731
+      }
+    },
+    "ah": {
+      "-1.5": {
+        "home_odds": 5,
+        "away_odds": 8.3,
+        "home_fair": 0.6240601503759399,
+        "away_fair": 0.3759398496240601
+      },
+      "-1": {
+        "home_odds": 3.88,
+        "away_odds": 6.95,
+        "home_fair": 0.6417359187442291,
+        "away_fair": 0.35826408125577097
+      },
+      "1": {
+        "home_odds": 1.04,
+        "away_odds": 1.179,
+        "home_fair": 0.5313204146011717,
+        "away_fair": 0.4686795853988283
+      },
+      "1.5": {
+        "home_odds": 1.016,
+        "away_odds": 1.104,
+        "home_fair": 0.5207547169811321,
+        "away_fair": 0.4792452830188679
+      }
+    }
+  },
+  {
+    "slug": "betlemi-keda-vs-dinamo-tbilisi-ii_724491102",
+    "id": 724491102,
+    "home": "Betlemi Keda",
+    "away": "Dinamo Tbilisi II",
+    "league": "Georgia. Liga 3",
+    "start_wib": "2026-05-28 19:00",
+    "tier": 3,
+    "wp_1xbet": {
+      "P1": 0.39,
+      "P2": 0.37,
+      "PX": 0.24
+    },
+    "1x2": {
+      "home": 2.26,
+      "draw": 3.81,
+      "away": 2.39
+    },
+    "1x2_fair": {
+      "home": 0.3938895833964158,
+      "draw": 0.23364578962622037,
+      "away": 0.3724646269773638
+    },
+    "dc": {
+      "1X": 1.42,
+      "12": 1.16,
+      "X2": 1.47
+    },
+    "btts": {
+      "yes": 1.42,
+      "no": 2.57
+    },
+    "btts_fair": {
+      "yes": 0.6441102756892231,
+      "no": 0.3558897243107769
+    },
+    "totals": {
+      "2.5": {
+        "over_odds": 1.46,
+        "under_odds": 2.46,
+        "over_fair": 0.6275510204081634,
+        "under_fair": 0.37244897959183676
+      },
+      "3": {
+        "over_odds": 1.76,
+        "under_odds": 1.91,
+        "over_fair": 0.5204359673024523,
+        "under_fair": 0.47956403269754766
+      },
+      "3.5": {
+        "over_odds": 2.26,
+        "under_odds": 1.54,
+        "over_fair": 0.4052631578947369,
+        "under_fair": 0.5947368421052631
+      },
+      "4": {
+        "over_odds": 3.34,
+        "under_odds": 1.26,
+        "over_fair": 0.2739130434782609,
+        "under_fair": 0.726086956521739
+      }
+    },
+    "ah": {}
+  },
+  {
+    "slug": "didube-2014-vs-wit-georgia-tbilisi_724493677",
+    "id": 724493677,
+    "home": "Didube 2014",
+    "away": "WIT Georgia Tbilisi",
+    "league": "Georgia. Liga 3",
+    "start_wib": "2026-05-28 19:00",
+    "tier": 3,
+    "wp_1xbet": {
+      "P1": 0.33,
+      "P2": 0.43,
+      "PX": 0.24
+    },
+    "1x2": {
+      "home": 2.702,
+      "draw": 3.78,
+      "away": 2.11
+    },
+    "1x2_fair": {
+      "home": 0.33384706440781264,
+      "draw": 0.23863882752114016,
+      "away": 0.4275141080710473
+    },
+    "dc": {
+      "1X": 1.55,
+      "12": 1.16,
+      "X2": 1.34
+    },
+    "btts": {
+      "yes": 1.44,
+      "no": 2.49
+    },
+    "btts_fair": {
+      "yes": 0.633587786259542,
+      "no": 0.366412213740458
+    },
+    "totals": {
+      "2.5": {
+        "over_odds": 1.49,
+        "under_odds": 2.38,
+        "over_fair": 0.6149870801033592,
+        "under_fair": 0.3850129198966408
+      },
+      "3": {
+        "over_odds": 1.81,
+        "under_odds": 1.85,
+        "over_fair": 0.505464480874317,
+        "under_fair": 0.494535519125683
+      },
+      "3.5": {
+        "over_odds": 2.34,
+        "under_odds": 1.5,
+        "over_fair": 0.390625,
+        "under_fair": 0.6093749999999999
+      },
+      "4": {
+        "over_odds": 3.53,
+        "under_odds": 1.23,
+        "over_fair": 0.2584033613445378,
+        "under_fair": 0.7415966386554621
+      }
+    },
+    "ah": {}
+  },
+  {
+    "slug": "gardabani-vs-fc-gonio_724479547",
+    "id": 724479547,
+    "home": "Gardabani",
+    "away": "Fc Gonio",
+    "league": "Georgia. Liga 3",
+    "start_wib": "2026-05-28 19:00",
+    "tier": 3,
+    "wp_1xbet": {
+      "P1": 0.34,
+      "P2": 0.4,
+      "PX": 0.26
+    },
+    "1x2": {
+      "home": 2.65,
+      "draw": 3.5,
+      "away": 2.3
+    },
+    "1x2_fair": {
+      "home": 0.3437233134073442,
+      "draw": 0.2602476515798463,
+      "away": 0.3960290350128096
+    },
+    "dc": {
+      "1X": 1.55,
+      "12": 1.26,
+      "X2": 1.42
+    },
+    "btts": {
+      "yes": 1.66,
+      "no": 2.209
+    },
+    "btts_fair": {
+      "yes": 0.5709485655208065,
+      "no": 0.4290514344791936
+    },
+    "totals": {
+      "2.5": {
+        "over_odds": 1.68,
+        "under_odds": 2.06,
+        "over_fair": 0.5508021390374332,
+        "under_fair": 0.4491978609625669
+      },
+      "3": {
+        "over_odds": 2.13,
+        "under_odds": 1.63,
+        "over_fair": 0.4335106382978723,
+        "under_fair": 0.5664893617021276
+      },
+      "3.5": {
+        "over_odds": 2.7,
+        "under_odds": 1.41,
+        "over_fair": 0.3430656934306569,
+        "under_fair": 0.656934306569343
+      }
+    },
+    "ah": {
+      "-1": {
+        "home_odds": 4.2,
+        "away_odds": 3.4,
+        "home_fair": 0.4473684210526316,
+        "away_fair": 0.5526315789473685
+      },
+      "1": {
+        "home_odds": 1.27,
+        "away_odds": 1.19,
+        "home_fair": 0.48373983739837395,
+        "away_fair": 0.516260162601626
+      }
+    }
+  },
+  {
+    "slug": "iberia-2010-tbilisi-vs-iveria-khashuri_724479096",
+    "id": 724479096,
+    "home": "Iberia 2010 Tbilisi",
+    "away": "Iveria Khashuri",
+    "league": "Georgia. Liga 3",
+    "start_wib": "2026-05-28 19:00",
+    "tier": 3,
+    "wp_1xbet": {
+      "P1": 0.12,
+      "P2": 0.69,
+      "PX": 0.19
+    },
+    "1x2": {
+      "home": 7.46,
+      "draw": 4.8,
+      "away": 1.34
+    },
+    "1x2_fair": {
+      "home": 0.12313252827530229,
+      "draw": 0.19136847102786564,
+      "away": 0.6854990006968321
+    },
+    "dc": {
+      "1X": 3,
+      "12": 1.15,
+      "X2": 1.06
+    },
+    "btts": {
+      "yes": 1.819,
+      "no": 1.988
+    },
+    "btts_fair": {
+      "yes": 0.5221959548200683,
+      "no": 0.4778040451799317
+    },
+    "totals": {
+      "2.5": {
+        "over_odds": 1.48,
+        "under_odds": 2.46,
+        "over_fair": 0.6243654822335025,
+        "under_fair": 0.3756345177664975
+      },
+      "3": {
+        "over_odds": 1.75,
+        "under_odds": 1.96,
+        "over_fair": 0.5283018867924527,
+        "under_fair": 0.4716981132075471
+      },
+      "3.5": {
+        "over_odds": 2.2,
+        "under_odds": 1.59,
+        "over_fair": 0.4195250659630607,
+        "under_fair": 0.5804749340369394
+      }
+    },
+    "ah": {}
+  },
+  {
+    "slug": "kolkheti-khobi-vs-locomotive-tbilisi_724479550",
+    "id": 724479550,
+    "home": "Kolkheti Khobi",
+    "away": "Locomotive Tbilisi",
+    "league": "Georgia. Liga 3",
+    "start_wib": "2026-05-28 19:00",
+    "tier": 3,
+    "wp_1xbet": {
+      "P1": 0.41,
+      "P2": 0.33,
+      "PX": 0.26
+    },
+    "1x2": {
+      "home": 2.22,
+      "draw": 3.6,
+      "away": 2.783
+    },
+    "1x2_fair": {
+      "home": 0.4141872400167678,
+      "draw": 0.2554154646770069,
+      "away": 0.3303972953062252
+    },
+    "dc": {
+      "1X": 1.39,
+      "12": 1.24,
+      "X2": 1.6
+    },
+    "btts": {
+      "yes": 1.664,
+      "no": 2.203
+    },
+    "btts_fair": {
+      "yes": 0.569692267907939,
+      "no": 0.4303077320920611
+    },
+    "totals": {
+      "2.5": {
+        "over_odds": 1.68,
+        "under_odds": 2.06,
+        "over_fair": 0.5508021390374332,
+        "under_fair": 0.4491978609625669
+      },
+      "3": {
+        "over_odds": 2.13,
+        "under_odds": 1.63,
+        "over_fair": 0.4335106382978723,
+        "under_fair": 0.5664893617021276
+      },
+      "3.5": {
+        "over_odds": 2.7,
+        "under_odds": 1.41,
+        "over_fair": 0.3430656934306569,
+        "under_fair": 0.656934306569343
+      }
+    },
+    "ah": {}
+  },
+  {
+    "slug": "margveti-2006-vs-iberia-1999-ii_724479553",
+    "id": 724479553,
+    "home": "Margveti 2006",
+    "away": "Iberia 1999 II",
+    "league": "Georgia. Liga 3",
+    "start_wib": "2026-05-28 19:00",
+    "tier": 3,
+    "wp_1xbet": {
+      "P1": 0.16,
+      "P2": 0.62,
+      "PX": 0.22
+    },
+    "1x2": {
+      "home": 5.64,
+      "draw": 4.2,
+      "away": 1.48
+    },
+    "1x2_fair": {
+      "home": 0.16250470573472206,
+      "draw": 0.2182206048437696,
+      "away": 0.6192746894215083
+    },
+    "dc": {
+      "1X": 2.5,
+      "12": 1.19,
+      "X2": 1.11
+    },
+    "btts": {
+      "yes": 1.92,
+      "no": 1.88
+    },
+    "btts_fair": {
+      "yes": 0.49473684210526314,
+      "no": 0.5052631578947367
+    },
+    "totals": {
+      "2.5": {
+        "over_odds": 1.72,
+        "under_odds": 2,
+        "over_fair": 0.5376344086021505,
+        "under_fair": 0.4623655913978494
+      },
+      "3": {
+        "over_odds": 2.22,
+        "under_odds": 1.58,
+        "over_fair": 0.41578947368421054,
+        "under_fair": 0.5842105263157895
+      },
+      "3.5": {
+        "over_odds": 2.8,
+        "under_odds": 1.38,
+        "over_fair": 0.3301435406698564,
+        "under_fair": 0.6698564593301435
+      }
+    },
+    "ah": {}
+  },
+  {
+    "slug": "merani-tbilisi-vs-tbilisi-2025_724479556",
+    "id": 724479556,
+    "home": "Merani Tbilisi",
+    "away": "Tbilisi 2025",
+    "league": "Georgia. Liga 3",
+    "start_wib": "2026-05-28 19:00",
+    "tier": 3,
+    "wp_1xbet": {
+      "P1": 0.26,
+      "P2": 0.5,
+      "PX": 0.24
+    },
+    "1x2": {
+      "home": 3.53,
+      "draw": 3.9,
+      "away": 1.82
+    },
+    "1x2_fair": {
+      "home": 0.2600990853658537,
+      "draw": 0.23542301829268297,
+      "away": 0.5044778963414633
+    },
+    "dc": {
+      "1X": 1.9,
+      "12": 1.21,
+      "X2": 1.26
+    },
+    "btts": {
+      "yes": 1.731,
+      "no": 2.105
+    },
+    "btts_fair": {
+      "yes": 0.5487486965589154,
+      "no": 0.45125130344108444
+    },
+    "totals": {
+      "2.5": {
+        "over_odds": 1.68,
+        "under_odds": 2.06,
+        "over_fair": 0.5508021390374332,
+        "under_fair": 0.4491978609625669
+      },
+      "3": {
+        "over_odds": 2.15,
+        "under_odds": 1.62,
+        "over_fair": 0.4297082228116711,
+        "under_fair": 0.5702917771883289
+      },
+      "3.5": {
+        "over_odds": 2.7,
+        "under_odds": 1.4,
+        "over_fair": 0.3414634146341463,
+        "under_fair": 0.6585365853658537
+      }
+    },
+    "ah": {}
+  },
+  {
+    "slug": "orbi-vs-guria-lanchkhuti_724479559",
+    "id": 724479559,
+    "home": "Orbi",
+    "away": "Guria Lanchkhuti",
+    "league": "Georgia. Liga 3",
+    "start_wib": "2026-05-28 19:00",
+    "tier": 3,
+    "wp_1xbet": {
+      "P1": 0.5,
+      "P2": 0.26,
+      "PX": 0.24
+    },
+    "1x2": {
+      "home": 1.82,
+      "draw": 3.9,
+      "away": 3.53
+    },
+    "1x2_fair": {
+      "home": 0.5044778963414633,
+      "draw": 0.23542301829268297,
+      "away": 0.2600990853658537
+    },
+    "dc": {
+      "1X": 1.26,
+      "12": 1.21,
+      "X2": 1.9
+    },
+    "btts": {
+      "yes": 1.624,
+      "no": 2.267
+    },
+    "btts_fair": {
+      "yes": 0.5826265741454638,
+      "no": 0.41737342585453613
+    },
+    "totals": {
+      "2.5": {
+        "over_odds": 1.57,
+        "under_odds": 2.25,
+        "over_fair": 0.5890052356020942,
+        "under_fair": 0.4109947643979057
+      },
+      "3": {
+        "over_odds": 1.92,
+        "under_odds": 1.78,
+        "over_fair": 0.48108108108108105,
+        "under_fair": 0.5189189189189188
+      },
+      "3.5": {
+        "over_odds": 2.43,
+        "under_odds": 1.49,
+        "over_fair": 0.3801020408163265,
+        "under_fair": 0.6198979591836735
+      }
+    },
+    "ah": {}
+  },
+  {
+    "slug": "darajani-gogo-vs-mofa_724451194",
+    "id": 724451194,
+    "home": "Darajani Gogo",
+    "away": "MOFA",
+    "league": "Kenya Championship. Super League",
+    "start_wib": "2026-05-28 19:00",
+    "tier": 1,
+    "wp_1xbet": {
+      "P1": 0.29,
+      "P2": 0.4,
+      "PX": 0.31
+    },
+    "1x2": {
+      "home": 3.11,
+      "draw": 2.88,
+      "away": 2.26
+    },
+    "1x2_fair": {
+      "home": 0.2893545891829894,
+      "draw": 0.312462768180242,
+      "away": 0.3981826426367686
+    },
+    "dc": {
+      "1X": 1.48,
+      "12": 1.29,
+      "X2": 1.26
+    },
+    "btts": {
+      "yes": 2.32,
+      "no": 1.51
+    },
+    "btts_fair": {
+      "yes": 0.3942558746736292,
+      "no": 0.6057441253263707
+    },
+    "totals": {
+      "1.5": {
+        "over_odds": 1.55,
+        "under_odds": 2.24,
+        "over_fair": 0.5910290237467017,
+        "under_fair": 0.4089709762532981
+      },
+      "2": {
+        "over_odds": 2.09,
+        "under_odds": 1.63,
+        "over_fair": 0.4381720430107527,
+        "under_fair": 0.5618279569892473
+      },
+      "2.5": {
+        "over_odds": 2.87,
+        "under_odds": 1.34,
+        "over_fair": 0.3182897862232779,
+        "under_fair": 0.681710213776722
+      }
+    },
+    "ah": {}
+  },
+  {
+    "slug": "mwatate-united-vs-naivas_724449740",
+    "id": 724449740,
+    "home": "Mwatate United",
+    "away": "Naivas",
+    "league": "Kenya Championship. Super League",
+    "start_wib": "2026-05-28 19:00",
+    "tier": 1,
+    "wp_1xbet": {
+      "P1": 0.08,
+      "P2": 0.7,
+      "PX": 0.22
+    },
+    "1x2": {
+      "home": 11,
+      "draw": 4.08,
+      "away": 1.29
+    },
+    "1x2_fair": {
+      "home": 0.08181156852138555,
+      "draw": 0.22057040532726493,
+      "away": 0.6976180261513495
+    },
+    "dc": {
+      "1X": 2.92,
+      "12": 1.14
+    },
+    "btts": {
+      "yes": 3.08,
+      "no": 1.3
+    },
+    "btts_fair": {
+      "yes": 0.29680365296803657,
+      "no": 0.7031963470319634
+    },
+    "totals": {
+      "1.5": {
+        "over_odds": 1.42,
+        "under_odds": 2.56,
+        "over_fair": 0.6432160804020102,
+        "under_fair": 0.35678391959798994
+      },
+      "2": {
+        "over_odds": 1.79,
+        "under_odds": 1.87,
+        "over_fair": 0.5109289617486339,
+        "under_fair": 0.48907103825136605
+      },
+      "2.5": {
+        "over_odds": 2.45,
+        "under_odds": 1.46,
+        "over_fair": 0.3734015345268542,
+        "under_fair": 0.6265984654731458
+      }
+    },
+    "ah": {}
+  },
+  {
+    "slug": "soy-united-vs-kisumu-all-stars_724451763",
+    "id": 724451763,
+    "home": "Soy United",
+    "away": "Kisumu All Stars",
+    "league": "Kenya Championship. Super League",
+    "start_wib": "2026-05-28 19:00",
+    "tier": 1,
+    "wp_1xbet": {
+      "P1": 0.45,
+      "P2": 0.25,
+      "PX": 0.3
+    },
+    "1x2": {
+      "home": 2.02,
+      "draw": 2.94,
+      "away": 3.645
+    },
+    "1x2_fair": {
+      "home": 0.44617786660005,
+      "draw": 0.3065575818136398,
+      "away": 0.24726455158631028
+    },
+    "dc": {
+      "1X": 1.19,
+      "12": 1.28,
+      "X2": 1.61
+    },
+    "btts": {
+      "yes": 2.38,
+      "no": 1.49
+    },
+    "btts_fair": {
+      "yes": 0.3850129198966408,
+      "no": 0.6149870801033592
+    },
+    "totals": {
+      "1.5": {
+        "over_odds": 1.55,
+        "under_odds": 2.24,
+        "over_fair": 0.5910290237467017,
+        "under_fair": 0.4089709762532981
+      },
+      "2": {
+        "over_odds": 2.09,
+        "under_odds": 1.63,
+        "over_fair": 0.4381720430107527,
+        "under_fair": 0.5618279569892473
+      },
+      "2.5": {
+        "over_odds": 2.87,
+        "under_odds": 1.34,
+        "over_fair": 0.3182897862232779,
+        "under_fair": 0.681710213776722
+      }
+    },
+    "ah": {}
+  },
+  {
+    "slug": "malisheva-u21-vs-prishtina-e-re-u21_724535985",
+    "id": 724535985,
+    "home": "Malisheva U21",
+    "away": "Prishtina E Re U21",
+    "league": "Kosovo. Superleague U21",
+    "start_wib": "2026-05-28 19:00",
+    "tier": 3,
+    "wp_1xbet": {
+      "P1": 0.28,
+      "P2": 0.52,
+      "PX": 0.2
+    },
+    "1x2": {
+      "home": 3.225,
+      "draw": 4.7,
+      "away": 1.76
+    },
+    "1x2_fair": {
+      "home": 0.28420745219975607,
+      "draw": 0.1950146879455773,
+      "away": 0.5207778598546667
+    },
+    "dc": {
+      "1X": 1.97,
+      "12": 1.15,
+      "X2": 1.3
+    },
+    "btts": {
+      "yes": 1.5,
+      "no": 2.51
+    },
+    "btts_fair": {
+      "yes": 0.6259351620947631,
+      "no": 0.374064837905237
+    },
+    "totals": {
+      "0.5": {
+        "over_odds": 1.008,
+        "under_odds": 16,
+        "over_fair": 0.940733772342427,
+        "under_fair": 0.059266227657572904
+      },
+      "1.5": {
+        "over_odds": 1.083,
+        "under_odds": 6.5,
+        "over_fair": 0.8571805354081499,
+        "under_fair": 0.14281946459185021
+      },
+      "2.5": {
+        "over_odds": 1.333,
+        "under_odds": 3,
+        "over_fair": 0.6923609508423725,
+        "under_fair": 0.30763904915762746
+      },
+      "3": {
+        "over_odds": 1.48,
+        "under_odds": 2.45,
+        "over_fair": 0.6234096692111959,
+        "under_fair": 0.37659033078880405
+      },
+      "3.5": {
+        "over_odds": 1.833,
+        "under_odds": 1.85,
+        "over_fair": 0.5023079011675264,
+        "under_fair": 0.49769209883247345
+      },
+      "4": {
+        "over_odds": 2.33,
+        "under_odds": 1.53,
+        "over_fair": 0.3963730569948186,
+        "under_fair": 0.6036269430051813
+      },
+      "4.5": {
+        "over_odds": 2.8,
+        "under_odds": 1.364,
+        "over_fair": 0.32756964457252646,
+        "under_fair": 0.6724303554274735
+      },
+      "5.5": {
+        "over_odds": 4.8,
+        "under_odds": 1.15,
+        "over_fair": 0.19327731092436976,
+        "under_fair": 0.8067226890756303
+      }
+    },
+    "ah": {}
+  },
+  {
+    "slug": "atyrau-vs-tobol-kostanay_723795336",
+    "id": 723795336,
+    "home": "Atyrau",
+    "away": "Tobol Kostanay",
+    "league": "Kazakhstan. Liga Utama",
+    "start_wib": "2026-05-28 20:00",
+    "tier": 3,
+    "wp_1xbet": {
+      "P1": 0.27,
+      "P2": 0.42,
+      "PX": 0.31
+    },
+    "1x2": {
+      "home": 3.44,
+      "draw": 3.075,
+      "away": 2.231
+    },
+    "1x2_fair": {
+      "home": 0.27317861510976504,
+      "draw": 0.3056046946268591,
+      "away": 0.42121669026337594
+    },
+    "dc": {
+      "1X": 1.609,
+      "12": 1.343,
+      "X2": 1.284
+    },
+    "btts": {
+      "yes": 1.95,
+      "no": 1.75
+    },
+    "btts_fair": {
+      "yes": 0.47297297297297297,
+      "no": 0.527027027027027
+    },
+    "totals": {
+      "0.5": {
+        "over_odds": 1.035,
+        "under_odds": 7.2,
+        "over_fair": 0.8743169398907105,
+        "under_fair": 0.12568306010928962
+      },
+      "1": {
+        "over_odds": 1.073,
+        "under_odds": 5.75,
+        "over_fair": 0.8427377986223068,
+        "under_fair": 0.15726220137769306
+      },
+      "1.5": {
+        "over_odds": 1.38,
+        "under_odds": 2.625,
+        "over_fair": 0.6554307116104869,
+        "under_fair": 0.34456928838951306
+      },
+      "2": {
+        "over_odds": 1.68,
+        "under_odds": 1.96,
+        "over_fair": 0.5384615384615384,
+        "under_fair": 0.46153846153846156
+      },
+      "2.5": {
+        "over_odds": 2.329,
+        "under_odds": 1.576,
+        "over_fair": 0.403585147247119,
+        "under_fair": 0.596414852752881
+      },
+      "3": {
+        "over_odds": 3.48,
+        "under_odds": 1.222,
+        "over_fair": 0.2598894087622289,
+        "under_fair": 0.7401105912377712
+      },
+      "3.5": {
+        "over_odds": 4.3,
+        "under_odds": 1.147,
+        "over_fair": 0.2105746282357261,
+        "under_fair": 0.789425371764274
+      },
+      "4": {
+        "over_odds": 8.3,
+        "under_odds": 1.016,
+        "over_fair": 0.1090596822670674,
+        "under_fair": 0.8909403177329326
+      },
+      "4.5": {
+        "over_odds": 9.1,
+        "under_odds": 1.004,
+        "over_fair": 0.09936658749010292,
+        "under_fair": 0.900633412509897
+      },
+      "5.5": {
+        "over_odds": 16,
+        "under_odds": 1.008,
+        "over_fair": 0.059266227657572904,
+        "under_fair": 0.940733772342427
+      }
+    },
+    "ah": {
+      "-1.5": {
+        "home_odds": 8.1,
+        "away_odds": 4.45,
+        "home_fair": 0.3545816733067729,
+        "away_fair": 0.6454183266932271
+      },
+      "-1": {
+        "home_odds": 6.9,
+        "away_odds": 3.48,
+        "home_fair": 0.33526011560693647,
+        "away_fair": 0.6647398843930636
+      },
+      "1": {
+        "home_odds": 1.222,
+        "away_odds": 1.041,
+        "home_fair": 0.46000883782589475,
+        "away_fair": 0.5399911621741051
+      },
+      "1.5": {
+        "home_odds": 1.135,
+        "away_odds": 1.018,
+        "home_fair": 0.47282861124013004,
+        "away_fair": 0.5271713887598699
+      }
+    }
+  },
+  {
+    "slug": "kukesi-vs-kf-butrinti-sarande_724531384",
+    "id": 724531384,
+    "home": "Kukesi",
+    "away": "KF Butrinti Sarande",
+    "league": "Albania. Qualification",
+    "start_wib": "2026-05-28 20:00",
+    "tier": 3,
+    "wp_1xbet": {
+      "P1": 0.65,
+      "P2": 0.12,
+      "PX": 0.23
+    },
+    "1x2": {
+      "home": 1.4,
+      "draw": 4,
+      "away": 7.27
+    },
+    "1x2_fair": {
+      "home": 0.6482678674929778,
+      "draw": 0.22689375362254222,
+      "away": 0.12483837888447992
+    },
+    "dc": {
+      "1X": 1.033,
+      "12": 1.16,
+      "X2": 2.55
+    },
+    "btts": {
+      "yes": 1.86,
+      "no": 1.809
+    },
+    "btts_fair": {
+      "yes": 0.4930498773507767,
+      "no": 0.5069501226492232
+    },
+    "totals": {
+      "0.5": {
+        "over_odds": 1.015,
+        "under_odds": 12.8,
+        "over_fair": 0.9265291349981903,
+        "under_fair": 0.07347086500180962
+      },
+      "1": {
+        "over_odds": 1.016,
+        "under_odds": 8.3,
+        "over_fair": 0.8909403177329326,
+        "under_fair": 0.1090596822670674
+      },
+      "1.5": {
+        "over_odds": 1.192,
+        "under_odds": 3.75,
+        "over_fair": 0.7588021044111696,
+        "under_fair": 0.24119789558883045
+      },
+      "2": {
+        "over_odds": 1.3,
+        "under_odds": 2.97,
+        "over_fair": 0.6955503512880562,
+        "under_fair": 0.3044496487119438
+      },
+      "2.5": {
+        "over_odds": 1.69,
+        "under_odds": 2.02,
+        "over_fair": 0.5444743935309974,
+        "under_fair": 0.45552560646900275
+      },
+      "3": {
+        "over_odds": 2.08,
+        "under_odds": 1.6,
+        "over_fair": 0.4347826086956521,
+        "under_fair": 0.5652173913043478
+      },
+      "3.5": {
+        "over_odds": 2.59,
+        "under_odds": 1.39,
+        "over_fair": 0.34924623115577885,
+        "under_fair": 0.6507537688442211
+      },
+      "4": {
+        "over_odds": 3.95,
+        "under_odds": 1.173,
+        "over_fair": 0.22896740191294163,
+        "under_fair": 0.7710325980870584
+      },
+      "4.5": {
+        "over_odds": 4.8,
+        "under_odds": 1.154,
+        "over_fair": 0.1938192811555257,
+        "under_fair": 0.8061807188444744
+      },
+      "5.5": {
+        "over_odds": 9.9,
+        "under_odds": 1.05,
+        "over_fair": 0.09589041095890412,
+        "under_fair": 0.904109589041096
+      }
+    },
+    "ah": {}
+  },
+  {
+    "slug": "deportivo-moron-ii-vs-club-almagro-ii_724706742",
+    "id": 724706742,
+    "home": "Deportivo Moron II",
+    "away": "Club Almagro II",
+    "league": "Argentina. Primera B Nacional. Reserve League",
+    "start_wib": "2026-05-28 20:00",
+    "tier": 3,
+    "wp_1xbet": {
+      "P1": 0.51,
+      "P2": 0.22,
+      "PX": 0.27
+    },
+    "1x2": {
+      "home": 1.77,
+      "draw": 3.4,
+      "away": 4.13
+    },
+    "1x2_fair": {
+      "home": 0.513041603793921,
+      "draw": 0.26708342315154127,
+      "away": 0.2198749730545376
+    },
+    "dc": {
+      "1X": 1.156,
+      "12": 1.23,
+      "X2": 1.85
+    },
+    "btts": {
+      "yes": 1.69,
+      "no": 2.005
+    },
+    "btts_fair": {
+      "yes": 0.5426251691474967,
+      "no": 0.4573748308525034
+    },
+    "totals": {
+      "0.5": {
+        "over_odds": 1.008,
+        "under_odds": 8.8,
+        "over_fair": 0.8972267536704732,
+        "under_fair": 0.10277324632952692
+      },
+      "1": {
+        "over_odds": 1.023,
+        "under_odds": 7.8,
+        "over_fair": 0.8840530431825909,
+        "under_fair": 0.11594695681740903
+      },
+      "1.5": {
+        "over_odds": 1.22,
+        "under_odds": 3.5,
+        "over_fair": 0.7415254237288137,
+        "under_fair": 0.2584745762711865
+      },
+      "2": {
+        "over_odds": 1.35,
+        "under_odds": 2.74,
+        "over_fair": 0.6699266503667481,
+        "under_fair": 0.33007334963325186
+      },
+      "2.5": {
+        "over_odds": 1.78,
+        "under_odds": 1.909,
+        "over_fair": 0.5174844131200869,
+        "under_fair": 0.48251558687991325
+      },
+      "3": {
+        "over_odds": 2.28,
+        "under_odds": 1.5,
+        "over_fair": 0.3968253968253969,
+        "under_fair": 0.6031746031746033
+      },
+      "3.5": {
+        "over_odds": 2.83,
+        "under_odds": 1.33,
+        "over_fair": 0.3197115384615385,
+        "under_fair": 0.6802884615384615
+      },
+      "4": {
+        "over_odds": 4.5,
+        "under_odds": 1.133,
+        "over_fair": 0.2011361619030712,
+        "under_fair": 0.7988638380969288
+      },
+      "4.5": {
+        "over_odds": 5.15,
+        "under_odds": 1.098,
+        "over_fair": 0.17573623559539053,
+        "under_fair": 0.8242637644046096
+      },
+      "5": {
+        "over_odds": 8.8,
+        "under_odds": 1.008,
+        "over_fair": 0.10277324632952692,
+        "under_fair": 0.8972267536704732
+      },
+      "5.5": {
+        "over_odds": 11,
+        "under_odds": 1.01,
+        "over_fair": 0.08409658617818486,
+        "under_fair": 0.9159034138218152
+      }
+    },
+    "ah": {
+      "-1.5": {
+        "home_odds": 2.97,
+        "away_odds": 8.5,
+        "home_fair": 0.7410636442894508,
+        "away_fair": 0.2589363557105493
+      },
+      "-1": {
+        "home_odds": 2.375,
+        "away_odds": 7.7,
+        "home_fair": 0.7642679900744416,
+        "away_fair": 0.2357320099255583
+      },
+      "1": {
+        "home_odds": 1.026,
+        "away_odds": 1.5,
+        "home_fair": 0.5938242280285035,
+        "away_fair": 0.4061757719714964
+      },
+      "1.5": {
+        "home_odds": 1.013,
+        "away_odds": 1.3,
+        "home_fair": 0.5620406398616515,
+        "away_fair": 0.43795936013834835
+      }
+    }
+  },
+  {
+    "slug": "asociacion-deportiva-berazategui-ii-vs-ca-claypole_724704518",
+    "id": 724704518,
+    "home": "Asociacion Deportiva Berazategui II",
+    "away": "CA Claypole II",
+    "league": "Argentina. Primera C Metropolitana. Reserve League",
+    "start_wib": "2026-05-28 20:00",
+    "tier": 3,
+    "wp_1xbet": {
+      "P1": 0.38,
+      "P2": 0.34,
+      "PX": 0.28
+    },
+    "1x2": {
+      "home": 2.34,
+      "draw": 3.2,
+      "away": 2.68
+    },
+    "1x2_fair": {
+      "home": 0.3839679071599986,
+      "draw": 0.28077653211074893,
+      "away": 0.33525556072925244
+    },
+    "dc": {
+      "1X": 1.36,
+      "12": 1.26,
+      "X2": 1.47
+    },
+    "btts": {
+      "yes": 1.727,
+      "no": 1.954
+    },
+    "btts_fair": {
+      "yes": 0.5308340124966042,
+      "no": 0.46916598750339583
+    },
+    "totals": {
+      "1": {
+        "over_odds": 1.035,
+        "under_odds": 7.2,
+        "over_fair": 0.8743169398907105,
+        "under_fair": 0.12568306010928962
+      },
+      "1.5": {
+        "over_odds": 1.28,
+        "under_odds": 3.08,
+        "over_fair": 0.7064220183486238,
+        "under_fair": 0.29357798165137616
+      },
+      "2": {
+        "over_odds": 1.46,
+        "under_odds": 2.375,
+        "over_fair": 0.6192959582790091,
+        "under_fair": 0.3807040417209908
+      },
+      "2.5": {
+        "over_odds": 1.93,
+        "under_odds": 1.76,
+        "over_fair": 0.47696476964769646,
+        "under_fair": 0.5230352303523035
+      },
+      "3": {
+        "over_odds": 2.66,
+        "under_odds": 1.37,
+        "over_fair": 0.33995037220843666,
+        "under_fair": 0.6600496277915632
+      },
+      "3.5": {
+        "over_odds": 3.28,
+        "under_odds": 1.25,
+        "over_fair": 0.2759381898454746,
+        "under_fair": 0.7240618101545254
+      },
+      "4": {
+        "over_odds": 5.55,
+        "under_odds": 1.081,
+        "over_fair": 0.16302216860202084,
+        "under_fair": 0.8369778313979792
+      }
+    },
+    "ah": {
+      "-1.5": {
+        "home_odds": 4.65,
+        "away_odds": 5.5,
+        "home_fair": 0.541871921182266,
+        "away_fair": 0.45812807881773404
+      },
+      "-1": {
+        "home_odds": 3.78,
+        "away_odds": 4.6,
+        "home_fair": 0.548926014319809,
+        "away_fair": 0.4510739856801909
+      },
+      "1": {
+        "home_odds": 1.126,
+        "away_odds": 1.19,
+        "home_fair": 0.5138169257340243,
+        "away_fair": 0.4861830742659758
+      },
+      "1.5": {
+        "home_odds": 1.083,
+        "away_odds": 1.125,
+        "home_fair": 0.5095108695652174,
+        "away_fair": 0.4904891304347826
+      }
+    }
+  },
+  {
+    "slug": "cska-pomir-dushanbe-vs-panjshir_724315223",
+    "id": 724315223,
+    "home": "CSKA Pomir Dushanbe",
+    "away": "Panjshir",
+    "league": "Piala Tajikistan",
+    "start_wib": "2026-05-28 20:00",
+    "tier": 3,
+    "wp_1xbet": {
+      "P1": 0.72,
+      "P2": 0.07,
+      "PX": 0.21
+    },
+    "1x2": {
+      "home": 1.26,
+      "draw": 4.29,
+      "away": 13.3
+    },
+    "1x2_fair": {
+      "home": 0.7202311525819106,
+      "draw": 0.21153642243664508,
+      "away": 0.06823242498144416
+    },
+    "dc": {
+      "12": 1.18,
+      "X2": 3.56
+    },
+    "btts": {
+      "yes": 2.731,
+      "no": 1.428
+    },
+    "btts_fair": {
+      "yes": 0.3433517672517432,
+      "no": 0.6566482327482568
+    },
+    "totals": {
+      "2": {
+        "over_odds": 1.53,
+        "under_odds": 2.34,
+        "over_fair": 0.6046511627906976,
+        "under_fair": 0.3953488372093023
+      },
+      "2.5": {
+        "over_odds": 2.04,
+        "under_odds": 1.73,
+        "over_fair": 0.4588859416445623,
+        "under_fair": 0.5411140583554377
+      },
+      "3": {
+        "over_odds": 2.85,
+        "under_odds": 1.37,
+        "over_fair": 0.32464454976303314,
+        "under_fair": 0.6753554502369669
+      }
+    },
+    "ah": {}
+  },
+  {
+    "slug": "regar-tadaz-tursunzoda-vs-eskhata_724314659",
+    "id": 724314659,
+    "home": "Regar-TadAZ Tursunzoda",
+    "away": "Eskhata",
+    "league": "Piala Tajikistan",
+    "start_wib": "2026-05-28 20:00",
+    "tier": 3,
+    "wp_1xbet": {
+      "P1": 0.5,
+      "P2": 0.23,
+      "PX": 0.27
+    },
+    "1x2": {
+      "home": 1.82,
+      "draw": 3.35,
+      "away": 3.965
+    },
+    "1x2_fair": {
+      "home": 0.49942566659334753,
+      "draw": 0.2713297651342963,
+      "away": 0.22924456827235629
+    },
+    "dc": {
+      "1X": 1.21,
+      "12": 1.28,
+      "X2": 1.9
+    },
+    "btts": {
+      "yes": 1.891,
+      "no": 1.909
+    },
+    "btts_fair": {
+      "yes": 0.5023684210526316,
+      "no": 0.49763157894736837
+    },
+    "totals": {
+      "2": {
+        "over_odds": 1.48,
+        "under_odds": 2.46,
+        "over_fair": 0.6243654822335025,
+        "under_fair": 0.3756345177664975
+      },
+      "2.5": {
+        "over_odds": 1.97,
+        "under_odds": 1.78,
+        "over_fair": 0.4746666666666666,
+        "under_fair": 0.5253333333333333
+      },
+      "3": {
+        "over_odds": 2.7,
+        "under_odds": 1.41,
+        "over_fair": 0.3430656934306569,
+        "under_fair": 0.656934306569343
+      }
+    },
+    "ah": {}
+  },
+  {
+    "slug": "vakhsh-bokhtar-vs-mokhir-yovon_724315221",
+    "id": 724315221,
+    "home": "Vakhsh Bokhtar",
+    "away": "Mokhir Yovon",
+    "league": "Piala Tajikistan",
+    "start_wib": "2026-05-28 20:00",
+    "tier": 3,
+    "wp_1xbet": {
+      "P1": 0.7,
+      "P2": 0.08,
+      "PX": 0.22
+    },
+    "1x2": {
+      "home": 1.29,
+      "draw": 4.23,
+      "away": 10.8
+    },
+    "1x2_fair": {
+      "home": 0.7020455582755902,
+      "draw": 0.21409900004149204,
+      "away": 0.08385544168291773
+    },
+    "dc": {
+      "1X": 1.02,
+      "12": 1.18,
+      "X2": 3.34
+    },
+    "btts": {
+      "yes": 2.448,
+      "no": 1.533
+    },
+    "btts_fair": {
+      "yes": 0.3850791258477769,
+      "no": 0.6149208741522231
+    },
+    "totals": {
+      "2": {
+        "over_odds": 1.47,
+        "under_odds": 2.5,
+        "over_fair": 0.6297229219143576,
+        "under_fair": 0.37027707808564236
+      },
+      "2.5": {
+        "over_odds": 1.95,
+        "under_odds": 1.8,
+        "over_fair": 0.48,
+        "under_fair": 0.5199999999999999
+      },
+      "3": {
+        "over_odds": 2.65,
+        "under_odds": 1.42,
+        "over_fair": 0.3488943488943489,
+        "under_fair": 0.6511056511056511
+      }
+    },
+    "ah": {}
+  },
+  {
+    "slug": "ismaily-vs-pharco_723611723",
+    "id": 723611723,
+    "home": "Ismaily",
+    "away": "Pharco",
+    "league": "Mesir. Liga Primer",
+    "start_wib": "2026-05-28 21:00",
+    "tier": 2,
+    "wp_1xbet": {
+      "P1": 0.32,
+      "P2": 0.34,
+      "PX": 0.34
+    },
+    "1x2": {
+      "home": 2.81,
+      "draw": 2.64,
+      "away": 2.67
+    },
+    "1x2_fair": {
+      "home": 0.32083896603990003,
+      "draw": 0.3414990509742875,
+      "away": 0.3376619829858124
+    },
+    "dc": {
+      "1X": 1.363,
+      "12": 1.37,
+      "X2": 1.33
+    },
+    "btts": {
+      "yes": 2.14,
+      "no": 1.62
+    },
+    "btts_fair": {
+      "yes": 0.4308510638297873,
+      "no": 0.5691489361702128
+    },
+    "totals": {
+      "0.5": {
+        "over_odds": 1.097,
+        "under_odds": 5.15,
+        "over_fair": 0.8243957099407716,
+        "under_fair": 0.17560429005922842
+      },
+      "1": {
+        "over_odds": 1.161,
+        "under_odds": 4.1,
+        "over_fair": 0.7793195210036115,
+        "under_fair": 0.22068047899638857
+      },
+      "1.5": {
+        "over_odds": 1.55,
+        "under_odds": 2.29,
+        "over_fair": 0.5963541666666666,
+        "under_fair": 0.40364583333333337
+      },
+      "2": {
+        "over_odds": 1.96,
+        "under_odds": 1.68,
+        "over_fair": 0.46153846153846156,
+        "under_fair": 0.5384615384615384
+      },
+      "2.5": {
+        "over_odds": 2.59,
+        "under_odds": 1.39,
+        "over_fair": 0.34924623115577885,
+        "under_fair": 0.6507537688442211
+      },
+      "3": {
+        "over_odds": 4.3,
+        "under_odds": 1.148,
+        "over_fair": 0.21071953010279,
+        "under_fair": 0.7892804698972099
+      },
+      "3.5": {
+        "over_odds": 5,
+        "under_odds": 1.105,
+        "over_fair": 0.180999180999181,
+        "under_fair": 0.819000819000819
+      },
+      "4": {
+        "over_odds": 9.3,
+        "under_odds": 1.002,
+        "over_fair": 0.0972626674432149,
+        "under_fair": 0.9027373325567851
+      },
+      "4.5": {
+        "over_odds": 12.5,
+        "under_odds": 1.025,
+        "over_fair": 0.07578558225508318,
+        "under_fair": 0.9242144177449169
+      }
+    },
+    "ah": {
+      "-1.5": {
+        "home_odds": 6.05,
+        "away_odds": 5.8,
+        "home_fair": 0.48945147679324896,
+        "away_fair": 0.510548523206751
+      },
+      "-1": {
+        "home_odds": 5.1,
+        "away_odds": 4.85,
+        "home_fair": 0.4874371859296483,
+        "away_fair": 0.5125628140703518
+      },
+      "1": {
+        "home_odds": 1.112,
+        "away_odds": 1.101,
+        "home_fair": 0.49751468594667875,
+        "away_fair": 0.5024853140533213
+      },
+      "1.5": {
+        "home_odds": 1.071,
+        "away_odds": 1.064,
+        "home_fair": 0.49836065573770494,
+        "away_fair": 0.5016393442622951
+      }
+    }
+  },
+  {
+    "slug": "petrojet-vs-el-gouna_723611717",
+    "id": 723611717,
+    "home": "Petrojet",
+    "away": "El Gouna",
+    "league": "Mesir. Liga Primer",
+    "start_wib": "2026-05-28 21:00",
+    "tier": 2,
+    "wp_1xbet": {
+      "P1": 0.4,
+      "P2": 0.27,
+      "PX": 0.33
+    },
+    "1x2": {
+      "home": 2.27,
+      "draw": 2.74,
+      "away": 3.4
+    },
+    "1x2_fair": {
+      "home": 0.4006226939252939,
+      "draw": 0.3319027427775246,
+      "away": 0.26747456329718156
+    },
+    "dc": {
+      "1X": 1.24,
+      "12": 1.35,
+      "X2": 1.51
+    },
+    "btts": {
+      "yes": 2.05,
+      "no": 1.672
+    },
+    "btts_fair": {
+      "yes": 0.4492208490059108,
+      "no": 0.5507791509940891
+    },
+    "totals": {
+      "0.5": {
+        "over_odds": 1.072,
+        "under_odds": 5.8,
+        "over_fair": 0.8440046565774156,
+        "under_fair": 0.15599534342258445
+      },
+      "1": {
+        "over_odds": 1.125,
+        "under_odds": 4.65,
+        "over_fair": 0.8051948051948051,
+        "under_fair": 0.1948051948051948
+      },
+      "1.5": {
+        "over_odds": 1.49,
+        "under_odds": 2.44,
+        "over_fair": 0.6208651399491093,
+        "under_fair": 0.37913486005089053
+      },
+      "2": {
+        "over_odds": 1.83,
+        "under_odds": 1.79,
+        "over_fair": 0.494475138121547,
+        "under_fair": 0.5055248618784531
+      },
+      "2.5": {
+        "over_odds": 2.43,
+        "under_odds": 1.44,
+        "over_fair": 0.37209302325581395,
+        "under_fair": 0.627906976744186
+      },
+      "3": {
+        "over_odds": 3.9,
+        "under_odds": 1.177,
+        "over_fair": 0.23182982076029154,
+        "under_fair": 0.7681701792397085
+      },
+      "3.5": {
+        "over_odds": 4.65,
+        "under_odds": 1.123,
+        "over_fair": 0.19452624285466827,
+        "under_fair": 0.8054737571453318
+      },
+      "4": {
+        "over_odds": 8.9,
+        "under_odds": 1.007,
+        "over_fair": 0.1016453013021096,
+        "under_fair": 0.8983546986978903
+      },
+      "4.5": {
+        "over_odds": 10.5,
+        "under_odds": 1.01,
+        "over_fair": 0.08774978279756732,
+        "under_fair": 0.9122502172024326
+      },
+      "5.5": {
+        "over_odds": 17,
+        "under_odds": 1.005,
+        "over_fair": 0.05581782838100527,
+        "under_fair": 0.9441821716189948
+      }
+    },
+    "ah": {
+      "-1.5": {
+        "home_odds": 4.7,
+        "away_odds": 7.8,
+        "home_fair": 0.624,
+        "away_fair": 0.376
+      },
+      "-1": {
+        "home_odds": 3.72,
+        "away_odds": 6.75,
+        "home_fair": 0.6446991404011462,
+        "away_fair": 0.3553008595988539
+      },
+      "1": {
+        "home_odds": 1.045,
+        "away_odds": 1.195,
+        "home_fair": 0.5334821428571429,
+        "away_fair": 0.4665178571428571
+      },
+      "1.5": {
+        "home_odds": 1.023,
+        "away_odds": 1.122,
+        "home_fair": 0.5230769230769232,
+        "away_fair": 0.4769230769230769
+      }
+    }
+  },
+  {
+    "slug": "tala-ea-el-gaish-vs-wadi-degla_723262070",
+    "id": 723262070,
+    "home": "Tala'ea El-Gaish",
+    "away": "Wadi Degla",
+    "league": "Mesir. Liga Primer",
+    "start_wib": "2026-05-28 21:00",
+    "tier": 2,
+    "wp_1xbet": {
+      "P1": 0.37,
+      "P2": 0.32,
+      "PX": 0.31
+    },
+    "1x2": {
+      "home": 2.44,
+      "draw": 2.89,
+      "away": 2.82
+    },
+    "1x2_fair": {
+      "home": 0.36906648794051317,
+      "draw": 0.31159938774216334,
+      "away": 0.31933412431732344
+    },
+    "dc": {
+      "1X": 1.33,
+      "12": 1.31,
+      "X2": 1.43
+    },
+    "btts": {
+      "yes": 2.1,
+      "no": 1.641
+    },
+    "btts_fair": {
+      "yes": 0.43865276663993585,
+      "no": 0.5613472333600642
+    },
+    "totals": {
+      "0.5": {
+        "over_odds": 1.066,
+        "under_odds": 5.95,
+        "over_fair": 0.8480615735461802,
+        "under_fair": 0.15193842645381986
+      },
+      "1": {
+        "over_odds": 1.118,
+        "under_odds": 4.75,
+        "over_fair": 0.8094751192910702,
+        "under_fair": 0.1905248807089298
+      },
+      "1.5": {
+        "over_odds": 1.52,
+        "under_odds": 2.36,
+        "over_fair": 0.6082474226804124,
+        "under_fair": 0.3917525773195877
+      },
+      "2": {
+        "over_odds": 1.89,
+        "under_odds": 1.74,
+        "over_fair": 0.4793388429752066,
+        "under_fair": 0.5206611570247933
+      },
+      "2.5": {
+        "over_odds": 2.49,
+        "under_odds": 1.42,
+        "over_fair": 0.36317135549872115,
+        "under_fair": 0.6368286445012787
+      },
+      "3": {
+        "over_odds": 4.15,
+        "under_odds": 1.159,
+        "over_fair": 0.21830853268035413,
+        "under_fair": 0.781691467319646
+      },
+      "3.5": {
+        "over_odds": 4.9,
+        "under_odds": 1.11,
+        "over_fair": 0.18469217970049917,
+        "under_fair": 0.8153078202995008
+      },
+      "4": {
+        "over_odds": 9,
+        "under_odds": 1.005,
+        "over_fair": 0.10044977511244375,
+        "under_fair": 0.8995502248875562
+      },
+      "4.5": {
+        "over_odds": 12.5,
+        "under_odds": 1.025,
+        "over_fair": 0.07578558225508318,
+        "under_fair": 0.9242144177449169
+      }
+    },
+    "ah": {
+      "-1.5": {
+        "home_odds": 5.3,
+        "away_odds": 6.3,
+        "home_fair": 0.5431034482758621,
+        "away_fair": 0.4568965517241379
+      },
+      "-1": {
+        "home_odds": 4.3,
+        "away_odds": 5.3,
+        "home_fair": 0.5520833333333333,
+        "away_fair": 0.4479166666666667
+      },
+      "1": {
+        "home_odds": 1.091,
+        "away_odds": 1.147,
+        "home_fair": 0.5125111706881145,
+        "away_fair": 0.4874888293118856
+      },
+      "1.5": {
+        "home_odds": 1.056,
+        "away_odds": 1.092,
+        "home_fair": 0.5083798882681564,
+        "away_fair": 0.49162011173184356
+      }
+    }
+  },
+  {
+    "slug": "tuan-rumah-vs-away_724097655",
+    "id": 724097655,
+    "home": "Tuan rumah",
+    "away": "Away",
+    "league": "Mesir. Liga Primer",
+    "start_wib": "2026-05-28 21:00",
+    "tier": 2,
+    "wp_1xbet": {
+      "P1": 0.46,
+      "P2": 0.37,
+      "PX": 0.17
+    },
+    "1x2": {
+      "home": 2.004,
+      "draw": 5.28,
+      "away": 2.517
+    },
+    "1x2_fair": {
+      "home": 0.45961555939855053,
+      "draw": 0.17444499640808622,
+      "away": 0.3659394441933633
+    },
+    "dc": {
+      "1X": 1.493,
+      "12": 1.133,
+      "X2": 1.809
+    },
+    "btts": {},
+    "btts_fair": {
+      "yes": null,
+      "no": null
+    },
+    "totals": {
+      "3.5": {
+        "over_odds": 1.112,
+        "under_odds": 6.52,
+        "over_fair": 0.8542976939203354,
+        "under_fair": 0.14570230607966458
+      },
+      "4.5": {
+        "over_odds": 1.305,
+        "under_odds": 3.46,
+        "over_fair": 0.7261280167890871,
+        "under_fair": 0.27387198321091294
+      },
+      "5.5": {
+        "over_odds": 1.632,
+        "under_odds": 2.273,
+        "over_fair": 0.5820742637644047,
+        "under_fair": 0.4179257362355954
+      },
+      "6.5": {
+        "over_odds": 2.14,
+        "under_odds": 1.71,
+        "over_fair": 0.44415584415584414,
+        "under_fair": 0.5558441558441558
+      },
+      "7.5": {
+        "over_odds": 3.04,
+        "under_odds": 1.38,
+        "over_fair": 0.31221719457013575,
+        "under_fair": 0.6877828054298643
+      },
+      "8.5": {
+        "over_odds": 4.755,
+        "under_odds": 1.187,
+        "over_fair": 0.19976438909458097,
+        "under_fair": 0.8002356109054191
+      },
+      "9.5": {
+        "over_odds": 8.15,
+        "under_odds": 1.075,
+        "over_fair": 0.11653116531165311,
+        "under_fair": 0.8834688346883468
+      }
+    },
+    "ah": {
+      "-2.5": {
+        "home_odds": 4.525,
+        "away_odds": 6.9,
+        "home_fair": 0.6039387308533917,
+        "away_fair": 0.3960612691466084
+      },
+      "-2": {
+        "home_odds": 3.98,
+        "away_odds": 6.2,
+        "home_fair": 0.6090373280943026,
+        "away_fair": 0.3909626719056975
+      },
+      "-1.5": {
+        "home_odds": 2.816,
+        "away_odds": 3.88,
+        "home_fair": 0.5794504181600956,
+        "away_fair": 0.42054958183990443
+      },
+      "-1": {
+        "home_odds": 2.419,
+        "away_odds": 3.375,
+        "home_fair": 0.5824991370383155,
+        "away_fair": 0.4175008629616845
+      },
+      "1": {
+        "home_odds": 1.322,
+        "away_odds": 1.564,
+        "home_fair": 0.5419265419265419,
+        "away_fair": 0.4580734580734581
+      },
+      "1.5": {
+        "home_odds": 1.258,
+        "away_odds": 1.432,
+        "home_fair": 0.5323420074349443,
+        "away_fair": 0.4676579925650558
+      },
+      "2": {
+        "home_odds": 1.12,
+        "away_odds": 1.25,
+        "home_fair": 0.5274261603375527,
+        "away_fair": 0.4725738396624473
+      },
+      "2.5": {
+        "home_odds": 1.101,
+        "away_odds": 1.202,
+        "home_fair": 0.5219279201042119,
+        "away_fair": 0.4780720798957881
+      }
+    }
+  },
+  {
+    "slug": "jenis-vs-caspiy_723795333",
+    "id": 723795333,
+    "home": "Jenis",
+    "away": "Caspiy",
+    "league": "Kazakhstan. Liga Utama",
+    "start_wib": "2026-05-28 21:00",
+    "tier": 3,
+    "wp_1xbet": {
+      "P1": 0.53,
+      "P2": 0.2,
+      "PX": 0.27
+    },
+    "1x2": {
+      "home": 1.763,
+      "draw": 3.495,
+      "away": 4.745
+    },
+    "1x2_fair": {
+      "home": 0.5330536135331368,
+      "draw": 0.2688908499739399,
+      "away": 0.19805553649292312
+    },
+    "dc": {
+      "1X": 1.164,
+      "12": 1.276,
+      "X2": 1.99
+    },
+    "btts": {
+      "yes": 1.97,
+      "no": 1.733
+    },
+    "btts_fair": {
+      "yes": 0.467998919794761,
+      "no": 0.5320010802052391
+    },
+    "totals": {
+      "0.5": {
+        "over_odds": 1.013,
+        "under_odds": 8.5,
+        "over_fair": 0.8935141385472513,
+        "under_fair": 0.10648586145274887
+      },
+      "1": {
+        "over_odds": 1.041,
+        "under_odds": 6.9,
+        "over_fair": 0.8689081979599547,
+        "under_fair": 0.13109180204004534
+      },
+      "1.5": {
+        "over_odds": 1.32,
+        "under_odds": 2.875,
+        "over_fair": 0.6853396901072706,
+        "under_fair": 0.3146603098927294
+      },
+      "2": {
+        "over_odds": 1.56,
+        "under_odds": 2.15,
+        "over_fair": 0.5795148247978437,
+        "under_fair": 0.4204851752021564
+      },
+      "2.5": {
+        "over_odds": 2.155,
+        "under_odds": 1.667,
+        "over_fair": 0.4361590790162219,
+        "under_fair": 0.563840920983778
+      },
+      "3": {
+        "over_odds": 3.08,
+        "under_odds": 1.28,
+        "over_fair": 0.29357798165137616,
+        "under_fair": 0.7064220183486238
+      },
+      "3.5": {
+        "over_odds": 3.84,
+        "under_odds": 1.183,
+        "over_fair": 0.23551662353175393,
+        "under_fair": 0.764483376468246
+      },
+      "4": {
+        "over_odds": 7.1,
+        "under_odds": 1.036,
+        "over_fair": 0.1273352999016716,
+        "under_fair": 0.8726647000983285
+      },
+      "4.5": {
+        "over_odds": 8,
+        "under_odds": 1.02,
+        "over_fair": 0.11308203991130819,
+        "under_fair": 0.8869179600886917
+      },
+      "5.5": {
+        "over_odds": 15,
+        "under_odds": 1.016,
+        "over_fair": 0.06343656343656344,
+        "under_fair": 0.9365634365634365
+      }
+    },
+    "ah": {
+      "-1": {
+        "home_odds": 2.38,
+        "away_odds": 9.6,
+        "home_fair": 0.8013355592654424,
+        "away_fair": 0.1986644407345576
+      },
+      "1": {
+        "home_odds": 1.01,
+        "away_odds": 1.49,
+        "home_fair": 0.596,
+        "away_fair": 0.404
+      }
+    }
+  },
+  {
+    "slug": "kaysar-vs-elimai_723795351",
+    "id": 723795351,
+    "home": "Kaysar",
+    "away": "Elimai",
+    "league": "Kazakhstan. Liga Utama",
+    "start_wib": "2026-05-28 21:00",
+    "tier": 3,
+    "wp_1xbet": {
+      "P1": 0.29,
+      "P2": 0.42,
+      "PX": 0.29
+    },
+    "1x2": {
+      "home": 3.255,
+      "draw": 3.255,
+      "away": 2.221
+    },
+    "1x2_fair": {
+      "home": 0.2885539820709368,
+      "draw": 0.2885539820709368,
+      "away": 0.42289203585812657
+    },
+    "dc": {
+      "1X": 1.614,
+      "12": 1.311,
+      "X2": 1.311
+    },
+    "btts": {
+      "yes": 1.71,
+      "no": 2.001
+    },
+    "btts_fair": {
+      "yes": 0.5392077607113984,
+      "no": 0.4607922392886014
+    },
+    "totals": {
+      "0.5": {
+        "over_odds": 1.011,
+        "under_odds": 8.6,
+        "over_fair": 0.8948080324628029,
+        "under_fair": 0.10519196753719694
+      },
+      "1": {
+        "over_odds": 1.031,
+        "under_odds": 7.4,
+        "over_fair": 0.8777132012809868,
+        "under_fair": 0.12228679871901314
+      },
+      "1.5": {
+        "over_odds": 1.26,
+        "under_odds": 3.2,
+        "over_fair": 0.7174887892376682,
+        "under_fair": 0.2825112107623319
+      },
+      "2": {
+        "over_odds": 1.42,
+        "under_odds": 2.49,
+        "over_fair": 0.6368286445012787,
+        "under_fair": 0.36317135549872115
+      },
+      "2.5": {
+        "over_odds": 1.932,
+        "under_odds": 1.83,
+        "over_fair": 0.48644338118022334,
+        "under_fair": 0.5135566188197767
+      },
+      "3": {
+        "over_odds": 2.52,
+        "under_odds": 1.41,
+        "over_fair": 0.35877862595419846,
+        "under_fair": 0.6412213740458015
+      },
+      "3.5": {
+        "over_odds": 3.14,
+        "under_odds": 1.27,
+        "over_fair": 0.28798185941043086,
+        "under_fair": 0.7120181405895691
+      },
+      "4": {
+        "over_odds": 5.3,
+        "under_odds": 1.09,
+        "over_fair": 0.17057902973395933,
+        "under_fair": 0.8294209702660407
+      },
+      "4.5": {
+        "over_odds": 6.05,
+        "under_odds": 1.064,
+        "over_fair": 0.1495642395276919,
+        "under_fair": 0.8504357604723082
+      },
+      "5.5": {
+        "over_odds": 12.5,
+        "under_odds": 1.025,
+        "over_fair": 0.07578558225508318,
+        "under_fair": 0.9242144177449169
+      },
+      "6.5": {
+        "over_odds": 5.35,
+        "under_odds": 1.152,
+        "over_fair": 0.17717625346047372,
+        "under_fair": 0.8228237465395263
+      }
+    },
+    "ah": {
+      "-1.5": {
+        "home_odds": 6.75,
+        "away_odds": 4.05,
+        "home_fair": 0.375,
+        "away_fair": 0.6250000000000001
+      },
+      "-1": {
+        "home_odds": 5.8,
+        "away_odds": 3.2,
+        "home_fair": 0.35555555555555557,
+        "away_fair": 0.6444444444444444
+      },
+      "1": {
+        "home_odds": 1.26,
+        "away_odds": 1.072,
+        "home_fair": 0.4596912521440823,
+        "away_fair": 0.5403087478559176
+      },
+      "1.5": {
+        "home_odds": 1.164,
+        "away_odds": 1.045,
+        "home_fair": 0.473064735174287,
+        "away_fair": 0.526935264825713
+      }
+    }
+  },
+  {
+    "slug": "ordabasy-vs-kairat_723795348",
+    "id": 723795348,
+    "home": "Ordabasy",
+    "away": "Kairat",
+    "league": "Kazakhstan. Liga Utama",
+    "start_wib": "2026-05-28 22:00",
+    "tier": 3,
+    "wp_1xbet": {
+      "P1": 0.36,
+      "P2": 0.34,
+      "PX": 0.3
+    },
+    "1x2": {
+      "home": 2.587,
+      "draw": 3.21,
+      "away": 2.733
+    },
+    "1x2_fair": {
+      "home": 0.3633063686048117,
+      "draw": 0.2927955064114168,
+      "away": 0.34389812498377165
+    },
+    "dc": {
+      "1X": 1.421,
+      "12": 1.319,
+      "X2": 1.464
+    },
+    "btts": {
+      "yes": 1.74,
+      "no": 1.96
+    },
+    "btts_fair": {
+      "yes": 0.5297297297297298,
+      "no": 0.47027027027027035
+    },
+    "totals": {
+      "0.5": {
+        "over_odds": 1.023,
+        "under_odds": 7.8,
+        "over_fair": 0.8840530431825909,
+        "under_fair": 0.11594695681740903
+      },
+      "1": {
+        "over_odds": 1.045,
+        "under_odds": 6.75,
+        "over_fair": 0.8659397049390635,
+        "under_fair": 0.13406029506093647
+      },
+      "1.5": {
+        "over_odds": 1.285,
+        "under_odds": 3.05,
+        "over_fair": 0.7035755478662052,
+        "under_fair": 0.2964244521337947
+      },
+      "2": {
+        "over_odds": 1.47,
+        "under_odds": 2.35,
+        "over_fair": 0.6151832460732984,
+        "under_fair": 0.38481675392670156
+      },
+      "2.5": {
+        "over_odds": 2.01,
+        "under_odds": 1.766,
+        "over_fair": 0.4676906779661017,
+        "under_fair": 0.5323093220338982
+      },
+      "3": {
+        "over_odds": 2.69,
+        "under_odds": 1.363,
+        "over_fair": 0.33629410313348135,
+        "under_fair": 0.6637058968665186
+      },
+      "3.5": {
+        "over_odds": 3.28,
+        "under_odds": 1.25,
+        "over_fair": 0.2759381898454746,
+        "under_fair": 0.7240618101545254
+      },
+      "4": {
+        "over_odds": 5.55,
+        "under_odds": 1.08,
+        "over_fair": 0.16289592760181,
+        "under_fair": 0.8371040723981901
+      },
+      "4.5": {
+        "over_odds": 6.25,
+        "under_odds": 1.058,
+        "over_fair": 0.14477285166940343,
+        "under_fair": 0.8552271483305967
+      },
+      "5.5": {
+        "over_odds": 14,
+        "under_odds": 1.016,
+        "over_fair": 0.06766116142781033,
+        "under_fair": 0.9323388385721897
+      }
+    },
+    "ah": {
+      "-2": {
+        "home_odds": 9.7,
+        "away_odds": 10,
+        "home_fair": 0.5076142131979696,
+        "away_fair": 0.4923857868020305
+      },
+      "-1.5": {
+        "home_odds": 4.9,
+        "away_odds": 5.3,
+        "home_fair": 0.5196078431372549,
+        "away_fair": 0.48039215686274517
+      },
+      "-1": {
+        "home_odds": 4.05,
+        "away_odds": 4.4,
+        "home_fair": 0.5207100591715976,
+        "away_fair": 0.4792899408284023
+      },
+      "1": {
+        "home_odds": 1.138,
+        "away_odds": 1.164,
+        "home_fair": 0.5056472632493484,
+        "away_fair": 0.4943527367506516
+      },
+      "1.5": {
+        "home_odds": 1.092,
+        "away_odds": 1.109,
+        "home_fair": 0.5038618809631985,
+        "away_fair": 0.49613811903680144
+      },
+      "2": {
+        "home_odds": 1.01,
+        "away_odds": 1.01,
+        "home_fair": 0.5,
+        "away_fair": 0.5
+      }
+    }
+  }
+]

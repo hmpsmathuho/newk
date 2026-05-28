@@ -1,0 +1,19 @@
+Match: Betlemi Keda vs Dinamo Tbilisi II
+Liga: Georgia. Liga 3
+Start (WIB): 2026-05-28 19:00
+ID: 724491102
+WP (1xbet hint): P1=0.39 PX=0.24 P2=0.37
+
+-- 1X2 --
+  Home 2.26  Draw 3.81  Away 2.39
+  Implied: H=0.442 D=0.262 A=0.418  Margin=12.3%
+-- Double Chance --
+  1X 1.42  12 1.16  X2 1.47
+-- Total Goals --
+  Line 2.5: Over 1.46  Under 2.46
+  Line 3: Over 1.76  Under 1.91
+  Line 3.5: Over 2.26  Under 1.54
+  Line 4: Over 3.34  Under 1.26
+-- BTTS --
+  Yes 1.42  No 2.57
+-- Asian Handicap --

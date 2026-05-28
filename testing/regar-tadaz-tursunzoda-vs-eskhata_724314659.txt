@@ -1,0 +1,20 @@
+Match: Regar-TadAZ Tursunzoda vs Eskhata
+Liga: Piala Tajikistan
+Start (WIB): 2026-05-28 20:00
+ID: 724314659
+WP (1xbet hint): P1=0.5 PX=0.27 P2=0.23
+
+-- 1X2 --
+  Home 1.82  Draw 3.35  Away 3.965
+  Implied: H=0.549 D=0.299 A=0.252  Margin=10.0%
+-- Double Chance --
+  1X 1.21  12 1.28  X2 1.9
+-- Total Goals --
+  Line 2: Over 1.48  Under 2.46
+  Line 2.5: Over 1.97  Under 1.78
+  Line 3: Over 2.7  Under 1.41
+-- BTTS --
+  Yes 1.891  No 1.909
+-- Asian Handicap --
+  AH -1.00: Home 2.55  Away -
+  AH +1.00: Home -  Away 1.48

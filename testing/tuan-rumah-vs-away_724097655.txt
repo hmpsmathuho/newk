@@ -1,0 +1,33 @@
+Match: Tuan rumah vs Away
+Liga: Mesir. Liga Primer
+Start (WIB): 2026-05-28 21:00
+ID: 724097655
+WP (1xbet hint): P1=0.46 PX=0.17 P2=0.37
+
+-- 1X2 --
+  Home 2.004  Draw 5.28  Away 2.517
+  Implied: H=0.499 D=0.189 A=0.397  Margin=8.6%
+-- Double Chance --
+  1X 1.493  12 1.133  X2 1.809
+-- Total Goals --
+  Line 3.5: Over 1.112  Under 6.52
+  Line 4.5: Over 1.305  Under 3.46
+  Line 5.5: Over 1.632  Under 2.273
+  Line 6.5: Over 2.14  Under 1.71
+  Line 7.5: Over 3.04  Under 1.38
+  Line 8.5: Over 4.755  Under 1.187
+  Line 9.5: Over 8.15  Under 1.075
+-- BTTS --
+-- Asian Handicap --
+  AH -3.50: Home 8.25  Away -
+  AH -3.00: Home 7.5  Away -
+  AH -2.50: Home 4.525  Away 6.9
+  AH -2.00: Home 3.98  Away 6.2
+  AH -1.50: Home 2.816  Away 3.88
+  AH -1.00: Home 2.419  Away 3.375
+  AH +1.00: Home 1.322  Away 1.564
+  AH +1.50: Home 1.258  Away 1.432
+  AH +2.00: Home 1.12  Away 1.25
+  AH +2.50: Home 1.101  Away 1.202
+  AH +3.00: Home -  Away 1.088
+  AH +3.50: Home -  Away 1.073

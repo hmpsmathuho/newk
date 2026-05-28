@@ -1,0 +1,34 @@
+Match: Kaysar vs Elimai
+Liga: Kazakhstan. Liga Utama
+Start (WIB): 2026-05-28 21:00
+ID: 723795351
+WP (1xbet hint): P1=0.29 PX=0.29 P2=0.42
+
+-- 1X2 --
+  Home 3.255  Draw 3.255  Away 2.221
+  Implied: H=0.307 D=0.307 A=0.450  Margin=6.5%
+-- Double Chance --
+  1X 1.614  12 1.311  X2 1.311
+-- Total Goals --
+  Line 0.5: Over 1.011  Under 8.6
+  Line 1: Over 1.031  Under 7.4
+  Line 1.5: Over 1.26  Under 3.2
+  Line 2: Over 1.42  Under 2.49
+  Line 2.5: Over 1.932  Under 1.83
+  Line 3: Over 2.52  Under 1.41
+  Line 3.5: Over 3.14  Under 1.27
+  Line 4: Over 5.3  Under 1.09
+  Line 4.5: Over 6.05  Under 1.064
+  Line 5.5: Over 12.5  Under 1.025
+  Line 6.5: Over 5.35  Under 1.152
+-- BTTS --
+  Yes 1.71  No 2.001
+-- Asian Handicap --
+  AH -2.50: Home -  Away 8.6
+  AH -2.00: Home -  Away 7.8
+  AH -1.50: Home 6.75  Away 4.05
+  AH -1.00: Home 5.8  Away 3.2
+  AH +1.00: Home 1.26  Away 1.072
+  AH +1.50: Home 1.164  Away 1.045
+  AH +2.00: Home 1.023  Away -
+  AH +2.50: Home 1.011  Away -

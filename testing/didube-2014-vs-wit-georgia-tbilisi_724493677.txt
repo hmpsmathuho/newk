@@ -1,0 +1,19 @@
+Match: Didube 2014 vs WIT Georgia Tbilisi
+Liga: Georgia. Liga 3
+Start (WIB): 2026-05-28 19:00
+ID: 724493677
+WP (1xbet hint): P1=0.33 PX=0.24 P2=0.43
+
+-- 1X2 --
+  Home 2.702  Draw 3.78  Away 2.11
+  Implied: H=0.370 D=0.265 A=0.474  Margin=10.9%
+-- Double Chance --
+  1X 1.55  12 1.16  X2 1.34
+-- Total Goals --
+  Line 2.5: Over 1.49  Under 2.38
+  Line 3: Over 1.81  Under 1.85
+  Line 3.5: Over 2.34  Under 1.5
+  Line 4: Over 3.53  Under 1.23
+-- BTTS --
+  Yes 1.44  No 2.49
+-- Asian Handicap --

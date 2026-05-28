@@ -1,0 +1,29 @@
+Match: Dire Dawa City vs Saint-George Addis Abeba
+Liga: Etiopia. Liga Primer
+Start (WIB): 2026-05-28 19:00
+ID: 724317737
+WP (1xbet hint): P1=0.26 PX=0.33 P2=0.41
+
+-- 1X2 --
+  Home 3.55  Draw 2.69  Away 2.23
+  Implied: H=0.282 D=0.372 A=0.448  Margin=10.2%
+-- Double Chance --
+  1X 1.52  12 1.36  X2 1.22
+-- Total Goals --
+  Line 0.5: Over 1.108  Under 4.95
+  Line 1: Over 1.19  Under 3.78
+  Line 1.5: Over 1.64  Under 2.1
+  Line 2: Over 2.19  Under 1.54
+  Line 2.5: Over 2.875  Under 1.32
+  Line 3: Over 5.05  Under 1.102
+  Line 3.5: Over 5.85  Under 1.07
+  Line 4.5: Over 14.5  Under 1.016
+-- BTTS --
+  Yes 2.34  No 1.51
+-- Asian Handicap --
+  AH -2.00: Home -  Away 9.8
+  AH -1.50: Home 8.3  Away 4.75
+  AH -1.00: Home 7.2  Away 3.74
+  AH +1.00: Home 1.193  Away 1.034
+  AH +1.50: Home 1.119  Away 1.016
+  AH +2.00: Home 1.01  Away -

@@ -1,0 +1,31 @@
+Match: Ordabasy vs Kairat
+Liga: Kazakhstan. Liga Utama
+Start (WIB): 2026-05-28 22:00
+ID: 723795348
+WP (1xbet hint): P1=0.36 PX=0.3 P2=0.34
+
+-- 1X2 --
+  Home 2.587  Draw 3.21  Away 2.733
+  Implied: H=0.387 D=0.312 A=0.366  Margin=6.4%
+-- Double Chance --
+  1X 1.421  12 1.319  X2 1.464
+-- Total Goals --
+  Line 0.5: Over 1.023  Under 7.8
+  Line 1: Over 1.045  Under 6.75
+  Line 1.5: Over 1.285  Under 3.05
+  Line 2: Over 1.47  Under 2.35
+  Line 2.5: Over 2.01  Under 1.766
+  Line 3: Over 2.69  Under 1.363
+  Line 3.5: Over 3.28  Under 1.25
+  Line 4: Over 5.55  Under 1.08
+  Line 4.5: Over 6.25  Under 1.058
+  Line 5.5: Over 14  Under 1.016
+-- BTTS --
+  Yes 1.74  No 1.96
+-- Asian Handicap --
+  AH -2.00: Home 9.7  Away 10
+  AH -1.50: Home 4.9  Away 5.3
+  AH -1.00: Home 4.05  Away 4.4
+  AH +1.00: Home 1.138  Away 1.164
+  AH +1.50: Home 1.092  Away 1.109
+  AH +2.00: Home 1.01  Away 1.01

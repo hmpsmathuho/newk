@@ -1,0 +1,24 @@
+Match: Margveti 2006 vs Iberia 1999 II
+Liga: Georgia. Liga 3
+Start (WIB): 2026-05-28 19:00
+ID: 724479553
+WP (1xbet hint): P1=0.16 PX=0.22 P2=0.62
+
+-- 1X2 --
+  Home 5.64  Draw 4.2  Away 1.48
+  Implied: H=0.177 D=0.238 A=0.676  Margin=9.1%
+-- Double Chance --
+  1X 2.5  12 1.19  X2 1.11
+-- Total Goals --
+  Line 2.5: Over 1.72  Under 2
+  Line 3: Over 2.22  Under 1.58
+  Line 3.5: Over 2.8  Under 1.38
+-- BTTS --
+  Yes 1.92  No 1.88
+-- Asian Handicap --
+  AH -2.00: Home -  Away 3.5
+  AH -1.50: Home -  Away 2.32
+  AH -1.00: Home -  Away 1.79
+  AH +1.00: Home 1.92  Away -
+  AH +1.50: Home 1.54  Away -
+  AH +2.00: Home 1.25  Away -

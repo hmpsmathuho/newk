@@ -1,0 +1,30 @@
+Match: Tala'ea El-Gaish vs Wadi Degla
+Liga: Mesir. Liga Primer
+Start (WIB): 2026-05-28 21:00
+ID: 723262070
+WP (1xbet hint): P1=0.37 PX=0.31 P2=0.32
+
+-- 1X2 --
+  Home 2.44  Draw 2.89  Away 2.82
+  Implied: H=0.410 D=0.346 A=0.355  Margin=11.0%
+-- Double Chance --
+  1X 1.33  12 1.31  X2 1.43
+-- Total Goals --
+  Line 0.5: Over 1.066  Under 5.95
+  Line 1: Over 1.118  Under 4.75
+  Line 1.5: Over 1.52  Under 2.36
+  Line 2: Over 1.89  Under 1.74
+  Line 2.5: Over 2.49  Under 1.42
+  Line 3: Over 4.15  Under 1.159
+  Line 3.5: Over 4.9  Under 1.11
+  Line 4: Over 9  Under 1.005
+  Line 4.5: Over 12.5  Under 1.025
+-- BTTS --
+  Yes 2.1  No 1.641
+-- Asian Handicap --
+  AH -2.00: Home 11  Away -
+  AH -1.50: Home 5.3  Away 6.3
+  AH -1.00: Home 4.3  Away 5.3
+  AH +1.00: Home 1.091  Away 1.147
+  AH +1.50: Home 1.056  Away 1.092
+  AH +2.00: Home -  Away 1.01
