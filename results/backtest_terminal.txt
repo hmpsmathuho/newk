@@ -1,0 +1,39 @@
+[backtest] 5 files have ground-truth data
+[backtest] Evaluating 9 picks against ground truth...
+
+==============================================================================
+  BACKTEST VALIDATION — workspace .mhtml as test set
+==============================================================================
+  Total picks:    9
+  Evaluable:      9
+  W / L / P:      7 / 2 / 0
+  Hit rate:       77.8% (excluding pushes)
+  Flat-stake P/L: +4.58 units (1u per pick)
+  ROI:            +50.89%
+
+  PER-MARKET BREAKDOWN:
+  Market               N   W   L   P    Hit%      P/L
+  -------------------------------------------------------
+  AH (quarter)         4   4   0   0  100.0%   +4.10
+  Totals Asia          5   3   2   0   60.0%   +0.48
+
+  CALIBRATION (predicted vs actual):
+  Bucket           N   Predicted    Actual     Diff
+  0.50-0.60        4       54.4%     75.0%   +20.6pp
+  0.60-0.70        4       64.6%     75.0%   +10.4pp
+  0.70-0.80        1       79.9%    100.0%   +20.1pp
+
+  PER-PICK DETAIL:
+  #  Match                           Pick                    Odds  P_riil  Result    P/L
+  --------------------------------------------------------------------------------------
+  1  Burnley vs Wolverhampton Wander Total Asia — Under 2.   2.29   54.1%     WIN  +1.29
+  2  Burnley vs Wolverhampton Wander Total Asia — Under 2.   1.78   64.8%     WIN  +0.78
+  3  Burnley vs Wolverhampton Wander AH Away (Q) (+0.25)     1.78   62.0%     WIN  +0.78
+  4  Brighton & Hove Albion vs Manch AH Away (Q) (+0.25)     2.22   53.3%     WIN  +1.22
+  5  West Ham United vs Leeds United AH Home (Q) (-0.75)     1.77   61.8%     WIN  +0.77
+  6  Crystal Palace vs Arsenal       Total Asia — Under 2.   2.30   59.6%    LOSS  -1.00
+  7  Crystal Palace vs Arsenal       Total Asia — Under 2.   1.80   69.8%    LOSS  -1.00
+  8  Crystal Palace vs Arsenal       Total Asia — Under 3.   1.41   79.9%     WIN  +0.41
+  9  Liverpool vs Brentford          AH Away (Q) (+0.25)     2.33   50.5%     WIN  +1.33
+
+[saved] results/backtest.json

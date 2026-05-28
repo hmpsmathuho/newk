@@ -1,0 +1,381 @@
+{
+  "n_matches": 8,
+  "top_picks": [
+    {
+      "market_key": "Team Home: Over 1.5",
+      "label": "Team Total Home — Over 1.5",
+      "odds": 3.42,
+      "implied_raw": 0.29239766081871343,
+      "implied_devig": 0.29239766081871343,
+      "model_p": 0.8205261329673778,
+      "edge": 1.8061993747484317,
+      "ev": 1.8061993747484317,
+      "gap_pp": 52.81284721486643,
+      "kelly_full_pct": 74.63633779952198,
+      "kelly_quarter_pct": 18.659084449880496,
+      "passed": true,
+      "reason": "OK",
+      "match": "Metso vs Vaajakoski 2",
+      "league": "Finland. Kolmonen. Division 3",
+      "kickoff_wib": "2026-05-28 23:00"
+    },
+    {
+      "market_key": "Team Home: Over 1.5",
+      "label": "Team Total Home — Over 1.5",
+      "odds": 2.4,
+      "implied_raw": 0.4166666666666667,
+      "implied_devig": 0.4166666666666667,
+      "model_p": 0.8405820593160649,
+      "edge": 1.0173969423585558,
+      "ev": 1.0173969423585558,
+      "gap_pp": 42.39153926493982,
+      "kelly_full_pct": 72.67121016846828,
+      "kelly_quarter_pct": 18.16780254211707,
+      "passed": true,
+      "reason": "OK",
+      "match": "SIF vs Nykarleby IK",
+      "league": "Finland. Kolmonen. Division 3",
+      "kickoff_wib": "2026-05-28 23:00"
+    },
+    {
+      "market_key": "Team Home: Under 1.5",
+      "label": "Team Total Home — Under 1.5",
+      "odds": 2.68,
+      "implied_raw": 0.3731343283582089,
+      "implied_devig": 0.3731343283582089,
+      "model_p": 0.5444266839842533,
+      "edge": 0.4590635130777989,
+      "ev": 0.4590635130777989,
+      "gap_pp": 17.12923556260444,
+      "kelly_full_pct": 27.32520911177374,
+      "kelly_quarter_pct": 6.831302277943435,
+      "passed": true,
+      "reason": "OK",
+      "match": "Tallinn vs Maardu Linnameeskond",
+      "league": "Estonia. Esiliiga",
+      "kickoff_wib": "2026-05-28 23:00"
+    },
+    {
+      "market_key": "Team Home: Over 0.5",
+      "label": "Team Total Home — Over 0.5",
+      "odds": 1.49,
+      "implied_raw": 0.6711409395973155,
+      "implied_devig": 0.6711409395973155,
+      "model_p": 0.9566270181468087,
+      "edge": 0.4253742570387451,
+      "ev": 0.4253742570387451,
+      "gap_pp": 28.548607854949324,
+      "kelly_full_pct": 86.81107286505002,
+      "kelly_quarter_pct": 21.702768216262506,
+      "passed": true,
+      "reason": "OK",
+      "match": "Metso vs Vaajakoski 2",
+      "league": "Finland. Kolmonen. Division 3",
+      "kickoff_wib": "2026-05-28 23:00"
+    },
+    {
+      "market_key": "Team Home: Over 1.5",
+      "label": "Team Total Home — Over 1.5",
+      "odds": 1.71,
+      "implied_raw": 0.5847953216374269,
+      "implied_devig": 0.5847953216374269,
+      "model_p": 0.7382439782861907,
+      "edge": 0.26239720286938617,
+      "ev": 0.26239720286938617,
+      "gap_pp": 15.344865664876384,
+      "kelly_full_pct": 36.95735251681496,
+      "kelly_quarter_pct": 9.23933812920374,
+      "passed": true,
+      "reason": "OK",
+      "match": "Ylivieska vs Virkia Lapua",
+      "league": "Finland. Kolmonen. Division 3",
+      "kickoff_wib": "2026-05-28 23:00"
+    },
+    {
+      "market_key": "Team Home: Under 2.5",
+      "label": "Team Total Home — Under 2.5",
+      "odds": 1.56,
+      "implied_raw": 0.641025641025641,
+      "implied_devig": 0.641025641025641,
+      "model_p": 0.7986630884207058,
+      "edge": 0.2459144179363011,
+      "ev": 0.2459144179363011,
+      "gap_pp": 15.76374473950648,
+      "kelly_full_pct": 43.91328891719662,
+      "kelly_quarter_pct": 10.978322229299154,
+      "passed": true,
+      "reason": "OK",
+      "match": "Tallinn vs Maardu Linnameeskond",
+      "league": "Estonia. Esiliiga",
+      "kickoff_wib": "2026-05-28 23:00"
+    },
+    {
+      "market_key": "Team Home: Under 2.5",
+      "label": "Team Total Home — Under 2.5",
+      "odds": 1.94,
+      "implied_raw": 0.5154639175257733,
+      "implied_devig": 0.5154639175257733,
+      "model_p": 0.5767865807496482,
+      "edge": 0.11896596665431747,
+      "ev": 0.11896596665431747,
+      "gap_pp": 6.132266322387492,
+      "kelly_full_pct": 12.655953899395476,
+      "kelly_quarter_pct": 3.163988474848869,
+      "passed": true,
+      "reason": "OK",
+      "match": "Tervakosken Pato vs Kangasala",
+      "league": "Finland. Nelonen. Division 4",
+      "kickoff_wib": "2026-05-28 23:00"
+    }
+  ],
+  "matches": [
+    {
+      "match": {
+        "home": "Tallinn",
+        "away": "Maardu Linnameeskond",
+        "league": "Estonia. Esiliiga",
+        "kickoff_unix": 1779984000,
+        "kickoff_wib": "2026-05-28 23:00",
+        "match_id": 724420447
+      },
+      "model": {
+        "lambda_home": 1.5403068909429183,
+        "lambda_away": 2.2165391845276146,
+        "total_lambda": 3.7568460754705324
+      },
+      "picks": [
+        {
+          "market_key": "Team Home: Under 1.5",
+          "label": "Team Total Home — Under 1.5",
+          "odds": 2.68,
+          "implied_devig": 0.3731,
+          "model_p": 0.5444,
+          "edge": 0.4591,
+          "gap_pp": 17.13,
+          "kelly_full_pct": 27.33,
+          "kelly_quarter_pct": 6.83,
+          "passed": true,
+          "reason": "OK"
+        },
+        {
+          "market_key": "Team Home: Under 2.5",
+          "label": "Team Total Home — Under 2.5",
+          "odds": 1.56,
+          "implied_devig": 0.641,
+          "model_p": 0.7987,
+          "edge": 0.2459,
+          "gap_pp": 15.76,
+          "kelly_full_pct": 43.91,
+          "kelly_quarter_pct": 10.98,
+          "passed": true,
+          "reason": "OK"
+        }
+      ],
+      "all_legs_count": 41,
+      "passed_count": 2,
+      "blocked_count": 39
+    },
+    {
+      "match": {
+        "home": "Metso",
+        "away": "Vaajakoski 2",
+        "league": "Finland. Kolmonen. Division 3",
+        "kickoff_unix": 1779984000,
+        "kickoff_wib": "2026-05-28 23:00",
+        "match_id": 724779411
+      },
+      "model": {
+        "lambda_home": 3.137918569677885,
+        "lambda_away": 1.1025119298868244,
+        "total_lambda": 4.2404304995647095
+      },
+      "picks": [
+        {
+          "market_key": "Team Home: Over 1.5",
+          "label": "Team Total Home — Over 1.5",
+          "odds": 3.42,
+          "implied_devig": 0.2924,
+          "model_p": 0.8205,
+          "edge": 1.8062,
+          "gap_pp": 52.81,
+          "kelly_full_pct": 74.64,
+          "kelly_quarter_pct": 18.66,
+          "passed": true,
+          "reason": "OK"
+        },
+        {
+          "market_key": "Team Home: Over 0.5",
+          "label": "Team Total Home — Over 0.5",
+          "odds": 1.49,
+          "implied_devig": 0.6711,
+          "model_p": 0.9566,
+          "edge": 0.4254,
+          "gap_pp": 28.55,
+          "kelly_full_pct": 86.81,
+          "kelly_quarter_pct": 21.7,
+          "passed": true,
+          "reason": "OK"
+        }
+      ],
+      "all_legs_count": 39,
+      "passed_count": 2,
+      "blocked_count": 37
+    },
+    {
+      "match": {
+        "home": "SIF",
+        "away": "Nykarleby IK",
+        "league": "Finland. Kolmonen. Division 3",
+        "kickoff_unix": 1779984000,
+        "kickoff_wib": "2026-05-28 23:00",
+        "match_id": 724754590
+      },
+      "model": {
+        "lambda_home": 3.293276059314709,
+        "lambda_away": 1.2807184675112757,
+        "total_lambda": 4.5739945268259845
+      },
+      "picks": [
+        {
+          "market_key": "Team Home: Over 1.5",
+          "label": "Team Total Home — Over 1.5",
+          "odds": 2.4,
+          "implied_devig": 0.4167,
+          "model_p": 0.8406,
+          "edge": 1.0174,
+          "gap_pp": 42.39,
+          "kelly_full_pct": 72.67,
+          "kelly_quarter_pct": 18.17,
+          "passed": true,
+          "reason": "OK"
+        }
+      ],
+      "all_legs_count": 39,
+      "passed_count": 1,
+      "blocked_count": 38
+    },
+    {
+      "match": {
+        "home": "Ylivieska",
+        "away": "Virkia Lapua",
+        "league": "Finland. Kolmonen. Division 3",
+        "kickoff_unix": 1779984000,
+        "kickoff_wib": "2026-05-28 23:00",
+        "match_id": 724754596
+      },
+      "model": {
+        "lambda_home": 2.6294134846490813,
+        "lambda_away": 1.8272195401798703,
+        "total_lambda": 4.456633024828951
+      },
+      "picks": [
+        {
+          "market_key": "Team Home: Over 1.5",
+          "label": "Team Total Home — Over 1.5",
+          "odds": 1.71,
+          "implied_devig": 0.5848,
+          "model_p": 0.7382,
+          "edge": 0.2624,
+          "gap_pp": 15.34,
+          "kelly_full_pct": 36.96,
+          "kelly_quarter_pct": 9.24,
+          "passed": true,
+          "reason": "OK"
+        }
+      ],
+      "all_legs_count": 41,
+      "passed_count": 1,
+      "blocked_count": 40
+    },
+    {
+      "match": {
+        "home": "KoPo",
+        "away": "PeFF",
+        "league": "Finland. Nelonen. Division 4",
+        "kickoff_unix": 1779984000,
+        "kickoff_wib": "2026-05-28 23:00",
+        "match_id": 724282055
+      },
+      "model": {
+        "lambda_home": 2.992004988683706,
+        "lambda_away": 2.1666243021502707,
+        "total_lambda": 5.158629290833977
+      },
+      "picks": [],
+      "all_legs_count": 16,
+      "passed_count": 0,
+      "blocked_count": 16
+    },
+    {
+      "match": {
+        "home": "No Stars",
+        "away": "Kokkolan Palloseura",
+        "league": "Finland. Nelonen. Division 4",
+        "kickoff_unix": 1779984000,
+        "kickoff_wib": "2026-05-28 23:00",
+        "match_id": 724277323
+      },
+      "model": {
+        "lambda_home": 1.1348984439834748,
+        "lambda_away": 4.023730846850502,
+        "total_lambda": 5.158629290833977
+      },
+      "picks": [],
+      "all_legs_count": 18,
+      "passed_count": 0,
+      "blocked_count": 18
+    },
+    {
+      "match": {
+        "home": "Norrvalla Fotbollsforening",
+        "away": "Korsnas FF",
+        "league": "Finland. Nelonen. Division 4",
+        "kickoff_unix": 1779984000,
+        "kickoff_wib": "2026-05-28 23:00",
+        "match_id": 724276433
+      },
+      "model": {
+        "lambda_home": 2.7113418458077883,
+        "lambda_away": 1.9633854745504677,
+        "total_lambda": 4.674727320358256
+      },
+      "picks": [],
+      "all_legs_count": 18,
+      "passed_count": 0,
+      "blocked_count": 18
+    },
+    {
+      "match": {
+        "home": "Tervakosken Pato",
+        "away": "Kangasala",
+        "league": "Finland. Nelonen. Division 4",
+        "kickoff_unix": 1779984000,
+        "kickoff_wib": "2026-05-28 23:00",
+        "match_id": 724284774
+      },
+      "model": {
+        "lambda_home": 2.3729694737836295,
+        "lambda_away": 2.7856598170503477,
+        "total_lambda": 5.158629290833977
+      },
+      "picks": [
+        {
+          "market_key": "Team Home: Under 2.5",
+          "label": "Team Total Home — Under 2.5",
+          "odds": 1.94,
+          "implied_devig": 0.5155,
+          "model_p": 0.5768,
+          "edge": 0.119,
+          "gap_pp": 6.13,
+          "kelly_full_pct": 12.66,
+          "kelly_quarter_pct": 3.16,
+          "passed": true,
+          "reason": "OK"
+        }
+      ],
+      "all_legs_count": 18,
+      "passed_count": 1,
+      "blocked_count": 17
+    }
+  ]
+}

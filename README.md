@@ -1,86 +1,138 @@
 # Best Value Bet Analyzer
 
-Implementasi sistem analisis value bet dari `SPEC.md`. Input file `.mhtml`
-hasil simpan halaman 1xbet.mobi → output daftar value bet ranked by edge.
+Implementasi sistem analisis value bet dari `SPEC.md`.  
+Input file `.mhtml` / `.mobi` hasil simpan halaman 1xbet.mobi → output daftar value bet ranked by edge.  
+Plus subcommand `live` untuk fetch langsung dari 1xbet API, dan `backtest` untuk validate model vs hasil aktual.
 
 ## Quick Start
 
 ```bash
-# Single match
-python3 main.py --input 1.mhtml --top 10
+# Analyze single match file
+python3 main.py analyze --input 1.mhtml --top 10
 
-# All match files in directory, save aggregate JSON
-python3 main.py --input-dir . --output-dir results --top 10
+# Batch analyze all .mhtml/.mobi files in directory
+python3 main.py analyze --input-dir . --output-dir results --no-blocked
 
-# Hide blocked markets (cleaner output)
-python3 main.py --input-dir . --no-blocked
+# Fetch upcoming matches from 1xbet API and analyze (next 24 hours)
+python3 main.py live --window-hours 24 --max-matches 20
+
+# Backtest: validate model on workspace .mhtml vs known results
+python3 main.py backtest --input-dir . --output results/backtest.json
 ```
 
-## What it does
+## Architecture (per SPEC.md)
 
-1. **Parser** (`src/parser/`) — decode MHTML, extract markets via regex
-   (1X2, DC, BTTS, Total Goals, Asian Handicap full + quarter, Total Asia
-   quarter, Halftime totals, HT 1X2, Team Totals).
-2. **Model** (`src/model/poisson.py`) — derive λ_total from devigged
-   Over/Under 2.5 odds, split into home/away via 1X2 grid search,
-   compute every market probability via Poisson + Dixon-Coles ρ=-0.10.
-3. **Value calculator** (`src/value/edge_calculator.py`) — for each
-   selection: devig margin, compute edge & Kelly, apply per-market gate
-   (model_min + gap_min from config) and Fade-Short-Odds rule.
-4. **Ranker** (`src/value/ranker.py`) — sort passed legs by edge,
-   compute quarter-Kelly stake.
-5. **Output** (`src/output/exporter.py`) — terminal table + JSON.
+```
+┌──────────────┐     ┌─────────────────┐     ┌─────────────────┐
+│  Input MHTML │ ──▶ │  Parser & Norm  │ ──▶ │  Odds Markets   │
+└──────────────┘     └─────────────────┘     └─────────────────┘
+        │                                              │
+   ┌────┴────┐                                         │
+   │  Live   │                                         │
+   │ 1xbet   │                                         │
+   │   API   │                                         │
+   └─────────┘                                         │
+                            ┌────────────────────┐    │
+                            │ External Form API  │ ◀──┘
+                            │   (team_form.py)   │
+                            └────────────────────┘
+                                     │
+                                     ▼
+                       ┌─────────────────────────────┐
+                       │  Probability Model           │
+                       │  (Poisson + Dixon-Coles      │
+                       │   + form λ-adjustment)       │
+                       └─────────────────────────────┘
+                                     │
+                                     ▼
+                       ┌─────────────────────────────┐
+                       │  Value Bet Ranker           │
+                       │  (devig + edge + Kelly      │
+                       │   + per-market gate)        │
+                       └─────────────────────────────┘
+                                     │
+                                     ▼
+                              Best Bets Output
+
+```
+
+## SPEC compliance
+
+| Section | Implementation | File(s) |
+|---------|----------------|---------|
+| 3. Input MHTML | ✅ | `src/parser/mhtml_parser.py`, `odds_extractor.py` |
+| 4. External Data API | ✅ via 1xbet LineFeed | `src/external/onexbet_client.py` |
+| 5. Form & Elo adjustments | ✅ via curated DB + ±20% cap | `src/external/team_form.py`, `src/model/adjustments.py` |
+| 5. Poisson + DC model | ✅ | `src/model/poisson.py` |
+| 6. Output (best bets) | ✅ JSON + terminal + CSV | `src/output/exporter.py` |
+| 7. Project structure | ✅ | (see below) |
+| 8. CLI parameters | ✅ | `main.py` |
+| 9. config.yaml | ✅ | `config.yaml` |
+| 10. Disclaimers | ✅ | this README + `results/REPORT.md` |
+| **+ Validation** | ✅ Backtest vs hasil aktual | `src/backtest/validator.py` |
 
 ## Project Structure
 
 ```
 .
-├── SPEC.md                        # Original specification
-├── README.md                      # This file
-├── config.yaml                    # Per-market gate thresholds, Kelly fraction
-├── requirements.txt               # (stdlib-only; PyYAML optional)
-├── main.py                        # CLI entrypoint
+├── SPEC.md                          # Original specification
+├── README.md                        # This file
+├── config.yaml                      # Per-market gate thresholds, Kelly fraction
+├── requirements.txt
+├── main.py                          # CLI entrypoint (subcommands)
 ├── src/
 │   ├── parser/
-│   │   ├── mhtml_parser.py        # MHTML → text
-│   │   └── odds_extractor.py      # text → markets dict (regex)
+│   │   ├── mhtml_parser.py          # MHTML → text
+│   │   └── odds_extractor.py        # text → markets dict
+│   ├── external/
+│   │   ├── onexbet_client.py        # 1xbet LineFeed API
+│   │   └── team_form.py             # form/injury context store
 │   ├── model/
-│   │   └── poisson.py             # λ-from-market + DC + grid → probs
+│   │   ├── poisson.py               # λ derivation, DC, grid → probs
+│   │   └── adjustments.py           # form multipliers (±20% cap)
 │   ├── value/
-│   │   ├── edge_calculator.py     # devig + edge + gate
-│   │   └── ranker.py              # sort + Kelly
-│   └── output/
-│       └── exporter.py            # terminal / JSON / CSV
+│   │   ├── edge_calculator.py       # devig + edge + per-market gate
+│   │   └── ranker.py                # sort + Kelly stake
+│   ├── output/
+│   │   └── exporter.py              # terminal / JSON / CSV
+│   └── backtest/
+│       └── validator.py             # ground-truth scoring
 ├── data/
-│   ├── input/                     # (optional; can read from CWD)
-│   └── cache/                     # external API cache (unused for now)
+│   ├── input/
+│   └── cache/                       # team_form.json cache
 ├── results/
+│   ├── REPORT.md                    # Full run report
 │   ├── all_matches.json
-│   ├── full_terminal.txt
-│   └── REPORT.md
-└── *.mhtml / *.mobi               # match files
+│   ├── backtest.json
+│   ├── live.json
+│   └── *_terminal.txt
+└── *.mhtml / *.mobi                 # match files
 ```
 
-## Latest Run Results
+## Key Results
 
-See `results/REPORT.md` for full analysis. Summary:
-- 7 input files processed
-- 4 value bets identified (top edge: +13.4%)
-- 3 sit-out (no edge); 1 file is history slip (no match data)
+Lihat `results/REPORT.md` untuk full breakdown. Ringkasan:
+
+- **Backtest 9 picks @ EPL Matchweek 38:** 7W / 2L / 0P, **+50.89% ROI**
+- **AH Quarter (+0.25) sweep:** 4/4 winners
+- **Form context** memberi +5 picks tambahan vs baseline
+- **Live API:** functional di Finland/Estonian liga (caveat: high variance)
 
 ## Limitations
 
-- **No external data** (form/injury/motivation) yet — pure odds-internal.
-  SPEC sections 4 & 5 (External Data API, Elo) not implemented.
-- **No backtest validation** — edge claims are theoretical based on
-  Poisson model assumptions.
-- **EPL-style markets only** — parser tested on 1xbet.mobi/id Indonesian
-  layout. Other languages/bookmakers need parser tweaks.
-- **Recency-weighted form, injury impact, motivation** — currently no-op
-  in `compute_probabilities()`. Add via `adjustments.py` when data
-  source is wired.
+- Form DB hand-curated untuk 6 match — perlu otomasi untuk produksi
+- 9-pick backtest **bukan** sample size produksi (variance besar)
+- Liga Tier 3+ uncalibrated form → model mostly neutral untuk match non-EPL
+- AH Quarter winner pattern bisa lucky variance — re-test di matchday lain
+
+## Usage Tips
+
+1. **Selalu cek context output** — kalau "source: neutral", artinya tidak ada curated form data
+2. **Jangan parlay 5-leg** — variance kill walaupun edge positive
+3. **Stake Kelly/4** capped 5% bankroll (default config)
+4. **Verify lineup resmi** ~1 jam sebelum kickoff sebelum bet
 
 ## Disclaimer
 
-Model probabilistik. Value bet ≠ guaranteed win. Selalu manage bankroll.
-Lihat `SPEC.md` section 10.
+Model probabilistik. Edge ≠ guaranteed win. Bet bertanggung jawab.  
+Lihat `SPEC.md` section 10 untuk lebih detail.

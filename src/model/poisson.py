@@ -128,7 +128,8 @@ def _grid_1x2(lh: float, la: float, rho: float = -0.10, max_g: int = 8) -> Tuple
 def compute_probabilities(markets: Dict[str, dict],
                           rho: float = -0.10,
                           ht_ratio: float = 0.45,
-                          max_g: int = 10) -> dict:
+                          max_g: int = 10,
+                          team_context: dict | None = None) -> dict:
     """Given markets dict (from odds_extractor), compute per-selection P_real.
 
     Returns:
@@ -172,8 +173,16 @@ def compute_probabilities(markets: Dict[str, dict],
     # Step 2: split into home/away using 1X2 odds
     x12 = markets.get("1X2")
     lh, la = split_lambda_by_1x2(total_lam, x12)
+
+    # Step 2b: apply form/context adjustments (Section 5 of SPEC)
+    if team_context and team_context.get("available"):
+        from src.model.adjustments import apply_form_adjustment, get_rho_override
+        lh, la = apply_form_adjustment(lh, la, team_context)
+        rho = get_rho_override(team_context, default=rho)
+
     out["lambda_home"] = lh
     out["lambda_away"] = la
+    out["adjustments_applied"] = bool(team_context and team_context.get("available"))
 
     # Step 3: build full grid
     g = grid(lh, la, rho, max_g)

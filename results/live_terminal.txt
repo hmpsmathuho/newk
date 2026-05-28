@@ -1,0 +1,107 @@
+[live] Resolving 1xbet.mobi IP...
+[live] IP: 83.147.204.86
+[live] Fetching upcoming events...
+[live] 33 matches in next 12h after filtering
+[live] limiting to first 8 for analysis
+==============================================================================
+  PERTANDINGAN: Tallinn vs Maardu Linnameeskond
+  Liga: Estonia. Esiliiga
+==============================================================================
+  Model: λ_home=1.54  λ_away=2.22  total_λ=3.76
+
+  ✅ 2 VALUE BET (urut by edge):
+
+  #  MARKET — SELEKSI                            ODDS   IMP%  P_RIIL   EDGE  KELLY/4
+  ------------------------------------------------------------------------------
+  1  Team Total Home — Under 1.5                 2.68  37.3%   54.4% +45.9%   +6.83%
+  2  Team Total Home — Under 2.5                 1.56  64.1%   79.9% +24.6%  +10.98%
+
+==============================================================================
+  PERTANDINGAN: Metso vs Vaajakoski 2
+  Liga: Finland. Kolmonen. Division 3
+==============================================================================
+  Model: λ_home=3.14  λ_away=1.10  total_λ=4.24
+
+  ✅ 2 VALUE BET (urut by edge):
+
+  #  MARKET — SELEKSI                            ODDS   IMP%  P_RIIL   EDGE  KELLY/4
+  ------------------------------------------------------------------------------
+  1  Team Total Home — Over 1.5                  3.42  29.2%   82.1%+180.6%  +18.66%
+  2  Team Total Home — Over 0.5                  1.49  67.1%   95.7% +42.5%  +21.70%
+
+==============================================================================
+  PERTANDINGAN: SIF vs Nykarleby IK
+  Liga: Finland. Kolmonen. Division 3
+==============================================================================
+  Model: λ_home=3.29  λ_away=1.28  total_λ=4.57
+
+  ✅ 1 VALUE BET (urut by edge):
+
+  #  MARKET — SELEKSI                            ODDS   IMP%  P_RIIL   EDGE  KELLY/4
+  ------------------------------------------------------------------------------
+  1  Team Total Home — Over 1.5                  2.40  41.7%   84.1%+101.7%  +18.17%
+
+==============================================================================
+  PERTANDINGAN: Ylivieska vs Virkia Lapua
+  Liga: Finland. Kolmonen. Division 3
+==============================================================================
+  Model: λ_home=2.63  λ_away=1.83  total_λ=4.46
+
+  ✅ 1 VALUE BET (urut by edge):
+
+  #  MARKET — SELEKSI                            ODDS   IMP%  P_RIIL   EDGE  KELLY/4
+  ------------------------------------------------------------------------------
+  1  Team Total Home — Over 1.5                  1.71  58.5%   73.8% +26.2%   +9.24%
+
+==============================================================================
+  PERTANDINGAN: KoPo vs PeFF
+  Liga: Finland. Nelonen. Division 4
+==============================================================================
+  Model: λ_home=2.99  λ_away=2.17  total_λ=5.16
+
+  ⚠ TIDAK ADA value bet yang lolos gate.
+  Rekomendasi: SIT OUT match ini.
+
+==============================================================================
+  PERTANDINGAN: No Stars vs Kokkolan Palloseura
+  Liga: Finland. Nelonen. Division 4
+==============================================================================
+  Model: λ_home=1.13  λ_away=4.02  total_λ=5.16
+
+  ⚠ TIDAK ADA value bet yang lolos gate.
+  Rekomendasi: SIT OUT match ini.
+
+==============================================================================
+  PERTANDINGAN: Norrvalla Fotbollsforening vs Korsnas FF
+  Liga: Finland. Nelonen. Division 4
+==============================================================================
+  Model: λ_home=2.71  λ_away=1.96  total_λ=4.67
+
+  ⚠ TIDAK ADA value bet yang lolos gate.
+  Rekomendasi: SIT OUT match ini.
+
+==============================================================================
+  PERTANDINGAN: Tervakosken Pato vs Kangasala
+  Liga: Finland. Nelonen. Division 4
+==============================================================================
+  Model: λ_home=2.37  λ_away=2.79  total_λ=5.16
+
+  ✅ 1 VALUE BET (urut by edge):
+
+  #  MARKET — SELEKSI                            ODDS   IMP%  P_RIIL   EDGE  KELLY/4
+  ------------------------------------------------------------------------------
+  1  Team Total Home — Under 2.5                 1.94  51.5%   57.7% +11.9%   +3.16%
+
+==============================================================================
+  TOP VALUE BETS ACROSS 8 MATCHES (by edge)
+==============================================================================
+  #  Match                              Pick                    Odds   Edge               KO
+  1  Metso vs Vaajakoski 2              Team Total Home — Ove   3.42+180.6% 2026-05-28 23:00
+  2  SIF vs Nykarleby IK                Team Total Home — Ove   2.40+101.7% 2026-05-28 23:00
+  3  Tallinn vs Maardu Linnameeskond    Team Total Home — Und   2.68 +45.9% 2026-05-28 23:00
+  4  Metso vs Vaajakoski 2              Team Total Home — Ove   1.49 +42.5% 2026-05-28 23:00
+  5  Ylivieska vs Virkia Lapua          Team Total Home — Ove   1.71 +26.2% 2026-05-28 23:00
+  6  Tallinn vs Maardu Linnameeskond    Team Total Home — Und   1.56 +24.6% 2026-05-28 23:00
+  7  Tervakosken Pato vs Kangasala      Team Total Home — Und   1.94 +11.9% 2026-05-28 23:00
+
+[saved] results/live.json
