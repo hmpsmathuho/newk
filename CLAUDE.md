@@ -1,22 +1,41 @@
-You are a football match analysis agent. Tugas: ambil odds dari 1xbet, analisis form tim, susun parlay 5-leg yang aman dengan peluang menang besar.
+You are a football match analysis agent. Tugas: ambil odds dari 1xbet, analisis form tim, susun parlay yang aman dengan peluang menang besar.
 
-> **Versi: v5.0 — Simplified.** Fokus: 3 langkah inti (acquire → analyze → parlay). Tanpa patch berlapis.
+> **Versi: v6.1 — V3.1 Extended.** Calibrated model dengan support 20+ tipe bet 1xbet.
+> v5: BROKEN raw Poisson (-12% ROI U2.5).
+> v6.0: V3 market-blend + Platt calibration untuk U2.5/U3.5/BTTS Yes.
+> v6.1: V3.1 extended — calibrated 1X2 (was BLOCKED) + Halftime totals + Dixon-Coles ρ + 20+ bet types.
 
 ---
 
 ## ⛔ ATURAN ODDS
 
 - Odds **WAJIB** dari 1xbet.mobi (lewat API GetGameZip atau MHTML save).
-- **DILARANG** ambil odds dari site lain (sportskeeda, mightytips, bet365, dll).
+- **DILARANG** ambil odds dari site lain.
 - WebSearch boleh untuk Phase 2 (form, injury, konteks) — **bukan untuk odds**.
+
+---
+
+## 🚨 BACKTEST VERDICT (V3 → V3.1)
+
+`backtest.py` di EPL 2025/26 (300 predictions, full season):
+
+| Model | U2.5 Cal Error | BTTS Bias | 1X2 Cal Error | Verdict |
+|-------|---------------|-----------|---------------|---------|
+| V0 raw Poisson (CLAUDE v5) | -33pp di 65%+ | -11pp | -33pp | ❌ broken |
+| V3.0 mkt-blend+Platt | -2 to +3pp ✓ | -7pp | BLOCKED | ✓ |
+| **V3.1 + ρ + 1X2 calib** | -2 to +3pp ✓ | -7pp | ±5pp at 65%+ | **✓✓ best** |
+
+V3.1 fixes (vs V3.0):
+1. **1X2 unblocked** — Platt calibration brings out-of-sample error from -33pp to ±5pp at 65%+ buckets
+2. **Halftime totals (HT U1.5, HT U2.5)** — calibrated separately using empirical HT/FT ratio (~0.445)
+3. **Dixon-Coles ρ = -0.15** — fitted via grid search MLE, corrects low-score (0-0, 1-0, 0-1, 1-1) probabilities
+4. **20+ bet types supported**: AH (full + quarter), Team Totals, DC, Win-to-Nil, Result+BTTS, Odd/Even
 
 ---
 
 ## PHASE 0 — AMBIL DATA DARI 1XBET
 
-Jalankan jika folder `/testing/` kosong atau user minta "ambil match [waktu]".
-
-### 0.1 Resolve IP (bypass SSL issue)
+### 0.1 Resolve IP
 
 ```python
 import urllib.request, ssl, json
@@ -29,236 +48,253 @@ r = urllib.request.urlopen(
 IP = [a['data'] for a in json.load(r).get('Answer',[]) if a['type']==1][0]
 ```
 
-### 0.2 Fetch daftar match
+### 0.2 Fetch upcoming (LineFeed API)
+
+API capped 50/call. Aggregate via multiple country params (2, 20, 110, 71, 19, 8, 152).
+
+### 0.3 Fetch odds per match (GetGameZip)
 
 ```python
-HEADERS = {
-    'Host': '1xbet.mobi',
-    'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1',
-}
-req = urllib.request.Request(f'https://{IP}/id/line', headers=HEADERS)
-page = urllib.request.urlopen(req, context=ctx, timeout=20).read().decode('utf-8','ignore')
-# Extract match URLs: /id/line/football/{LEAGUE_ID}/{MATCH_ID}-{slug}
+url = f'https://{IP}/service-api/LineFeed/GetGameZip?id={mid}&lng=en&isSubGames=true&GroupEvents=true&grMode=4&country=2&fcountry=2&marketType=1'
 ```
 
-Filter window waktu (WIB → UTC+7). Default subuh = 00:00–07:00 WIB.
-
-### 0.3 Fetch odds per match (API GetGameZip — METODE UTAMA)
-
-```python
-def fetch_match_api(match_id, ip):
-    url = f'https://{ip}/service-api/LineFeed/GetGameZip?id={match_id}'
-    req = urllib.request.Request(url, headers=HEADERS)
-    return json.loads(urllib.request.urlopen(req, context=ctx, timeout=20).read().decode('utf-8','ignore'))
-```
-
-**Group/Type mapping (1xbet standard):**
+**Group/Type mapping** (1xbet standard, verified V3.1):
 - G=1: 1X2 (T1=Home, T2=Draw, T3=Away)
-- G=2: AH (T7=Home, T8=Away, P=line)
+- G=2: AH full (T7=Home, T8=Away, P=line)
 - G=8: DoubleChance (T4=1X, T5=12, T6=X2)
-- G=15/19: BTTS (T180=Yes, T181=No)
-- G=17: Total Goals (T9=Over, T10=Under, P=line)
-
-**Output per match:** simpan `{slug}_RAW.json` + `{slug}.txt` (parsed key markets) ke `/testing/`.
-
-### 0.4 Fallback (jika API rusak)
-
-User save halaman match sebagai `.mhtml` ke `/testing/`. Parse pakai regex:
-- 1x2: `1x2 M1 (\d.\d+) X (\d.\d+) M2 (\d.\d+)`
-- O/U: `(\d.\d+) Over (\d.\d+) ... Under (\d.\d+)`
-- BTTS: `Kedua Tim Mencetak Skor Ya (\d.\d+) Tidak (\d.\d+)`
-- AH: `1 \(([+-]?\d.\d+)\) (\d.\d+) 2 \(...\) (\d.\d+)`
+- G=14: Odd/Even Total (T182=Odd, T183=Even)
+- G=15: Tim 1 Total (T11=Over, T12=Under) atau BTTS (T180/181)
+- G=17: Total Match (T9=Over, T10=Under, P=line)
+- G=18: Total Babak Pertama (T11=Over, T12=Under)
+- G=19: BTTS (T180=Yes, T181=No)
+- G=62: Asian Total Home (T13/14, P=line)
+- G=73: Win to Nil (T654-657)
+- G=75: Hasil + BTTS combo (T651/652/653)
+- G=88: Asian Total Away
+- G=99: Asian Total Quarter (T3827=Over, T3828=Under)
+- G=154: Hasil Babak Pertama (T475/476/477)
+- G=8427: AH Quarter Home
+- G=8429: AH Quarter Away
 
 ---
 
-## PHASE 1 — ANALISIS ODDS
+## PHASE 1 — PARSE ODDS
 
-Per match, ekstrak:
-- 1X2, Double Chance
-- O/U (semua line: 0.5, 1.5, 2.5, 3.5, 4.5)
-- BTTS Yes/No
-- Asian Handicap (semua line)
-
-Hitung implied probability per outcome: `ip = 1 / odds`. Catat margin bookmaker per market (sum ip ≥ 1).
+Per match, ekstrak SEMUA market di-supported (gunakan `parse_market_from_raw()` dari `model_v3_extended.py`).
 
 ---
 
 ## PHASE 2 — ANALISIS DATA TIM
 
-Untuk setiap match, gather via WebSearch:
-
-**Form (last 5–10 match):**
-- W/D/L record
-- Goals for / against
-- xG for / against (jika tersedia)
-- Clean sheet rate, BTTS rate
-
-**H2H (last 5–10):**
-- Avg goals per match
-- BTTS rate
-- Pemenang dominan
-
-**Konteks:**
-- Injury / suspension pemain kunci
-- Motivasi (juara/degradasi/zero-pressure)
-- Fixture congestion (CL/Europa next 3 hari)
-- Wasit (jika tersedia)
-- Home/away advantage
-
-**Liga tier:**
-- Tier 1: EPL, La Liga, Serie A, Bundesliga, Ligue 1, CL, EL → bookmaker efisien, trust pasar
-- Tier 2: Eredivisie, Primeira, Championship, MLS → moderat
-- Tier 3: South American minor (Peru, Bolivia, Ekuador), AFC/CAF group stage, lower divisions → high variance, risk park-the-bus underdog
+Form 5–10 last match: W/D/L, GF/GA, xG, BTTS rate, H2H. Konteks: injury, motivasi, fixture congestion. Liga tier 1/2/3 (per V5).
 
 ---
 
-## PHASE 3 — POISSON MODEL
+## PHASE 3 — V3.1 MODEL
 
-### 3.1 Hitung λ goals
+### 3.1 Form lambdas (rolling 6-match window per home/away split)
 
 ```
-λ_home = (avg_goals_for_home_last5 + avg_goals_against_away_last5) / 2
-λ_away = (avg_goals_for_away_last5 + avg_goals_against_home_last5) / 2
+λ_h_form = league_avg_home_GF × home_attack × away_defense
+λ_a_form = league_avg_away_GF × away_attack × home_defense
 ```
 
-**Adjustment:**
-- Pemain kunci absen: −5% sampai −10% λ
-- Motivation mismatch: ±5%
-- Cuaca buruk / fatigue: −3% sampai −5%
+### 3.2 Market-implied lambda (devig U2.5/O2.5 → solve cdf(2, λ))
 
-**Heavy Favourite Trap (favorit ≤ 1.25 vs underdog tier 3):**
-- λ underdog cap **0.65** (untuk BTTS) atau **0.5** (untuk total goals)
-- λ favorit cap **2.5** (defensive low-block memotong xG)
+### 3.3 Hybrid blend (V3 verdict-derived weights)
+
+```
+λ_total = 0.4 × form_λ + 0.6 × market_λ
+```
+
+### 3.4 Dixon-Coles correction (V3.1 NEW)
+
+Apply ρ = -0.15 to score grid for low-scoring corrections:
+- (0,0): factor (1 - λh·λa·ρ) — boost
+- (0,1)/(1,0): factor (1 + λa·ρ) / (1 + λh·ρ) — slight reduction
+- (1,1): factor (1 - ρ) — boost
+
+Refit ρ per league/season via grid search MLE.
+
+### 3.5 Platt calibration (per market)
+
+```
+P_cal = a + b × P_raw
+```
+
+V3.1 trains 8 calibrators: u25, u35, btts_yes, home_1x2, draw_1x2, away_1x2, ht_u15, ht_u25.
+
+### 3.6 Per-market probabilities (20+ bet types)
+
+| Market | Source | Calibrated? |
+|--------|--------|-------------|
+| U/O 0.5–5.5 | Poisson CDF | U2.5 ✓, U3.5 ✓ |
+| BTTS Yes/No | grid_btts(λ_h, λ_a, ρ) | BTTS Yes ✓ |
+| 1X2 Home/Draw/Away | grid_1x2 | All 3 ✓ |
+| Double Chance | sum of calibrated 1X2 | derived |
+| Asian Handicap (full ±0–4) | grid summation, push allowed | uncalibrated |
+| AH Quarter (±0.25, ±0.75, ...) | grid summation, half-stake | uncalibrated |
+| Team Totals (Home/Away X.X) | per-team Poisson | uncalibrated |
+| HT U/O 1.5, 2.5 | (λ × HT_ratio) Poisson | HT U1.5 ✓, HT U2.5 ✓ |
+| HT 1X2 | grid with HT lambdas | uncalibrated |
+| Odd/Even total | grid sum | uncalibrated |
+| Win to Nil (Yes) | P(home wins ∧ away=0) | uncalibrated |
+| Result + BTTS Yes | grid intersection | uncalibrated |
+
+### 3.7 Heavy Favourite Trap
+
+Favorit ≤ 1.25 vs underdog tier 3:
+- λ_underdog cap **0.5**, λ_favorit cap **2.5**
 - HARD BLOCK O2.5/O3.5
-- Prefer U3.5 sebagai pick utama
 
-### 3.2 Model probability
-
-```
-P(O/U line k) = Poisson CDF dari (λ_home + λ_away) di k
-P(BTTS Yes) = (1 − e^−λ_home) × (1 − e^−λ_away)
-P(BTTS No) = 1 − P(BTTS Yes)
-P(1X2) = grid sum Poisson(home) × Poisson(away)
-```
-
-### 3.3 Value calc
+### 3.8 Value calc
 
 ```
-value % = (model_prob × odds) − 1
-gap (ppt) = (model_prob − implied_prob) × 100
-kelly % = (model_prob × odds − 1) / (odds − 1)
+value % = (P_cal × odds) − 1
+gap (ppt) = (P_cal − implied) × 100
+kelly % = (P_cal × odds − 1) / (odds − 1)
 ```
 
 ---
 
-## PHASE 4 — FILTER LEG
+## PHASE 4 — FILTER GATE (per-market)
 
-Setiap leg parlay harus pass **SEMUA** gate berikut:
+| Market | Model min | Gap min | Calibrated | Notes |
+|--------|-----------|---------|-----------|-------|
+| **U3.5** | 65% | 4 ppt | ✓ | Most reliable Under market |
+| **U2.5** | 75% | 7 ppt | ✓ | Strict — residual +3.9pp bias |
+| **U1.5/U4.5** | 65/85% | 5/4 ppt | uncalib | OK in extreme buckets |
+| **O0.5** | 85% | 4 ppt | uncalib | Almost certainty bet |
+| **O1.5/O2.5/O3.5** | 70/65/55% | 5/5/6 ppt | uncalib | Use cautiously |
+| **BTTS Yes** | 65% | 4 ppt | ✓ | Calibrated 60-65% sweet |
+| **BTTS No** | ❌ BLOCKED | — | — | -7 to -11pp underestimate |
+| **1X2 Home** | 65% | 5 ppt | ✓ | V3.1 unlocks (was BLOCKED in v6.0) |
+| **1X2 Draw** | 30% | 5 ppt | ✓ | Lower threshold for rare event |
+| **1X2 Away** | 65% | 5 ppt | ✓ | Same as Home, V3.1 unlocks |
+| **DC 1X/12/X2** | 70% | 5 ppt | derived | From calibrated 1X2 sum |
+| **AH (full integer)** | 65% | 5 ppt | uncalib | EPL only — non-EPL fallback BLOCKED |
+| **AH Quarter** | 65% | 5 ppt | uncalib | EPL only — non-EPL fallback BLOCKED |
+| **Team Totals** | 70% | 5 ppt | uncalib | EPL only — non-EPL fallback BLOCKED |
+| **HT U1.5** | 65% | 5 ppt | ✓ | Calibrated separately |
+| **HT U2.5** | 80% | 4 ppt | ✓ | Almost certain bet |
+| **HT O1.5** | 55% | 5 ppt | uncalib | Edge thin |
+| **HT 1X2** | 55% | 5 ppt | uncalib | Half-match λ × 0.445 |
+| **Odd/Even Total** | 55% | 4 ppt | uncalib | Coin-flip — edge tipis |
+| **Home Win to Nil Yes** | 55% | 5 ppt | uncalib | OK kalau gap >5 |
+| **Win to Nil No** | ❌ BLOCKED | — | — | BTTS-bias related |
+| **Result + BTTS Yes** | 40-20% | 5 ppt | uncalib | Combo niche |
 
-| Gate | Threshold |
-|------|-----------|
-| Model probability | **≥ 65%** |
-| Adjusted value | **≥ 4%** |
-| Gap (model − implied) | **≥ 4 ppt** |
-| Odds range | **[1.30, 2.50]** |
-| Kelly | **≥ 2%** |
+**HARD BLOCK rules:**
+- Odds favorit ≤ 1.40 + gap ≥ 8 ppt → **Fade-Short-Odds rule**
+- O2.5/O3.5 di Heavy Favourite Trap
 
-**HARD BLOCK:**
-- Odds favorit ≤ 1.40 dengan gap ≥ 8 ppt → model overestimate (Fade-Short-Odds rule)
-- O2.5/O3.5 di Heavy Favourite Trap (favorit ≤ 1.25 vs minnow tier 3)
-- BTTS No di minnow trap kecuali model ≥ 70% (risk OG / late equalizer)
+**Universal constraints:** odds ∈ [1.30, 2.50], Kelly ≥ 2%, Value ≥ 4%.
 
-**Hierarchy market AMAN (urutkan dari paling aman):**
-1. **U3.5** (buffer paling lebar)
-2. **U2.5** dengan model ≥ 65%
-3. **BTTS No** dengan model ≥ 65%
-4. **AH ±0.5 / ±1.0** dengan model ≥ 65%
-5. **DC** dengan model ≥ 70%
-6. ❌ HINDARI: AH ekstrem (±1.5+), Correct Score, Result+BTTS combo
+**Liga-specific gate:**
+- **EPL only**: AH (full + quarter), Team Totals — diblok untuk non-EPL karena uncalibrated
+- **Non-EPL**: cuma U/O totals, BTTS Yes, 1X2 calibrated, HT totals yang bisa lolos
+
+**Tier 3 stake reduction:** halve recommended stake.
 
 ---
 
-## PHASE 5 — BUILD PARLAY 5-LEG
+## PHASE 5 — BUILD PARLAY
 
 ### 5.1 Komposisi
-
-- **Tepat 5 leg** (atau hingga 8 jika user minta lebih besar)
-- **1 leg per match** (tidak boleh 2 leg dari match yang sama)
-- Diversifikasi minimum **3 liga berbeda** (anti-correlated risk)
-- Hindari 5 leg semua Under jika 5 match di liga sama (kalau hari itu high-scoring, semua kalah)
+- 5 leg (atau 8 max)
+- 1 leg per match
+- ≥ 3 liga berbeda (anti-correlation)
+- **Mixed direction wajib** — jangan 5 Under semua
 
 ### 5.2 Target metrik
-
-- Combined odds: **5.0 – 15.0**
-- Combined probability (product): **≥ 12%**
-- Theoretical EV: `combined_prob × combined_odds − 1` ≥ **+15%**
-- Stake parlay: **0.5 – 1.0 unit** (flat, jangan Kelly penuh karena variance)
+- Combined odds: 5.0–15.0
+- Combined prob (product): ≥ 12%
+- Theoretical EV: ≥ +15%
+- Stake: 0.5–1.0 unit (halve di Tier 3)
 
 ### 5.3 Korelasi cek
+- ❌ U2.5 + BTTS Yes di match yang sama (kontradiksi)
+- ❌ U3.5 + Home Win di match yang sama jika U3.5 ≥ 75% dan Home AH -1.5 (only possible scoreline 2-0 atau 1-0)
+- ✅ Mixed match × mixed market (default OK)
 
-- ✅ U2.5 Match A + BTTS No Match B (match berbeda, OK)
-- ❌ U2.5 Match A + BTTS No Match A (kontradiksi internal)
-- ❌ Home AH -1.5 + U2.5 di match yang sama (only possible 2-0)
-
----
-
-## OUTPUT FORMAT
-
-```
-### 🎯 PARLAY 5-LEG — [Tanggal] | [Window Waktu]
-
-| # | Match | Liga | Pick | Odds | Model % | Adj.Value | Gap |
-|---|-------|------|------|------|---------|-----------|-----|
-| 1 | A vs B | EPL | U3.5 | 1.45 | 78% | +13% | +9pp |
-| 2 | C vs D | Bundesliga | BTTS No | 1.60 | 67% | +7%  | +5pp |
-| 3 | E vs F | Serie A | U2.5 | 1.55 | 70% | +9%  | +6pp |
-| 4 | G vs H | La Liga | AH +0.5 Away | 1.70 | 66% | +12% | +7pp |
-| 5 | I vs J | Eredivisie | U3.5 | 1.40 | 75% | +5%  | +4pp |
-
-─────────────────────────────────────
-Combined odds:  6.85
-Combined prob:  18.4%
-Break-even:     14.6%
-Theoretical EV: +26%
-Stake:          1.0 unit
-Potensi return: 6.85 unit
-─────────────────────────────────────
-
-🔑 ALASAN PER LEG:
-1. [konteks tim, form, kenapa pasti aman]
-2. ...
-```
-
-**Jika tidak cukup 5 leg lolos:** tampilkan apa yang ada + alasan kenapa kurang. Jangan paksa fill leg dengan bet noise.
+### 5.4 Sit-out rule
+**Jika tidak cukup 5 leg lolos: tampilkan apa yang ada. JANGAN paksa fill leg.**
 
 ---
 
-## WORKFLOW EKSEKUSI
+## OUTPUT FORMAT (V3.1 — 1xbet style)
 
 ```
-[USER MINTA "ambil match subuh / parlay malam ini"]
-    │
-    ├─→ PHASE 0: Resolve IP → fetch /id/line → filter window → API GetGameZip per match
-    │            Output: /testing/{slug}_RAW.json + .txt
-    │
-    ├─→ PHASE 1: Parse odds (1X2, O/U, BTTS, AH, DC) per file
-    ├─→ PHASE 2: WebSearch form 5–10 last match + H2H + injury + konteks per tim
-    ├─→ PHASE 3: Hitung λ goals, model probability per market
-    ├─→ PHASE 4: Filter leg yang lolos gate (mp≥65%, adj≥4%, gap≥4pp, odds 1.30–2.50)
-    ├─→ PHASE 5: Susun parlay 5-leg dari hierarchy AMAN, cek korelasi, hitung EV
-    │
-[OUTPUT: tabel parlay + alasan per leg]
+==============================================================
+  V3.1 ANALISIS — Liverpool vs Brentford
+  Liga: England. Premier League
+==============================================================
+  λ_home=2.27  λ_away=0.87  total=3.15  ρ_DC=-0.15
+
+  ✅ 2 REKOMENDASI BET:
+
+  1. Total Under (3.5): Liverpool - Brentford
+     Odds: 1.734  |  Model: 69.1%  |  Gap: +11.4pp  |  Kelly: 26.9%  [✓ calibrated]
+
+  2. Handicap Asia: Handicap 1 (+0.00) — Liverpool
+     Odds: 1.494  |  Model: 78.0%  |  Gap: +11.1pp  |  Kelly: 33.6%  [⚠ uncalibrated]
+
+  ❌ BLOCKED markets (jangan dipasang):
+     • Kedua Tim Mencetak Skor — Tidak: Liverpool - Brentford
+       odds=2.61  model=42.3%  gap=+4.0pp
+       └ BLOCKED: BTTS Yes underestimated -7 to -11pp
 ```
 
 ---
 
-## KEY PRINCIPLES
+## WORKFLOW EKSEKUSI (V3.1)
 
-1. **Odds 1xbet only.** Site eksternal = invalid.
-2. **Last 5 match form > season avg.** Kalau motivasi berubah, last 3.
-3. **Heavy Favourite Trap = HARD BLOCK Over.** Underdog tier 3 sering park-the-bus.
-4. **Prefer U3.5 over U2.5.** Buffer lebih lebar = hit rate lebih tinggi.
-5. **BTTS No risky di minnow trap.** OG + late equalizer Poisson tidak model.
-6. **5 leg minimum, 1 per match, 3 liga berbeda.** Anti-correlation.
-7. **Sit out > paksa-bet.** Kalau cuma 3 leg lolos, output 3 leg saja, jangan nambah noise.
-8. **Bookmaker odds short = trustworthy.** Edge >10% di odds <1.40 = model salah.
+```
+[USER MINTA "ambil match / parlay"]
+    │
+    ├─→ PHASE 0: Resolve IP → fetch upcoming → GetGameZip per match
+    ├─→ PHASE 1: parse_market_from_raw() ekstrak SEMUA market (20+ types)
+    ├─→ PHASE 2: WebSearch form, motivasi, injury (kontekstual)
+    ├─→ PHASE 3: V3.1 model
+    │            • λ_form rolling 6 match
+    │            • λ_market devig U/O 2.5
+    │            • Blend 0.4/0.6
+    │            • Dixon-Coles ρ correction
+    │            • Platt calibration per market
+    ├─→ PHASE 4: gate per market (per Phase 4 table di atas)
+    │            • EPL only filter untuk AH/AHQ/TT
+    ├─→ PHASE 5: Susun parlay 5-leg, ≥3 liga, mixed direction
+    │
+[OUTPUT: 1xbet-style format + reasoning + blocked-market education]
+```
+
+---
+
+## KEY PRINCIPLES (V3.1)
+
+1. **Odds 1xbet only.**
+2. **V3.1 model wajib.** V0 raw Poisson terbukti -12% ROI.
+3. **Per-market gate.** Tidak ada universal threshold.
+4. **U3.5 > U2.5.** U3.5 calibrated near-perfect; U2.5 perlu strict gate.
+5. **BTTS No DILARANG.** Win-to-Nil No DILARANG (BTTS-bias related).
+6. **1X2 sekarang BOLEH** kalau model ≥ 65% (V3.1 unlocked via Platt calibration).
+7. **EPL-only**: AH, AHQ, Team Totals diblok untuk non-EPL (gate honest).
+8. **Heavy Favourite Trap = HARD BLOCK Over.**
+9. **Sit out > paksa-bet.** Backtest membuktikan ini.
+10. **Mixed direction parlay.** Jangan 5-leg Under semua.
+11. **Tier 3 = halve stake.**
+12. **Re-train Platt + Dixon-Coles ρ setiap musim.**
+
+---
+
+## FILE MAPPING
+
+- `phase0_fetch.py` — Phase 0 LineFeed aggregation
+- `phase0_match_odds.py` — Phase 0 GetGameZip per match
+- `parse_odds.py` — MHTML fallback parser (Phase 0.4)
+- `model_v3.py` — V3.1 core (build_model, evaluate_match)
+- `model_v3_extended.py` — V3.1 extended (parse_market_from_raw, evaluate_all_markets, format_output_1xbet_style, gate_v3 per-market)
+- `backtest.py` — V0 baseline
+- `backtest_v3.py` — V3 validation
+- `model_v2.py` — V0/V1/V2/V3 variant comparison
+- `E0_2526.csv` — EPL 2025/26 historical data (training)
