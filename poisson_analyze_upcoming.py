@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
-"""Phase 3-5 — Poisson + filter + parlay build for 29/05/2026 upcoming.
+"""Phase 3-5 — Poisson + filter + parlay build for slate Sat 30/05/2026 WIB.
 
-Form data sourced from research_notes.md (web search per match).
+Form data sourced from upcoming/research_notes.md (web search per match).
 """
 import json
 import math
-from itertools import combinations
 
 
 def poisson_pmf(k, lam):
@@ -17,7 +16,6 @@ def poisson_cdf(k, lam):
 
 
 def total_goals_prob(line_int, lh, la):
-    """Return (under, over) for a .5 line: P(<=line_int)=under."""
     lam = lh + la
     p_under = poisson_cdf(line_int, lam)
     return p_under, 1 - p_under
@@ -42,7 +40,6 @@ def grid_1x2(lh, la, max_goals=10):
 
 
 def grid_supremacy(lh, la, max_goals=10):
-    """Return P(supremacy = goals_home - goals_away). dict: {-3:p, -2:p, ..., 3:p, ...}."""
     res = {}
     for h in range(max_goals + 1):
         for a in range(max_goals + 1):
@@ -68,95 +65,159 @@ def gate_pass(c):
 
 
 def fade_short_block(c):
-    """Per CLAUDE.md: odds ≤ 1.40 with gap ≥ 8 ppt = model overestimate (HARD BLOCK)."""
     return c["odds"] <= 1.40 and c["gap_ppt"] >= 8.0
 
 
 # ============================================================
-# Match form/context derived from research_notes.md (Phase 2)
+# Match form/context derived from research_notes.md
+# Lambdas built from per-match GF/GA averages with motivasi adjustments
 # ============================================================
 MATCHES = [
     {
-        "id": "liaoning-shanghaiport",
-        "home": "Liaoning Tieren", "away": "Shanghai Port", "league": "China Super League",
-        # Liaoning home: ~1.3 GF / 1.3 GA at home; season 1.2 GF / 1.6 GA
-        # SH Port last 6: 1.67 GF / 1.5 GA away; missing 6 players (Melendo, Wang, Gabriel,
-        # Matt Orr, Jean Claude, Kuai) → -12% Port; Liaoning home momentum +5%
-        "lh_base": 1.40,  # avg(home_GF=1.3, away_GA_port=1.5) = 1.40
-        "la_base": 1.64,  # avg(away_GF_port=1.67, home_GA_liaoning=1.6) = 1.64
-        "adj_h": 1.05,    # +5% home momentum (5-0 win last week + home form)
-        "adj_a": 0.88,    # -12% six absentees + ACL congestion
-        "hft": False,
-        "note": "Port 6-injury crisis + Liaoning home momentum. CSL Tier 2.",
+        "id": "rosenborg-bodoglimt",
+        "home": "Rosenborg", "away": "Bodo-Glimt", "league": "Norway Eliteserien",
+        # Rosenborg home: 0.7 GF / 1.6 GA per match (10 game), bottom desperate
+        # Bodo-Glimt away: 3 W in row, best defense in liga (9 GA all season ~0.9 GA/game)
+        # Bodo strong attacking: +5%
+        "lh_base": 0.85,  # avg(Rosenborg home GF=0.7, Bodo away GA=0.9) = 0.80
+        "la_base": 1.85,  # avg(Bodo away GF=2.1 inflated by 3-0 wins, Rosenborg home GA=1.6)
+        "adj_h": 0.95,    # -5% (Rosenborg can't score, demoralised)
+        "adj_a": 1.05,    # +5% Bodo momentum
+        "note": "Bodo-Glimt 3W beruntun, best defense liga. Rosenborg dasar klasemen.",
     },
     {
-        "id": "mokawloon-modernsport",
-        "home": "El Mokawloon", "away": "Modern Sport", "league": "Egypt Premier League",
-        # Mokawloon last 6: 0.9 GF / 0.9 GA (1/6 wins, draw machine)
-        # Modern Sport last 6: 0.83 GF / 0.5 GA, 83% U2.5, ultra-defensive
-        # Both safe, dead rubber → -10% each
-        "lh_base": 0.70,  # avg(0.9, 0.5) = 0.70
-        "la_base": 0.87,  # avg(0.83, 0.9) = 0.87
-        "adj_h": 0.90,
-        "adj_a": 0.90,
-        "hft": False,
-        "note": "DEAD-RUBBER both safe. Modern Sport 83% U2.5. H2H 5-game avg 1.4 goals.",
+        "id": "brann-sarpsborg",
+        "home": "Brann", "away": "Sarpsborg 08", "league": "Norway Eliteserien",
+        # Brann: 1.9 GF / 1.5 GA per match, baru kalah 1-3 di Bodo
+        # Sarpsborg mid-bottom (estimasi neutral)
+        "lh_base": 1.65,  # avg(Brann home GF=1.9, Sarpsborg away GA=1.4)
+        "la_base": 1.05,  # avg(Sarpsborg away GF=1.0, Brann home GA=1.1)
+        "adj_h": 1.00,
+        "adj_a": 0.95,
+        "note": "Brann favourite home (1.737). Sarpsborg mid-table.",
     },
     {
-        "id": "zed-kahrbaa",
-        "home": "ZED", "away": "Kahrbaa Alasmalia", "league": "Egypt Premier League",
-        # ZED last 6: 1.67 GF / 1.33 GA, 83% BTTS, attacking
-        # Kahrbaa: ~0.8 GF / 1.6 GA away (relegation-zone team)
-        # Both dead-rubber, Kahrbaa already relegated → -5% to -8%
-        "lh_base": 1.64,  # avg(1.67, 1.6) = 1.64
-        "la_base": 1.07,  # avg(0.8, 1.33) = 1.07
-        "adj_h": 0.95,
-        "adj_a": 0.92,
-        "hft": False,
-        "note": "DEAD-RUBBER. ZED safe, Kahrbaa already relegated. ZED 83% BTTS recent.",
+        "id": "fredrikstad-ikstart",
+        "home": "Fredrikstad", "away": "IK Start", "league": "Norway Eliteserien",
+        # Fredrikstad: 1.5 GF / 1.8 GA per match. Home form W3/5
+        # IK Start: lost 4 away straight, 1-4 to Bodo recent
+        "lh_base": 1.55,  # Fredrikstad home GF + IK Start away GA
+        "la_base": 1.00,  # IK Start away GF + Fredrikstad home GA
+        "adj_h": 1.05,    # +5% home advantage strong
+        "adj_a": 0.92,    # -8% IK Start road struggles
+        "note": "Fredrikstad home favorite. IK Start lost 4 away straight.",
     },
     {
-        "id": "naftan-torpedobelaz",
-        "home": "Naftan", "away": "Torpedo-BelAZ", "league": "Belarus Premier League",
-        # Naftan: 0/6 wins last 6, 0.6 GF/match season; just lost 5-1 to Belshina (defensive crisis)
-        # Torpedo: 1.1 GF / 1.0 GA away, 5th-7th, fresh 2-0 W vs FC Minsk
-        # Naftan home crowd, must-win for survival → +slight pressing but defensive crisis
-        "lh_base": 0.85,  # avg(0.7, 1.0) = 0.85 (Naftan home GF + Torpedo away GA)
-        "la_base": 1.35,  # avg(1.1, 1.6) = 1.35 (Torpedo away GF + Naftan home GA)
-        "adj_h": 0.92,    # -8% defensive crisis after 5-1 thrashing
-        "adj_a": 1.05,    # +5% confidence after 2-0 win
-        "hft": False,
-        "note": "Naftan dead-last, 0/6 wins, just lost 5-1. Torpedo fresh 2-0 W. AH -0.5/-1 Torpedo signal.",
+        "id": "orgryte-elfsborg",
+        "home": "Orgryte", "away": "Elfsborg", "league": "Sweden Allsvenskan",
+        # Orgryte: 0.9 GF / 2.3 GA per match (10 game), winless 5 (2 GF / 17 GA last 5!)
+        # Elfsborg: 4th, established, strong form
+        "lh_base": 0.95,  # Orgryte home GF + Elfsborg away GA
+        "la_base": 1.95,  # Elfsborg away GF + Orgryte home GA (very high!)
+        "adj_h": 0.90,    # -10% (form rating 13%, demoralised)
+        "adj_a": 1.05,    # +5% Elfsborg momentum
+        "note": "Orgryte winless 5, 17 GA in 5! Elfsborg 4th & in form.",
     },
     {
-        "id": "iran-gambia",
-        "home": "Iran", "away": "Republic of the Gambia", "league": "Friendly Internationals",
-        # Iran ~2.0-2.2 GF vs lower-tier (5-0 CR is high outlier; bulk 1-1, 2-0 results)
-        # Iran defense ~0.5-0.7 GA recent
-        # Gambia ~0.8-1.0 GF vs top-tier (Senegal/Gabon ~1-3 GF; 7-0 Seychelles is OUTLIER excluded)
-        # Gambia defense ~2.0-2.5 GA vs top-tier
-        # Conservative: λ_iran=2.10, λ_gambia=0.75 (regress mean, exclude outliers)
-        # Friendly + WC prep rotation 2nd half → -10% each (intensity cap)
-        "lh_base": 2.10,  # Iran realistic vs CONCACAF/African mid-tier
-        "la_base": 0.75,  # Gambia realistic vs top-25
-        "adj_h": 0.90,    # -10% rotation 2nd half
-        "adj_a": 0.90,    # -10% friendly mode underdog
-        "hft": False,     # Iran odds 1.618 NOT in HFT zone (≤1.25); but TIER-3 friendly = high variance
-        "note": "Iran rank 21 vs Gambia 116. Conservative λ (excludes 5-0 CR + 7-0 Seychelles outliers).",
+        "id": "nbe-ittihad",
+        "home": "National Bank of Egypt", "away": "Al Ittihad Alexandria",
+        "league": "Egypt Premier League",
+        # NBE: 3rd reg-group, GD +4. Home record W4 D2 L1 last 7 (13 GF / 9 GA = 1.86 GF / 1.29 GA at home)
+        # Al Ittihad weaker reg-group team
+        "lh_base": 1.50,
+        "la_base": 0.85,
+        "adj_h": 0.95,    # -5% (relegation group fatigue end of season)
+        "adj_a": 0.95,    # -5% (visiting team in dead-rubber-esque match)
+        "note": "NBE 3rd reg-group, defensif solid. Possible dead-rubber lean.",
     },
     {
-        "id": "fergana-olimpik",
-        "home": "Fergana State University", "away": "Olimpik MobiUZ",
-        "league": "Uzbekistan Pro League (2nd tier)",
-        # FarDU 4 PL: 2.25 GF / 1.0 GA (small sample, regress)
-        # Olimpik 4-5 PL: ~1.0 GF / 1.2 GA away, cup fixture congestion
-        # Soft market, low data quality
-        "lh_base": 1.50,  # regressed from 2.25 small-sample
+        "id": "monza-catanzaro",
+        "home": "Monza 1912", "away": "Catanzaro 1929", "league": "Italy Serie B Playoff",
+        # MONZA WON 2-0 IN FIRST LEG. This is RETURN LEG at home.
+        # Monza unbeaten 17 home (13W 4D); only 1 home loss season
+        # Catanzaro lost 2, winless 5 away
+        # PLAYOFF CONTEXT: Monza only needs DRAW (or loss <3 goals) to advance
+        # → Monza will be CAGEY/DEFENSIVE (won't push numbers up)
+        # → Total goals expected LOW
+        "lh_base": 1.30,  # adjusted for cagey home
+        "la_base": 0.95,  # Catanzaro forced to attack but limited away
+        "adj_h": 0.85,    # -15% Monza protecting lead, won't push
+        "adj_a": 1.10,    # +10% Catanzaro forced to chase
+        "note": "Monza 2-0 first leg lead → CAGEY home, just need not lose by 3+. Total goals LOW.",
+    },
+    {
+        "id": "nice-saintetienne",
+        "home": "OGC Nice", "away": "AS Saint-Etienne",
+        "league": "France Ligue 1/2 Barrage",
+        # FIRST LEG 0-0. Nice 16th L1 (relegation panic), drew 6/9. Avg 0.8 GF.
+        # Saint-Etienne L2 promotion candidate.
+        # Defensive both sides. "Cagey affair" expected.
+        "lh_base": 1.10,  # Nice usually low-scoring, home
+        "la_base": 0.90,  # SE away in L1 venue
+        "adj_h": 0.85,    # -15% Nice cagey, defensive
+        "adj_a": 0.85,    # -15% SE not stretching
+        "note": "First leg 0-0. Cagey expected. Nice 0.8 GF/match. Defensive both.",
+    },
+    {
+        "id": "dundalk-derry",
+        "home": "Dundalk", "away": "Derry City",
+        "league": "Ireland Premier League",
+        # Dundalk: 1 W / 5 last, 7 GF in 5 still scoring
+        # Derry: unbeaten 5 (draws), 5 GF in 5 low scoring recently
+        "lh_base": 1.30,
         "la_base": 1.00,
         "adj_h": 1.00,
-        "adj_a": 0.95,    # -5% cup congestion
-        "hft": False,
-        "note": "Uzbek 2nd tier — soft market, regressed sample.",
+        "adj_a": 0.95,
+        "note": "Tight. Dundalk slight home favorite. Derry 4 away draws straight.",
+    },
+    {
+        "id": "shelbourne-galway",
+        "home": "Shelbourne", "away": "Galway",
+        "league": "Ireland Premier League",
+        # Shelbourne: defending champ, unbeaten 6, 1.44 GF / 1.39 GA
+        # Galway: 1.47 GF / 1.65 GA, away leaky
+        "lh_base": 1.50,
+        "la_base": 1.10,
+        "adj_h": 1.00,
+        "adj_a": 0.95,
+        "note": "Shelbourne defending champion home favorite (1.71). Galway leaky away.",
+    },
+    {
+        "id": "shamrock-stpats",
+        "home": "Shamrock Rovers", "away": "St Patrick's Athletic",
+        "league": "Ireland Premier League",
+        # Shamrock leader, beaten St Pats 2x season (2-0 H, 1-0 A) - low scoring wins
+        # But lost 2 home recently. St Pats 1 loss in 7 away.
+        "lh_base": 1.40,
+        "la_base": 1.10,
+        "adj_h": 0.95,   # -5% recent home wobble
+        "adj_a": 1.00,
+        "note": "Dublin derby. Shamrock won both H2H this season. St Pats 4 straight away draws.",
+    },
+    {
+        "id": "fram-breidablik",
+        "home": "Fram", "away": "Breidablik UBK",
+        "league": "Iceland Urvalsdeild",
+        # Fram: 2.6 GF / 2.1 GA per match (10 game) — VERY high scoring
+        # Breidablik: traditional top-3
+        "lh_base": 2.00,
+        "la_base": 1.80,
+        "adj_h": 0.95,   # regress small sample
+        "adj_a": 1.00,
+        "note": "Both high-scoring. Total goals likely 4+. BTTS Yes implied 78%.",
+    },
+    {
+        "id": "psg-arsenal",
+        "home": "Paris Saint-Germain", "away": "Arsenal",
+        "league": "UEFA Champions League FINAL",
+        # PSG: 44 UCL goals season, beat Bayern. Hakimi back. Pacho/Mendes minor thigh.
+        # Arsenal: defensive, 32% market.
+        # Single-match final variance HIGH
+        "lh_base": 1.65,
+        "la_base": 1.30,
+        "adj_h": 0.90,   # -10% final tightening
+        "adj_a": 0.90,   # -10% Arsenal cagey
+        "note": "UCL FINAL. High variance. Expect cagey, low-scoring per market.",
     },
 ]
 
@@ -170,8 +231,7 @@ def analyze_match(m, odds):
     print(f"  {m['home']}  vs  {m['away']}   ({m['league']})")
     print(f"{'='*100}")
     print(f"  Context: {m['note']}")
-    print(f"  λ_home={lh:.3f}   λ_away={la:.3f}   total_λ={lh+la:.3f}   "
-          f"baseλ_home={m['lh_base']:.2f}×{m['adj_h']:.2f}, baseλ_away={m['la_base']:.2f}×{m['adj_a']:.2f}")
+    print(f"  λ_home={lh:.3f}   λ_away={la:.3f}   total_λ={lh+la:.3f}")
 
     pu05, po05 = total_goals_prob(0, lh, la)
     pu15, po15 = total_goals_prob(1, lh, la)
@@ -184,8 +244,8 @@ def analyze_match(m, odds):
 
     print(f"  Model 1X2 H/D/A = {ph*100:>5.1f}% / {pd*100:>5.1f}% / {pa*100:>5.1f}%")
     print(f"  Model BTTS Y/N  = {p_btts_y*100:>5.1f}% / {p_btts_n*100:>5.1f}%")
-    print(f"  Model U/O 1.5={pu15*100:.1f}/{po15*100:.1f}  U/O 2.5={pu25*100:.1f}/{po25*100:.1f}  "
-          f"U/O 3.5={pu35*100:.1f}/{po35*100:.1f}  U/O 4.5={pu45*100:.1f}/{po45*100:.1f}")
+    print(f"  Totals U/O 1.5={pu15*100:.0f}/{po15*100:.0f}  2.5={pu25*100:.0f}/{po25*100:.0f}  "
+          f"3.5={pu35*100:.0f}/{po35*100:.0f}  4.5={pu45*100:.0f}/{po45*100:.0f}")
 
     cands = []
 
@@ -217,98 +277,52 @@ def analyze_match(m, odds):
                                      (3.5, pu35, po35), (4.5, pu45, po45)]:
             if f"O{ln}" in t: add("Total", p_over, t[f"O{ln}"], f"O{ln}")
             if f"U{ln}" in t: add("Total", p_under, t[f"U{ln}"], f"U{ln}")
-    # Totals Asia (quarter lines)
+    # Totals Asia (quarter lines) — corrected formula
     if "totals_asia" in o:
         t = o["totals_asia"]
-        # Correct Asian quarter line formula:
-        # .25 line (e.g., 2.25): split between integer N and half N+0.5 → fl=N
-        # .75 line (e.g., 2.75): split between half N+0.5 and integer N+1 → fl=N+1
-        # eff_O = P(total>fl) + 0.5*P(total=fl)
-        # eff_U = P(total<fl) + 0.5*P(total=fl)
         for line_q in [1.25, 1.75, 2.25, 2.75, 3.25, 3.75]:
             frac = round(line_q - int(line_q), 2)
             if abs(frac - 0.25) < 0.01:
-                fl = int(line_q)            # 1.25 -> 1
+                fl = int(line_q)
             elif abs(frac - 0.75) < 0.01:
-                fl = int(line_q) + 1        # 1.75 -> 2
+                fl = int(line_q) + 1
             else:
                 continue
             p_eq = poisson_pmf(fl, lh + la)
-            p_over = 1 - poisson_cdf(fl, lh + la)        # P(>fl)
-            p_under = poisson_cdf(fl, lh + la) - p_eq    # P(<fl)
+            p_over = 1 - poisson_cdf(fl, lh + la)
+            p_under = poisson_cdf(fl, lh + la) - p_eq
             if f"O{line_q}" in t:
                 add("TotalAsian", p_over + 0.5 * p_eq, t[f"O{line_q}"], f"O{line_q} Asian")
             if f"U{line_q}" in t:
                 add("TotalAsian", p_under + 0.5 * p_eq, t[f"U{line_q}"], f"U{line_q} Asian")
-    # AH integer (full-line, push behavior). Skip for parlay clean math (per CLAUDE).
-    # AH Asia quarter lines (G=2854): T3829 home, T3830 away
+    # AH Asia (quarter lines) — corrected formula
     if "ah_asia" in o:
         ahA = o["ah_asia"]
         for ln_str, c in (ahA.get("home") or {}).items():
             ln = float(ln_str)
-            # Asian +ln_q for home: needs supremacy h-a > -ln_q line
-            # quarter line = avg of (h-a > floor(ln)) and (h-a > floor(ln)+1)
-            # approx: prob_win = P(supremacy >= -ln + 0.25) approx
-            # Use exact half-stake split:
-            # +0.25 line: full win if home_wins, push half if draw, lose otherwise
-            # We use eff_p = P(diff > -ln) + 0.5 * P(diff = floor(-ln))  (rough)
-            # cleaner: quarter line ln_q = ln_int.25 OR ln_int.75
-            # For +0.25: lower line = 0 (DNB home), upper = +0.5 (1X)
-            # eff_p = 0.5*P(home_dnb_wins) + 0.5*P(home_or_draw)
-            # In parlay we treat half-stake as: (P_full + P_push_half)/1 with push refunded.
-            # We compute simple eff:
-            # Determine "lower whole line" and "upper whole line" of quarter
-            # +0.25 -> avg of (0) and (+0.5)
-            # +0.75 -> avg of (+0.5) and (+1)
-            # +1.25 -> avg of (+1) and (+1.5)
-            # For Asian quarter ln: prob_win_per_unit ≈ 0.5*p_lower + 0.5*p_upper
             def home_ah_prob(line):
-                # For parlay we use "win or push" minus 0.5*push; here use win+push half
-                # +line means home covers if (h-a) > -line (full win), or =-line (push refund)
-                # If line is integer, push possible. If line is half, no push.
-                # We'll compute prob_win (excluding push) for half lines (no push).
-                # For integer lines, prob_eff = prob_win + 0.5 * prob_push (treating push as half)
                 if line == 0:
-                    pw = ph  # home wins
-                    push = pd  # draw
-                    return pw + 0.5 * push
-                # For non-zero
-                # Need diff > -line: count supremacy outcomes > -line
+                    return ph + 0.5 * pd
                 pw = sum(p for d, p in sup.items() if d > -line + 1e-9)
                 push = sup.get(int(-line), 0.0) if (-line == int(-line)) else 0.0
                 return pw + 0.5 * push
-            # quarter = ln_int + 0.25 or +0.75
-            # decompose: lower_line = floor*0.5 if .25 else .5 step
             if abs(ln - round(ln)) < 0.1:
-                continue  # integer, will handle in 'ah'
-            # determine if .25 or .75 (or .5 for half-line)
+                continue  # integer
             frac = ln - math.floor(ln) if ln >= 0 else math.ceil(ln) - ln
             if abs(frac - 0.5) < 0.01:
-                # half-line
                 eff_p = home_ah_prob(ln)
                 add("AH-Home", eff_p, c, f"AH {ln:+.1f} {m['home'][:14]}")
             elif abs(frac - 0.25) < 0.01:
-                # quarter: lower = floor (or ceiling negative), upper = +0.5
-                lower = math.floor(ln) if ln >= 0 else math.ceil(ln) - 1
-                # actually for +0.25: lower line = 0, upper = +0.5
-                lower_line = ln - 0.25
-                upper_line = ln + 0.25
-                eff_p = 0.5 * home_ah_prob(lower_line) + 0.5 * home_ah_prob(upper_line)
+                eff_p = 0.5 * home_ah_prob(ln - 0.25) + 0.5 * home_ah_prob(ln + 0.25)
                 add("AH-Home", eff_p, c, f"AH {ln:+.2f} {m['home'][:14]}")
             elif abs(frac - 0.75) < 0.01:
-                lower_line = ln - 0.25  # +0.5
-                upper_line = ln + 0.25  # +1.0
-                eff_p = 0.5 * home_ah_prob(lower_line) + 0.5 * home_ah_prob(upper_line)
+                eff_p = 0.5 * home_ah_prob(ln - 0.25) + 0.5 * home_ah_prob(ln + 0.25)
                 add("AH-Home", eff_p, c, f"AH {ln:+.2f} {m['home'][:14]}")
         for ln_str, c in (ahA.get("away") or {}).items():
             ln = float(ln_str)
             def away_ah_prob(line):
-                # AH away `line`: away covers if (away+line) > home, i.e., d=(h-a) < line
-                # Push only if d == line and line is integer.
                 if line == 0:
-                    pw = pa
-                    push = pd
-                    return pw + 0.5 * push
+                    return pa + 0.5 * pd
                 pw = sum(p for d, p in sup.items() if d < line - 1e-9)
                 push = sup.get(int(line), 0.0) if (line == int(line)) else 0.0
                 return pw + 0.5 * push
@@ -324,48 +338,28 @@ def analyze_match(m, odds):
             elif abs(frac - 0.75) < 0.01:
                 eff_p = 0.5 * away_ah_prob(ln - 0.25) + 0.5 * away_ah_prob(ln + 0.25)
                 add("AH-Away", eff_p, c, f"AH {ln:+.2f} {m['away'][:14]}")
-    # AH integer half-line from 'ah' dict (handle ±0.5 / ±1.5 if present? Actually 'ah' has integer lines)
-    # Skip for parlay clean math
 
     cands.sort(key=lambda x: -x["gap_ppt"])
-    print(f"\n  {'Market':<12}{'Pick':<26}{'Odds':>7}{'Model%':>9}{'Imp%':>9}{'Val%':>8}{'Gap':>7}{'Kelly%':>9}  Pass")
+    print(f"\n  {'Market':<12}{'Pick':<26}{'Odds':>7}{'Mod%':>8}{'Imp%':>8}{'Val%':>8}{'Gap':>7}{'Kelly':>9}  Pass")
     passing = []
     for c in cands:
         ok = gate_pass(c) and not fade_short_block(c)
-        block = " (FSO-block)" if fade_short_block(c) else ""
+        block = " (FSO)" if fade_short_block(c) else ""
         flag = "✓" if ok else " "
-        # only print interesting candidates: model_p>=0.5 OR gap>=2
         if c["model_p"] < 0.4 and c["gap_ppt"] < -2: continue
-        print(f"  {c['market']:<12}{c['label']:<26}{c['odds']:>7.3f}{c['model_p']*100:>8.1f}%{c['implied']*100:>8.1f}%{c['value_pct']:>+7.1f}%{c['gap_ppt']:>+6.1f}{c['kelly_pct']:>+8.1f}%  {flag}{block}")
+        print(f"  {c['market']:<12}{c['label']:<26}{c['odds']:>7.3f}{c['model_p']*100:>7.1f}%{c['implied']*100:>7.1f}%{c['value_pct']:>+7.1f}%{c['gap_ppt']:>+6.1f}{c['kelly_pct']:>+8.1f}%  {flag}{block}")
         if ok:
             passing.append(c)
     return passing
-
-
-def build_parlay(legs):
-    """Pick best 5 legs subject to:
-    - 1 leg per match
-    - max 3 legs per league (relaxed) — prefer ≥3 leagues
-    - avoid same-direction over-correlation (e.g., 5 Unders in same liga)
-    - combined odds 5.0 - 15.0
-    Score by combined Kelly; greedy with diversification.
-    """
-    # Group by match
-    by_match = {}
-    for l in legs:
-        by_match.setdefault(l["match_id"], []).append(l)
-    # Best leg per match (highest gap_ppt, must pass)
-    best_per_match = {mid: max(ls, key=lambda x: x["gap_ppt"]) for mid, ls in by_match.items()}
-    sorted_matches = sorted(best_per_match.values(), key=lambda x: -x["gap_ppt"])
-    # Pick top 5 ensuring coverage, but with at most 5 matches
-    picked = sorted_matches[:5]
-    return picked
 
 
 def main():
     odds = json.load(open("/projects/sandbox/newk/upcoming/all_odds_upcoming.json"))
     all_passing = []
     for m in MATCHES:
+        if m["id"] not in odds:
+            print(f"\n[!] No odds for {m['id']} — skip")
+            continue
         passing = analyze_match(m, odds)
         all_passing.extend(passing)
 
@@ -379,33 +373,8 @@ def main():
         m = c["match"][:54]
         print(f"  {m:<55}{c['label']:<26}{c['odds']:>7.3f}{c['model_p']*100:>6.1f}%{c['value_pct']:>+6.1f}%{c['gap_ppt']:>+5.1f}")
 
-    # Phase 5 build parlay
-    picks = build_parlay(all_passing)
-    print(f"\n\n{'#'*100}")
-    print(f"# PHASE 5 — PARLAY 5-LEG CANDIDATE")
-    print(f"{'#'*100}")
-    if len(picks) < 5:
-        print(f"  ⚠ Only {len(picks)} match(es) qualify — output {len(picks)}-leg parlay (CLAUDE.md: sit out > paksa)")
-    combined_odds = 1.0
-    combined_prob = 1.0
-    for i, c in enumerate(picks, 1):
-        print(f"  {i}. {c['match']:<50} | {c['label']:<24} @ {c['odds']:.3f}  "
-              f"(model {c['model_p']*100:.1f}%, val {c['value_pct']:+.1f}%, gap {c['gap_ppt']:+.1f}pp)")
-        combined_odds *= c["odds"]
-        combined_prob *= c["model_p"]
-    if picks:
-        be = 1 / combined_odds
-        ev = combined_prob * combined_odds - 1
-        print(f"\n  Combined odds   : {combined_odds:.3f}")
-        print(f"  Combined prob   : {combined_prob*100:.2f}%")
-        print(f"  Break-even      : {be*100:.2f}%")
-        print(f"  Theoretical EV  : {ev*100:+.1f}%")
-        print(f"  Edge over BE    : {(combined_prob - be)*100:+.2f} ppt")
-
     with open("/projects/sandbox/newk/upcoming/passing_legs_upcoming.json", "w") as fh:
         json.dump(all_passing, fh, indent=2, ensure_ascii=False)
-    with open("/projects/sandbox/newk/upcoming/parlay_picks.json", "w") as fh:
-        json.dump(picks, fh, indent=2, ensure_ascii=False)
 
 
 if __name__ == "__main__":
