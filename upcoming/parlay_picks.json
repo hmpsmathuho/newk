@@ -1,0 +1,62 @@
+[
+  {
+    "model_p": 0.7088502262279158,
+    "odds": 1.989,
+    "implied": 0.5027652086475616,
+    "value_pct": 40.99030999673246,
+    "gap_ppt": 20.608501758035423,
+    "kelly_pct": 41.446218399122806,
+    "market": "TotalAsian",
+    "label": "U1.75 Asian",
+    "match": "El Mokawloon vs Modern Sport",
+    "match_id": "mokawloon-modernsport"
+  },
+  {
+    "model_p": 0.7211492784809159,
+    "odds": 1.681,
+    "implied": 0.594883997620464,
+    "value_pct": 21.225193712641975,
+    "gap_ppt": 12.626528086045196,
+    "kelly_pct": 31.16768533427603,
+    "market": "TotalAsian",
+    "label": "U2.75 Asian",
+    "match": "Naftan vs Torpedo-BelAZ",
+    "match_id": "naftan-torpedobelaz"
+  },
+  {
+    "model_p": 0.6624551890505687,
+    "odds": 1.74,
+    "implied": 0.5747126436781609,
+    "value_pct": 15.267202894798949,
+    "gap_ppt": 8.774254537240777,
+    "kelly_pct": 20.631355263241822,
+    "market": "TotalAsian",
+    "label": "U2.75 Asian",
+    "match": "Fergana State University vs Olimpik MobiUZ",
+    "match_id": "fergana-olimpik"
+  },
+  {
+    "model_p": 0.6973691345817148,
+    "odds": 1.55,
+    "implied": 0.6451612903225806,
+    "value_pct": 8.092215860165798,
+    "gap_ppt": 5.220784425913417,
+    "kelly_pct": 14.713119745755993,
+    "market": "AH-Home",
+    "label": "AH +0.25 ZED",
+    "match": "ZED vs Kahrbaa Alasmalia",
+    "match_id": "zed-kahrbaa"
+  },
+  {
+    "model_p": 0.6633399172665478,
+    "odds": 1.618,
+    "implied": 0.6180469715698392,
+    "value_pct": 7.328398613727449,
+    "gap_ppt": 4.529294569670861,
+    "kelly_pct": 11.858250184024998,
+    "market": "1X2",
+    "label": "Home win",
+    "match": "Iran vs Republic of the Gambia",
+    "match_id": "iran-gambia"
+  }
+]
